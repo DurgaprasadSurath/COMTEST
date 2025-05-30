@@ -1,0 +1,14 @@
+﻿
+wait 12
+TypeText windowsKey, "r"
+wait 8
+TypeText "notepad", returnKey
+wait 5
+TypeText windowsKey, upArrow
+wait 3
+Click [500,500]
+TypeText "ZY"&quote
+wait 4
+CaptureScreen {Name: "MyTEST"}
+wait 2
+TypeText altKey, f4
