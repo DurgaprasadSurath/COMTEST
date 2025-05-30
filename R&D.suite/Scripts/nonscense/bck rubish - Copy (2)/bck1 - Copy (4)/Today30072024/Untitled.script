@@ -1,0 +1,19 @@
+﻿set cmdPromptPath to "C:\Windows\system32\cmd.exe"
+set cmdPromptOption to "/c"
+set redirectionOperator to "2>&1 >"
+set zbarimgAppPath to "C:\Program Files (x86)\ZBar\bin\zbarimg.exe"
+set qrCodeImagePath to "C:\Users\durgaprasad.surath\Downloads\best.png"
+set outputFilePath to ResourcePath("Test2.txt")
+
+Log cmdPromptPath, cmdPromptOption && quote & zbarimgAppPath & quote && quote & qrCodeImagePath & quote && redirectionOperator && quote & outputFilePath & quote
+shell cmdPromptPath, cmdPromptOption && quote & zbarimgAppPath & quote && quote & qrCodeImagePath & quote && redirectionOperator && quote & outputFilePath & quote
+
+
+wait 5
+log file ResourcePath("Test2.txt")
+
+
+C:\Windows\system32\cmd.exe /c "C:\Program Files (x86)\ZBar\bin\zbarimg.exe" "C:\Users\durgaprasad.surath\Downloads\best.png" 2>&1 > "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Resources/Test2.txt"
+
+
+C:\Windows\system32\cmd.exe /c "C:\Program Files (x86)\ZBar\bin\zbarimg.exe" "C:\Users\durgaprasad.surath\Downloads\best.png" 2>&1 > "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Resources/Test2.txt"

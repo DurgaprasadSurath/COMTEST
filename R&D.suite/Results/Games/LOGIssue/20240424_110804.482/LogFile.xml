@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/LOGIssue_script" package="R&amp;D.suite" timestamp="2024-04-24 11:08:04.482 +0530"
+ tests="0"  failures="0" errors="0" time="0.114000">
+  <properties>
+   <property name="RunDate" value="2024-04-24 11:08:04.482 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+ </testsuite>
+</testsuites>

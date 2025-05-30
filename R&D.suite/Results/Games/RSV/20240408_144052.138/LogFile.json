@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/RSV.script",
+				"identifier": "START",
+				"timestamp": "2024-04-08 14:40:52.153 +0530"
+			},
+		{
+				"handlerName": "on_rsv",
+				"timestamp": "2024-04-08 14:40:52.305 +0530",
+				"message": "SUITEVARIABLES = {csvfile:@\"C:\\\\\\\\Users\\\\\\\\durgaprasad.surath\\\\\\\\Downloads\\\\\\\\Book.csv\", Test:\"Demo\"}",
+				"scriptName": "Games/RSV.script",
+				"handlerLine": 1,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_rsv",
+				"timestamp": "2024-04-08 14:40:52.364 +0530",
+				"message": "SUITEVARIABLES = {csvfile:@\"C:\\\\\\\\Users\\\\\\\\durgaprasad.surath\\\\\\\\Downloads\\\\\\\\Book.csv\"}",
+				"scriptName": "Games/RSV.script",
+				"handlerLine": 3,
+				"identifier": "delete"
+			},
+		{
+				"handlerName": "on_rsv",
+				"timestamp": "2024-04-08 14:40:52.416 +0530",
+				"message": "SUITEVARIABLES = {csvfile:@\"C:\\\\\\\\Users\\\\\\\\durgaprasad.surath\\\\\\\\Downloads\\\\\\\\Book.csv\"}",
+				"scriptName": "Games/RSV.script",
+				"handlerLine": 5,
+				"identifier": "st_remove_properties"
+			},
+		{
+				"message": "(Duration:\"0.289\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-08 14:40:52 +0530\", Successes:\"1\", TestCase:\"Games/RSV.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-08 14:40:52.452 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/RSV.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-08 14:40:52.613 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-08 14:40:52.160 +0530"
+}

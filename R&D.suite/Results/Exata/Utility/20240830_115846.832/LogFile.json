@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/Utility.script",
+				"identifier": "START",
+				"timestamp": "2024-08-30 11:58:46.842 +0530"
+			},
+		{
+				"handlerName": "on_createtestdata",
+				"timestamp": "2024-08-30 11:58:50.152 +0530",
+				"message": "click text:\"HELLO\"",
+				"scriptName": "Exata/Utility.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"3.641\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-30 11:58:46 +0530\", Successes:\"1\", TestCase:\"Exata/Utility.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-30 11:58:50.488 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:03 Exata/Utility.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-30 11:58:50.547 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-30 11:58:46.847 +0530"
+}

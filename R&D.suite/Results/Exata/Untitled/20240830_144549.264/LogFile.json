@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/Untitled.script",
+				"identifier": "START",
+				"timestamp": "2024-08-30 14:45:49.273 +0530"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2024-08-30 14:45:49.344 +0530",
+				"message": "[\"SO Status\",\"VLookup Ref\",\"CON2\",\"CON3\",\"SO\",\"SO Line\",\"Order Type\",\"Order Type2\",\"Division\",\"Product Family\",\"Item Number\",\"SO TOP Model\",\"Item TOP Model\",\"Flow Status(Order Status)\",\"Customer\",\"Ship To Country/Region\",\"Creation Date\",\"Ordered Date\",\"Booked Date\",\"SSD\",\"RCD\",\"Week (WW/YY)\",\"KR Date\",\"Override KR Date\",\"Override KR Date Status\",\"Adjustment Reason\",\"Planner Remarks\",\"SO QTY\",\"Reserved QTY\",\"Allocated QTY\",\"On Hand Qty\",\"Total USD\",\"Dept Code\",\"Planner Code\",\"Planning Priority\",\"TAA Order\",\"Order Priority\",\"SR Date\",\"OP Region\",\"Ship To Region\",\"Header Hold Status\",\"Line Hold Status\",\"ESC Order\",\"RE-ACK Date\",\"RE-ACK Code\",\"RE-ACK Count\",\"Latest SSD\",\"Selling Price\",\"Set Tot Value\",\"Set Tot SOM\",\"Must Ship My Unit\",\"Set Order(Arrival Set/Ship Set)\",\"Planner Name\",\"Ship Per CRD\",\"Earliest Ship Confirm Date\",\"Critical Need By Date\",\"CRDD Type\",\"CRDD Minus TT\",\"Allow Non RoHS\",\"Notes\",\"PL Ship Month\",\"PL Revenue Ship\",\"PL Reason Code\",\"PL Remark\",\"KR Special Opt Cal\",\"Alloc Seq B2B\",\"Auto Allocation\",\"Urgent Flag\",\"WH\",\"Shipping Warehouse\",\"Special Handling\",\"Receiving SI\",\"Shipping SI\",\"FG Serial #\",\"Lot Number\",\"CM Input Serial #\",\"CM Remarks\",\"FOM Reason Code\",\"PO #\",\"PO Receipt Date\",\"DN #\",\"PO Status\",@\"Sourcing Rule\\n\"]",
+				"scriptName": "Exata/Untitled.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.149\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-30 14:45:49 +0530\", Successes:\"1\", TestCase:\"Exata/Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-30 14:45:49.429 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-30 14:45:49.513 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-30 14:45:49.277 +0530"
+}

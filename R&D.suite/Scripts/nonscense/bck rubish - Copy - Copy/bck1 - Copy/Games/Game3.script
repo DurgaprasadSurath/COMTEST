@@ -1,0 +1,30 @@
+﻿to selectCategory weekValue
+	if Global dropValue is "Non- TAA" then 
+		Click Image:"GreenPlus"
+	else if Global dropValue is "TAA" then 
+		Click Image:"OrangePlus"
+	end if
+	
+	set the SearchRectangle to Left
+	Repeat until ImageFound(text:weekValue, waitFor:2)
+		ScrollWheelDown 4
+	End Repeat
+	set the SearchRectangle to empty
+	Put FoundImageLocation() into TempLoc
+	set the SearchRectangle to [[TempLoc.x+100,TempLoc.y-20],[TempLoc.x+500,TempLoc.y+30]]
+	put ReadText(the SearchRectangle) 
+end selectCategory
+
+//Global dropValue is going read from excel
+
+
+
+BeginTimer()
+
+
+set startTime to the time
+￹operationsToTime￺TP-EPF-TOKEN￻
+set elapsedTime to the time - startTime
+
+
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/Exata_script" package="R&amp;D.suite" timestamp="2024-04-01 21:11:54.767 +0530"
+ tests="1"  failures="0" errors="0" time="15.799000">
+  <properties>
+   <property name="RunDate" value="2024-04-01 21:11:54.767 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Games/Exata.script" assertions="1" status="failure"  time="15.789">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

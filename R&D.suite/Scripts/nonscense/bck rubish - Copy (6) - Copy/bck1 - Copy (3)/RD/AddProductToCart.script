@@ -1,0 +1,12 @@
+﻿
+Login  -- Calling the handler Login
+
+to Login
+	Click text:TextObject().txtUsername
+	TypeText Username
+	Click text:TextObject().txtPassword
+	TypeText Password
+	Click text:TextObject().txtLogin
+end Login
+
+

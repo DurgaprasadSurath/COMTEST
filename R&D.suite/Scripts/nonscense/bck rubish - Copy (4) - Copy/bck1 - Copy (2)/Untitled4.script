@@ -1,0 +1,33 @@
+﻿put the resolvedFilePath of me.name
+
+
+put fileDescription(the resolvedFilePath of me.name)
+
+
+log me.name
+
+
+
+log encodeText("password1234")
+
+//j>f%@]vR$v!czuN3
+
+-- [|Zu8Mi72)1t
+
+log DecodeText("[|Zu8Mi72)1t")
+
+
+
+
+core.setCustomSearchRectangle "BootCamp_Title","0","90","800","110","TH"
+put core.readTextUsingText ("BootCamp_Title","0","90","800","130","TH") into value
+
+if ImageFound(imageName:"ProgressBar", searchRectangle:(config().SUT.(Custompart)) and if value is not empty) 
+	LogSuccess "Progress Bar is Visible"
+else
+	core.clicktext "Enroll", "RH"
+	core.textEntry "Email", universal data.("LoginUsername")
+	core.clicktext "Continue"
+	core.verifyImage "ProgressBar","Custompart"
+	LogSuccess "Progress Bar is Visible"
+end if	

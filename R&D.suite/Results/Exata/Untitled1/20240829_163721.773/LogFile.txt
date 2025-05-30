@@ -1,0 +1,5 @@
+﻿2024-08-29 16:37:21.785 +0530	START		Running Exata/Untitled1.script
+2024-08-29 16:37:22.187 +0530	Log		C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Scripts/gen_kal.script	6	on_untitled1	Exata/Untitled1.script
+2024-08-29 16:37:22.214 +0530	Log		gen_kal.script	3	on_readdata	Exata/Untitled1.script
+2024-08-29 16:37:22.246 +0530	EndTestCase		(Duration:"0.453", Errors:"0", Exceptions:"0", StartTime:"2024-08-29 16:37:21 +0530", Successes:"1", TestCase:"Exata/Untitled1.script", Warnings:"0")
+2024-08-29 16:37:22.325 +0530	SUCCESS		Execution Time 0:00:00 Exata/Untitled1.script

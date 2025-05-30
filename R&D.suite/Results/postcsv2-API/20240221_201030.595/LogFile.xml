@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="postcsv2_apitest" package="R&amp;D.suite" timestamp="2024-02-21 20:10:30.595 +0530"
+ tests="1"  failures="2" errors="0" time="0.183000">
+  <properties>
+   <property name="RunDate" value="2024-02-21 20:10:30.595 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="postcsv2.apitest" assertions="1" status="failure"  time="0.165">
+    <failure type="LogError" message="Validation Error: Failed to parse JSON request body. Unexpected character i at index 1. file=@C:\\Users\\durgaprasad.surath\\Downloads\\Book.csv" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:00:00 postcsv2.apitest" />
+  </testcase>
+ </testsuite>
+</testsuites>

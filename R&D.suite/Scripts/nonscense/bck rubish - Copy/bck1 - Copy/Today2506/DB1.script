@@ -1,0 +1,43 @@
+﻿Universal myDB
+set Universal myDB to {type:"odbc", DSN:"SURATHDB", user:"root", password:"root"}
+put table "user_details" of myDB into MyTable
+Log the records of MyTable where last_name is "smith" and first_name is "morgan"
+put the records of MyTable where last_name is "smith" and first_name is "morgan" into MyRows
+Log MyRows
+put the record of MyTable where last_name is "smith" and first_name is "morgan" into MyRow
+Log MyRow
+put "HABIBI" into MyRow.username
+repeat with each item of MyRows by reference
+	Log it.username
+	put "SURATH" into it.username
+end repeat
+
+
+
+set myDB to {type:"odbc", DSN:"sandeep", user:"root", password:"S@ndeep@123",name:"db1",writable:"yes"}
+put table "customers" of myDB into MyTable
+--Updating Multiple records
+put the records of MyTable where "CustomerName" is "Alfreds Futterkiste" into MyRecords
+repeat with each item of MyRecords by reference
+	Log it.City
+	put "Hyd" into it.City
+end repeat
+
+--Updating single record
+put the record of MyTable where "CustomerName" is "Alfreds Futterkiste" into MyRecord
+put "Bang" into MyRecord.City
+
+
+
+set myDB to {type:"odbc", DSN:"SURATHDB", user:"root", password:"root"}
+put table "user_details" of myDB into MyTable
+set joinTable to the records of MyTable where username is "mike28"
+put keys of item 1 of joinTable into recordHeadings
+
+repeat with each item of recordHeadings
+	put it after file ResourcePath("TODAY03072024.csv") 
+end repeat
+
+repeat the number of items of joinTable times 
+	put values of item repeatIndex() of joinTable into item repeatIndex() of line (repeatIndex() + 1) of file ResourcePath("TODAY03072024.csv") 
+end repeat

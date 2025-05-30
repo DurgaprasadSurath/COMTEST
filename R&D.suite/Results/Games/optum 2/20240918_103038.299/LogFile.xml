@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="optum 2_script" package="R&amp;D.suite" timestamp="2024-09-18 10:30:38.299 +0530"
+ tests="1"  failures="0" errors="0" time="0.691000">
+  <properties>
+   <property name="RunDate" value="2024-09-18 10:30:38.299 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="optum 2.script" assertions="1" status="success"  time="0.69">
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-10-16 11:29:06.036 +0530,"Failure",0:00:00,1,0,0,"20241016_112906.036/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 11:46:32.484 +0530,"Failure",0:00:00,1,0,0,"20241016_114632.484/LogFile.txt","","Unknown Property or Function -- Unable to access global property or function 'MORNING'",0
+2024-10-16 12:39:37.467 +0530,"Failure",0:00:00,1,0,0,"20241016_123937.467/LogFile.txt","","Unknown Property or Function -- Unable to access global property or function 'MORNING'",0
+2024-10-17 13:27:39.717 +0530,"Success",0:00:00,0,0,0,"20241017_132739.717/LogFile.txt","","",1

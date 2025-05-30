@@ -1,0 +1,6 @@
+﻿Log MyFunctions.WelcomeMessage
+Log MyFunctions.quotient(20, 10)
+MyFunctions.oneParameter(10)
+MyFunctions.oneParameter(47)
+MyFunctions.swapValues 12, 13
+

@@ -1,0 +1,26 @@
+﻿params a,b,var1,dividend,divisor
+
+to handle WelcomeMessage
+	put "Welcome to SenceTalk. Happy scripting!" 
+end WelcomeMessage
+
+
+on oneParameter var1
+	add var1  to global total
+	Log global total	
+end oneParameter
+
+
+function quotient dividend, divisor
+	return dividend/divisor 
+end quotient
+
+
+on swapValues a,b
+	put a into temp
+	put b into a
+	put temp into b
+	Log a && b
+end swapValues
+
+

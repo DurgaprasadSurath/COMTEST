@@ -1,0 +1,63 @@
+﻿intializeWorkbook
+createTestDataAndModifiedScript
+
+to createTestDataAndModifiedScript
+	createTestData
+	createModifiedScript
+end createTestDataAndModifiedScript
+
+to intializeWorkbook
+	Ask "Test data file name with extension (.xlsx), please?" with "TestData.xlsx" title "Details of the test data file:" message "Can you provide the test data file name with the extension, please?"	
+	Set universal myWorkBook to Workbook( ResourcePath(it))
+	Set universal mySheet to Worksheet(universal myWorkBook, 1)
+end intializeWorkbook
+
+to createTestData
+	Ask "Script name with extension, please?" with "Example.script" title "Script needs modification." message "Could you please provide the script name along with the extension?"
+	Set universal scriptName to it
+	Set universal scriptPath to filePath of universal scriptName
+	Set [rowCount, coloumnCount] to [1, 1]	
+	Repeat with each line of file universal scriptPath
+		If (it contains "TypeText") and if (it does contain <quote then some characters then quote>)  then		
+			Put the occurrence of <quote then some characters then quote> in it into firstItem
+			Delete first character of firstItem
+			Delete last character of firstItem			
+			Put "Red" into fontcolor of universal mySheet.cell((rowCount), (coloumnCount))			
+			Put Param&coloumnCount into universal mySheet.cell((rowCount), (coloumnCount))
+			Put firstItem into universal mySheet.cell((rowCount + 1), (coloumnCount))
+			Set coloumnCount to (coloumnCount + 1)			
+		Else if (it contains "text:") then
+			Put the occurrence of <quote then some characters then quote> in it into firstItem
+			Delete first character of firstItem
+			Delete last character of firstItem			
+			Put "Red" into fontcolor of universal mySheet.cell((rowCount), (coloumnCount))			
+			Put "Param"&coloumnCount into universal mySheet.cell((rowCount), (coloumnCount))
+			Put firstItem into universal mySheet.cell((rowCount + 1), (coloumnCount))
+			Set coloumnCount to (coloumnCount + 1)
+		End if 
+	End Repeat
+end createTestData
+
+to createModifiedScript
+	Create file the suiteInfo.scriptsFolder & "/Modified_" & universal scriptName	
+	Put "Modified_"& universal scriptName into modifiedScriptName
+	Set modifiedScriptFile to filePath of modifiedScriptName	
+	Set count to 1	
+	Repeat with each line of  file universal scriptPath
+		If (it contains "TypeText") and if (it does contain <quote then some characters then quote>) then			
+			Replace every occurrence of <quote then some characters then quote> with "Global Param"&count in it 
+			Put it into line repeatIndex() of file modifiedScriptFile
+			Set count to (count + 1)
+		Else if (it contains "text:") then
+			Replace every occurrence of <quote then some characters then quote> with "Global Param"&count in it 
+			Put it into line repeatIndex() of file modifiedScriptFile
+			Set count to (count + 1)
+		Else 
+			Put it into line repeatIndex() of file modifiedScriptFile
+		End if 
+	End Repeat
+	replace every occurrence of <"(*" then lots of characters then "*)">  in file modifiedScriptFile with "TestDataFetching.fetchingTestData"
+end createModifiedScript
+
+
+

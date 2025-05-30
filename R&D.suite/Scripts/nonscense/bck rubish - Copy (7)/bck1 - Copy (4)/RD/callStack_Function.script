@@ -1,0 +1,19 @@
+﻿put the handler of item 1 of the callStack
+
+put the callStack
+
+
+//Script name with .script extension
+put the ScriptObjectID of item 1 of the callStack into scriptPath
+split scriptPath by "/"
+put the last item of scriptPath into ScriptSelection
+split ScriptSelection by "<"
+log the first item of ScriptSelection
+
+//Script name without .script extension
+put the scriptObjectID of item 1 of the callStack into fullPath
+put item 1 delimited by "." of the last item delimited by "/" of fullPath into scriptName
+log scriptName
+
+
+

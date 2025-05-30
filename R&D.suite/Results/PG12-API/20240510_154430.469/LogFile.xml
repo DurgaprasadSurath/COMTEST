@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="PG12_apitest" package="R&amp;D.suite" timestamp="2024-05-10 15:44:30.469 +0530"
+ tests="1"  failures="0" errors="0" time="1.610000">
+  <properties>
+   <property name="RunDate" value="2024-05-10 15:44:30.469 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="PG12.apitest" assertions="1" status="success"  time="1.577">
+  </testcase>
+ </testsuite>
+</testsuites>

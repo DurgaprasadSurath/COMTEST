@@ -1,0 +1,4 @@
+﻿2024-10-28 14:17:18.688 +0530	START		Running Untitled3.script
+2024-10-28 14:17:18.750 +0530	Log		West Covina	2	on_untitled3	Untitled3.script
+2024-10-28 14:17:18.766 +0530	EndTestCase		(Duration:"0.078", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 14:17:18 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 14:17:18.813 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

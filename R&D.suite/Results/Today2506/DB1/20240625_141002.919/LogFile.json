@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/DB1.script",
+				"identifier": "START",
+				"timestamp": "2024-06-25 14:10:02.928 +0530"
+			},
+		{
+				"handlerName": "on_db1",
+				"timestamp": "2024-06-25 14:10:03.033 +0530",
+				"message": "[{first_name:\"morgan\", gender:\"Female\", last_name:\"smith\", password:\"a84cf2d984ed2eb7948b9fda85275a7f\", status:1, user_id:715, username:\"ross44\"}]",
+				"scriptName": "Today2506/DB1.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_db1",
+				"timestamp": "2024-06-25 14:10:03.066 +0530",
+				"message": "ross44",
+				"scriptName": "Today2506/DB1.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.173\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-25 14:10:02 +0530\", Successes:\"1\", TestCase:\"Today2506/DB1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-25 14:10:03.107 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Today2506/DB1.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-25 14:10:03.139 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-25 14:10:02.932 +0530"
+}

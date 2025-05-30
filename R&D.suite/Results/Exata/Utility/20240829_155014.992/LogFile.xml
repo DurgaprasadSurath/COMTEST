@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Exata/gen_kalyan_29082024_script" package="R&amp;D.suite" timestamp="2024-08-29 15:50:14.992 +0530"
+ tests="1"  failures="1" errors="0" time="0.327000">
+  <properties>
+   <property name="RunDate" value="2024-08-29 15:50:14.992 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Exata/gen_kalyan_29082024.script" assertions="1" status="failure"  time="0.316">
+    <failure type="FAILURE" message="Worksheet Error: Cell() requires a worksheet to read from (got: (null)) -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+﻿2024-09-20 14:56:09.679 +0530	START		Running Kcom.script
+2024-09-20 14:56:09.849 +0530	typetext		[commandKey]a	1	on_kcom	Kcom.script
+2024-09-20 14:56:10.764 +0530	typetext		34465A	2	on_kcom	Kcom.script
+2024-09-20 14:56:10.779 +0530	EndTestCase		(Duration:"1.1", Errors:"0", Exceptions:"0", StartTime:"2024-09-20 14:56:09 +0530", Successes:"1", TestCase:"Kcom.script", Warnings:"0")
+2024-09-20 14:56:10.858 +0530	SUCCESS		Execution Time 0:00:01 Kcom.script

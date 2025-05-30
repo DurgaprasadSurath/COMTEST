@@ -1,0 +1,27 @@
+﻿shell ResourcePath("HeartExecution.bat")
+
+
+put "qxemywi775386164691wufpzgto95101279ezzdgk10224910283kljowcrd" into String
+
+put "ABCD1234EFGH5678IJKL9101112MNO" into String
+
+set Number to empty
+set InitalCount to 1
+set InitalCount2 to 0
+repeat with each char of String 
+	if it is a digit then put char repeatIndex() of String after Number 	
+	if it is not a digit then insert  length(Number) into Spliter
+end repeat
+put the unique items of  Spliter into uniqueSpliter
+repeat the number of items of uniqueSpliter
+	insert (item repeatIndex()+1 of uniqueSpliter - item repeatIndex() of uniqueSpliter) into Spliter2
+	if repeatIndex() +1 =  the number of items of uniqueSpliter then exit repeat
+end repeat
+repeat the number of items of Spliter2
+	put item repeatIndex() of Spliter2 into count
+	set  InitalCount2 to InitalCount2 + count
+	put characters InitalCount to InitalCount2 of Number into item repeatIndex() of ActualNumber
+	put InitalCount + count into InitalCount
+end repeat
+
+log ActualNumber

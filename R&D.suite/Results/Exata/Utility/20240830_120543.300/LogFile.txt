@@ -1,0 +1,3 @@
+﻿2024-08-30 12:05:43.312 +0530	START		Running Exata/Utility.script
+2024-08-30 12:05:50.702 +0530	EndTestCase		(Duration:"7.382", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 12:05:43 +0530", Successes:"1", TestCase:"Exata/Utility.script", Warnings:"0")
+2024-08-30 12:05:50.800 +0530	SUCCESS		Execution Time 0:00:07 Exata/Utility.script

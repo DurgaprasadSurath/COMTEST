@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 16:17:08.531 +0530"
+			},
+		{
+				"handlerName": "on_readdata",
+				"timestamp": "2024-08-29 16:17:08.728 +0530",
+				"message": "hi0",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_readdata",
+				"timestamp": "2024-08-29 16:17:08.732 +0530",
+				"message": "hi",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_readdata",
+				"timestamp": "2024-08-29 16:17:08.736 +0530",
+				"message": "gen_kal.script",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.24\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-29 16:17:08 +0530\", Successes:\"1\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 16:17:08.776 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-29 16:17:08.818 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 16:17:08.535 +0530"
+}

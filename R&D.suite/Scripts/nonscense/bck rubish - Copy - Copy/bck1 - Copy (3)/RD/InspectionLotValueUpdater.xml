@@ -1,0 +1,607 @@
+<Rowsets>
+<Header>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<MessageType>INSPSCHED</MessageType>
+</Header>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="INSPECTIONLOT" SQLDataType="1" SourceColumn="INSPECTIONLOT"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPStatus" SQLDataType="1" SourceColumn="SAPStatus"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Plant" SQLDataType="1" SourceColumn="Plant"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionType" SQLDataType="1" SourceColumn="InspectionType"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionLotOrigin" SQLDataType="1" SourceColumn="InspectionLotOrigin"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="IndicatorPartialLotsExist" SQLDataType="1" SourceColumn="IndicatorPartialLotsExist"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="IndicatorAutomaticUD" SQLDataType="1" SourceColumn="IndicatorAutomaticUD"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Order" SQLDataType="1" SourceColumn="Order"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPMaterialNumber" SQLDataType="1" SourceColumn="SAPMaterialNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPBatch" SQLDataType="1" SourceColumn="SAPBatch"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="StorageLocation" SQLDataType="1" SourceColumn="StorageLocation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="PurchaseOrderNumber" SQLDataType="1" SourceColumn="PurchaseOrderNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="PurchaseOrderItemNumber" SQLDataType="1" SourceColumn="PurchaseOrderItemNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SalesOrderNumber" SQLDataType="1" SourceColumn="SalesOrderNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SalesOrderItemNumber" SQLDataType="1" SourceColumn="SalesOrderItemNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="DeliveryNumber" SQLDataType="1" SourceColumn="DeliveryNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="DeliveryItemNumber" SQLDataType="1" SourceColumn="DeliveryItemNumber"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionLotQuantity" SQLDataType="1" SourceColumn="InspectionLotQuantity"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionLotUOM" SQLDataType="1" SourceColumn="InspectionLotUOM"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionLotISOUOM" SQLDataType="1" SourceColumn="InspectionLotISOUOM"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPEquipment" SQLDataType="1" SourceColumn="SAPEquipment"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPEquipDesc" SQLDataType="1" SourceColumn="SAPEquipDesc"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPMaterialNumberDesc" SQLDataType="1" SourceColumn="SAPMaterialNumberDesc"/>
+</Columns>
+<Table>TartanInspectionHeader</Table>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<SAPStatus>A</SAPStatus>
+<Plant>1ADQ</Plant>
+<InspectionType>04</InspectionType>
+<InspectionLotOrigin>04</InspectionLotOrigin>
+<IndicatorPartialLotsExist/>
+<IndicatorAutomaticUD/>
+<Order>2003790030</Order>
+<SAPMaterialNumber>000000000100127611</SAPMaterialNumber>
+<SAPBatch/>
+<StorageLocation/>
+<PurchaseOrderNumber/>
+<PurchaseOrderItemNumber>00000</PurchaseOrderItemNumber>
+<SalesOrderNumber/>
+<SalesOrderItemNumber>0</SalesOrderItemNumber>
+<DeliveryNumber/>
+<DeliveryItemNumber/>
+<InspectionLotQuantity>1000</InspectionLotQuantity>
+<InspectionLotUOM>LB</InspectionLotUOM>
+<InspectionLotISOUOM/>
+<SAPEquipment/>
+<SAPEquipDesc/>
+<SAPMaterialNumberDesc>INT CRN GRM DRY BLK</SAPMaterialNumberDesc>
+</Row>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="INSPECTIONLOT" SQLDataType="1" SourceColumn="INSPECTIONLOT"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="RecordTypes" SQLDataType="1" SourceColumn="RecordTypes"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CatalogEntrySelected" SQLDataType="1" SourceColumn="CatalogEntrySelected"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CatalogAssignedCodeGroup" SQLDataType="1" SourceColumn="CatalogAssignedCodeGroup"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Plant" SQLDataType="1" SourceColumn="Plant"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="AssignedCodeGroup" SQLDataType="1" SourceColumn="AssignedCodeGroup"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CodeGroup" SQLDataType="1" SourceColumn="CodeGroup"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Code" SQLDataType="1" SourceColumn="Code"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="ShortText" SQLDataType="1" SourceColumn="ShortText"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CodeValuation" SQLDataType="1" SourceColumn="CodeValuation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="DefectClass" SQLDataType="1" SourceColumn="DefectClass"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="ResultRecordingTextEntered" SQLDataType="1" SourceColumn="ResultRecordingTextEntered"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="StockPosted" SQLDataType="1" SourceColumn="StockPosted"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="QualityScore" SQLDataType="1" SourceColumn="QualityScore"/>
+</Columns>
+<Table>TartanInspectionCatalog</Table>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>10</Code>
+<ShortText>Corn</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>20</Code>
+<ShortText>CGM</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>30</Code>
+<ShortText>SEM</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>40</Code>
+<ShortText>DDG</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>50</Code>
+<ShortText>Soybeans</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>60</Code>
+<ShortText>Soybean meal</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>70</Code>
+<ShortText>Wheat Mids</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>80</Code>
+<ShortText>Salt</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>85</Code>
+<ShortText>GERM</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>CA896</AssignedCodeGroup>
+<CodeGroup>WMPRIORC</CodeGroup>
+<Code>90</Code>
+<ShortText>FSQR Approved</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>PASSFAIL</AssignedCodeGroup>
+<CodeGroup>PASSFAIL</CodeGroup>
+<Code>FAIL</Code>
+<ShortText>FAIL</ShortText>
+<CodeValuation>R</CodeValuation>
+<DefectClass>01</DefectClass>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>1</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>PASSFAIL</AssignedCodeGroup>
+<CodeGroup>PASSFAIL</CodeGroup>
+<Code>PASS</Code>
+<ShortText>PASS</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted/>
+<QualityScore>0</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>3</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>GR-UD</AssignedCodeGroup>
+<CodeGroup>PASSASIS</CodeGroup>
+<Code>COND</Code>
+<ShortText>Conditional Pass - mat. to block stock</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted>X</StockPosted>
+<QualityScore>25</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>3</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>GR-UD</AssignedCodeGroup>
+<CodeGroup>PASSFAIL</CodeGroup>
+<Code>FAIL</Code>
+<ShortText>Fail</ShortText>
+<CodeValuation>R</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted>X</StockPosted>
+<QualityScore>1</QualityScore>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<RecordTypes>Q45</RecordTypes>
+<CatalogEntrySelected>X</CatalogEntrySelected>
+<CatalogAssignedCodeGroup>3</CatalogAssignedCodeGroup>
+<Plant>9ZZZ</Plant>
+<AssignedCodeGroup>GR-UD</AssignedCodeGroup>
+<CodeGroup>PASSFAIL</CodeGroup>
+<Code>PASS</Code>
+<ShortText>Pass</ShortText>
+<CodeValuation>A</CodeValuation>
+<DefectClass/>
+<ResultRecordingTextEntered/>
+<StockPosted>X</StockPosted>
+<QualityScore>100</QualityScore>
+</Row>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="INSPECTIONLOT" SQLDataType="1" SourceColumn="INSPECTIONLOT"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Operation" SQLDataType="1" SourceColumn="Operation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Plant" SQLDataType="1" SourceColumn="Plant"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="OperationText" SQLDataType="1" SourceColumn="OperationText"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPWorkcenter" SQLDataType="1" SourceColumn="SAPWorkcenter"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionPointRel" SQLDataType="1" SourceColumn="InspectionPointRel"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPWorkcenterDesc" SQLDataType="1" SourceColumn="SAPWorkcenterDesc"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="TaskListDesc" SQLDataType="1" SourceColumn="TaskListDesc"/>
+</Columns>
+<Table>TartanInspectionOperation</Table>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<Plant>1ADQ</Plant>
+<OperationText>PreLoad Rail Inspection</OperationText>
+<SAPWorkcenter>QM006001</SAPWorkcenter>
+<InspectionPointRel>1ADQ</InspectionPointRel>
+<SAPWorkcenterDesc>QM WorkCenter</SAPWorkcenterDesc>
+<TaskListDesc>INT CRN GRM DRY BLK</TaskListDesc>
+</Row>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Operation" SQLDataType="1" SourceColumn="Operation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleID" SQLDataType="1" SourceColumn="SampleID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleTime" SQLDataType="1" SourceColumn="SampleTime"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionPoint" SQLDataType="1" SourceColumn="InspectionPoint"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleIdName" SQLDataType="1" SourceColumn="SampleIdName"/>
+</Columns>
+<Table>TartanInspectionPoints</Table>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="INSPECTIONLOT" SQLDataType="1" SourceColumn="INSPECTIONLOT"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Operation" SQLDataType="1" SourceColumn="Operation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPChar" SQLDataType="1" SourceColumn="SAPChar"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPCharDesc" SQLDataType="1" SourceColumn="SAPCharDesc"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CharacteristicType" SQLDataType="1" SourceColumn="CharacteristicType"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SingleValFlag" SQLDataType="1" SourceColumn="SingleValFlag"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SingleValID" SQLDataType="1" SourceColumn="SingleValID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleValFlag" SQLDataType="1" SourceColumn="SampleValFlag"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CharValFlag" SQLDataType="1" SourceColumn="CharValFlag"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Result" SQLDataType="1" SourceColumn="Result"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspMethodText" SQLDataType="1" SourceColumn="InspMethodText"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SpecificationHigh" SQLDataType="1" SourceColumn="SpecificationHigh"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SpecificationLow" SQLDataType="1" SourceColumn="SpecificationLow"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SelectedSet" SQLDataType="1" SourceColumn="SelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="PlantSelectedSet" SQLDataType="1" SourceColumn="PlantSelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CatalogType" SQLDataType="1" SourceColumn="CatalogType"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="LongTermInd" SQLDataType="1" SourceColumn="LongTermInd"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Valuation" SQLDataType="1" SourceColumn="Valuation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Attribute" SQLDataType="1" SourceColumn="Attribute"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="DefectClass" SQLDataType="1" SourceColumn="DefectClass"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspDesc" SQLDataType="1" SourceColumn="InspDesc"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleID" SQLDataType="1" SourceColumn="SampleID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleTime" SQLDataType="1" SourceColumn="SampleTime"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionPoint" SQLDataType="1" SourceColumn="InspectionPoint"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="IsNumeric" SQLDataType="1" SourceColumn="IsNumeric"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="UOM" SQLDataType="1" SourceColumn="UOM"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="MIC" SQLDataType="1" SourceColumn="MIC"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Formula" SQLDataType="1" SourceColumn="Formula"/>
+</Columns>
+<Table>TartanInspectionChar</Table>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SingleValID" SQLDataType="1" SourceColumn="SingleValID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Result" SQLDataType="1" SourceColumn="Result"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Valuation" SQLDataType="1" SourceColumn="Valuation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="DefectClass" SQLDataType="1" SourceColumn="DefectClass"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Attribute" SQLDataType="1" SourceColumn="Attribute"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspDesc" SQLDataType="1" SourceColumn="InspDesc"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionPoint" SQLDataType="1" SourceColumn="InspectionPoint"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Operation" SQLDataType="1" SourceColumn="Operation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SelectedSet" SQLDataType="1" SourceColumn="SelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="PlantSelectedSet" SQLDataType="1" SourceColumn="PlantSelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CatalogType" SQLDataType="1" SourceColumn="CatalogType"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CharacteristicType" SQLDataType="1" SourceColumn="CharacteristicType"/>
+</Columns>
+<Table>TartanInspectionSingleRecord</Table>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspectionLot" SQLDataType="1" SourceColumn="InspectionLot"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="UDStatus" SQLDataType="1" SourceColumn="UDStatus"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="UDStatusText" SQLDataType="1" SourceColumn="UDStatusText"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SelectedSet" SQLDataType="1" SourceColumn="SelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="PlantSelectedSet" SQLDataType="1" SourceColumn="PlantSelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CatalogType" SQLDataType="1" SourceColumn="CatalogType"/>
+</Columns>
+<Table>TartanInspectionUDStatus</Table>
+</Rowset>
+<Rowset>
+<Columns>
+<Column Description="" MaxRange="1" MinRange="0" Name="MessageID" SQLDataType="1" SourceColumn="MessageID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="INSPECTIONLOT" SQLDataType="1" SourceColumn="INSPECTIONLOT"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Operation" SQLDataType="1" SourceColumn="Operation"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPChar" SQLDataType="1" SourceColumn="SAPChar"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SAPCharDesc" SQLDataType="1" SourceColumn="SAPCharDesc"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CharacteristicType" SQLDataType="1" SourceColumn="CharacteristicType"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SingleValFlag" SQLDataType="1" SourceColumn="SingleValFlag"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SingleValID" SQLDataType="1" SourceColumn="SingleValID"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SampleValFlag" SQLDataType="1" SourceColumn="SampleValFlag"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CharValFlag" SQLDataType="1" SourceColumn="CharValFlag"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Result" SQLDataType="1" SourceColumn="Result"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="InspMethodText" SQLDataType="1" SourceColumn="InspMethodText"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SpecificationHigh" SQLDataType="1" SourceColumn="SpecificationHigh"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SpecificationLow" SQLDataType="1" SourceColumn="SpecificationLow"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="SelectedSet" SQLDataType="1" SourceColumn="SelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="PlantSelectedSet" SQLDataType="1" SourceColumn="PlantSelectedSet"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="CatalogType" SQLDataType="1" SourceColumn="CatalogType"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="IsNumeric" SQLDataType="1" SourceColumn="IsNumeric"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="UOM" SQLDataType="1" SourceColumn="UOM"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="MIC" SQLDataType="1" SourceColumn="MIC"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="Formula" SQLDataType="1" SourceColumn="Formula"/>
+<Column Description="" MaxRange="1" MinRange="0" Name="DecimalPlaces" SQLDataType="1" SourceColumn="DecimalPlaces"/>
+</Columns>
+<Table>TartanInspectionOperationChar</Table>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<SAPChar>10</SAPChar>
+<SAPCharDesc>Interior free of old product?</SAPCharDesc>
+<CharacteristicType>2</CharacteristicType>
+<SingleValFlag/>
+<SingleValID>10</SingleValID>
+<SampleValFlag>X</SampleValFlag>
+<CharValFlag/>
+<Result/>
+<InspMethodText/>
+<SpecificationHigh/>
+<SpecificationLow/>
+<SelectedSet>PASSFAIL</SelectedSet>
+<PlantSelectedSet>9ZZZ</PlantSelectedSet>
+<CatalogType>1</CatalogType>
+<IsNumeric>0</IsNumeric>
+<UOM/>
+<MIC>19007562</MIC>
+<Formula/>
+<DecimalPlaces>00</DecimalPlaces>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<SAPChar>20</SAPChar>
+<SAPCharDesc>Interior clear of water mold insects?</SAPCharDesc>
+<CharacteristicType>2</CharacteristicType>
+<SingleValFlag/>
+<SingleValID>20</SingleValID>
+<SampleValFlag>X</SampleValFlag>
+<CharValFlag/>
+<Result/>
+<InspMethodText/>
+<SpecificationHigh/>
+<SpecificationLow/>
+<SelectedSet>PASSFAIL</SelectedSet>
+<PlantSelectedSet>9ZZZ</PlantSelectedSet>
+<CatalogType>1</CatalogType>
+<IsNumeric>0</IsNumeric>
+<UOM/>
+<MIC>19008726</MIC>
+<Formula/>
+<DecimalPlaces>00</DecimalPlaces>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<SAPChar>30</SAPChar>
+<SAPCharDesc>Odor</SAPCharDesc>
+<CharacteristicType>2</CharacteristicType>
+<SingleValFlag/>
+<SingleValID>30</SingleValID>
+<SampleValFlag>X</SampleValFlag>
+<CharValFlag/>
+<Result/>
+<InspMethodText/>
+<SpecificationHigh/>
+<SpecificationLow/>
+<SelectedSet>PASSFAIL</SelectedSet>
+<PlantSelectedSet>9ZZZ</PlantSelectedSet>
+<CatalogType>1</CatalogType>
+<IsNumeric>0</IsNumeric>
+<UOM/>
+<MIC>10001828</MIC>
+<Formula/>
+<DecimalPlaces>00</DecimalPlaces>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<SAPChar>40</SAPChar>
+<SAPCharDesc>Hopper Door Closed?</SAPCharDesc>
+<CharacteristicType>2</CharacteristicType>
+<SingleValFlag/>
+<SingleValID>40</SingleValID>
+<SampleValFlag>X</SampleValFlag>
+<CharValFlag/>
+<Result/>
+<InspMethodText/>
+<SpecificationHigh/>
+<SpecificationLow/>
+<SelectedSet>PASSFAIL</SelectedSet>
+<PlantSelectedSet>9ZZZ</PlantSelectedSet>
+<CatalogType>1</CatalogType>
+<IsNumeric>0</IsNumeric>
+<UOM/>
+<MIC>19005650</MIC>
+<Formula/>
+<DecimalPlaces>00</DecimalPlaces>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<SAPChar>50</SAPChar>
+<SAPCharDesc>Gluten Magnets Checked?</SAPCharDesc>
+<CharacteristicType>2</CharacteristicType>
+<SingleValFlag/>
+<SingleValID>50</SingleValID>
+<SampleValFlag>X</SampleValFlag>
+<CharValFlag/>
+<Result/>
+<InspMethodText/>
+<SpecificationHigh/>
+<SpecificationLow/>
+<SelectedSet>PASSFAIL</SelectedSet>
+<PlantSelectedSet>9ZZZ</PlantSelectedSet>
+<CatalogType>1</CatalogType>
+<IsNumeric>0</IsNumeric>
+<UOM/>
+<MIC>19008727</MIC>
+<Formula/>
+<DecimalPlaces>00</DecimalPlaces>
+</Row>
+<Row>
+<MessageID>058a0fd0-b6ea-11ed-cf8c-d4d10a0c96e4</MessageID>
+<INSPECTIONLOT>40002133058</INSPECTIONLOT>
+<Operation>10</Operation>
+<SAPChar>60</SAPChar>
+<SAPCharDesc>Prior Commodity</SAPCharDesc>
+<CharacteristicType>2</CharacteristicType>
+<SingleValFlag/>
+<SingleValID>60</SingleValID>
+<SampleValFlag>X</SampleValFlag>
+<CharValFlag/>
+<Result/>
+<InspMethodText/>
+<SpecificationHigh/>
+<SpecificationLow/>
+<SelectedSet>CA896</SelectedSet>
+<PlantSelectedSet>9ZZZ</PlantSelectedSet>
+<CatalogType>1</CatalogType>
+<IsNumeric>0</IsNumeric>
+<UOM/>
+<MIC>10002771</MIC>
+<Formula/>
+<DecimalPlaces>00</DecimalPlaces>
+</Row>
+</Rowset>
+</Rowsets>

@@ -1,0 +1,4 @@
+﻿Click text:<some characters, "=24">
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+wait 1
+Log ReadText(the SearchRectangle)

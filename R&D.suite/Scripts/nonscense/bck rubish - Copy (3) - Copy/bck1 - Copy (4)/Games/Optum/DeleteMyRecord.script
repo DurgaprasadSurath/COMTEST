@@ -1,0 +1,28 @@
+﻿//deleting records where the condition matches
+to DeleteRecords ExcelName,SheetName,FalgValue
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName}
+	//To find the Primary Key please do Log all the records and findout the PK key and replace them below.
+	Log records of Global MyExcelDB
+	//deleting a record where it matches with primary key value
+	delete record from Global MyExcelDB where _pk_ = 1002
+	delete record from Global MyExcelDB where _pk_ = 1003
+end DeleteRecords
+
+DeleteRecords "Book1.xlsx","Sheet1","Yes"
+
+#https://docs.eggplantsoftware.com/studio/stk-writing-database/#deleting-records
+
+
+(*//deleting records where the condition matches
+to DeleteRecords ExcelName,SheetName,FalgValue
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName}
+	//deleting a record where it matches with flag value
+	//delete record 2 of  Global MyExcelDB
+	put  records of Global MyExcelDB into MyRecords
+	Log records of Global MyExcelDB
+	Log the number of  records of Global MyExcelDB
+	//put record 2 of Global MyExcelDB
+	delete record 2 of Global MyExcelDB
+end DeleteRecords
+
+DeleteRecords "Book1.xlsx","Sheet1","Yes"*)

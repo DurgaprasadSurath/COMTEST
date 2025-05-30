@@ -1,0 +1,12 @@
+﻿repeat  20 times
+	log repeatIndex()&"*4=" &repeatIndex() * 4
+end repeat
+
+to handle mathTable times,number
+	repeat  times times
+		log repeatIndex()&"*"&number&"=" &repeatIndex() * number
+	end repeat
+end mathTable
+
+mathTable 40,12
+

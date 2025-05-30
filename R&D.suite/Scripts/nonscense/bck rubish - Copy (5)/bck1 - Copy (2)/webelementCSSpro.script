@@ -1,0 +1,6 @@
+﻿put FindElement(WebXPath:"//*[@id='getting-startedepf-getting-started-eggplant-functionalmd']/a[1]") into myElement
+put +
+log myElement's cssProperty("display")
+put +
+log myElement's cssProperty("font")
+put +

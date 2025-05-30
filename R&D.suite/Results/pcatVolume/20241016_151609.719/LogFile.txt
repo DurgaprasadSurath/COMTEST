@@ -1,0 +1,5 @@
+﻿2024-10-16 15:16:09.735 +0530	START		Running Untitled2.script
+2024-10-16 15:16:10.445 +0530	click	(TEXT:"Ringtone")	at (179, 404)	1	on_untitled2	Untitled2.script
+2024-10-16 15:16:11.488 +0530	typetext		[VolumeUpButton]	2	on_untitled2	Untitled2.script
+2024-10-16 15:16:11.493 +0530	EndTestCase		(Duration:"1.758", Errors:"0", Exceptions:"0", StartTime:"2024-10-16 15:16:09 +0530", Successes:"1", TestCase:"Untitled2.script", Warnings:"0")
+2024-10-16 15:16:11.647 +0530	SUCCESS		Execution Time 0:00:01 Untitled2.script

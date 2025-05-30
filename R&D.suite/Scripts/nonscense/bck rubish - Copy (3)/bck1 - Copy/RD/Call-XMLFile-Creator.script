@@ -1,0 +1,6 @@
+﻿//Pass the CSV file which is having the XML file details 
+
+
+set XMLDeatilsFile to "XMLFileDetails.csv"
+
+XMLFileCreationforALM.CreateXMLFile XMLDeatilsFile

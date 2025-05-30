@@ -1,0 +1,27 @@
+﻿DoubleClick "ChromeIcon"
+TypeText "https://www.w3schools.com/html/html_tables.asp",return,waitfor:10
+if ImageFound(text:"Example") then
+	CaptureScreen 
+end if
+
+WaitForAll 15, "W3Upper2", "W3Lower"
+set the SearchRectangle to ["W3upper2","W3Lower"]
+//Log ReadTable(the SearchRectangle)
+//Log the number of items in ReadTable(the SearchRectangle)
+//Log the keys of ReadTable(the SearchRectangle)
+//Log the values of ReadTable(the SearchRectangle)
+//Log the items of ReadTable(the SearchRectangle)
+//repeat the number of items in ReadTable(the SearchRectangle)
+//Log the repeatIndex() of values of ReadTable(the SearchRectangle)
+//Log the values of item repeatIndex() of ReadTable(the SearchRectangle)
+//	Log the keys of item repeatIndex() of ReadTable(the SearchRectangle)
+//end repeat
+repeat the number of items in ReadTable(the SearchRectangle)
+	put item repeatIndex() of ReadTable(the SearchRectangle) into line repeatIndex() of file ResourcePath("Demo.csv")
+end repeat
+
+
+Log ReadTable("W3Upper2","W3Lower") 
+Log "-----------------------------------------------"
+Log ReadText("W3Upper2", "W3Lower")
+

@@ -1,0 +1,8 @@
+﻿to handle LauncApplication
+	DoubleClick image:"ChromeIcon",waitfor:30
+	Typetext "http://nopcommerce.testplant.com",return,waitfor:30
+	(*TypeText windowsKey,"r"
+	Typetext "Chrome http://nopcommerce.testplant.com",return,wiatfor:30
+	TypeText windowsKey, "upArrow"*)
+	wait 10
+end LauncApplication

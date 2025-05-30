@@ -1,0 +1,28 @@
+﻿put ADBCallRemote("input keyevent 26 && input keyevent 25")
+
+
+put ADBCallRemote("shell input keyevent 3")
+//adb shell input keyevent 26 && adb shell input keyevent 25
+put ADBCallRemote("devices")
+
+
+log ResourcePath()
+adb shell input keyevent 3 
+
+adb shell input keyevent 25 
+
+
+shell 
+
+Shell "C:\Windows\system32\cmd.exe","/c"&&"adb devices"&&">2>&1 > C:\Users\durgaprasad.surath\Desktop\out.txt"
+
+
+Shell "C:\Windows\system32\cmd.exe","/c"&&"adb shell input keyevent 26 &&shell input keyevent 25 "&&">2>&1 > C:\Users\durgaprasad.surath\Desktop\out.txt"
+
+Set CmpID to [formattedTime("%m%d%H%M%S", the time)]
+put item 1 of CmpID into NewCmpID
+
+
+run Tests/TC_A_Careers
+run Tests/TC_B_Contact_Us
+

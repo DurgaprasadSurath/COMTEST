@@ -1,0 +1,10 @@
+﻿2024-05-16 12:13:55.343 +0530	START		Running Exata/OCR.script
+2024-05-16 12:13:59.300 +0530	imagelocation	(TEXT:"[1024], Application, CBR Server, Total Unicast Fragments Received (fragments) = 24")	at (311, 859)	3	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.312 +0530	set		SEARCHRECTANGLE = [[37,854],[911,868]]	6	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.428 +0530	readtext		(37,854,911,868)	7	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.454 +0530	Log		Line starts with 2	9	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.463 +0530	set		SEARCHRECTANGLE = [[37,854],[71,868]]	12	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.497 +0530	readtext		(37,854,71,868)	13	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.505 +0530	Log		Line starts with 2	14	on_ocr	Exata/OCR.script
+2024-05-16 12:13:59.540 +0530	EndTestCase		(Duration:"4.189", Errors:"0", Exceptions:"0", StartTime:"2024-05-16 12:13:55 +0530", Successes:"1", TestCase:"Exata/OCR.script", Warnings:"0")
+2024-05-16 12:13:59.703 +0530	SUCCESS		Execution Time 0:00:04 Exata/OCR.script

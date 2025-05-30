@@ -1,0 +1,29 @@
+﻿DoubleClick [68,47]
+TypeText "http://docs.eggplantsoftware.com/ePF/SenseTalk/stk-ocr-text-reading-functions.htm#readtable-function",returnKey
+create file "C:\Users\DurgaPrasad-IB\Surath\tabledata.csv"
+put "C:\Users\DurgaPrasad-IB\Surath\tabledata.csv" into myfile
+set global col to empty
+set topleft to ImageLocation("TB")
+set bottomright to ImageLocation("BB")
+put readtable(topleft,bottomright) into table1
+repeat the number of items of table1
+	put item 1 of item repeatIndex() of table1 into item repeatIndex() of global col's work
+	put item 2 of item repeatIndex() of table1 into item repeatIndex() of global col's topic
+	put item 3 of item repeatIndex() of table1 into item repeatIndex() of global col's assign
+end repeat
+open file myfile
+write  global col to file myfile
+close file myfile
+
+
+
+
+set MondaysIn2009 to "2009-01-05" to "2009-12-31" by weeks
+
+put item 33 of "Jan 1" to "Mar 31" 
+
+put item 33 of "January 1" to "March 31"
+
+
+
+put 12 of [1,2,3]

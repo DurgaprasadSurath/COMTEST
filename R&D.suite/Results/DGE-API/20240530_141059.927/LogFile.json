@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running DGE.apitest",
+				"identifier": "START",
+				"timestamp": "2024-05-30 14:10:59.932 +0530"
+			},
+		{
+				"message": "(Duration:\"1.515\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-30 14:10:59 +0530\", Successes:\"1\", TestCase:\"DGE.apitest\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-30 14:11:01.469 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 DGE.apitest",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-30 14:11:01.847 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-30 14:10:59.939 +0530"
+}

@@ -1,0 +1,17 @@
+﻿
+
+//put file ResourcePath("keysight_intigratedmodel11.json") into fileContents
+put file ResourcePath("task.json") into fileContents
+put JSONValue(fileContents) into DenverInfo
+put DenverInfo.testcases into ElementsContent2
+put ElementsContent2 as property list into tempcontent
+set global count to 0
+repeat the number of items of tempcontent times
+	put item repeatIndex() of tempcontent as property list into tempcontent2
+	put global count +1 into  global count
+	//updating the actions into excel file
+	put tempcontent2's testcaseName //into Cell(Sheet1_File1,[(global count + 1),1])
+	//updating the templete with description with respective action
+	put tempcontent2's testcaseDescription  // into Cell(Sheet1_File1,[(global count + 1),2])
+	put tempcontent2's testcase
+end repeat

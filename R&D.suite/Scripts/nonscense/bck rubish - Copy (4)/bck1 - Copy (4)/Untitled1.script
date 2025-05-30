@@ -1,0 +1,1 @@
+﻿copy file "SUT:/Internal storage/Download/Appium.pdf" to ResourcePath()

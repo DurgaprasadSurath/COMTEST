@@ -1,0 +1,34 @@
+﻿
+Start using Omega13
+Launch
+
+Stop using Omega13
+
+
+
+
+
+to handle Launch
+	DoubleClick imagename:"Chrome_Logo"
+	wait 4
+	(*If ImageFound("edge") then
+		
+		Log "Passed" 
+		
+	End If*)
+end Launch
+
+
+
+to handle errorvalidation 
+	Log param(0)
+	LogError "hi"
+	put the exception's scriptError
+	Log scriptError
+end errorvalidation
+
+
+
+answer "Great! You got " & pctRight &"% correct!"
+
+ask password "Enter the secret code"

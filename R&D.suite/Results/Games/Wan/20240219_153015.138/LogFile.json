@@ -1,0 +1,145 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Wan.script",
+				"identifier": "START",
+				"timestamp": "2024-02-19 15:30:15.153 +0530"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.464 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.536 +0530",
+				"scriptName": "Games/Wan.script",
+				"identifier": "Log",
+				"handlerLine": 10
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.546 +0530",
+				"message": "==================================================================",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.666 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.712 +0530",
+				"scriptName": "Games/Wan.script",
+				"identifier": "Log",
+				"handlerLine": 22
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.724 +0530",
+				"message": "==================================================================",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 24,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.850 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 30,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.943 +0530",
+				"scriptName": "Games/Wan.script",
+				"identifier": "Log",
+				"handlerLine": 34
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:15.953 +0530",
+				"message": "==================================================================",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 36,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.101 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 42,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.202 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 46,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.210 +0530",
+				"message": "==================================================================",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 48,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.311 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 54,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.362 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 58,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.684 +0530",
+				"message": "(100,200)",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 61,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 15:30:16.692 +0530",
+				"message": "Rorvrlp Rin Wnrk - Fd",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 61,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"1.711\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-19 15:30:15 +0530\", Successes:\"1\", TestCase:\"Games/Wan.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-19 15:30:16.878 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 Games/Wan.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-19 15:30:17.238 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-19 15:30:15.162 +0530"
+}

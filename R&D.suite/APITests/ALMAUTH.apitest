@@ -1,0 +1,28 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BN>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	},
+	{
+	    checkedNumber = <*BN>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = None;
+    httpVerb = POST;
+    oauth1Token = "";
+    password = "I3/&*FMe|hX?=e7@^p4'$F8Zr-pbWkPC";
+    requestBody = "{\"clientId\":\"apikey-lmcnlbipbsnpnqbqqsmq\", \"secret\":\"hgkfbngfhmjeonbb\"}";
+    requestBodyFormat = "JSON (application/json)";
+    requestHeaders = "<![CDATA[]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "https://almrb.saas.microfocus.com/qcbin/rest/oauth2/login";
+    userName = "apikey-srshimdfpaprojdahjet";
+}

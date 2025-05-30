@@ -1,0 +1,34 @@
+﻿set htmlTemplate to {{
+	<html>
+	<head>
+	<title>[[pageTitle]]</title>
+	</head>
+	<body>
+	<h1>[[pageTitle]]</h1>
+	<hr/>
+	<h3>Scripts in folder: [[scriptFolder]] as of [[the international date]]</h3>
+	<hr/>
+	[[repeat with each item of (the files of scriptFolder sorted)]]
+	<p>
+	<b>[[it]]</b>
+	<br/>&nbsp;&nbsp;Last changed: [[international date of it.modificationDate]]
+	<br/>&nbsp;&nbsp;Size: [[it.size]]
+	</p>
+	[[end repeat]]
+	</body>
+	</html>
+                    
+}}
+log htmlTemplate
+log format("%b",htmlTemplate)
+
+put documentTreeFromHTML(htmlTemplate ) into b
+Log b
+
+
+repeat with each item of (the files of scriptFolder sorted)
+	
+log it
+Last changed: [[international date of it.modificationDate]]
+Size: it.size
+end repeat

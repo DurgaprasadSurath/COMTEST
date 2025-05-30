@@ -1,0 +1,59 @@
+﻿GetCookie
+put GetLatestRunId() as tree into file ResourcePath("Runids.txt") 
+put file ResourcePath("LatestRunId.txt") as tree into RunIds
+if first line of RunIds contains "<?xml" then delete first line of RunIds
+put all nodes "*/Entity" of RunIds into AllEntities
+put item 1 of AllEntities as tree into singleEntity
+put the text of node "/Entity/Fields/Field/Value" of singleEntity into LatestRunID 
+Put LatestRunID into the suiteVariables.LatestRunID
+
+
+
+put GetRunSteps() as tree into file ResourcePath("RunSteps2.txt")
+open file ResourcePath("RunSteps2.txt")
+if first line of file ResourcePath("RunSteps2.txt")  contains "<?xml" then delete first line of file ResourcePath("RunSteps2.txt") 
+
+put all nodes "*/Entity" of file ResourcePath("RunSteps2.txt")  into AllEntities
+set MyExcelFile to Workbook(ResourcePath("RunStepDetails2.xlsx")) 
+set Sheet1 to worksheet(MyExcelFile,1)
+put "Step ID" into Cell(Sheet1,[1,1])	
+put "Step Name" into Cell(Sheet1,[1,2])	
+put "Step Description" into Cell(Sheet1,[1,3])	
+put "Step Expected" into Cell(Sheet1,[1,4])	
+repeat the number of items of AllEntities times 
+	put item repeatIndex() of AllEntities as tree into singleEntity
+	put all nodes "*/Fields/Field" of singleEntity  into fields
+	put repeatIndex() into Count
+	repeat the number of items of fields times
+		put item repeatIndex() of fields as tree  into field
+		if field.Name is "id" then 			
+			put the text of node "/Field/Value" of field into stepId	
+			put stepId into Cell(Sheet1,[Count+1,1])			
+		else if field.Name is "name" then
+			put the text of node "/Field/Value" of field into nameValue
+			put nameValue into Cell(Sheet1,[Count+1,2])			
+		else if field.Name is "description" then 
+			put the text of node "/Field/Value" of field into descriptionValue
+			deleteUnwantedTags descriptionValue
+			put the result into Cell(Sheet1,[Count+1,3])			
+		else if field.Name is "expected" then 
+			put the text of node "/Field/Value" of field into expectedValue
+			deleteUnwantedTags expectedValue
+			put the result into Cell(Sheet1,[Count+1,4])
+		end if
+	end repeat
+	Log "Done with filling Excel sheet with Step Id, Step Name, Step Description and Step Expected values."
+end repeat
+
+
+
+to handle deleteUnwantedTags almValue
+	if almValue contains "<html><body>" then delete "<html><body>" from almValue
+	if almValue contains "</body></html>" then delete "</body></html>" from almValue
+	if almValue contains "<br /><br />" then replace "<br /><br />" by "." in almValue
+	if almValue contains "<br />" then replace "<br />" by space in almValue
+	if almValue contains "&amp;" then replace  "&amp;" by "&" in almValue
+	if almValue contains "&gt;" then replace  "&gt;" by ">" in almValue
+	return almValue
+end deleteUnwantedTags  
+

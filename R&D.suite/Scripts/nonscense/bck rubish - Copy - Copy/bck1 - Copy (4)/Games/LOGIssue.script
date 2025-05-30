@@ -1,0 +1,5 @@
+﻿set the ScriptLogging to off
+
+repeat 1000 times 
+	Log repeatIndex()
+end repeat

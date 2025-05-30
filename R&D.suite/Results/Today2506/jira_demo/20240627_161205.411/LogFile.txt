@@ -1,0 +1,3 @@
+﻿2024-06-27 16:12:05.418 +0530	START		Running Today2506/jira_demo.script
+2024-06-27 16:12:07.119 +0530	EndTestCase		(Duration:"1.696", Errors:"0", Exceptions:"0", StartTime:"2024-06-27 16:12:05 +0530", Successes:"1", TestCase:"Today2506/jira_demo.script", Warnings:"0")
+2024-06-27 16:12:07.155 +0530	SUCCESS		Execution Time 0:00:01 Today2506/jira_demo.script

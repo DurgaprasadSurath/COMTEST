@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999641.855,
+	"ocrcapturestring": "chrome htt|js://my359835-sso.erm.ondemand.com/\tv",
+	"originalcapturelocation": [
+		83,
+		924,
+		313,
+		19
+	],
+	"createddate": 1724999641.855,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "chrome htt|js://my359835-sso.erm.ondemand.com/\tv",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[46,10]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					83,
+					924,
+					313,
+					19
+				],
+				"name": "chromehttjsmy359835ssoermondem.png"
+			}
+	],
+	"name": "chromehttjsmy359835ssoermondem"
+}

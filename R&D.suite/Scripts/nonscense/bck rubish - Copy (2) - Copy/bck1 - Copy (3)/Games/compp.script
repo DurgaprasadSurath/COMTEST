@@ -1,0 +1,12 @@
+﻿repeat 5 times
+	set the CompareScreenAction to "Warning"
+	CompareScreen name: "tutorialSut_menu", rectangle: (244,300,1304,1003)
+	log the result
+	put the result into temp	
+	drag (861,694)
+	drop (861,694) +(100,0)
+	if temp contains "Changed" or if temp contains "New" then 
+		Log "3D view is displayed."
+	end if
+end repeat
+

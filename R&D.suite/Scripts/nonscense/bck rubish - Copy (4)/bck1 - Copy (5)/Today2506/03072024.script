@@ -1,0 +1,30 @@
+﻿
+to runStandaloneBatFile batFilePath,SUT
+	if SUT is not empty then 
+		TypeText windowsKey,"r"
+		TypeText batFilePath,return
+	else 
+		shell "C:\Windows\System32\cmd.exe", " /c"&&batFilePath
+	end if 
+	wait 20
+end runStandaloneBatFile
+
+
+to establishConnection Url
+	if ConnectionInfo().ServerID is not empty then 
+		put webDriver (host:ConnectionInfo().ServerID, browser: "chrome", port: "4444", url:url) into driver
+	else 
+		put webDriver (host:item 3 of the hostAddresses, browser: "chrome", port: "4444", url:url) into driver
+	end if 
+end establishConnection
+
+
+runStandaloneBatFile "C:\Selenium-Grid\RunSeleniumServer.bat"
+establishConnection "file://C:\Users\durgaprasad.surath\Desktop\RollingText.html"
+
+Repeat for 0.4 minutes
+	Log repeatIndex()
+End repeat
+
+convert 600 seconds to minutes
+log it

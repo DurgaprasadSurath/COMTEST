@@ -1,0 +1,51 @@
+﻿to convertNumberToBinary MyNumber
+	repeat with each character of MyNumber
+		put it as number into eachChar
+		set the numberformat to "binary4"
+		put last 4 characters of eachChar after MyBinaryNumber
+		set the numberformat to "0.######"
+	end repeat
+	return MyBinaryNumber
+end convertNumberToBinary
+
+to performBitAnd input1, input2
+	set the numberformat to "binary16"
+	Log input1,input2
+	put input1 bitAnd input2 into output
+	put output
+	--set the numberformat to "binary16"
+	put output into MyBinaryOutput
+	return [MyBinaryOutput as text, MyBinaryOutput]
+end performBitAnd
+
+set num1 to convertNumberToBinary("9089")
+Log num1
+set num2 to convertNumberToBinary("1345")
+Log num2
+Log performBitAnd(num1,num2)
+
+set the numberformat to "binary16"
+log 1234
+
+log 1001000010001001 as number
+--0000   0100  1101  0010
+log 1001000010001001 bitAnd 0001001101000101
+
+log "1001000010001001" bitAnd "0001001101000101" 
+
+log 1001000010001001 as binary bitAnd 0001001101000101 as binary
+
+log 1001000010001001 as number bitAnd 0001001101000101 as number
+
+log 1001000010001001 as text bitAnd 0001001101000101 as text
+
+log 1001000010001001 as hexadecimal bitAnd 0001001101000101 as hexadecimal
+
+log 1001000010001001 as bytes bitAnd 0001001101000101 as bytes
+
+log 1001000010001001 as bit bitAnd 0001001101000101 as bit
+
+log 1001000010001001 as bits bitAnd 0001001101000101 as bits
+
+log 1001000010001001 as bytes bitAnd 0001001101000101 as bytes
+

@@ -1,0 +1,52 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/ScalingProperty.script",
+				"identifier": "START",
+				"timestamp": "2024-04-05 10:04:22.778 +0530"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-05 10:04:23.742 +0530",
+				"scriptName": "Games/ScalingProperty.script",
+				"message": "at (198, 107)",
+				"image": "(TEXT:\"dès\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-05 10:04:24.491 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Games/ScalingProperty.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-05 10:04:25.244 +0530",
+				"message": "[controlKey]c",
+				"scriptName": "Games/ScalingProperty.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-05 10:04:25.335 +0530",
+				"scriptName": "Games/ScalingProperty.script",
+				"identifier": "Log",
+				"handlerLine": 9
+			},
+		{
+				"message": "(Duration:\"2.566\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-05 10:04:22 +0530\", Successes:\"1\", TestCase:\"Games/ScalingProperty.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-05 10:04:25.360 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:02 Games/ScalingProperty.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-05 10:04:25.527 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-05 10:04:22.792 +0530"
+}

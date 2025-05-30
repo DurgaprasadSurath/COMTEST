@@ -1,0 +1,3 @@
+﻿2024-02-22 10:29:29.306 +0530	START		Running postcsv2.apitest
+2024-02-22 10:29:29.567 +0530	EndTestCase		(Duration:"0.257", Errors:"0", Exceptions:"0", StartTime:"2024-02-22 10:29:29 +0530", Successes:"1", TestCase:"postcsv2.apitest", Warnings:"0")
+2024-02-22 10:29:29.632 +0530	SUCCESS		Execution Time 0:00:00 postcsv2.apitest

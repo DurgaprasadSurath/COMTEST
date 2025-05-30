@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/postCSV3_script" package="R&amp;D.suite" timestamp="2024-02-22 09:50:46.337 +0530"
+ tests="1"  failures="0" errors="0" time="1.252000">
+  <properties>
+   <property name="RunDate" value="2024-02-22 09:50:46.337 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Games/postCSV3.script" assertions="1" status="success"  time="1.251">
+  </testcase>
+ </testsuite>
+</testsuites>

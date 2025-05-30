@@ -1,0 +1,4 @@
+﻿2024-04-03 20:08:49.156 +0530	START		Running Games/ScalingProperty.script
+2024-04-03 20:08:49.251 +0530	imagelocation	Paint_SC1	at (786, 553)	1	on_scalingproperty	Games/ScalingProperty.script
+2024-04-03 20:08:49.368 +0530	EndTestCase		(Duration:"0.202", Errors:"0", Exceptions:"0", StartTime:"2024-04-03 20:08:49 +0530", Successes:"1", TestCase:"Games/ScalingProperty.script", Warnings:"0")
+2024-04-03 20:08:49.497 +0530	SUCCESS		Execution Time 0:00:00 Games/ScalingProperty.script

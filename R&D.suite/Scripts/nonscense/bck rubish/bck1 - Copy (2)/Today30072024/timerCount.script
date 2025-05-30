@@ -1,0 +1,22 @@
+﻿Repeat for 1 second
+	Log repeatIndex()
+End repeat
+
+
+
+
+set temp to ["Hi hello", "This is having , comma", "this is having . fullstop"]
+
+repeat with each item of temp 
+	Log it
+end repeat
+
+set [x1,y1,x2,y2] to [100, 20 , 30 ,300]
+put ImageRectangle(text:"Not a real phone") into customRect
+log customRect
+set  global SearchRect to [[customRect.X+x1,customRect.Y+y1],[customRect.X+x2,customRect.Y+y2]]
+log  global SearchRect
+set the SearchRectangle to global SearchRect
+wait 5
+
+

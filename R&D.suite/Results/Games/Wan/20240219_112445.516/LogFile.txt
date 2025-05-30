@@ -1,0 +1,17 @@
+﻿2024-02-19 11:24:45.525 +0530	START		Running Games/Wan.script
+2024-02-19 11:24:45.610 +0530	Log		123	5	on_wan	Games/Wan.script
+2024-02-19 11:24:45.630 +0530	Log			9	on_wan	Games/Wan.script
+2024-02-19 11:24:45.636 +0530	Log		==================================================================	11	on_wan	Games/Wan.script
+2024-02-19 11:24:45.660 +0530	Log		123	17	on_wan	Games/Wan.script
+2024-02-19 11:24:45.684 +0530	Log			21	on_wan	Games/Wan.script
+2024-02-19 11:24:45.689 +0530	Log		==================================================================	23	on_wan	Games/Wan.script
+2024-02-19 11:24:45.713 +0530	Log		123	29	on_wan	Games/Wan.script
+2024-02-19 11:24:45.736 +0530	Log			33	on_wan	Games/Wan.script
+2024-02-19 11:24:45.741 +0530	Log		==================================================================	35	on_wan	Games/Wan.script
+2024-02-19 11:24:45.768 +0530	Log		123	41	on_wan	Games/Wan.script
+2024-02-19 11:24:45.808 +0530	Log			45	on_wan	Games/Wan.script
+2024-02-19 11:24:45.814 +0530	Log		==================================================================	47	on_wan	Games/Wan.script
+2024-02-19 11:24:45.845 +0530	Log		123	53	on_wan	Games/Wan.script
+2024-02-19 11:24:45.880 +0530	Log		123	57	on_wan	Games/Wan.script
+2024-02-19 11:24:45.914 +0530	EndTestCase		(Duration:"0.383", Errors:"0", Exceptions:"0", StartTime:"2024-02-19 11:24:45 +0530", Successes:"1", TestCase:"Games/Wan.script", Warnings:"0")
+2024-02-19 11:24:46.032 +0530	SUCCESS		Execution Time 0:00:00 Games/Wan.script

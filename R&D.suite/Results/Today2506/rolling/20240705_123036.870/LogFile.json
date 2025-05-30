@@ -1,0 +1,1476 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/rolling.script",
+				"identifier": "START",
+				"timestamp": "2024-07-05 12:30:36.875 +0530"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:36.959 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.066 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.317 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.357 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.449 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.662 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.785 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:37.919 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.023 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.132 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.341 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.421 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.529 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.736 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.847 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:38.952 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.120 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.247 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.383 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.513 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.630 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.755 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.868 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:39.985 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.128 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.272 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.415 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.503 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.618 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.730 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.841 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.948 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:40.964 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.072 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.180 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.320 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.407 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.513 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.632 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.743 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.861 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:41.962 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.069 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.187 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.305 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.428 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.537 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.630 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.763 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.894 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:42.984 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.107 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.238 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.354 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.511 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.657 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.791 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:43.909 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.031 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.121 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.248 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.361 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.559 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.579 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.695 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.799 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:44.904 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.030 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.147 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.271 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.398 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.531 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.642 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.843 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:45.966 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.084 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.221 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.360 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.477 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.590 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.708 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.727 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.834 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:46.940 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.048 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.161 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.407 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.541 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.669 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.787 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:47.907 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.051 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.179 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.320 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.444 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.559 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.792 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:48.931 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.029 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.143 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.261 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.389 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.496 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.704 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.825 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:49.967 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.157 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.266 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.376 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.484 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.597 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.707 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.816 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:50.924 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.035 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.144 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.256 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.367 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.476 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.627 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.745 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.865 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:51.976 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.078 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.185 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.292 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.463 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.578 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.692 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.712 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.827 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:52.938 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.046 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.152 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.268 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.392 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.506 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.622 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.732 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.850 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:53.956 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.064 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.173 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.306 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.416 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.539 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.660 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.776 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:54.907 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.045 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.118 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.260 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.375 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.493 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.604 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.713 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.817 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:55.941 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.041 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.149 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.259 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.377 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.500 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.611 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.718 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.831 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:56.936 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.046 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.161 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.268 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.374 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.483 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.587 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.691 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.799 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:57.907 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:58.011 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:58.114 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:58.226 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:58.328 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:58.441 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:30:58.547 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"message": "(Duration:\"21.952\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-07-05 12:30:36 +0530\", Successes:\"0\", TestCase:\"Today2506/rolling.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-05 12:30:58.831 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:21 Today2506/rolling.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-07-05 12:30:58.840 +0530"
+			}
+	],
+	"createdTimestamp": "2024-07-05 12:30:36.878 +0530"
+}

@@ -1,0 +1,15 @@
+﻿
+
+to enterText var
+	SetRemoteClipboard empty
+	wait 0.6
+	SetRemoteClipboard var
+	wait 0.6
+	TypeText controlKey,"v"
+end enterText
+
+enterText "Hello!"
+enterText "Keysight"
+enterText "-"
+enterText "Eggplant Test | Automation Intelligence"
+enterText "@27June2024"

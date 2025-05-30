@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/Utility.script",
+				"identifier": "START",
+				"timestamp": "2024-08-30 12:32:09.202 +0530"
+			},
+		{
+				"handlerName": "on_createtestdata",
+				"timestamp": "2024-08-30 12:32:16.274 +0530",
+				"message": "TypeText \"run\"",
+				"scriptName": "Exata/Utility.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createtestdata",
+				"timestamp": "2024-08-30 12:32:16.307 +0530",
+				"message": "TypeText \"keysight.com\",Return",
+				"scriptName": "Exata/Utility.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createtestdata",
+				"timestamp": "2024-08-30 12:32:16.338 +0530",
+				"message": "TypeText \"hello\"",
+				"scriptName": "Exata/Utility.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"7.477\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-30 12:32:09 +0530\", Successes:\"1\", TestCase:\"Exata/Utility.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-30 12:32:16.701 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:07 Exata/Utility.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-30 12:32:16.780 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-30 12:32:09.218 +0530"
+}

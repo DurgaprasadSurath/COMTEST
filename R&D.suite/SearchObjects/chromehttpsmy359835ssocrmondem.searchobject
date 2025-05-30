@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999639.892,
+	"ocrcapturestring": "lGhromehttp«//my3598352SSOicrmiondem2ndicom/",
+	"originalcapturelocation": [
+		83,
+		927,
+		279,
+		17
+	],
+	"createddate": 1724999639.892,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "lGhromehttp«//my3598352SSOicrmiondem2ndicom/",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[59,7]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					83,
+					927,
+					279,
+					17
+				],
+				"name": "chromehttpsmy359835ssocrmondem.png"
+			}
+	],
+	"name": "chromehttpsmy359835ssocrmondem"
+}

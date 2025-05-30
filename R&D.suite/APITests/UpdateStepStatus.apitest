@@ -1,0 +1,51 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = None;
+    httpVerb = PUT;
+    oauth1Token = "";
+    password = "";
+    requestBody = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>
+<Entity Type=\"run-step\">
+	<Fields>
+		<Field Name=\"status\">
+			<Value>Passed</Value>
+		</Field>
+		<Field Name=\"description\">
+			<Value>Check pre-requisites are in place</Value>
+		</Field>
+		<Field Name=\"execution-date\">
+			<Value>2022-08-04</Value>
+		</Field>
+		<Field Name=\"execution-time\">
+			<Value>10:16:37</Value>
+		</Field>
+		<Field Name=\"expected\">
+			<Value>Pre-requisites are in place- 1. Data file: GLOIT-RRS-UAT-063.txt 2. Access to following accounts - OR Contributor and OR Validator</Value>
+		</Field>	
+		<Field Name=\"has-picture\">
+			<Value>N</Value>
+		</Field>
+<Field Name=\"attachment\">
+			<Value>Y</Value>
+		</Field>
+	</Fields>
+</Entity>
+
+";
+    requestBodyFormat = "XML (application/xml)";
+    requestHeaders = "<![CDATA[Cookie:[[ALMCookie]]
+Content-Type:application/xml
+]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "[[BaseURL]]/rest/domains/[[Domain]]/projects/[[Project]]/runs/[[LatestRunID]]/run-steps/207049";
+    userName = "";
+}

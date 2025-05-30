@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/XMLReadingMultichilds_script" package="R&amp;D.suite" timestamp="2024-04-11 14:46:03.497 +0530"
+ tests="1"  failures="1" errors="0" time="0.127000">
+  <properties>
+   <property name="RunDate" value="2024-04-11 14:46:03.497 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Games/XMLReadingMultichilds.script" assertions="1" status="failure"  time="0.11">
+    <failure type="FAILURE" message="InvalidValueExpr: Unable to take value of expression &apos;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;⏎&lt;note importance=&quot;high&quot; logged=&quot;true&quot;&gt;⏎\t&lt;E1IDB02 SEGMENT...&apos; (reason: (null)) -- Execution Time 0:00:00 Games/XMLReadingMultichilds.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

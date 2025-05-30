@@ -1,0 +1,36 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "order-by";
+	    showCheckedNumber = <*BY>;
+	    value = "{id[DESC]}";
+	},
+	{
+	    checkedNumber = <*BY>;
+	    param = "page-size";
+	    showCheckedNumber = <*BY>;
+	    value = 1;
+	},
+	{
+	    checkedNumber = <*BY>;
+	    param = fields;
+	    showCheckedNumber = <*BY>;
+	    value = "id,testcycl-id";
+	}
+    );
+    authenticationType = None;
+    httpVerb = GET;
+    oauth1Token = "";
+    password = "";
+    requestBody = "";
+    requestBodyFormat = "Form Url Encoded";
+    requestHeaders = "<![CDATA[Content-Type:application/json
+Cookie:[[ALMCookie]]
+]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "[[BaseURL]]/rest/domains/[[Domain]]/projects/[[Project]]/runs?order-by={id[DESC]}&page-size=1&fields=id,testcycl-id";
+    userName = "";
+}

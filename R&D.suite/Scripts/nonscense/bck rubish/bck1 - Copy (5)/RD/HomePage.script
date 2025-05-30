@@ -1,0 +1,17 @@
+﻿to NopCommerceLogo_Validate
+	WaitFor 10, "NopCommerce_Logo"
+end NopCommerceLogo_Validate
+
+to PollOption_Select Option
+	Utilities.ScrollUntilFound "Communitypoll_Header"
+	wait 1
+	Moveto the center of the remoteScreenRectangle
+	ScrollWheelDown 2
+	wait 2
+	Click Option
+end PollOption_Select
+
+to ViewNews_Validate
+	Utilities.BacktoTop
+	Utilities.ScrollUntilFound "News_Header"
+end ViewNews_Validate

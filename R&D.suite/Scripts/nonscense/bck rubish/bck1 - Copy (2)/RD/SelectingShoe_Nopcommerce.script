@@ -1,0 +1,65 @@
+﻿params size,color,print
+
+
+BeginTestCase "Launch"
+Eggplant_Functional_Exercise_1.LauncApplication
+EndTestCase "Launch"
+
+
+(*to handle LauncApplication
+	TypeText windowsKey,"r"
+	Typetext "Chrome http://nopcommerce.testplant.com",return
+	TypeText windowsKey, "upArrow"
+	wait 2	
+end LauncApplication*)
+
+BeginTestCase "selectingCurrency"
+CurrencyType.currencyType Euro
+EndTestCase "selectingCurrency"
+
+to handle shoesMenu
+	Moveto text:"Apparel",waitfor:30
+	click text:"Shoes",waitfor:30
+end shoesMenu
+
+to handle selectShoe size,color,print
+	repeat until ImageFound(text:"Nike Floral Roshe Customized Running Shoes", waitFor:30)
+		ScrollWheelDown 10
+		if repeatIndex()>10
+			log "dropdown value is selected"
+		end if
+	end repeat
+	click text:"Nike Floral Roshe Customized Running Shoes",hotspot:[0,y]
+	click text:"Size",hotspot:[0,y],waitfor:20
+	click text:size
+	click text:"Color",hotspot:[0,y],waitfor:20
+	click text:color
+	if print is "Natural"
+		click image:"Natural"
+	else if print is "Fresh"
+		click image:"Fresh"
+	else
+		Log "Print Option is not selected"
+	end if
+	click text:"ADD TO CART",waitfor:30
+end selectShoe
+
+to handle verfiyNotification
+	set SearchRectangle to SR.ScreenPart("TopHalf")
+	if "The product has been added to your shopping cart" is ReadText(image:"Notification_Bar")
+		Log "Product succefully added to Shopping cart"
+	else
+		Log "Product Not added to Shopping cart"
+	end if
+end verfiyNotification
+
+to handle verfiyShoppingcart
+	repeat until ImageFound(text:"Shopping cart", waitFor:30)
+		ScrollWheelUp 10
+		if repeatIndex()>10
+			log "dropup value is selected"
+		end if
+	end repeat
+	click text:"Shopping cart",waitfor:30
+end verfiyShoppingcart
+

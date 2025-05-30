@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/rolling.script",
+				"identifier": "START",
+				"timestamp": "2024-07-05 12:34:58.332 +0530"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:35:08.424 +0530",
+				"message": "ThisThisThis text 1This text is scrolThis text is scrollingThis text is scrolling fronThis text is scrolling from risscrolling from right to left.scrolling from right to left. Kefrom risht to left. Keysishtrom risht to left. Keysisht - Esrom risht to left. Keysisht - Eszht to left. Kevsisht - Essplantto left. Kevsisht - Essplantro left. Kevsieht - Eggplant. Keysisht - EssplantCeysisht - Essplantight - EggplantEssplantzsplanttThisThis texr is1 his text is scro1 his text is scrolliiThis text is scrolling :This text is scrolling fro:This text is scrolling fromThis text is scrolling from ristext is scrolling from rightext is scrolling from right to lescrolling from right to left. Keins from right to left. Kevsiehlfrom risht to left. Keysight - Ei nsht to left. Kevsisht - Essplzht to left. Kevsisht - Essplantleft. Kevsisht - E ssplant. Keysight - Eggplantevsisht - Essplanriisht - Eggplantht - Essplantsplantt",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:35:08.429 +0530",
+				"message": "AUT has no text.",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 9,
+				"identifier": "LogWarning"
+			},
+		{
+				"message": "(Duration:\"10.199\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-07-05 12:34:58 +0530\", Successes:\"1\", TestCase:\"Today2506/rolling.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-05 12:35:08.537 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:10 Today2506/rolling.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-07-05 12:35:08.658 +0530"
+			}
+	],
+	"createdTimestamp": "2024-07-05 12:34:58.336 +0530"
+}

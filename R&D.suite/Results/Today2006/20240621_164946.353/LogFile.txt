@@ -1,0 +1,5 @@
+﻿2024-06-21 16:49:46.362 +0530	START		Running Today2006.script
+2024-06-21 16:49:46.466 +0530	Log		Denver	30	on_today2006	Today2006.script
+2024-06-21 16:49:46.479 +0530	Log		{people:[{airports:["Denver International","Rocky Mountain Metropolitan","Centennial","Front Range"], city:"SURATH", coordinates:[39.7392,104.9903], elevation:5280, locatedInMountains:"False", stateCapital:"True"},{airports:["Denver International","Rocky Mountain Metropolitan","Centennial","Front Range"], city:"London", coordinates:[39.7392,104.9903], elevation:5280, locatedInMountains:"False", stateCapital:"True"}]}	33	on_today2006	Today2006.script
+2024-06-21 16:49:46.517 +0530	EndTestCase		(Duration:"0.148", Errors:"0", Exceptions:"0", StartTime:"2024-06-21 16:49:46 +0530", Successes:"1", TestCase:"Today2006.script", Warnings:"0")
+2024-06-21 16:49:46.691 +0530	SUCCESS		Execution Time 0:00:00 Today2006.script

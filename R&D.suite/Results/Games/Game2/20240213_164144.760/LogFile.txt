@@ -1,0 +1,5 @@
+﻿2024-02-13 16:41:44.767 +0530	START		Running Games/Game2.script
+2024-02-13 16:41:44.820 +0530	Log		this script runs	1	function_ffte	Games/ffte.script
+2024-02-13 16:41:44.827 +0530	Log		Hello 	2	on_game2	Games/Game2.script
+2024-02-13 16:41:44.847 +0530	EndTestCase		(Duration:"0.076", Errors:"0", Exceptions:"0", StartTime:"2024-02-13 16:41:44 +0530", Successes:"1", TestCase:"Games/Game2.script", Warnings:"0")
+2024-02-13 16:41:44.967 +0530	SUCCESS		Execution Time 0:00:00 Games/Game2.script

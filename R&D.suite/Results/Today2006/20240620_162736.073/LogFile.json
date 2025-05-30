@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2006.script",
+				"identifier": "START",
+				"timestamp": "2024-06-20 16:27:36.078 +0530"
+			},
+		{
+				"handlerName": "on_today2006",
+				"timestamp": "2024-06-20 16:27:36.129 +0530",
+				"message": "{people:[{airports:[\"Denver International\",\"Rocky Mountain Metropolitan\",\"Centennial\",\"Front Range\"], city:\"Denver\", coordinates:[39.7392,104.9903], elevation:5280, locatedInMountains:\"False\", stateCapital:\"True\"},{airports:[\"Denver International\",\"Rocky Mountain Metropolitan\",\"Centennial\",\"Front Range\"], city:\"London\", coordinates:[39.7392,104.9903], elevation:5280, locatedInMountains:\"False\", stateCapital:\"True\"}]}",
+				"scriptName": "Today2006.script",
+				"handlerLine": 26,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_today2006",
+				"timestamp": "2024-06-20 16:27:36.134 +0530",
+				"message": "Empty",
+				"scriptName": "Today2006.script",
+				"handlerLine": 28,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.074\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-20 16:27:36 +0530\", Successes:\"1\", TestCase:\"Today2006.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-20 16:27:36.158 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Today2006.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-20 16:27:36.260 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-20 16:27:36.081 +0530"
+}

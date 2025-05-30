@@ -1,0 +1,7 @@
+﻿2024-08-30 10:04:01.336 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-30 10:04:01.703 +0530	Log		C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Scripts/gen_kal.script	3	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:04:01.713 +0530	Log		TypeText Param1,Return	11	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:04:01.728 +0530	Log		TypeText Param2,Return	11	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:04:01.728 +0530	Log		TypeText Param3,Return	11	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:04:01.760 +0530	EndTestCase		(Duration:"0.424", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 10:04:01 +0530", Successes:"1", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-30 10:04:01.839 +0530	SUCCESS		Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

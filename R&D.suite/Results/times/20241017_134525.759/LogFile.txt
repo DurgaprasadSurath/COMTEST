@@ -1,0 +1,5 @@
+﻿2024-10-17 13:45:25.768 +0530	START		Running Untitled1.script
+2024-10-17 13:45:25.813 +0530	Log		2024-10-17 13:45:25 +0530	1	on_untitled1	Untitled1.script
+2024-10-17 13:45:25.840 +0530	Log		False	5	on_untitled1	Untitled1.script
+2024-10-17 13:45:25.874 +0530	EndTestCase		(Duration:"0.104", Errors:"0", Exceptions:"0", StartTime:"2024-10-17 13:45:25 +0530", Successes:"1", TestCase:"Untitled1.script", Warnings:"0")
+2024-10-17 13:45:25.919 +0530	SUCCESS		Execution Time 0:00:00 Untitled1.script

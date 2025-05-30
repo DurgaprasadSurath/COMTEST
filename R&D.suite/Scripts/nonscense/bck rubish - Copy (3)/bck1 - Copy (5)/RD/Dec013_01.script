@@ -1,0 +1,5 @@
+﻿put "prasad" into name_1 
+Dec013_1
+put Dec013_1().responseBody into temp
+log temp
+

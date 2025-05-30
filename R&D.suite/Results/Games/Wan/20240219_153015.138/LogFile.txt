@@ -1,0 +1,19 @@
+﻿2024-02-19 15:30:15.153 +0530	START		Running Games/Wan.script
+2024-02-19 15:30:15.464 +0530	Log		123	6	on_wan	Games/Wan.script
+2024-02-19 15:30:15.536 +0530	Log			10	on_wan	Games/Wan.script
+2024-02-19 15:30:15.546 +0530	Log		==================================================================	12	on_wan	Games/Wan.script
+2024-02-19 15:30:15.666 +0530	Log		123	18	on_wan	Games/Wan.script
+2024-02-19 15:30:15.712 +0530	Log			22	on_wan	Games/Wan.script
+2024-02-19 15:30:15.724 +0530	Log		==================================================================	24	on_wan	Games/Wan.script
+2024-02-19 15:30:15.850 +0530	Log		123	30	on_wan	Games/Wan.script
+2024-02-19 15:30:15.943 +0530	Log			34	on_wan	Games/Wan.script
+2024-02-19 15:30:15.953 +0530	Log		==================================================================	36	on_wan	Games/Wan.script
+2024-02-19 15:30:16.101 +0530	Log		123	42	on_wan	Games/Wan.script
+2024-02-19 15:30:16.202 +0530	Log		123	46	on_wan	Games/Wan.script
+2024-02-19 15:30:16.210 +0530	Log		==================================================================	48	on_wan	Games/Wan.script
+2024-02-19 15:30:16.311 +0530	Log		123	54	on_wan	Games/Wan.script
+2024-02-19 15:30:16.362 +0530	Log		123	58	on_wan	Games/Wan.script
+2024-02-19 15:30:16.684 +0530	readtext		(100,200)	61	on_wan	Games/Wan.script
+2024-02-19 15:30:16.692 +0530	Log		Rorvrlp Rin Wnrk - Fd	61	on_wan	Games/Wan.script
+2024-02-19 15:30:16.878 +0530	EndTestCase		(Duration:"1.711", Errors:"0", Exceptions:"0", StartTime:"2024-02-19 15:30:15 +0530", Successes:"1", TestCase:"Games/Wan.script", Warnings:"0")
+2024-02-19 15:30:17.238 +0530	SUCCESS		Execution Time 0:00:01 Games/Wan.script

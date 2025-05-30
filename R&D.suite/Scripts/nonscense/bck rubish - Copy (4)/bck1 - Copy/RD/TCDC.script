@@ -1,0 +1,146 @@
+﻿
+to handle TestCaseCreator
+	params ExcelFile,Model
+	set separator to "#"
+	set MyExcelFile to Workbook(ResourcePath(ExcelFile)) 
+	set Sheet1 to worksheet(MyExcelFile,1)
+	put file ResourcePath(Model) into fileContents
+	
+	put "Subject" into Cell(Sheet1,[1,1])
+	put "TestCase Name" into Cell(Sheet1,[1,2])
+	put "Type" into Cell(Sheet1,[1,3])
+	put "Description" into Cell(Sheet1,[1,4])
+	put "Step Name" into Cell(Sheet1,[1,5])
+	put "Description (Design Steps)" into Cell(Sheet1,[1,6])
+	put "Expected Result (Design Steps)" into Cell(Sheet1,[1,7])
+	put "Approval Status" into Cell(Sheet1,[1,8])
+	put "GxP Flag" into Cell(Sheet1,[1,9])
+	put "Test Script Phase" into Cell(Sheet1,[1,10])
+	
+	put JSONValue(fileContents) into DenverInfo
+	put DenverInfo.testcases into TestcaseContent2
+	put TestcaseContent2 as property list into tempcontent
+	set Global ActionsCount to 0
+	repeat the number of items of tempcontent times
+		put item repeatIndex() of tempcontent into temp2
+		put temp2's testcaseName into item repeatIndex() of Global TestNameList
+		put temp2's testcaseDescription into item repeatIndex() of Global TestDescriptionList
+		put temp2's testcase into RawTestCaseData
+		//Log RawTestCaseData
+		repeat the number of items of RawTestCaseData times
+			put  item repeatIndex() of RawTestCaseData into RawItem
+			//	Log RawItem
+			if RawItem contains "::"
+				split RawItem by "::"
+				if item 2 of RawItem contains "Param"
+					put item 2 of RawItem into RawItemTemp
+					split RawItemTemp by "Param"
+					if item 1 of RawItemTemp contains "\" then 
+						delete every occurence of "\" in item 1 of RawItemTemp
+					end if 
+					if item 1 of RawItemTemp contains quote then 
+						delete every occurence of quote in item 1 of RawItemTemp
+					end if 
+					if last character of  item 1 of RawItemTemp is space then 
+						delete last character of  item 1 of RawItemTemp
+					end if
+					Log item 1 of RawItemTemp &&"1st if"&& repeatIndex()
+					put item 1 of RawItemTemp into item repeatIndex() of  Global Action
+				else 
+					if item 2 of RawItem contains "\" then 
+						delete every occurence of "\" in item 2 of RawItem
+					end if 
+					if item 2 of RawItem contains quote then 
+						delete every occurence of quote in item 2 of RawItem
+					end if 
+					if last character of item 2 of RawItem is space then 
+						delete last character of  item 2 of RawItem
+					end if
+					Log item 2 of RawItem &&"1 else"&& repeatIndex()
+					put item 2 of RawItem into item repeatIndex() of Global Action
+				end if 
+			else 
+				split RawItem by space
+				if last character of item 2 of RawItem is space then
+					delete last character of item 2 of RawItem
+				end if 
+				if item 2 of RawItem contains "\" then  
+					delete every occurrence of "\" in item 2 of RawItem 
+				end if 
+				if item 2 of RawItem contains quote then 
+					delete every occurence of quote in item 2 of RawItem
+				end if 
+				Log item 2 of RwaItem &&"2nd else" && repeatIndex()
+				put item 2 of RwaItem into item repeatIndex() of Global Action
+			end if 
+		end repeat 
+		//Log  Global Action 
+		put the number of items of Global Action into Count
+		put Global ActionsCount into item repeatIndex() of Global ActionListCount
+		repeat Count times
+			put item repeatIndex() of Global Action into Cell(Sheet1,[repeatIndex()+Global ActionsCount+1,5])
+		end repeat
+		put (Global ActionsCount + Count) into Global ActionsCount 
+		set Global Action to empty
+	end repeat 
+	put the number of items of Global TestDescriptionList into DescriptionCount
+	
+	
+	repeat (DescriptionCount+1) times
+		if item repeatIndex() of Global TestNameList is empty 
+			exit repeat
+		end if
+		//TestCase name
+		put item repeatIndex() of Global TestNameList  into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,2])
+		//Test description
+		put item repeatIndex() of Global TestDescriptionList  into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,4])
+		//subject value in Templete
+		put "TestCaseFolderpath" into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,1])
+		//Type value in Templete
+		put "VAPI-XP-TEST" into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,3])
+		//Approval Status in Templete
+		put "VYerekar" into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,8])
+		//GxP Flag in Templete
+		put "Non-GxP" into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,9])
+		//Test Script Phase in Templete
+		put "SIT/IT" into Cell(Sheet1,[(item repeatIndex() of Global ActionListCount + 2) ,10])
+	end repeat 
+	
+	put Sheet1's cellRange("E") into StepRow
+	put the number of items of StepRow into StepRowCount
+	put DenverInfo.elements into ElementsContent2
+	put ElementsContent2 as property list into tempcontent
+	set global count to 0
+	repeat the number of items of tempcontent times
+		put item repeatIndex() of tempcontent as property list into tempcontent2
+		if tempcontent2's type is "Action" then
+			put global count +1 into  global count
+			//updating the actions into excel file
+			repeat StepRowCount times 
+				if tempcontent2's name is equal to Cell(Sheet1,[(repeatIndex() + 1),5]) then
+					//updating the templete with description with respective action
+					put tempcontent2's description into Temp
+					if Temp contains separator then
+						split Temp by separator
+						put item 1 of Temp into Cell(Sheet1,[(repeatIndex() + 1),6])
+						put item 2 of Temp into Cell(Sheet1,[(repeatIndex() + 1),7])
+					else
+						put Temp into Cell(Sheet1,[( repeatIndex()+ 1),6])
+					end if
+				end if
+			end repeat
+		end if
+	end repeat
+	Log "*DONE*"
+	Log "The Test cases has been created in "&quote&ExcelFile&quote&" File."
+	Log "*Please check the details in the file, before mapping it into ALM."
+end TestCaseCreator
+
+
+
+
+
+set Final_TestCase_ExcelFile to "New.xlsx"
+set Model_JsonFile to "e2eqms_itof (4).json"
+
+TestCaseCreator Final_TestCase_ExcelFile,Model_JsonFile

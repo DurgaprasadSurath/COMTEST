@@ -1,0 +1,8 @@
+﻿2024-09-20 15:27:33.781 +0530	START		Running Kcom.script
+2024-09-20 15:27:33.884 +0530	typetext		[commandKey]a	1	on_kcom	Kcom.script
+2024-09-20 15:27:33.900 +0530	set		KEYDOWNDELAY = 0.9	3	on_kcom	Kcom.script
+2024-09-20 15:27:41.068 +0530	typetext		34465A	4	on_kcom	Kcom.script
+2024-09-20 15:27:41.068 +0530	set		KEYDOWNDELAY = 0.001	5	on_kcom	Kcom.script
+2024-09-20 15:27:41.824 +0530	typetext		[controlKey]v	6	on_kcom	Kcom.script
+2024-09-20 15:27:41.839 +0530	EndTestCase		(Duration:"8.048", Errors:"0", Exceptions:"0", StartTime:"2024-09-20 15:27:33 +0530", Successes:"1", TestCase:"Kcom.script", Warnings:"0")
+2024-09-20 15:27:41.902 +0530	SUCCESS		Execution Time 0:00:08 Kcom.script

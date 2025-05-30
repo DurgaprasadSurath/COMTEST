@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_Contact_Us.script",
+				"identifier": "START",
+				"timestamp": "2024-04-24 10:50:22.492 +0530"
+			},
+		{
+				"message": "(Duration:\"0.097\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-04-24 10:50:22 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_Contact_Us.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-24 10:50:22.597 +0530"
+			},
+		{
+				"message": "STUnknownMessage: ERROR: No Such Function: 'myname' -- Execution Time 0:00:00 Tests/TC_B_Contact_Us.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-24 10:50:22.693 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-24 10:50:22.497 +0530"
+}

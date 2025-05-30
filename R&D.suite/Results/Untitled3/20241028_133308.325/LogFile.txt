@@ -1,0 +1,4 @@
+﻿2024-10-28 13:33:08.326 +0530	START		Running Untitled3.script
+2024-10-28 13:33:08.365 +0530	Log		Palos Verdes Estates	1	on_untitled3	Untitled3.script
+2024-10-28 13:33:08.381 +0530	EndTestCase		(Duration:"0.047", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 13:33:08 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 13:33:08.444 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

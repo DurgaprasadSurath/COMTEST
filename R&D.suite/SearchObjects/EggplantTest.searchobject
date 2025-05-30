@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724926222.3329999,
+	"ocrcapturestring": "Eggplant Test",
+	"originalcapturelocation": [
+		893,
+		674,
+		119,
+		21
+	],
+	"createddate": 1724926222.3329999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Eggplant Test",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[63,10]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					893,
+					674,
+					119,
+					21
+				],
+				"name": "EggplantTest.png"
+			}
+	],
+	"name": "EggplantTest"
+}

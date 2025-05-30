@@ -1,0 +1,3 @@
+﻿2024-08-29 16:07:42.296 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-29 16:07:42.469 +0530	EndTestCase		(Duration:"0.173", Errors:"1", Exceptions:"0", StartTime:"2024-08-29 16:07:42 +0530", Successes:"0", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-29 16:07:42.658 +0530	FAILURE	Screen_Error.png	Workbook Error: Wrong file type (must be 'xls' or 'xlsx' file): C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Resources/gen_kal.script -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

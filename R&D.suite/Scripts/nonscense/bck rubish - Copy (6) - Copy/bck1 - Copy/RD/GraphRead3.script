@@ -1,0 +1,17 @@
+﻿set the SearchRectangle to SearchArea.ScreenPart("BottomRightQuadrant")
+put ImageLocation(text:"Deviations",validWords:"*",validCharacters:"*",waitfor:10) into BarLocation 
+set Global MinVal to 0
+set BarWidth to [44,60,42]
+repeat 6 times
+	repeat number of items of BarWidth times
+		put [[BarLocation.x-977+Global MinVal,BarLocation.y-125],[BarLocation.x-933+Global MinVal,BarLocation.y+10]] into Bar
+		set the SearchRectangle to Bar
+		wait 3
+		put  ReadText(Bar) into temp
+		Log temp
+		set Global MinVal to Global MinVal+item repeatIndex() of BarWidth
+		Log item repeatIndex() of BarWidth
+		Log Global MinVal
+	end repeat
+	
+end repeat

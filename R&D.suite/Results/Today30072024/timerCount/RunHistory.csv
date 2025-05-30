@@ -1,0 +1,3 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-07-30 10:12:15.378 +0530,"Aborted",0:00:10,1,0,0,"20240730_101215.378/LogFile.txt","","",0
+2024-07-30 10:35:43.615 +0530,"Success",0:00:01,0,0,0,"20240730_103543.615/LogFile.txt","","",1

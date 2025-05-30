@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Untitled5_script" package="R&amp;D.suite" timestamp="2024-10-09 12:36:40.793 +0530"
+ tests="1"  failures="1" errors="0" time="0.295000">
+  <properties>
+   <property name="RunDate" value="2024-10-09 12:36:40.793 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Untitled5.script" assertions="1" status="failure"  time="0.294">
+    <failure type="FAILURE" message="STInvalidNumber: Value is not a number: &apos;&apos; -- Execution Time 0:00:00 Untitled5.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

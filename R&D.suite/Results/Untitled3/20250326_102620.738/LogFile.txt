@@ -1,0 +1,4 @@
+﻿2025-03-26 10:26:20.754 +0530	START		Running Untitled3.script
+2025-03-26 10:26:20.802 +0530	Log		Monterey Park	1	on_untitled3	Untitled3.script
+2025-03-26 10:26:20.821 +0530	EndTestCase		(Duration:"0.059", Errors:"0", Exceptions:"0", StartTime:"2025-03-26 10:26:20 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2025-03-26 10:26:21.062 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

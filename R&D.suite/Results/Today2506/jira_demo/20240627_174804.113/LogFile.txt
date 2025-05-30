@@ -1,0 +1,5 @@
+﻿2024-06-27 17:48:04.125 +0530	START		Running Today2506/jira_demo.script
+2024-06-27 17:48:05.041 +0530	Log		eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiJmYjExNjE2OC0wZjNjLTNhZTgtYjMzZS1kODdmYjY5ODU1OTEiLCJhY2NvdW50SWQiOiI2Mzg5Yzg1MzVmYzE2MDU0NGUxY2FmYmIiLCJpc1hlYSI6ZmFsc2UsImlhdCI6MTcxOTQ5MDY4NCwiZXhwIjoxNzE5NTc3MDg0LCJhdWQiOiI4MzU5QzBEN0IxRTE0QkU1OUU2NTk2RjY4REEwRkY1QyIsImlzcyI6ImNvbS54cGFuZGl0LnBsdWdpbnMueHJheSIsInN1YiI6IjgzNTlDMEQ3QjFFMTRCRTU5RTY1OTZGNjhEQTBGRjVDIn0.B0XIBN6w380WnHfDN3rinib4v8CCG2PjzhRip8jRGCU	8	on_jira_demo	Today2506/jira_demo.script
+2024-06-27 17:48:05.957 +0530	Log		{"error":"Unexpected field (field1)"}	14	on_jira_demo	Today2506/jira_demo.script
+2024-06-27 17:48:05.990 +0530	EndTestCase		(Duration:"1.865", Errors:"0", Exceptions:"0", StartTime:"2024-06-27 17:48:04 +0530", Successes:"1", TestCase:"Today2506/jira_demo.script", Warnings:"0")
+2024-06-27 17:48:06.025 +0530	SUCCESS		Execution Time 0:00:01 Today2506/jira_demo.script

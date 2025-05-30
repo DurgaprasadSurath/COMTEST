@@ -1,0 +1,6 @@
+﻿put GetListOfTestConfigurations1().responseBody into APIResponse
+log APIResponse.items
+
+
+put RunTestConfigurations().responseBody into APIResponse
+log APIResponse

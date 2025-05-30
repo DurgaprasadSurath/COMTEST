@@ -1,0 +1,4 @@
+﻿2024-04-11 18:20:18.833 +0530	START		Running Games/RunningPostman.script
+2024-04-11 18:20:18.868 +0530	Log		C:\Windows\System32\cmd.exe /c &&C:\Users\durgaprasad.surath\Downloads\RunPostmanColletion.bat "DAI Basic Endpoints.postman_collection.json"	1	on_runningpostman	Games/RunningPostman.script
+2024-04-11 18:20:18.891 +0530	EndTestCase		(Duration:"0.053", Errors:"0", Exceptions:"0", StartTime:"2024-04-11 18:20:18 +0530", Successes:"1", TestCase:"Games/RunningPostman.script", Warnings:"0")
+2024-04-11 18:20:18.981 +0530	SUCCESS		Execution Time 0:00:00 Games/RunningPostman.script

@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Kcom.script",
+				"identifier": "START",
+				"timestamp": "2024-09-20 14:56:09.679 +0530"
+			},
+		{
+				"handlerName": "on_kcom",
+				"timestamp": "2024-09-20 14:56:09.849 +0530",
+				"message": "[commandKey]a",
+				"scriptName": "Kcom.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_kcom",
+				"timestamp": "2024-09-20 14:56:10.764 +0530",
+				"message": "34465A",
+				"scriptName": "Kcom.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"1.1\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-09-20 14:56:09 +0530\", Successes:\"1\", TestCase:\"Kcom.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-20 14:56:10.779 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 Kcom.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-09-20 14:56:10.858 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-20 14:56:09.679 +0530"
+}

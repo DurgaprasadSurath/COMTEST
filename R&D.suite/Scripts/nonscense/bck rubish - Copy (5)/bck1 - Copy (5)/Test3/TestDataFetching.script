@@ -1,0 +1,23 @@
+﻿to fetchingTestData
+	Ask "Could you please provide the scenario that is present in the TestData file?" with "Scenario-1" title "Running the script for the given scenario." message "Could you please provide the scenario you want to run?"	
+	Set columnNamesAsSingleItem to universal mySheet's cellRange(1)
+	Set columnNames to item 1 of columnNamesAsSingleItem
+	Set columnNamesCount to the number of items of columnNames	
+	Set columnData to universal mySheet's cellRange("A") 		
+	Set columnCount to the number of items of columnData
+	Repeat columnCount times
+		If (Cell(universal mySheet, [repeatIndex() + 1, 2]) is scenario) then 
+			Set rowData to universal mySheet's cellRange(repeatIndex() + 1) 
+			Repeat with each item of columnNames
+				do "put 0 into Global"&&it
+				do "put item repeatIndex() of item 1 of rowData into Global"&&it
+			End repeat
+			Set Cell(universal mySheet, [repeatIndex() + 1, 1]) to "Executed"
+			exit repeat
+		End if
+	End repeat
+end fetchingTestData
+
+
+fetchingDataFromExcelFile "Book1.xlsx", "1", "TC01"
+

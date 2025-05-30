@@ -1,0 +1,120 @@
+﻿set the SuiteVariables.NameFormat to <chars then space then chars> 
+
+set the SuiteVariables.MailFormat to <chars then "@email.com"> 
+
+//set the SuiteVariables.PhoneFormat to <10 digits> 
+//set the SuiteVariables.PhoneFormat to  <maybe "91" then 10 digits>
+set the SuiteVariables.PhoneFormat to  <maybe "+" then maybe "91" then 10 digits>
+
+set the SuiteVariables.AddressFormat to <chars then comma then 6 digits> 
+
+set the SuiteVariables.BloodTypes to <"O+" or "O-" or "B+" or "B-" or "A+" or "A-" or "AB+" or "AB-"> 
+
+set the SuiteVariables.EmpIDFormat to <2 chars then 3 digits>
+
+set the SuiteVariables.TestDataDateFormat to <maybe 1 or 2 digits then "-" then 2 digits then "-" then 4 digits> 
+
+set the SuiteVariables.TitleFormat to <4 uppercase letters then "-" then 3 lowercase letters then "-" then digits>
+
+
+
+to handle TestDataValidation 
+	params TestDataFile,TestcaseName
+	set Global MyExcelFile to ResourcePath(TestDataFile)
+	set Global MyTestDataFile to Workbook(Global MyExcelFile)
+	put  Global MyTestDataFile.worksheetcount into SheetCount
+	
+	repeat SheetCount times
+		set Global SheetName to worksheet(Global MyTestDataFile,repeatIndex())
+		put Global SheetName's cellRange("A") into firstColData
+		put the number of items of firstColData into Count
+		repeat Count times
+			if Global SheetName's cellRange(repeatIndex()+1) is not empty then
+				if Global SheetName's Cell(repeatIndex()+1,2) is TestcaseName then 
+					if Global SheetName's Cell(repeatIndex()+1,1) is "No" then 	
+						if Global SheetName's Cell(repeatIndex()+1,3) matches the SuiteVariables.NameFormat then
+							put Global SheetName's Cell(repeatIndex()+1,3) into  Global Name
+						else 
+							Log "Test Data is not Valid -- Name is not matching"
+							exit repeat
+						end if 
+						if Global SheetName's Cell(repeatIndex()+1,4) matches the SuiteVariables.MailFormat then
+							put Global SheetName's Cell(repeatIndex()+1,4) into Global Mail
+						else 
+							Log "Test Data is not Valid -- Mail is not matching"
+							exit repeat
+						end if 
+						if Global SheetName's Cell(repeatIndex()+1,5) matches the SuiteVariables.PhoneFormat then
+							put Global SheetName's Cell(repeatIndex()+1,5) into Global Phone
+						else 
+							Log "Test Data is not Valid -- Phone is not matching"
+							exit repeat
+						end if 
+						if Global SheetName's Cell(repeatIndex()+1,6) matches the SuiteVariables.AddressFormat then
+							put Global SheetName's Cell(repeatIndex()+1,6) into Global Address
+						else 
+							Log "Test Data is not Valid -- Address is not matching"
+							exit repeat
+						end if 
+						if Global SheetName's Cell(repeatIndex()+1,7) matches the SuiteVariables.BloodTypes then
+							put Global SheetName's Cell(repeatIndex()+1,7) into Global Blood
+						else 
+							Log "Test Data is not Valid -- Blood type is not matching"
+							exit repeat
+						end if 
+						if Global SheetName's Cell(repeatIndex()+1,8) matches the SuiteVariables.EmpIDFormat then
+							put Global SheetName's Cell(repeatIndex()+1,8) into Global EmpID
+						else 
+							Log "Test Data is not Valid -- Emp Id is not matching"
+							exit repeat
+						end if 
+						if formattedTime("%d-%m-%Y",Global SheetName's Cell(repeatIndex()+1,9)) matches the SuiteVariables.TestDataDateFormat then
+							put formattedTime("%d-%m-%Y",Global SheetName's Cell(repeatIndex()+1,9)) into Global JoinDate
+						else 
+							Log "Test Data is not Valid -- JoinDate is not matching"
+							exit repeat
+						end if 
+						if Global SheetName's Cell(repeatIndex()+1,10) matches the SuiteVariables.TitleFormat then
+							put Global SheetName's Cell(repeatIndex()+1,10) into Global Title
+						else 
+							Log "Test Data is not Valid -- Title is not matching"
+							exit repeat
+						end if 
+						Log Global Name
+						Log  Global Mail
+						Log Global Phone
+						Log Global Address
+						Log Global Blood
+						Log Global EmpID
+						Log Global JoinDate
+						Log Global Title
+						exit repeat
+					end if
+				end if
+			else
+				exit repeat
+				Log "Changing the sheet"
+			end if 
+		end repeat 
+	end repeat
+end TestDataValidation
+
+//Valide Data
+TestDataValidation "RegExp.xlsx","TC001"
+//Given Wrong Address 
+TestDataValidation "RegExp.xlsx","TC002"
+//Given Wrong Name
+TestDataValidation "RegExp.xlsx","TC003"
+//Given Wrong Phone
+TestDataValidation "RegExp.xlsx","TC004"
+//Given Wrong Email
+TestDataValidation "RegExp.xlsx","TC005"
+//Given Wrong Blood Group
+TestDataValidation "RegExp.xlsx","TC006"
+//Given Wrong ID
+TestDataValidation "RegExp.xlsx","TC007"
+//Given Wrong JoinDate
+TestDataValidation "RegExp.xlsx","TC008"
+//Given Wrong Title
+TestDataValidation "RegExp.xlsx","TC009"
+TestDataValidation "RegExp.xlsx","TC010"

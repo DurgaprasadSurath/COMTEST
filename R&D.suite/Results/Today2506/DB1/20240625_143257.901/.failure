@@ -1,0 +1,1 @@
+2024-06-25 14:32:57.901 +0530,Failure,0:00:00,1,0,0,20240625_143257.901/LogFile.txt,"","STDatabaseConnectionError -- Failed to connect to ODBC database odbc:28 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user 'root'@'localhost' (using password: YES), SQLSTATE=HY000",0

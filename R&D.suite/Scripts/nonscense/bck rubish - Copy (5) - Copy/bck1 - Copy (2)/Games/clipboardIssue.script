@@ -1,0 +1,7 @@
+﻿
+TypeText controlKey, "a"
+TypeText controlKey, "c"
+Log RemoteClipboard()
+
+
+click image:"Travel11"

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ShowremotewindowCommand_script" package="R&amp;D.suite" timestamp="2025-03-26 19:29:22.244 +0530"
+ tests="1"  failures="0" errors="0" time="2.966000">
+  <properties>
+   <property name="RunDate" value="2025-03-26 19:29:22.244 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="ShowremotewindowCommand.script" assertions="1" status="success"  time="2.932">
+  </testcase>
+ </testsuite>
+</testsuites>

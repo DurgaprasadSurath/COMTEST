@@ -1,0 +1,42 @@
+﻿to handle runSeleniumBatFile filePath
+	TypeText windowsKey,"r"
+	waitforAll 30,{text:"Type the name"},{text:"OK"}
+	TypeText filePath,return
+	wait 10
+end runSeleniumBatFile
+
+to handle connectSUT sutName
+	Connect sutName
+	wait 15
+end connectSUT
+
+to handle disconnectSUT sutName
+	Disconnect sutName	
+end disconnectSUT
+
+to handle launchApplication applicationUrl
+	put webDriver(host:ConnectionInfo().ServerID, browser:"chrome",port:"4444",url:applicationUrl) into Driver
+end launchApplication
+
+to handle maxWindow
+	set the webDriver's windowSize to max
+end maxWindow
+
+to handle loginIntoApplication userId,password
+	put findElement(webID:"uid") into UserNameField 
+	SendKeys UserNameField,userId
+	put findElement(webID:"pwd") into PasswordField 
+	SendKeys PasswordField,password
+	put findElement(webName:"LogIn") into signInButton
+	Click signInButton
+end loginIntoApplication
+
+connectSUT "uday"
+//runSeleniumBatFile "E:\Selenium-Stanalone\RunSeleniumServer.bat",return
+runSeleniumBatFile "C:\Selenium-Standalone\RunSeleniumServer.bat",return
+launchApplication "https://rct8.enablon.com/8.14/RB.8.14.TRAIN/go.aspx"
+maxWindow
+loginIntoApplication "DurgaPrasad.Surath@rb.com","Enablon@123"
+
+disconnectSUT "uday"
+

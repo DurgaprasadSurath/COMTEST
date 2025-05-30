@@ -1,0 +1,23 @@
+﻿set jiraUsername to "DurgaPrasad.Surath@ideabytes.com"
+set jiraToken to "l73W1x5I856tWrbI34MgA85A"
+put base64Encode(jiraUsername&":"&jiraToken) into encodedAuth
+delete newline from encodedAuth
+put "https://ideabytes.atlassian.net/rest/api/3/issue/CSI-11/attachments" into attachmentURL
+put "C:\\Users\\durgaprasad.surath\\Downloads\\Book.csv" into filePath
+put "Basic"&&encodedAuth into auth
+Log Auth
+put the name of file filePath into fileName
+post multipart {fieldname:"file", filename:fileName, body:file filePath} to URL attachmentURL with headers {"Content-Type":"multipart/form-data", "X-Atlassian-Token":"no-check", "Authorization":auth} 
+Log it
+
+
+(*Syntax*)
+set jiraUsername to "user@mail.com"
+set jiraToken to "liabcdferghjkdomsi2ihn"
+set attachmentURL to "https://domain.atlassian.net/rest/api/3/issue/{Issue-ID}/attachments"
+set filePath to"C:\\Users\\User\\Book.csv"
+set auth to "Basic "&base64Encode(jiraUsername&":"&jiraToken)
+set fileName to the name of file filePath 
+post multipart {fieldname:"file", filename:fileName, body:file filePath} to URL attachmentURL with headers {"Content-Type":"multipart/form-data", "X-Atlassian-Token":"no-check", "Authorization":auth} 
+Log it
+

@@ -1,0 +1,35 @@
+﻿-- Set the path to the cmd.exe executable
+set cmdPath to "C:\Windows\system32\cmd.exe"
+
+-- Set the parameter to run a command and then terminate
+set cmdParameter to "/c"
+
+-- Set the path to the Selenium server jar file
+set seleniumJarPath to "C:\Selenium-Grid\selenium-server-4.24.0.jar"
+
+-- Set the path to the ChromeDriver executable
+set chromeDriverPath to "C:\Selenium-Grid\chromedriver-win64\chromedriver.exe"
+
+-- Set the absolute path to the Java file to be executed
+set javaFileAbsolutePath to "C:\Users\user\Documents\Workspace\Project\src\package\Demo.java"
+
+-- Extract the name of the Java file from its absolute path
+put the name of file javaFileAbsolutePath into javaFileName
+
+-- Extract the folder path of the Java file from its absolute path
+put the folder of file javaFileAbsolutePath into javaFileFolderPath
+
+-- Split the Java file name to separate the base name and extension
+split javaFileName by "."
+
+-- Compile the Java file using the javac command with the necessary classpath
+Shell cmdPath, cmdParameter && "javac" && "-cp" && quote & seleniumJarPath & ";" & chromeDriverPath & quote && quote & javaFileAbsolutePath & quote
+
+-- Wait for 0.5 seconds to allow the compilation to complete
+wait 0.5
+
+-- Wait until the compiled .class file exists in the specified folder
+wait until file (javaFileFolderPath & item 1 of javaFileName & ".class") exists
+
+-- Run the compiled Java class file using the java command with the necessary classpath
+Shell cmdPath, cmdParameter && "java" && "-cp" && quote & seleniumJarPath & ";" & chromeDriverPath & quote && quote & javaFileAbsolutePath & quote

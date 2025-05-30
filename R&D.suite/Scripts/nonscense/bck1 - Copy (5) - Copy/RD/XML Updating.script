@@ -1,0 +1,80 @@
+﻿put file ResourcePath("doc1.xml") as tree  into myXML 
+LogWarning myXML
+log the text of node "*/*/LineName" of myXML
+
+put "demo" into the text of node "*/*/LineName" of myXML
+
+log myXML
+open file("\\TESTING-SRV\Users\Testing-SRV\Downloads\TestData\PWO_Automation.xml")
+read from file "\\TESTING-SRV\Users\Testing-SRV\Downloads\TestData\PWO_Automation.xml" until end
+
+put file ResourcePath("\\TESTING-SRV\Users\Testing-SRV\Downloads\TestData\PWO_Automation.xml") into TotalContent
+Log TotalContent
+
+set the directory to "\\TESTING-SRV\Users\Testing-SRV\Downloads\TestData\PWO_Automation.xml"
+
+put the files of the folder into fileObjects
+to handle readXml Loc,xmlName
+	set the folder to Loc
+	put the folder &xmlName into filePath
+	log file  filePath
+end readXml
+
+readXml  "\\TESTING-SRV\Users\Testing-SRV\Downloads\TestData\","PWO_Automation.xml"
+(*
+to handle readXml Loc,xmlName
+	set the folder to "\\TESTING-SRV\Users\Testing-SRV\Downloads\TestData\"
+	put the folder & "PWO_Automation.xml" into filePath
+	log file  filePath
+end readXml
+*)
+
+put file ResourcePath("PWO.xml") into TotalContent
+Delete 1st line of TotalContent
+put TotalContent as tree  into myXML 
+Log myXML
+put all nodes  "*/*/PackagingOrder/*" of myXML into AllNodes
+repeat  the number of items of AllNodes times
+	put nodepath of item repeatIndex() of AllNodes into singleNode
+	put "*/*/PackagingOrder"&&singleNode into singlenodecontent
+	put "PWO"&repeatIndex() into node  singlenodecontent of myXML
+end repeat
+Log myXML
+
+
+DoubleClick text: "PWO_Automation",textDifference:1
+Click [600,600]
+TypeText controlKey,"a"
+TypeText controlKey,"c"
+put RemoteClipboard() into source
+delete 1st line of source
+delete  every occurrence of  "-" in source 
+put source as tree into souce_xml
+put all nodes  "*/*/PackagingOrder/*" of souce_xml
+put all nodes  "*/*/PackagingOrder/*" of souce_xml into AllNodes
+repeat  the number of items of AllNodes times
+	put nodepath of item repeatIndex() of AllNodes into singleNode
+	put "*/*/PackagingOrder"&&singleNode into singlenodecontent
+	put "PWO"&repeatIndex() into node  singlenodecontent of souce_xml
+end repeat
+Log souce_xml
+
+
+put file ResourcePath("PWO.xml") into TotalContent
+delete 1st line of TotalContent
+put TotalContent as tree  into myXML 
+//Log myXML
+//log the text of node "*/*/*/LineName" of myXML
+put all nodes  "*/*/PackagingOrder/*" of myXML into AllNodes
+
+log the number of items of AllNodes
+repeat  the number of items of AllNodes times
+	put nodepath of item repeatIndex() of AllNodes into singleNode
+	put "*/*/PackagingOrder"&&singleNode into singlenode2
+	log the text of node singleNode2 of myXML
+	put "PWO"&repeatIndex() into node  singleNode2 of myXML
+end repeat
+log myXML
+
+put "demo" into the text of node "*/*/LineName" of myXML
+

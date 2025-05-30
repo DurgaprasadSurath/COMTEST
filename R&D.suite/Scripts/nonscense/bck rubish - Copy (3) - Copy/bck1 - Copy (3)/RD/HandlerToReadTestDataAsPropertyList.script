@@ -1,0 +1,30 @@
+﻿//Fetching Data for Complaint Action
+(*Pass 1st parameter as CSV testdata file and 2nd parameter as Test Case to apply filter*)
+FetchingData "InitialToFinal_TestData_UAT.csv","E2EQMS-ITOF-FA-001-AUTO"
+Log  Global TestData.TCName
+Log  Global TestData.Originator_Password
+Log  Global TestData.Originator_Username
+Log  Global TestData.GivenDocumentID
+Log  Global TestData.RecordCount
+
+to handle FetchingData
+	params TestDataFile,TC_Name
+	set MyCSVfile to file ResourcePath(TestDataFile) 
+	put the number of lines of MyCSVfile into NumberOfRows 
+	repeat NumberOfRows times 
+		if (TC_Name is equal to item 2 of line repeatIndex() of MyCSVfile) then
+			put repeatIndex() into OuterLoopCount
+			repeat each item of line 1 of MyCSVfile
+				put item repeatIndex() of line 1 of MyCSVfile into VAR 
+				put VAR&":"&quote&item repeatIndex() of line OuterLoopCount of MyCSVfile&quote into item repeatIndex() of Global TempTestData
+			end repeat
+			exit repeat
+		end if
+	end repeat
+	put "{"&Global TempTestData&"}" into Temp
+	put Temp as propertyList into Global TestData
+end FetchingData
+
+
+
+

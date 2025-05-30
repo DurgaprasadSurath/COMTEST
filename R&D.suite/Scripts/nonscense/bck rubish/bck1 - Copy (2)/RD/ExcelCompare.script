@@ -1,0 +1,21 @@
+﻿put file ResourcePath("Primary.csv") into PrimarySheet
+put line 1 of PrimarySheet into PrimarySheetColumns
+
+put file ResourcePath("Version.csv") into VersionSheet
+log the number of items of line 2 of VersionSheet 
+put line 1 of VersionSheet into VersionSheetColumns
+
+repeat the number of lines of VersionSheet times 
+	put repeatIndex() into OutLoopCount
+	repeat the number of lines of PrimarySheet times
+		put repeatIndex() into InnerLoop
+		if item 21 of line OutLoopCount of VersionSheet is item 21 of line repeatIndex() of PrimarySheet then 
+			repeat the number of items  of VersionSheetColumns times 
+				if item  repeatIndex() of line  InnerLoop of VersionSheet is not equal to item repeatIndex() of line InnerLoop of PrimarySheet then 
+					Log item 21 of line OutLoopCount of VersionSheet &&":::"&& item  repeatIndex() of line  1 of VersionSheet &&"Column is not matching."				
+				end if
+			end repeat
+			exit repeat
+		end if	
+	end repeat	
+end repeat

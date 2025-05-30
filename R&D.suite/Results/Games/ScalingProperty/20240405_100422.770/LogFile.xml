@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/ScalingProperty_script" package="R&amp;D.suite" timestamp="2024-04-05 10:04:22.770 +0530"
+ tests="1"  failures="0" errors="0" time="2.588000">
+  <properties>
+   <property name="RunDate" value="2024-04-05 10:04:22.770 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Games/ScalingProperty.script" assertions="1" status="success"  time="2.566">
+  </testcase>
+ </testsuite>
+</testsuites>

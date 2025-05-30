@@ -1,0 +1,4 @@
+﻿Shell "C:\Windows\system32\cmd.exe", "/c" && "dir" && ">2>&1 >" && the userInfo's HomeDirectory & "\Downloads\Demo_1_File.txt"
+
+
+shell "C:\Windows\system32\cmd.exe", <</c "dir" >> && ">2>&1 >" && the userInfo's HomeDirectory & "\Downloads\Demo_2_File.txt"

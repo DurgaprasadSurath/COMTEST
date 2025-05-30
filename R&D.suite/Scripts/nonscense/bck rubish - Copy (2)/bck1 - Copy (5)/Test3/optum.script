@@ -1,0 +1,42 @@
+﻿Shell "C:\Windows\system32\cmd.exe", "/c"&&"javac"&&"-cp"&&"C:\Selenium-Grid\selenium-server-4.24.0.jar;C:\Selenium-Grid\chromedriver-win64\chromedriver.exe"&&quote&"C:\Users\durgaprasad.surath\OneDrive - Ideabytes\Documents\Eclipse_Workspace\eggdriveTest\src\eggdriveTest\mytest.java"&quote
+
+
+
+set cmdPrompt to "C:\Windows\system32\cmd.exe"
+set cmdPromptArg to "/c"
+set seleniumJarPath to "C:\Selenium-Grid\selenium-server-4.24.0.jar"
+set chromeDriverPath to "C:\Selenium-Grid\chromedriver-win64\chromedriver.exe"
+set javaFilePath to "C:\Users\durgaprasad.surath\OneDrive - Ideabytes\Documents\Eclipse_Workspace\eggdriveTest\src\eggdriveTest\mytest.java"
+put the name of file javaFilePath into MyJavaName
+put the folder of file javaFilePath into MyJavaFilePath
+split MyJavaName by "."
+Shell cmdPrompt, cmdPromptArg && "javac" && "-cp" && seleniumJarPath & ";" & chromeDriverPath && quote & javaFilePath & quote
+wait until file (MyJavaFilePath & item 1 of MyJavaName & ".class") exists
+Shell cmdPrompt, cmdPromptArg && "java" && "-cp" && seleniumJarPath & ";" & chromeDriverPath && quote & javaFilePath & quote
+
+
+
+Shell cmdPrompt, cmdPromptArg && "javac" && "-cp" && quote & seleniumJarPath & ";" & chromeDriverPath & quote && quote & javaFilePath & quote
+wait 1
+wait until file (MyJavaFilePath & item 1 of MyJavaName & ".class") exists
+Shell cmdPrompt, cmdPromptArg && "java" && "-cp" && quote & seleniumJarPath & ";" & chromeDriverPath & quote && quote & javaFilePath & quote
+
+
+Shell "C:\Windows\system32\cmd.exe", "/c" && "dir" && ">2>&1 >" && the userInfo's HomeDirectory & "\Downloads\TestFile.txt"
+
+put the userInfo's HomeDirectory
+
+SetRemoteClipboard "EGGPLANT"
+Log RemoteClipboard()
+TypeText controlKey, "v"
+
+SetRemoteClipboard empty
+wait 3
+SetRemoteClipboard empty
+wait 3
+Log RemoteClipboard()
+TypeText controlKey, "v"
+
+SetRemoteClipboard "KEYSIGHT"
+Log RemoteClipboard()
+TypeText controlKey, "v"

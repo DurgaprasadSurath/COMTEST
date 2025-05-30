@@ -1,0 +1,33 @@
+﻿put webDriver (host:"192.168.1.142", browser: "chrome", port: "4444", url: "https://cosmocode.io/automation-practice-webtable/") into driver
+set the webDriver's windowsize to "max"
+
+set head to FindElements(WebTagName:"h3")
+set content to FindElements(WebTagName:"td")
+put the number of items in head into count1
+put the number of items in content into count2
+
+set global dataList to 0
+
+repeat count2 times
+	put item the repeatIndex of content into data
+	put data's Text into item repeatIndex() of dataList
+end repeat
+
+set Book1 to Workbook(ResourcePath("SampleExcel.xlsx"))
+
+set worksheet2 to worksheet(Book1,1)
+
+put (count2/count1) into row_count
+
+set global temp2 to 0
+set global temp3 to 0
+repeat row_count times
+	put repeatIndex() into temp
+	repeat count1 times
+		put item (repeatIndex()+global temp3) of dataList into Cell(worksheet2,[temp,repeatIndex()])
+		put repeatIndex()into global temp2
+	end repeat
+	put (global temp2 + global temp3)  into global temp3 
+end repeat
+
+WebDisconnect all

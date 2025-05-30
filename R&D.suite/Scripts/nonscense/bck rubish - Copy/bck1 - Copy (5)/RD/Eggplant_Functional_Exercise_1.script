@@ -1,0 +1,38 @@
+﻿
+
+to handle FindingDesiredProduct
+	repeat until imagefound(text:"HTC One M8 Android L 5.0 Lollipop",waitFor:15) 
+		//ScrollWheelDown 2
+		DoubleClick image:"ScrollDownButton"
+		if imagefound(text:"HTC One M8 Android L 5.0 Lollipop") 
+			put ReadText(Image:"HTCOneM8AndroidL50Lollipop", WaitFor:30) into global actual_selected_product 
+		end if
+	end repeat
+end FindingDesiredProduct
+
+to handle AddToCart
+	click Image:"HTCOneM8AndroidL50Lollipop" + [0,137]
+end AddToCart
+
+to handle ClickShoppingCart
+	click text:"Shopping cart"
+end ClickShoppingCart
+
+to handle ConfirmingItemInCart
+	//taking the image of productbox top to bottom
+	set the SearchRectangle to["Product_top_left","Product_bottom_right"]
+	put ReadText(demo) into product_in_cart
+	
+	//conditional check for the selected item and added item in cart
+	if product_in_cart is actual_selected_product
+	then
+		LogSucssess "Selected item and cart item is matched"
+	else
+		LogError "item is not matching"
+	end if
+end ConfirmingItemInCart
+
+to handle CloseBrowser	
+	//closing browser from keyboard shortcut
+	TypeText AltKey,"F4"
+end CloseBrowser

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/Exata_script" package="R&amp;D.suite" timestamp="2024-04-01 20:53:17.178 +0530"
+ tests="1"  failures="0" errors="0" time="19.384000">
+  <properties>
+   <property name="RunDate" value="2024-04-01 20:53:17.178 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Games/Exata.script" assertions="1" status="error"  time="19.369">
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&lt;1 digit, &quot;,&quot;, whitespace characters, nonLettersOrDigits, characters, &quot;=24&quot;&gt;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

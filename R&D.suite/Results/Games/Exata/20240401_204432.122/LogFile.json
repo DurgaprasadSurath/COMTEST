@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Exata.script",
+				"identifier": "START",
+				"timestamp": "2024-04-01 20:44:32.132 +0530"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:44:44.722 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"12.619\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-01 20:44:32 +0530\", Successes:\"0\", TestCase:\"Games/Exata.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-01 20:44:44.753 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:12 Games/Exata.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-04-01 20:44:44.770 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-01 20:44:32.134 +0530"
+}

@@ -1,0 +1,29 @@
+﻿2024-03-07 16:09:00.791 +0530	START		Running Games/compp.script
+2024-03-07 16:09:00.839 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:09:01.054 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- differences between current screen and baseline	3	on_compp	Games/compp.script	{CurrentImageName:"tutorialSut_menu_0016.png", Differences:[{difference:"Changed", differenceType:"Element", rectangle:[397, 270, 570, 451], source:"Combined"}]}
+2024-03-07 16:09:01.058 +0530	LogWarning	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160900.784/tutorialSut_menu_0016.png	Found 1 differences	3	on_compp	Games/compp.script
+2024-03-07 16:09:01.176 +0530	drag		at (861, 694)	5	on_compp	Games/compp.script
+2024-03-07 16:09:02.346 +0530	drop		at (961, 694)	6	on_compp	Games/compp.script
+2024-03-07 16:09:02.352 +0530	Log		3D view is displayed.	8	on_compp	Games/compp.script
+2024-03-07 16:09:02.359 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:09:03.312 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- differences between current screen and baseline	3	on_compp	Games/compp.script	{CurrentImageName:"tutorialSut_menu_0017.png", Differences:[{difference:"Changed", differenceType:"Element", rectangle:[397, 270, 569, 451], source:"Combined"}, {difference:"Changed", differenceType:"Area", rectangle:[617, 302, 723, 393], source:"Combined"}]}
+2024-03-07 16:09:03.316 +0530	LogWarning	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160900.784/tutorialSut_menu_0017.png	Found 2 differences	3	on_compp	Games/compp.script
+2024-03-07 16:09:03.425 +0530	drag		at (861, 694)	5	on_compp	Games/compp.script
+2024-03-07 16:09:04.586 +0530	drop		at (961, 694)	6	on_compp	Games/compp.script
+2024-03-07 16:09:04.633 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:09:05.568 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- differences between current screen and baseline	3	on_compp	Games/compp.script	{CurrentImageName:"tutorialSut_menu_0018.png", Differences:[{difference:"Changed", differenceType:"Element", rectangle:[397, 270, 569, 451], source:"Combined"}, {difference:"Changed", differenceType:"Area", rectangle:[617, 302, 723, 389], source:"Combined"}, {difference:"New", differenceType:"Element", rectangle:[614, 390, 741, 442], source:"Current"}]}
+2024-03-07 16:09:05.572 +0530	LogWarning	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160900.784/tutorialSut_menu_0018.png	Found 3 differences	3	on_compp	Games/compp.script
+2024-03-07 16:09:05.675 +0530	drag		at (861, 694)	5	on_compp	Games/compp.script
+2024-03-07 16:09:06.860 +0530	drop		at (961, 694)	6	on_compp	Games/compp.script
+2024-03-07 16:09:06.902 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:09:07.836 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- differences between current screen and baseline	3	on_compp	Games/compp.script	{CurrentImageName:"tutorialSut_menu_0019.png", Differences:[{difference:"Changed", differenceType:"Element", rectangle:[397, 270, 569, 451], source:"Combined"}, {difference:"Changed", differenceType:"Area", rectangle:[617, 301, 723, 389], source:"Combined"}, {difference:"New", differenceType:"Element", rectangle:[614, 390, 741, 442], source:"Current"}]}
+2024-03-07 16:09:07.840 +0530	LogWarning	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160900.784/tutorialSut_menu_0019.png	Found 3 differences	3	on_compp	Games/compp.script
+2024-03-07 16:09:07.946 +0530	drag		at (861, 694)	5	on_compp	Games/compp.script
+2024-03-07 16:09:09.123 +0530	drop		at (961, 694)	6	on_compp	Games/compp.script
+2024-03-07 16:09:09.160 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:09:10.070 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- differences between current screen and baseline	3	on_compp	Games/compp.script	{CurrentImageName:"tutorialSut_menu_0020.png", Differences:[{difference:"Changed", differenceType:"Element", rectangle:[397, 270, 570, 451], source:"Combined"}, {difference:"New", differenceType:"Element", rectangle:[614, 390, 741, 442], source:"Current"}]}
+2024-03-07 16:09:10.074 +0530	LogWarning	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160900.784/tutorialSut_menu_0020.png	Found 2 differences	3	on_compp	Games/compp.script
+2024-03-07 16:09:10.168 +0530	drag		at (861, 694)	5	on_compp	Games/compp.script
+2024-03-07 16:09:11.349 +0530	drop		at (961, 694)	6	on_compp	Games/compp.script
+2024-03-07 16:09:11.410 +0530	EndTestCase		(Duration:"10.614", Errors:"0", Exceptions:"0", StartTime:"2024-03-07 16:09:00 +0530", Successes:"1", TestCase:"Games/compp.script", Warnings:"5")
+2024-03-07 16:09:11.546 +0530	SUCCESS		Execution Time 0:00:10 Games/compp.script

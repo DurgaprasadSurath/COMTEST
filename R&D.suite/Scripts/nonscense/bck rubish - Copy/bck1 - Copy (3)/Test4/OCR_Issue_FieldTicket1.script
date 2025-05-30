@@ -1,0 +1,14 @@
+﻿findFieldTicket (0,1,1170,2532)
+findFieldTicket (53,1363,1119,1569)
+findFieldTicket (2,1003,1169,2532)
+findFieldTicket (2,759,1169,2532)
+findFieldTicket (2,32,1169,2532)
+findFieldTicket (3,0,1170,1642)
+findFieldTicket (3,846,1170,1642)
+
+to findFieldTicket SR
+	Set the SearchRectangle to SR
+	wait 1
+	If ImageFound(text:"Field Ticket 1", waitFor:0) then LogSuccess "Found"&quote&"Field Ticket 1"&quote else LogError "Unable to Find"&quote&"Field Ticket 1"&quote
+	Put +
+end findFieldTicket

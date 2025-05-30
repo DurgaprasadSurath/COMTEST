@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled1.script",
+				"identifier": "START",
+				"timestamp": "2024-10-16 11:29:06.041 +0530"
+			},
+		{
+				"message": "(Duration:\"0.051\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-16 11:29:06 +0530\", Successes:\"0\", TestCase:\"Untitled1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-16 11:29:06.097 +0530"
+			},
+		{
+				"message": "Error 0 in NSXMLErrorDomain: NSXMLErrorDomain code: 0 -- Execution Time 0:00:00 Untitled1.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-10-16 11:29:06.131 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-16 11:29:06.044 +0530"
+}

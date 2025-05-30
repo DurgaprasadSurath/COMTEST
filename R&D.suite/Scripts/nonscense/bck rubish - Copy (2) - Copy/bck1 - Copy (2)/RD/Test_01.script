@@ -1,0 +1,37 @@
+﻿put webDriver (host:"192.168.1.142", browser: "chrome", port: "4444", url: "http://demo.guru99.com/test/web-table-element.php") into driver
+
+set the webDriver's windowsize to "max"
+
+create file "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\textdatafile2.txt"
+put "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\textdatafile2.txt" into myfilevar
+set head to  FindElements(WebTagName:"th")
+set content to  FindElements(WebTagName:"td")
+set global var to 0
+put the number of items in head into count
+put the number of items in content into count2
+set global arr to count..count2 step by count
+repeat with each item of content 
+	set  global var to repeatIndex()
+	repeat with each item of head
+		put item the repeatIndex of head into property1
+		if global var > 1 and global var <= count2/count 
+			put item the  repeatIndex + item  global var - 1 of global arr of content into property2 
+		else if global var =1
+			put item the repeatIndex of content  into property2
+		else 
+			Exit repeat
+		end if
+		put property1's Text &":-"&& property2's Text  into myvar
+		log myvar
+		open file myfilevar
+		write return to file myfilevar at eof
+		write myvar to file myfilevar
+		close file myfilevar
+	end repeat
+	if  global var > count2/count then 
+		Exit repeat	
+	end if
+end repeat 
+
+WebDisconnect All
+

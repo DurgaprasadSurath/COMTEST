@@ -1,0 +1,3 @@
+﻿2024-04-11 14:45:46.388 +0530	START		Running Games/XMLReadingMultichilds.script
+2024-04-11 14:45:46.468 +0530	EndTestCase		(Duration:"0.072", Errors:"1", Exceptions:"0", StartTime:"2024-04-11 14:45:46 +0530", Successes:"0", TestCase:"Games/XMLReadingMultichilds.script", Warnings:"0")
+2024-04-11 14:45:46.595 +0530	FAILURE		InvalidValueExpr: Unable to take value of expression '<?xml version="1.0" encoding="utf-8"?>⏎<note importance="high" logged="true">⏎\t<E1IDB02 SEGMENT...' (reason: (null)) -- Execution Time 0:00:00 Games/XMLReadingMultichilds.script

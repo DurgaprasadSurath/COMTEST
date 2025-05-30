@@ -1,0 +1,11 @@
+﻿set the ScriptLogging to off
+repeat for 10 seconds
+	put ReadText((2,86,198,103)) after temp
+end repeat
+log temp
+if temp contains "This text is scrolling from right to left. Keysight - Eggplant" then
+	LogSuccess "AUT has this text"
+else 
+	LogWarning "AUT has no text."	
+end if
+

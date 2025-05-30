@@ -1,0 +1,9 @@
+﻿params var1,var2
+
+function AddingTwoParameters var1, var2
+	put var1 and var2 into var_result
+	return var_result
+end AddingTwoParameters
+
+
+

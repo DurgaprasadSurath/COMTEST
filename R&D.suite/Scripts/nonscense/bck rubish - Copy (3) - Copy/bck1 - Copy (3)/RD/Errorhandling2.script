@@ -1,0 +1,145 @@
+﻿to handle UserFriendlymessage
+	params errorMessage
+	put errorMessage into Global ErrorMessage
+	if Global ErrorMessage contains ...
+	
+		"No Such Command":Handler_notfound(Global ErrorMessage)
+		
+		"AssertionFailed":Validation_Failed()
+		
+		"InvalidParameters":Passing_Parameters_Issue()
+		
+		"File Not Found":Image_Not_Exist_In_Suite(Global ErrorMessage)
+		
+		"No Image Found On Screen":No_Image_Found_On_Screen(Global ErrorMessage)
+		
+		"No Text Found On Screen":No_Text_Found_On_Screen(Global ErrorMessage)
+		
+		"Unable To Find Any Image On Screen":Unable_To_Find_Image_or_Text_WithInTime(Global ErrorMessage)
+		
+		"imagerectangle Error - Unable To Find Image":Unable_To_Find_Image(Global ErrorMessage)
+		
+		"Image Property List did not contain":Image_Name_Property_Error(Global ErrorMessage)
+		
+		"No Remote Connection":SUT_Connection_Error()
+		
+		"Connection Failed - Unable to connect":Connecting_SUT_Error()
+		
+		"Unable To Capture Screen":Capturing_Screen_Error()
+		
+		else
+			
+			Scripterror(Global ErrorMessage)		
+	end if
+end UserFriendlymessage
+
+to handle Handler_notfound
+	split Global ErrorMessage by "-"
+	put item 2 of Global ErrorMessage into temp 
+	split temp by ":"
+	put item 3 of temp into temp2	
+	LogError temp2&&"command is not found"
+end Handler_notfound
+
+to Validation_Failed
+	LogError "AssertionFailed validation has Failed"
+end Validation_Failed
+
+to Passing_Parameters_Issue
+	LogError "Invalid Properties are given"
+end Passing_Parameters_Issue
+
+to handle Image_Not_Exist_In_Suite
+	split Global ErrorMessage by "-"
+	put item 3 of Global ErrorMessage into temp
+	split temp by ":"
+	LogError quote&item 2 of temp&quote&&"Image"&&"is not found in captured Images"
+end Image_Not_Exist_In_Suite
+
+to handle No_Image_Found_On_Screen
+	split Global ErrorMessage by "-"
+	put item 3 of Global ErrorMessage into temp
+	split temp by ":"
+	put item 2 of temp into temp2
+	if temp2 contains "Restricted" then 
+		split temp2 by "Restricted"
+		put item 1 of temp2 into temp3 
+		delete quote from temp3
+		LogError quote&temp3&quote&&"Image"&&"is not found on screen to perform click operation"
+	else
+		delete quote from temp2
+		LogError quote&temp2&quote&&"Image"&&"is not found on screen to perform click operation"
+	end if
+end No_Image_Found_On_Screen
+
+to handle No_Text_Found_On_Screen
+	split Global ErrorMessage by "-"
+	put item 3 of Global ErrorMessage into temp
+	split temp by ":"
+	put item 3 of temp into temp2
+	delete quote from temp2
+	if temp2 contains "." then 
+		split temp2 by "."
+	end if
+	delete ")" from item 1 of temp2
+	LogError quote&item 1 of temp2&quote&&"Text is not found on screen to perform click operation"
+end No_Text_Found_On_Screen
+
+to handle Unable_To_Find_Image_or_Text_WithInTime
+	split Global ErrorMessage by "-"
+	put item 2 of Global ErrorMessage into temp1
+	split temp1 by "Screen"
+	put item 2 of temp1 into temp2 
+	split temp2 by "within"
+	if item 1 of temp2 contains "TEXT" then 
+		put  item 1 of temp2 into temp3
+		split temp3 by ":"
+		delete "(" from temp3
+		delete ")" from temp3
+		delete quote from temp3
+		LogError quote&item 2 of temp3&quote&&"Text is not found on screen within the given time."
+	else
+		LogError item 1 of temp2&&"Image is not found on screen within the given time."
+	end if
+end Unable_To_Find_Image_or_Text_WithInTime
+
+to handle Unable_To_Find_Image
+	split Global ErrorMessage by "-"
+	put item 2 of Global ErrorMessage into temp 
+	split temp by "Image"
+	put item 2 of temp into temp2
+	LogError temp2&&"Image is not found in the given rectangle area"
+end Unable_To_Find_Image
+
+to handle Image_Name_Property_Error
+	LogError "ImageName Property is Missing."
+end Image_Name_Property_Error
+
+to handle SUT_Connection_Error
+	LogError "There is No SUT to perform operations."
+end SUT_Connection_Error
+
+to handle Connecting_SUT_Error
+	LogError "Unable to connect SUT."
+end Connecting_SUT_Error
+
+to handle Capturing_Screen_Error
+	LogError "Error with Capturing the screen "
+end Capturing_Screen_Error
+
+to Scripterror
+	LogError "Technical Error:"&&Global ErrorMessage
+end Scripterror
+
+
+
+
+
+
+
+
+
+
+
+
+

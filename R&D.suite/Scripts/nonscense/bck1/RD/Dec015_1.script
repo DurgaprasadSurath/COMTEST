@@ -1,0 +1,11 @@
+﻿to handle covertDate date
+	split date by "-"
+	put item (item 2 of  date) of monthNames() into item 1 of Temp
+	put item 1 of date into item 2 of Temp
+	put item 3 of date into item 3 of Temp
+	replace comma by ":" in Temp
+	return Temp
+end covertDate
+
+Log covertDate("15-12-2021")
+

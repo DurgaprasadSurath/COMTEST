@@ -1,0 +1,5 @@
+﻿2024-04-01 21:12:15.298 +0530	START		Running Games/Exata.script
+2024-04-01 21:12:15.372 +0530	set		SEARCHRECTANGLE = [155,592,874,1041]	1	on_exata	Games/Exata.script
+2024-04-01 21:12:34.231 +0530	Exception	(TEXT:<"2,", whitespace characters, ",[1024">)	No Text Found On Screen: "(TEXT:<"2,", whitespace characters, ",[1024">)". Text not found.	2	on_exata	Games/Exata.script
+2024-04-01 21:12:34.318 +0530	EndTestCase		(Duration:"19.02", Errors:"1", Exceptions:"1", StartTime:"2024-04-01 21:12:15 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 21:12:34.944 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:<"2,", whitespace characters, ",[1024">)". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n -- Execution Time 0:00:19 Games/Exata.script

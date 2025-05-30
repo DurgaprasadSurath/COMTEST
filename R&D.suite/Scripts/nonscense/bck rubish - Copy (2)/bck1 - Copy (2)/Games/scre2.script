@@ -1,0 +1,36 @@
+﻿
+
+
+Params scriptdata
+
+log  scriptdata.company
+log  scriptdata.user1
+
+
+set eggWord to  "EggPlant"
+put "-KeySight" after last chars of eggWord
+Log eggWord
+
+set eggWord to  "EggPlant"
+put "-" into chars 3 of eggWord
+Log eggWord
+
+set eggWord to  "EggPlant"
+put "-" after chars 3 of eggWord
+Log eggWord
+
+set letterPosition to 3
+set eggWord to  "EggPlant"
+put the number of chars of eggWord into lettersCount
+put "-" before chars (letterPosition - lettersCount) of eggWord
+Log eggWord
+
+
+
+set the remoteWorkInterval to 0
+set the keyDownDelay to 0
+keydown powerButton + volumeupbutton
+wait 5
+keyup powerbutton + volumeupbutton
+
+

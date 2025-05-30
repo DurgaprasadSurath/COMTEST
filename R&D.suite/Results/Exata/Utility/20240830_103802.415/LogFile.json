@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-30 10:38:02.427 +0530"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:38:02.479 +0530",
+				"message": "Modified_gen_kal.script",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:38:02.483 +0530",
+				"message": "\"Modified_gen_kal.script\"",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.085\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-30 10:38:02 +0530\", Successes:\"0\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-30 10:38:02.518 +0530"
+			},
+		{
+				"message": "STFileException: Failed to write to file C:/Users/durgaprasad.surath/Documents/\"Modified_gen_kal.script\" -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-08-30 10:38:02.541 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-30 10:38:02.431 +0530"
+}

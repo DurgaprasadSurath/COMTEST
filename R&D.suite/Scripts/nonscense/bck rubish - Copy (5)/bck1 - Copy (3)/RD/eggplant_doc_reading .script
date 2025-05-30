@@ -1,0 +1,55 @@
+﻿to handle hook_before_scenario
+	DoubleClick {ImageName:"ChromeIcon",waitfor: 5}
+	wait 5
+	TypeText "http://docs.eggplantsoftware.com/eggplant-documentation-home.htm",return
+end hook_before_scenario
+
+to handle hook_after_scenario
+	TypeText controlKey,"w"
+end hook_after_scenario
+
+to handle Validation_is_done
+	waitfor 10,text:"Eggplant Library"
+	waitfor 10,imageName:"eggplant_Logo"
+	if ImageFound(text:"Eggplant Library", waitFor:5)
+		Log FoundImageLocation()
+	end if
+end Validation_is_done
+
+to handle hook_after_step
+	params var
+	Log var
+	if var.Description is "Validation is done"
+		put ImageLocation("eggplant_Logo") into Logo 
+		set the SearchRectangle to [[Logo.x - 80,Logo.y+40],[Logo.x+230,Logo.y+950]]
+		Log ReadText(the SearchRectangle)
+		set the SearchRectangle to empty
+	else if var.Description is "Eggplant dai Validation is done"
+		put ImageLocation("eggplant_Logo") into Logo 
+		set the SearchRectangle to [[Logo.x - 80,Logo.y+40],[Logo.x+230,Logo.y+950]]
+		Log ReadText(the SearchRectangle)
+		set the SearchRectangle to empty
+	else if var.Description is "Eggplant functional Validation is done"
+		put ImageLocation("eggplant_Logo") into Logo 
+		set the SearchRectangle to [[Logo.x - 80,Logo.y+40],[Logo.x+230,Logo.y+950]]
+		Log ReadText(the SearchRectangle)
+		set the SearchRectangle to empty
+	end if
+end hook_after_step
+
+to handle Eggplant_functional_Validation_is_done
+	Click text:"Eggplant Functional",waitfor:5
+	waitfor 10,text:"Eggplant's test automation solution includes the Eggplant Fusion Engine"
+	if ImageFound(text:"Eggplant's test automation solution includes the Eggplant Fusion Engine", waitFor:3) then
+		Log "Validation is done"
+	end if
+end Eggplant_functional_Validation_is_done
+
+to handle Eggplant_dai_Validation_is_done
+	Click text:"Eggplant DAI",waitfor:5
+	waitfor 10,text:"Digital Automation Intelligence"
+	if ImageFound(text:"Digital Automation Intelligence", waitFor:3) then
+		Log "Validation is done"
+	end if
+end Eggplant_dai_Validation_is_done
+

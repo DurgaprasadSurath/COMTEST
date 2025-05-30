@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled3.script",
+				"identifier": "START",
+				"timestamp": "2024-10-28 14:11:38.009 +0530"
+			},
+		{
+				"handlerName": "on_untitled3",
+				"timestamp": "2024-10-28 14:11:38.143 +0530",
+				"message": "Sunnyvale",
+				"scriptName": "Untitled3.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.149\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-10-28 14:11:38 +0530\", Successes:\"1\", TestCase:\"Untitled3.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-28 14:11:38.159 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Untitled3.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-10-28 14:11:38.206 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-28 14:11:38.010 +0530"
+}

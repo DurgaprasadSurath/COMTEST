@@ -1,0 +1,22 @@
+﻿to GetListOfModels ContentType,Accept,authUrl
+	GetAccessTokenAPIScript
+	put Global accessToken into AccessToken 
+	//put ","&Headers after authUrl
+	
+	(*set Headers to {{
+Content-Type:[[ContentType]]
+Accept:[[Accept]],
+Authorization:[[AccessToken]]
+}}
+	*)
+	//Get Headers to url authUrl
+	
+	
+	log AccessToken
+	Get url authUrl with headers {"Content-Type":ContentType,"Accept":Accept,
+		"Authorization":AccessToken}
+
+	log it
+end GetListOfModels
+
+GetListOfModels "application/json","*/*","http://localhost:8000/ai/models"

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Today2506/DB1">
+ <run>
+  <RunDate>2024-06-25 14:00:24.722 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.685000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140024.722/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:00:44.065 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.324000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140044.065/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:02:59.185 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.164000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140259.185/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:05:32.098 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.137000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140532.098/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:08:10.226 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.188000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140810.226/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:08:59.880 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.624000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140859.880/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:09:20.010 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.220000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140920.010/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:09:24.940 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.187000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_140924.940/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:10:02.919 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.187000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_141002.919/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:10:43.072 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.207000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_141043.072/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:14:49.416 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.244000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_141449.416/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got &#x27;SURATH&#x27; and &#x27;ross44&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:15:06.469 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.241000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_141506.469/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>InvalidCommandOrRange -- Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got &quot;SURATH&quot; TO &quot;ross44&quot;)</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:24:58.458 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.213000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_142458.458/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:25:02.129 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.208000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_142502.129/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:25:33.670 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.176000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_142533.670/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:26:05.694 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.208000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_142605.694/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:31:42.634 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.077000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_143142.634/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STDatabaseConnectionError -- Failed to connect to ODBC database odbc:27 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user &#x27;root&#x27;@&#x27;localhost&#x27; (using password: NO), SQLSTATE=HY000</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:32:57.901 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.082000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_143257.901/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STDatabaseConnectionError -- Failed to connect to ODBC database odbc:28 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user &#x27;root&#x27;@&#x27;localhost&#x27; (using password: YES), SQLSTATE=HY000</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:49:01.844 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.106000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_144901.844/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STDatabaseConnectionError -- Failed to connect to ODBC database odbc:29 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user &#x27;root&#x27;@&#x27;localhost&#x27; (using password: YES), SQLSTATE=HY000</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:53:16.690 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.078000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_145316.690/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STDatabaseConnectionError -- Failed to connect to ODBC database odbc:30 Reason: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified, SQLSTATE=IM002</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:54:31.719 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.098000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240625_145431.719/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STDatabaseConnectionError -- Failed to connect to ODBC database odbc:31 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user &#x27;ro0ot&#x27;@&#x27;localhost&#x27; (using password: YES), SQLSTATE=HY000</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:55:22.404 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.129000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_145522.404/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-25 14:56:13.030 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.201000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240625_145613.030/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-06-26 09:44:52.282 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.329000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240626_094452.282/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

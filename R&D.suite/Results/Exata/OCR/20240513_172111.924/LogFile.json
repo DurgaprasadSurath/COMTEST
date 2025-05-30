@@ -1,0 +1,93 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/OCR.script",
+				"identifier": "START",
+				"timestamp": "2024-05-13 17:21:11.937 +0530"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.157 +0530",
+				"scriptName": "Exata/OCR.script",
+				"message": "at (311, 859)",
+				"image": "(TEXT:\"[1024], Application, CBR Server, Total Unicast Fragments Received (fragments) = 24\")",
+				"handlerLine": 1,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.157 +0530",
+				"message": "[311,859]",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.169 +0530",
+				"message": "107",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.173 +0530",
+				"message": "854",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.173 +0530",
+				"message": "107",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.189 +0530",
+				"message": "854",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.205 +0530",
+				"message": "SEARCHRECTANGLE = [107,854,515,865]",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 6,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.425 +0530",
+				"message": "(107,854,515,865)",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-13 17:21:16.447 +0530",
+				"message": "r10241, Applicator), CBR Server .Total Unicast Fraqments Received (fraaments) = 24",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"4.552\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-13 17:21:11 +0530\", Successes:\"1\", TestCase:\"Exata/OCR.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-13 17:21:16.490 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:04 Exata/OCR.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-13 17:21:16.647 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-13 17:21:11.937 +0530"
+}

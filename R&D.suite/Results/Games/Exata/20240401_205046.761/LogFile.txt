@@ -1,0 +1,6 @@
+﻿2024-04-01 20:50:46.770 +0530	START		Running Games/Exata.script
+2024-04-01 20:50:46.860 +0530	set		SEARCHRECTANGLE = [155,592,874,1041]	1	on_exata	Games/Exata.script
+2024-04-01 20:50:47.660 +0530	click	(TEXT:<1 digit, nonLettersOrDigits, whitespace characters, nonLettersOrDigits, characters>)	at (521, 846)	2	on_exata	Games/Exata.script
+2024-04-01 20:50:47.660 +0530	set		SEARCHRECTANGLE = [328,835,715,857]	3	on_exata	Games/Exata.script
+2024-04-01 20:50:52.697 +0530	EndTestCase		(Duration:"5.916", Errors:"0", Exceptions:"0", StartTime:"2024-04-01 20:50:46 +0530", Successes:"1", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 20:50:52.838 +0530	SUCCESS		Execution Time 0:00:05 Games/Exata.script

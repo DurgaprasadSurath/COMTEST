@@ -1,0 +1,54 @@
+﻿
+(*==============================Setting up all the Environment Variables Here==============================*)
+
+set the suiteVariables.service3dPassport to "https://plmqa-3dp.pg.com/3dpassport"  --setting the suite variable to the Base URL 
+set the suiteVariables.service3dSpace to "https://plmqa-3dp.pg.com/3dpassport"  --setting the suite variable to the Base URL 
+set the suiteVariables.Username to "Username Here"  --setting the suite variable to the Username
+set the suiteVariables.Password to "Password Here"  --setting the suite variable to the Password
+set the suiteVariables.securityCon to "CATIADesigner.PG.Internal_PG"  --setting the variable to security context
+(*========================CAS Login Ticket====================================*)
+
+set CASLoginTicketUrl to the suiteVariables.service3dPassport & "/login?action=get_auth_params"  --setting the variable to the end point
+
+GET URL CASLoginTicketUrl
+
+put JSONFormat(it.responseBody) into OutputResponse
+put OutputResponse.lt into the suiteVariables.Login_Ticket
+
+(*=========================CAS Authentication====================================*)
+
+set CASAuthenticationUrl to the suiteVariables.service3dPassport & "/login"  --setting the variable to the end point
+
+post multipart {body:{It:the suiteVariables.Login_Ticket, username:the suiteVariables.Username, password:the suiteVariables.Password}} to URL CASAuthenticationUrl with headers {"Content-Type":"multipart/form-data", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon} 
+
+put JSONFormat(it.responseBody) into OutputResponse
+Log OutputResponse
+
+(*====================CAS Auth, with 3DCompass App Request Create API========================*)
+
+set CASAuth3DCompassUrl to the suiteVariables.service3dSpace & "/resources/v1/apprequestmanagement/api/createapprequest"  --setting the variable to the end point
+
+put JSONFormat of {{ 
+[{
+"Titlle": "Creating Obsolence Request using API - Title", 
+"Description": "Creating Obsolence Request using API - Desc",
+"Originator": "apollotest1.im",
+"DueDate": "2024-03-30",
+"reasonForChange": "Creating Obsolence Request using API - Reason",
+"Project": "ProjectObsolen",
+"Plant":[
+"ALMUSA PLANT~2601",
+"AMIENS PLANT - ENTERPRENEUR~4106
+],
+"TypeOfChange":"Obsolescence Request",
+"BusinessArea":[
+"Baby Care",
+"Feminine Care"]
+}]
+}} into myRequestBody 
+
+
+post myRequestBody to URL CASAuth3DCompassUrl with headers {"Content-Type":"Application/json", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon}
+
+put JSONFormat(it.responseBody) into OutputResponse
+Log OutputResponse

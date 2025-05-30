@@ -1,0 +1,37 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/ScalingProperty.script",
+				"identifier": "START",
+				"timestamp": "2024-04-03 20:20:06.985 +0530"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-03 20:20:07.783 +0530",
+				"scriptName": "Games/ScalingProperty.script",
+				"message": "at (416, 29)",
+				"image": "Paint_SC1",
+				"handlerLine": 4,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-03 20:20:07.856 +0530",
+				"message": "0.25",
+				"scriptName": "Games/ScalingProperty.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.887\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-03 20:20:06 +0530\", Successes:\"1\", TestCase:\"Games/ScalingProperty.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-03 20:20:07.879 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/ScalingProperty.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-03 20:20:08.019 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-03 20:20:06.989 +0530"
+}

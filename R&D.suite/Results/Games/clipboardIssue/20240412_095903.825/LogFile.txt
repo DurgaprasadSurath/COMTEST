@@ -1,0 +1,6 @@
+﻿2024-04-12 09:59:03.834 +0530	START		Running Games/clipboardIssue.script
+2024-04-12 09:59:03.978 +0530	typetext		[controlKey]a	2	on_clipboardissue	Games/clipboardIssue.script
+2024-04-12 09:59:04.745 +0530	typetext		[controlKey]c	3	on_clipboardissue	Games/clipboardIssue.script
+2024-04-12 09:59:04.838 +0530	Log		床前明月光，\n\n疑是地上霜。\n\n举头望明月，\n\n低头思故乡。	4	on_clipboardissue	Games/clipboardIssue.script
+2024-04-12 09:59:05.005 +0530	EndTestCase		(Duration:"1.161", Errors:"0", Exceptions:"0", StartTime:"2024-04-12 09:59:03 +0530", Successes:"1", TestCase:"Games/clipboardIssue.script", Warnings:"0")
+2024-04-12 09:59:05.187 +0530	SUCCESS		Execution Time 0:00:01 Games/clipboardIssue.script

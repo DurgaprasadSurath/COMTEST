@@ -1,0 +1,275 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/compp.script",
+				"identifier": "START",
+				"timestamp": "2024-03-07 16:05:32.581 +0530"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:32.622 +0530",
+				"message": "COMPARESCREENACTION = Warning",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"image": "[Baseline_Screens]/tutorialSut_menu.png",
+				"identifier": "CompareScreen",
+				"message": "CompareScreen \"tutorialSut_menu\" -- differences between current screen and baseline",
+				"contextInfo": "{CurrentImageName:\"tutorialSut_menu_0006.png\", Differences:[{difference:\"New\", differenceType:\"Element\", rectangle:[614, 297, 741, 442], source:\"Current\"}]}",
+				"handlerLine": 3,
+				"scriptName": "Games/compp.script",
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:32.783 +0530"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:32.787 +0530",
+				"scriptName": "Games/compp.script",
+				"message": "Found 1 differences",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160532.575/tutorialSut_menu_0006.png",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:32.799 +0530",
+				"message": "[{difference:\"New\", differenceType:\"Element\", rectangle:[614,297,741,442], source:\"Current\"}]",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:32.884 +0530",
+				"message": "at (861, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 5,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:34.046 +0530",
+				"message": "at (961, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 6,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:34.052 +0530",
+				"message": "COMPARESCREENACTION = Warning",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"image": "[Baseline_Screens]/tutorialSut_menu.png",
+				"identifier": "CompareScreen",
+				"message": "CompareScreen \"tutorialSut_menu\" -- differences between current screen and baseline",
+				"contextInfo": "{CurrentImageName:\"tutorialSut_menu_0007.png\", Differences:[{difference:\"New\", differenceType:\"Element\", rectangle:[613, 297, 741, 442], source:\"Current\"}]}",
+				"handlerLine": 3,
+				"scriptName": "Games/compp.script",
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:34.929 +0530"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:34.934 +0530",
+				"scriptName": "Games/compp.script",
+				"message": "Found 1 differences",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160532.575/tutorialSut_menu_0007.png",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:34.945 +0530",
+				"message": "[{difference:\"New\", differenceType:\"Element\", rectangle:[613,297,741,442], source:\"Current\"}]",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:35.032 +0530",
+				"message": "at (861, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 5,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:36.204 +0530",
+				"message": "at (961, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 6,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:36.210 +0530",
+				"message": "COMPARESCREENACTION = Warning",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"image": "[Baseline_Screens]/tutorialSut_menu.png",
+				"identifier": "CompareScreen",
+				"message": "CompareScreen \"tutorialSut_menu\" -- differences between current screen and baseline",
+				"contextInfo": "{CurrentImageName:\"tutorialSut_menu_0008.png\", Differences:[{difference:\"New\", differenceType:\"Element\", rectangle:[613, 296, 741, 442], source:\"Current\"}]}",
+				"handlerLine": 3,
+				"scriptName": "Games/compp.script",
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:37.095 +0530"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:37.100 +0530",
+				"scriptName": "Games/compp.script",
+				"message": "Found 1 differences",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160532.575/tutorialSut_menu_0008.png",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:37.110 +0530",
+				"message": "[{difference:\"New\", differenceType:\"Element\", rectangle:[613,296,741,442], source:\"Current\"}]",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:37.197 +0530",
+				"message": "at (861, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 5,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:38.380 +0530",
+				"message": "at (961, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 6,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:38.384 +0530",
+				"message": "COMPARESCREENACTION = Warning",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"image": "[Baseline_Screens]/tutorialSut_menu.png",
+				"identifier": "CompareScreen",
+				"message": "CompareScreen \"tutorialSut_menu\" -- differences between current screen and baseline",
+				"contextInfo": "{CurrentImageName:\"tutorialSut_menu_0009.png\", Differences:[{difference:\"New\", differenceType:\"Element\", rectangle:[614, 297, 741, 442], source:\"Current\"}]}",
+				"handlerLine": 3,
+				"scriptName": "Games/compp.script",
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:39.284 +0530"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:39.288 +0530",
+				"scriptName": "Games/compp.script",
+				"message": "Found 1 differences",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160532.575/tutorialSut_menu_0009.png",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:39.299 +0530",
+				"message": "[{difference:\"New\", differenceType:\"Element\", rectangle:[614,297,741,442], source:\"Current\"}]",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:39.388 +0530",
+				"message": "at (861, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 5,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:40.555 +0530",
+				"message": "at (961, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 6,
+				"identifier": "drop"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:40.559 +0530",
+				"message": "COMPARESCREENACTION = Warning",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"image": "[Baseline_Screens]/tutorialSut_menu.png",
+				"identifier": "CompareScreen",
+				"message": "CompareScreen \"tutorialSut_menu\" -- differences between current screen and baseline",
+				"contextInfo": "{CurrentImageName:\"tutorialSut_menu_0010.png\", Differences:[{difference:\"New\", differenceType:\"Element\", rectangle:[614, 390, 741, 442], source:\"Current\"}]}",
+				"handlerLine": 3,
+				"scriptName": "Games/compp.script",
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:41.449 +0530"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:41.453 +0530",
+				"scriptName": "Games/compp.script",
+				"message": "Found 1 differences",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/Games/compp/20240307_160532.575/tutorialSut_menu_0010.png",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:41.461 +0530",
+				"message": "[{difference:\"New\", differenceType:\"Element\", rectangle:[614,390,741,442], source:\"Current\"}]",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:41.543 +0530",
+				"message": "at (861, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 5,
+				"identifier": "drag"
+			},
+		{
+				"handlerName": "on_compp",
+				"timestamp": "2024-03-07 16:05:42.726 +0530",
+				"message": "at (961, 694)",
+				"scriptName": "Games/compp.script",
+				"handlerLine": 6,
+				"identifier": "drop"
+			},
+		{
+				"message": "(Duration:\"10.181\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-03-07 16:05:32 +0530\", Successes:\"1\", TestCase:\"Games/compp.script\", Warnings:\"5\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-07 16:05:42.766 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:10 Games/compp.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-03-07 16:05:42.902 +0530"
+			}
+	],
+	"createdTimestamp": "2024-03-07 16:05:32.584 +0530"
+}

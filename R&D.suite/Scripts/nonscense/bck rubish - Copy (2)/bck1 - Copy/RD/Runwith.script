@@ -1,0 +1,2 @@
+﻿RunWithNewResults "CoverageReport", temp, 2
+SendMail to:"durgaprasadsurath@gmail.com", subject:"Checking EPF", message:"Testing"

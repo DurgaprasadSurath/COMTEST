@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/compp_script" package="R&amp;D.suite" timestamp="2024-03-07 16:04:10.663 +0530"
+ tests="1"  failures="1" errors="0" time="27.380000">
+  <properties>
+   <property name="RunDate" value="2024-03-07 16:04:10.663 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Games/compp.script" assertions="2" status="failure"  time="27.366">
+    <failure type="LogError" message="Found 2 differences" />
+  </testcase>
+ </testsuite>
+</testsuites>

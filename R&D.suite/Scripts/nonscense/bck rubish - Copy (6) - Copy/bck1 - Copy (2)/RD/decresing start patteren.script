@@ -1,0 +1,33 @@
+﻿
+
+set n to 5
+set i to n
+set temp to empty
+repeat  until not (i is greater than or equal to 1)
+	set j to 1
+	repeat until not (j is less than or equal to i)
+		put "*" after temp
+		set j to (j + 1)
+	end repeat
+	put temp
+	//put format("\n")
+	set i to (i - 1)
+	set temp to empty
+End Repeat
+
+
+set n to 5
+set i to n
+set j to 1
+set temp to empty
+repeat  until not (i is greater than or equal to 1)
+	repeat j times
+		put "*" after temp
+	end repeat
+	set j to (j + 1)
+	put temp
+	//put format("\n")
+	set i to (i - 1)
+	set temp to empty
+End Repeat
+

@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled1.script",
+				"identifier": "START",
+				"timestamp": "2024-10-17 13:45:25.768 +0530"
+			},
+		{
+				"handlerName": "on_untitled1",
+				"timestamp": "2024-10-17 13:45:25.813 +0530",
+				"message": "2024-10-17 13:45:25 +0530",
+				"scriptName": "Untitled1.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled1",
+				"timestamp": "2024-10-17 13:45:25.840 +0530",
+				"message": "False",
+				"scriptName": "Untitled1.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.104\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-10-17 13:45:25 +0530\", Successes:\"1\", TestCase:\"Untitled1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-17 13:45:25.874 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Untitled1.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-10-17 13:45:25.919 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-17 13:45:25.770 +0530"
+}

@@ -1,0 +1,19 @@
+﻿(*Note: This line of code can be modified based on your application's behavior, and you can use dynamic coordinates instead of hard coordinates.*)
+
+MoveTo [1440,810] // Move to a certain point where you can see the options for the scroller icon.
+MouseButtonDown 2  // This command will click the scroller button.
+MoveTo [1440,810]    // Move to your desired location. 
+MouseButtonUp 2   // This command will undo clicking the scroller button.
+
+
+TypeText windowsKey, "v"
+
+set HouseNumber to 234
+setremoteclipboard HouseNumber
+TypeText ControlKey,"v"
+
+Log RemoteClipboard()
+
+TypeText controlKey, "a"
+TypeText controlKey, "c"
+Log RemoteClipboard()

@@ -1,0 +1,4 @@
+﻿2024-08-01 16:47:25.731 +0530	START		Running Today30072024/ocrFinding.script
+2024-08-01 16:47:28.816 +0530	click	(TEXT:"AUG1Thu")	at (79, 672)	1	on_ocrfinding	Today30072024/ocrFinding.script
+2024-08-01 16:47:28.841 +0530	EndTestCase		(Duration:"3.104", Errors:"0", Exceptions:"0", StartTime:"2024-08-01 16:47:25 +0530", Successes:"1", TestCase:"Today30072024/ocrFinding.script", Warnings:"0")
+2024-08-01 16:47:28.900 +0530	SUCCESS		Execution Time 0:00:03 Today30072024/ocrFinding.script

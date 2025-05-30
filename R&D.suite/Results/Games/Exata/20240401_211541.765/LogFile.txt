@@ -1,0 +1,5 @@
+﻿2024-04-01 21:15:41.777 +0530	START		Running Games/Exata.script
+2024-04-01 21:15:41.871 +0530	set		SEARCHRECTANGLE = [155,592,874,1041]	1	on_exata	Games/Exata.script
+2024-04-01 21:15:55.649 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	2	on_exata	Games/Exata.script
+2024-04-01 21:15:55.682 +0530	EndTestCase		(Duration:"13.889", Errors:"1", Exceptions:"1", StartTime:"2024-04-01 21:15:41 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 21:15:55.699 +0530	ABORTED		Execution Time 0:00:13 Games/Exata.script

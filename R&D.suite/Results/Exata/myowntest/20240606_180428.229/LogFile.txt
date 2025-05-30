@@ -1,0 +1,4 @@
+﻿2024-06-06 18:04:28.237 +0530	START		Running Exata/myowntest.script
+2024-06-06 18:04:28.296 +0530	Log		Surath	2	on_username	Exata/myowntest.script
+2024-06-06 18:04:28.319 +0530	EndTestCase		(Duration:"0.074", Errors:"0", Exceptions:"0", StartTime:"2024-06-06 18:04:28 +0530", Successes:"1", TestCase:"Exata/myowntest.script", Warnings:"0")
+2024-06-06 18:04:28.410 +0530	SUCCESS		Execution Time 0:00:00 Exata/myowntest.script

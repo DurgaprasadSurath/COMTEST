@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/Wan_script" package="R&amp;D.suite" timestamp="2024-02-19 10:54:35.643 +0530"
+ tests="1"  failures="0" errors="0" time="0.117000">
+  <properties>
+   <property name="RunDate" value="2024-02-19 10:54:35.643 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Games/Wan.script" assertions="1" status="success"  time="0.104">
+  </testcase>
+ </testsuite>
+</testsuites>

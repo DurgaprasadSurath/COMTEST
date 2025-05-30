@@ -1,0 +1,204 @@
+﻿
+aioutputfileconverstion "Gifter3.xlsx","Gifter2.xlsx","e2e.csv"
+
+(*Calling the handler by passing two empty excel files and a CSV file which exported from the eggplant AI.
+The 1st excel file which you have passed will become the final output for the template.
+The 2nd excel file which you have passed to the handler will act as an intermediate file to upload the description and expected result to the final template.
+The 2nd file will contain the unique actions which need to be described for business purposes.*)
+
+to handle aioutputfileconverstion excelfile1,excelfile2,aioutputfile
+
+	//setting the variables to the resource path
+	set MyExcelFile1 to Workbook(ResourcePath(excelfile1)) 
+	set MyExcelFile2 to Workbook(ResourcePath(excelfile2))
+	set MyCsvFile to file ResourcePath(aioutputfile)
+	
+	//setting the variable to the sheet 1 of excel file
+	set Sheet1_File1 to worksheet(MyExcelFile1,1)
+	set Sheet1_File2 to worksheet(MyExcelFile2,1)
+	
+	//writing the desired headings to the particular cells of the excel file 
+	put "Subject" into Cell(Sheet1_File1,[1,1])
+	put "TestCase Name" into Cell(Sheet1_File1,[1,2])
+	put "Type" into Cell(Sheet1_File1,[1,3])
+	put "Step Name" into Cell(Sheet1_File1,[1,4])
+	put "Description (Design Steps)" into Cell(Sheet1_File1,[1,5])
+	put "Expected Result (Design Steps)" into Cell(Sheet1_File1,[1,6])
+	put "Approval Status" into Cell(Sheet1_File1,[1,7])
+	put "GxP Flag" into Cell(Sheet1_File1,[1,8])
+	put "Test Script Phase" into Cell(Sheet1_File1,[1,9])
+
+	//writing the desired headings to the particular cells of the excel file -2
+	put "Unquie Actions" into Cell(Sheet1_File2,[1,1])
+	put "Description" into Cell(Sheet1_File2,[1,2])
+	put "Expected Result" into Cell(Sheet1_File2,[1,3])
+	//put "Unquie States" into Cell(Sheet1_File2,[1,4])
+	//put "State Description" into Cell(Sheet1_File2,[1,5])
+	
+	//loop for getting the steps from the test case column of csv file and storing them into the excel file
+	set Global Count1 to 0
+	set Global Count2 to 0
+	set Global Count3 to 0
+	set Global Count4 to 0
+	set Global ListOfBlankCells to 0
+	
+	//getting the number of rows from csv file and storing it into varaible 
+	put the number of lines of MyCsvFile into NumberOfLines
+	//getting the number of items from first row of csv file and storing it into variable
+	put the number of items of line 1 of MyCsvFile into Headings
+	
+	//loop for storing the actions and states in Templete file and intermediate file
+	repeat (NumberOfLines - 1) times
+		//storing the loop count into variable 
+		put repeatIndex() into Global Count1
+		//getting the number of items from the row of csv file and storing into variable
+		put the number of items of line (repeatIndex() + 1) of MyCsvFile into NumberOfItems
+		//getting the differnce between items of each row and storing into variable 
+		put (NumberOfItems - Headings) into Global Count2
+		
+		repeat (Global Count2 + 1) times	
+			put item (repeatIndex() + 1) of line (Global Count1 + 1) of MyCsvFile into FullActionStep
+			if FullActionStep contains quote then
+				delete quote from FullActionStep
+			end if
+			//dividing the action into two items and storing into variable
+			if FullActionStep contains "::" then 
+				put FullActionStep split by "::" into Global step
+				//log Global step
+				if first character of item 1 of Global step is space then
+					delete first occurrence of space in item 1 of Global step
+				end if
+				
+				put item 1 of Global step split by space into temp
+				
+				//deleting the extra charcters from the variable
+				if item 2 of Global step contains quote then
+					delete quote from item 2 of Global step
+				end if
+				
+				if item 2 of Global step contains "\" then
+					delete every occurrence of "\"  from item 2 of Global step
+				end if
+				//storing all steps into the variable 
+				put  item 2 of Global step  into item (repeatIndex() + Global Count4) of Global ListOfActions
+				put  item 2 of  temp into item (repeatIndex() + Global Count4) of Global ListOfStates
+				if Global Count1 equal to 1 then
+					put item 2 of Global step into Cell(Sheet1_File1,[(repeatIndex() + 1) ,4])
+				else 
+					put item 2 of Global step into Cell(Sheet1_File1,[(repeatIndex() + Global Count4 + 1) ,4])
+				end if
+			else 
+				put FullActionStep split by space into Global step
+				log Global step
+				if first character of item 1 of Global step is space then
+					delete first occurrence of space in item 1 of Global step
+				end if
+				
+				put item 1 of Global step split by space into temp
+				
+				//deleting the extra charcters from the variable
+				if item 3 of Global step contains quote then
+					delete quote from item 2 of Global step
+				end if
+				
+				if item 3 of Global step contains "\" then
+					delete every occurrence of "\"  from item 2 of Global step
+				end if
+				
+				//storing all steps into the variable 
+				put  item 3 of Global step  into item (repeatIndex() + Global Count4) of Global ListOfActions
+				put  item 3 of  temp into item (repeatIndex() + Global Count4) of Global ListOfStates
+				if Global Count1 equal to 1 then
+					put item 3 of Global step into Cell(Sheet1_File1,[(repeatIndex() + 1) ,4])
+				else 
+					put item 3 of Global step into Cell(Sheet1_File1,[(repeatIndex() + Global Count4 + 1) ,4])
+				end if
+			end if
+			
+			put repeatIndex() into Global Count3	
+		end repeat
+		//storing the repeat index value into the list variable
+		put Global Count3 into item repeatIndex() of Global List1
+		put (Global Count3 + Global Count4) into Global Count4
+		put Global Count2 into item repeatIndex() of Global ListOfBlankCells
+	end repeat
+	
+	//loop for deleting unwanted chars from the variable and storing into same variable
+	repeat the number of lines of MyCsvFile times 
+		if item 1 of line repeatIndex() of MyCsvFile contains quote then
+			delete quote from item 1 of line repeatIndex() of MyCsvFile 	
+			put item 1 of line repeatIndex() of MyCsvFile into item repeatIndex() of MyHeaderItems 
+		else 
+			put item 1 of line repeatIndex() of MyCsvFile into item repeatIndex() of MyHeaderItems
+		end if
+	end repeat
+	
+	//loop for getting the test name from names column of csv file and storing them into the excel file
+	set Count to 0
+	repeat the number of items of MyCsvFile
+		if repeatIndex() equal to 1 then 
+			put item repeatIndex() of MyHeaderItems  into Cell(Sheet1_File1,[(repeatIndex() + 1) ,2])
+			//subject value in Templete
+			put "TestCaseFolderpath" into Cell(Sheet1_File1,[(repeatIndex() + 1) ,1])
+			//Type value in Templete
+			put "VAPI-XP-TEST" into Cell(Sheet1_File1,[(repeatIndex() + 1) ,3])
+			//Approval Status in Templete
+			put "VYerekar" into Cell(Sheet1_File1,[(repeatIndex() + 1) ,7])
+			//GxP Flag in Templete
+			put "Non-GxP" into Cell(Sheet1_File1,[(repeatIndex() + 1) ,8])
+			//Test Script Phase in Templete
+			put "SIT" into Cell(Sheet1_File1,[(repeatIndex() + 1) ,9])
+		else
+			if item (repeatIndex() - 1) of Global ListOfBlankCells equal to empty then
+				exit repeat
+			end if
+			put item repeatIndex() of MyHeaderItems into Cell(Sheet1_File1,[(repeatIndex() + Count),2])
+			//subject value in Templete
+			put "TestCaseFolderpath" into Cell(Sheet1_File1,[(repeatIndex() + Count) ,1])
+			//Type value in Templete
+			put "VAPI-XP-TEST" into Cell(Sheet1_File1,[(repeatIndex() + Count) ,3])
+			//Approval Status in Templete
+			put "VYerekar" into Cell(Sheet1_File1,[(repeatIndex() + Count) ,7])
+			//GxP Flag in Templete
+			put "Non-GxP" into Cell(Sheet1_File1,[(repeatIndex() + Count) ,8])
+			//Test Script Phase in Templete
+			put "SIT" into Cell(Sheet1_File1,[(repeatIndex() + Count) ,9])
+			put ( item (repeatIndex() - 1) of Global ListOfBlankCells + Count) into Count
+		end if
+	end repeat
+	
+	//spliting the items by comma and storing into another variable
+	split Global ListOfActions by ","
+	put the unique items of Global ListOfActions into Global UniqueListOfActions
+	//loop for storing the unquie actions into the excel file 
+	repeat the number of items of  Global UniqueListOfActions
+		//storing the unique actions into intermediate file
+		put item repeatIndex() of Global UniqueListOfActions into Cell(Sheet1_File2,[(repeatIndex() + 1),1])
+	end repeat
+	
+	(*//spliting the items by comma and storing into another variable
+	split Global ListOfStates by ","
+	put the unique items of Global ListOfStates into Global UniqueListOfStates
+	//loop for storing the unquie states into the excel file 
+	repeat the number of items of  Global UniqueListOfStates
+		//storing the unique states into intermediate file
+		put item repeatIndex() of Global UniqueListOfStates into Cell(Sheet1_File2,[(repeatIndex() + 1),4])
+	end repeat*)
+	
+	//loop for writing description and expected result in to the excel file
+	repeat the number of items of Global UniqueListOfActions
+		put (repeatIndex() + 1) into Count
+		repeat the number of items of Global ListOfActions
+			if item (Count - 1) of Global UniqueListOfActions equal to item repeatIndex() of Global ListOfActions then 
+				//updating the templete with discription with respective action
+				put Cell(Sheet1_File2,[Count,2]) into Cell(Sheet1_File1,[(repeatIndex() + 1),5])
+				//updating the templete with expected with respective action
+				put Cell(Sheet1_File2,[Count,3])   into Cell(Sheet1_File1,[(repeatIndex() + 1),6])
+			end if	
+		end repeat
+	end repeat
+	
+end aioutputfileconverstion
+
+
+

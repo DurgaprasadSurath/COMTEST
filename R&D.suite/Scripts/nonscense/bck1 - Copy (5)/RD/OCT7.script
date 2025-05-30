@@ -1,0 +1,12 @@
+﻿put webDriver (host:"192.168.1.142", browser: "chrome", port: "4444", url: nopcom) into driver
+set the webDriver's windowsize to "max"
+Click {webID: "small-searchterm",waitfor:10}
+SendKeys "Fahrenheit 451 by Ray Bradbury",return,waitfor:10
+Click {webXPath:"/html/body/div[5]/div[3]/div/div[2]/div/div[2]/div[3]/div/div/div/div/div[2]/div[3]/div[2]/input[1]",waitfor:10}
+wait 7
+Click {webXPath: "//*[@id='topcartlink']/a/span[1]",waitfor:2}
+Click {webName:"removefromcart",waifor:2}
+Click {webName:"updatecart",waifor:10}
+MoveTo webPartialLinkText: "Computers",waitfor:5
+Click webPartialLinkText: "Notebooks",waitfor:5
+DoubleClick webXPath: "/html/body/div[5]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[1]/div/div[1]/a/img"

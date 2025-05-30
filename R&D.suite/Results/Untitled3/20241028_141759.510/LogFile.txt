@@ -1,0 +1,4 @@
+﻿2024-10-28 14:17:59.521 +0530	START		Running Untitled3.script
+2024-10-28 14:17:59.577 +0530	Log		Fremont	2	on_untitled3	Untitled3.script
+2024-10-28 14:17:59.592 +0530	EndTestCase		(Duration:"0.071", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 14:17:59 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 14:17:59.639 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

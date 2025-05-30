@@ -1,0 +1,114 @@
+﻿set the ScriptLogging to off
+
+--Excel Interaction
+set Global MyExcelFile to ResourcePath("GoogleTrends.xlsx")
+set Global MyTestDataFile to Workbook(Global MyExcelFile)
+set Global SheetName to worksheet(Global MyTestDataFile,1)
+put "Date" into Global SheetName's Cell(1,1) 
+put "Pho" into Global SheetName's Cell(1,2) 
+put "Ramen" into Global SheetName's Cell(1,3) 
+put "Soba" into Global SheetName's Cell(1,4) 
+
+
+--Fetching Data from graph
+TypeText windowsKey,r
+TypeText "Chrome https://trends.google.com/trends/explore?date=today%201-m&q=%2Fm%2F02y17j,%2Fm%2F09gms,%2Fm%2F012y1_",return
+wait 3
+TypeText controlKey,0
+WaitForAll 30, {text:"Google Trends",caseSensitive:true,SearchRectangle: SearchArea.ScreenPart("LeftHalfOfTopLeftQuadrant")},{text:"Interest over time",caseSensitive:true,validWords:"*",SearchRectangle: SearchArea.ScreenPart("BottomHalfOfTopHalf")}
+put ImageLocation(text:"Average",SearchRectangle: SearchArea.ScreenPart("TopHalfOfBottomHalf")) into AvgPlace
+set the SearchRectangle to [[AvgPlace.x+60,AvgPlace.y-7],[AvgPlace.x+160,AvgPlace.y+10]]
+wait 2
+put ReadText(the SearchRectangle,dpi:144,preferDictionarywords:off) into LableName
+put ImageLocation(text:LableName,dpi:144,preferDictionarywords:off) into LableNameLocation
+
+set loc to 30
+set loc2 to 0
+
+repeat until ImageFound(imageName:"ShareIcon", waitFor:05,SearchRectangle:[[LableNameLocation.x+loc2,LableNameLocation.y-250],[LableNameLocation.x+loc,LableNameLocation.y-320]])
+	MoveTo [LableNameLocation.x+loc2,LableNameLocation.y-96]
+	set the SearchRectangle to [[LableNameLocation.x-50,LableNameLocation.y],[LableNameLocation.x+1000,LableNameLocation.y-250]]
+	put ImageLocation(text:"Ramen") into RamenLabel
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-81],[RamenLabel.x+84,RamenLabel.y-45]]
+	put ReadText(the SearchRectangle,dpi:144) into Date
+	
+	if Global SheetName's Cell(repeatIndex()+1,1) is not  Date then
+		LogError "Graph Date-"&Date&" is not matching with excel data that is Date-"&Global SheetName's Cell(repeatIndex()+1,1)
+		//LogError "Date is not matching with the Database in"&&repeatIndex()+1&&"row"
+		exit repeat
+	end if
+	
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-45],[RamenLabel.x+84,RamenLabel.y-17]]
+	put ReadText(the SearchRectangle) into PhoValue
+	if PhoValue is empty then 
+		exit repeat
+	end if
+	if PhoValue contains newline  then 
+		split PhoValue by newline 
+		
+		if Global SheetName's Cell(repeatIndex()+1,2) is not item 2 of PhoValue then
+			LogError "Graph Pho-"&item 2 of PhoValue&&"is not matching with excel data that is Pho-"&&Global SheetName's Cell(repeatIndex()+1,2)
+			//LogError "Pho value is not matching with the Database in"&&repeatIndex()+1&&"row"
+			exit repeat
+		end if 
+	else if PhoValue contains tab  then 
+		split PhoValue by tab 
+		if item 2 of PhoValue is not empty then
+			
+			if Global SheetName's Cell(repeatIndex()+1,2) is not item 2 of PhoValue then
+				LogError "Graph Pho-"&item 2 of PhoValue&&"is not matching with excel data that is Pho-"&&Global SheetName's Cell(repeatIndex()+1,2)
+				//LogError "Pho value is not matching with the Database in"&&repeatIndex()+1&&"row"
+				exit repeat
+			end if 
+		else 
+			Log "There is No Value to fetech"
+			exit repeat
+		end if 
+	end if
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-15],[RamenLabel.x+84,RamenLabel.y+13]]
+	put ReadText(the SearchRectangle) into RamenValue
+	if RamenValue contains newline   then 
+		split RamenValue by newline 
+		
+		if Global SheetName's Cell(repeatIndex()+1,3) is not item 2 of RamenValue then
+			LogError "Graph Ramen-"&item 2 of RamenValue&&"is not matching with excel data that is Ramen-"&&Global SheetName's Cell(repeatIndex()+1,3)
+			//LogError "Ramen value is not matching with the Database in"&&repeatIndex()+1&&"row"
+			exit repeat
+		end if 
+	else if RamenValue contains tab then 
+		split RamenValue by tab 
+		
+		if Global SheetName's Cell(repeatIndex()+1,3) is not item 2 of RamenValue then
+			LogError "Graph Ramen-"&item 2 of RamenValue&&"is not matching with excel data that is Ramen-"&&Global SheetName's Cell(repeatIndex()+1,3)
+			//LogError "Ramen value is not matching with the Database in"&&repeatIndex()+1&&"row"
+			exit repeat
+		end if 
+	end if
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y+13],[RamenLabel.x+84,RamenLabel.y+47]]
+	put ReadText(the SearchRectangle) into SobaValue
+	if SobaValue contains newline  then 
+		split SobaValue by newline 
+		
+		if Global SheetName's Cell(repeatIndex()+1,4) is not item 2 of SobaValue then
+			LogError "Graph Soba-"&item 2 of SobaValue&&"is not matching with excel data that is Soba-"&&Global SheetName's Cell(repeatIndex()+1,4)
+			//LogError "Soba value is not matching with the Database in"&&repeatIndex()+1&&"row"
+			exit repeat
+		end if 
+	else if SobaValue contains tab 
+		split SobaValue by newline 
+		
+		if Global SheetName's Cell(repeatIndex()+1,4) is not item 2 of SobaValue then
+			LogError "Graph Soba-"&item 2 of SobaValue&&"is not matching with excel data that is Soba-"&&Global SheetName's Cell(repeatIndex()+1,4)
+			//LogError "Soba value is not matching with the Database in"&&repeatIndex()+1&&"row"
+			exit repeat
+		end if 
+	end if
+	Log "Graph Values:: Date-"&Date&", Pho-"&item 2 of PhoValue&", Ramen-"&item 2 of RamenValue&", Soba-"&item 2 of SobaValue
+	Log "Excel Values:: Date-"&Global SheetName's Cell(repeatIndex()+1,1)&", Pho-"&Global SheetName's Cell(repeatIndex()+1,2)&", Ramen-"&Global SheetName's Cell(repeatIndex()+1,3)&", Soba-"&Global SheetName's Cell(repeatIndex()+1,4)
+	LogSuccess "Pho, Ramen and soba values are matching with database in"&&repeatIndex()+1&&"row"
+	
+	
+	set loc to loc + 30
+	set loc2 to loc2 + 30
+end repeat
+

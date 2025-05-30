@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999644.161,
+	"ocrcapturestring": "Contact Us",
+	"originalcapturelocation": [
+		1392,
+		98,
+		138,
+		42
+	],
+	"createddate": 1724999644.161,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Contact Us",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_45",
+					"HotSpot": "[108,32]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					1392,
+					98,
+					138,
+					42
+				],
+				"name": "image0008.png"
+			}
+	],
+	"name": "image0008"
+}

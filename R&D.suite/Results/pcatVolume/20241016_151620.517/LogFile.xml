@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Untitled2_script" package="R&amp;D.suite" timestamp="2024-10-16 15:16:20.517 +0530"
+ tests="1"  failures="2" errors="0" time="0.912000">
+  <properties>
+   <property name="RunDate" value="2024-10-16 15:16:20.517 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Untitled2.script" assertions="1" status="failure"  time="0.897">
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Command: &apos;volumeupbutton&apos; -- Execution Time 0:00:00 Untitled2.script" />
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Command: &apos;volumeupbutton&apos; -- Execution Time 0:00:00 Untitled2.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

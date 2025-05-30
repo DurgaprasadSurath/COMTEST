@@ -1,0 +1,27 @@
+﻿(*to handle LauncApplication
+	TypeText windowsKey,"r"
+	Typetext "Chrome http://nopcommerce.testplant.com",return,wiatfor:30
+	TypeText windowsKey, "upArrow"
+end LauncApplication*)
+
+BeginTestCase "Launch"
+Eggplant_Functional_Exercise_1.LauncApplication
+EndTestCase "Launch"
+
+to handle CellphonesMenu
+	set SearchRectangle to SR.ScreenPart("TopHalf")
+	MoveTo text:"Electronics",waitfor:30	
+	click text:"Cell phones",waitfor:30
+end CellphonesMenu
+
+to handle countofproductsDisplayed
+	repeat until ImageFound(text:"ADD TO CART")
+		ScrollWheelDown 2
+		
+	end repeat
+	put EveryImageLocation(text:"ADD TO CART") into countofProducts
+	//set countofProducts to the number of items of EveryImageRectangle(text:"ADD TO CART")
+	Log "Total number of products are"&& number of items of countofProducts
+end repeat
+
+end countofproductsDisplayed

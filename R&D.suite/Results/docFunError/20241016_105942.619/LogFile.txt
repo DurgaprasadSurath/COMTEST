@@ -1,0 +1,4 @@
+﻿2024-10-16 10:59:42.626 +0530	START		Running Untitled5.script
+2024-10-16 10:59:42.670 +0530	Log		\t<html>\n\t<head>\n\t<title>PageTitle</title>\n\t</head>\n\t<body>\n\t<h1>&nbsp;&nbsp;Example</h1>\n\t</body>\n\t</html>\n                    	31	on_untitled5	Untitled5.script
+2024-10-16 10:59:42.698 +0530	EndTestCase		(Duration:"0.072", Errors:"1", Exceptions:"0", StartTime:"2024-10-16 10:59:42 +0530", Successes:"0", TestCase:"Untitled5.script", Warnings:"0")
+2024-10-16 10:59:42.769 +0530	FAILURE		Error 0 in NSXMLErrorDomain: NSXMLErrorDomain code: 0 -- Execution Time 0:00:00 Untitled5.script

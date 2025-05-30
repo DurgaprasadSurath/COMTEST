@@ -1,0 +1,39 @@
+﻿to handle DAICommandLineExecution
+	params TestCaseName
+	set DAIParamsFile to file ResourcePath("DAIRunnerDetails.csv")
+	put the number of lines of DAIParamsFile into LinesCount
+	
+	repeat LinesCount times
+		if (item 10 of line repeatIndex()+1 of DAIParamsFile) is TestCaseName then
+			put item 1 of line repeatIndex()+1 of DAIParamsFile into AIAgentName
+			put item 2 of line repeatIndex()+1 of DAIParamsFile into DAIPassword
+			put item 3 of line repeatIndex()+1 of DAIParamsFile into DAIRunnerPath
+			put item 4 of line repeatIndex()+1 of DAIParamsFile into DAIServer
+			put item 5 of line repeatIndex()+1 of DAIParamsFile into DAIUserName
+			put item 6 of line repeatIndex()+1 of DAIParamsFile into EPFSuitePath
+			put item 7 of line repeatIndex()+1 of DAIParamsFile into GroupName
+			put item 8 of line repeatIndex()+1 of DAIParamsFile into LicenseServer
+			put item 9 of line repeatIndex()+1 of DAIParamsFile into ModelName
+			put item 10 of line repeatIndex()+1 of DAIParamsFile into TCName
+			put item 11 of line repeatIndex()+1 of DAIParamsFile into TCTemplate
+			Log "The"&&(repeatIndex()+1)&&"line is having the parameters regarding required test case"
+			exit repeat
+		else
+			Log "The"&&(repeatIndex()+1)&&"line is Not having the parameters regarding required test case"
+		end if
+	end repeat
+	
+	set MyCommand to "C:\Windows\system32\cmd.exe"&&"/c"&&DAIRunnerPath&&"-vv testcase"&&DAIServer&&DAIUserName&&DAIPassword&&TCName&&GroupName&&ModelName&&AIAgentName&&EPFSuitePath&&"--ei_server"&&LicenseServer&&"--ei_template"&&TCTemplate
+	Log MyCommand
+	
+	put MyCommand into file ResourcePath("rundrirecttcfile.bat")
+	put the folder of file ResourcePath("rundrirecttcfile.bat") into myFolder
+	set the shellCommand to "ShellExecute"
+	shell myFolder&"rundrirecttcfile.bat",none
+end DAICommandLineExecution
+
+
+DAICommandLineExecution "E2EQMS-TS020-FP-DV-AUTO"
+DAICommandLineExecution "E2EQMS-TS006-FP-DA-CM-AUTO"
+
+

@@ -1,0 +1,104 @@
+﻿put GetModelTestRuns().responseBody into response
+//log JSONValue(response) 
+log response
+put item 2 of JSONValue(response) into response2
+put item 3 of JSONValue(response) into response3
+put item 4 of JSONValue(response) into response4
+//log response3
+log response2
+log response2.coverage
+//log response4
+log response2.teststatus
+log response2.failedaction
+log response2.groupid
+log response2.id
+log response2.logfile
+log response2.modelid
+log response2.modelname
+
+
+log "----------------------------------------------"
+//putting the test configuration task details into variable and getting the values from the variable
+put response2.testconfigtask into testconfigTaskdetails
+Put "TestConfigurationTask Details"
+log testconfigTaskdetails
+//Getting the specific values from testconfigTaskdetails
+put "Specific values from test config task details"
+log testconfigTaskdetails.test_config_id
+log testconfigTaskdetails.test_config_name
+log testconfigTaskdetails.test_run_name
+log testconfigTaskdetails.test_run_number
+log testconfigTaskdetails.version_id
+log testconfigTaskdetails.model_uuid
+log testconfigTaskdetails.schema_version
+log testconfigTaskdetails.task_instance_id
+log testconfigTaskdetails.task_start_time
+
+//getting the sut requirements component details under testconfigtaskDetails component
+put testconfigTaskdetails.sut_requirements into SUTRequirements
+put "SUT Requirements"
+log SUTRequirements
+
+//getting the lockedSUTs component details and storing into variable called "lockedSUTS"
+put testconfigTaskdetails.locked_suts into lockedSUTS 
+Put "lockedSUTS Details"
+log lockedSUTS
+log lockedSUTS.enabled
+log lockedSUTS.name
+
+//getting the lock component details of lockedSUTS component and storing the information
+put lockedSUTS.lock into LockInformation
+put "Lock Information"
+log LockInformation
+
+// Getting the information from connections under locked sut component
+put lockedSUTS.connections into connectionDetails
+Put "Under LockedSUTS -> Connection Details"
+log connectionDetails
+put lockedSUTS.execution_environments into ExecenvironmentDetails
+Put "Execution Environment Details"
+log ExecenvironmentDetails
+put lockedSUTS.lock into LockDetails
+Put "Lock Details"
+log LockDetails
+
+//Getting the testconfigDetails under testconfigTaskdetails
+put testconfigTaskdetails.test_config into testconfigDetails
+Put "Testconfiguration Details"
+log testconfigDetails
+
+//Getting the step component details under testconfigDetails
+put testconfigDetails.steps into stepsDetails
+Put "Step Details"
+log stepsDetails
+log stepsDetails.step_type
+
+//Getting the sut component details under testconfigDetails
+put testconfigDetails.suts into SUTDetails
+put "Under Test config component -> SUT "
+log SUTDetails
+log SUTDetails.sut_id
+
+
+//Getting the tag component details of test configuration component
+put testconfigDetails.tags into TagDetails
+put "Tag Details of testconfig component"
+log TagDetails
+log TagDetails.name
+
+(*log testconfigDetails
+log connectionDetails
+log "...................."
+log ExecenvironmentDetails
+log "........................."
+log LockDetails
+log "...................................."*)
+
+
+
+
+
+
+
+
+

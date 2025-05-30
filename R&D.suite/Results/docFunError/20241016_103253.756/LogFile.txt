@@ -1,0 +1,2 @@
+﻿2024-10-16 10:32:53.786 +0530	START		Running Untitled5.script
+2024-10-16 10:32:53.857 +0530	Log		\t<html>\n\t<head>\n\t<title>"Hello"</title>\n\t</head>\n\t<body>\n\t<h1>"HELLO"</h1>\n\t<hr/>\n\t<h3>"Eggplant"</h3>\n\t</body>\n\t</html>\n                    	14	on_untitled5	Untitled5.script

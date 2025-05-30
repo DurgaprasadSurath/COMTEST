@@ -1,0 +1,51 @@
+﻿GetAccessToken "client:dai:agent:integration","33617592-b0fe-4717-b3e8-02071af48ee1","vijayalaxmi","Ideabytes@123", "http://localhost:8000/auth/realms/eggplant/protocol/openid-connect/token"
+//put "client:dai:agent:integration" into clientId
+//put "739c3dcf-5375-4ccb-9d61-009fdfcf74a8" into clientSecret //ENTER YOUR SECRET ID HERE
+//put "bearer " before global accessToken
+//log global accessToken
+
+//put "vijayalaxmi" into username
+//put "Ideabytes@123" into password
+put Global accessToken into AccessToken
+(*log "AccessToken: "
+log AccessToken*)
+put "http://localhost:8000/ai/testconfigtasks" into authUrl// Post the credentials to the auth server. This will return the access token
+//put {Content-Type:"application/json",Accept:"*/*",Authorization:<accessToken>} into Headers
+
+put ","&Headers after authUrl
+set Headers to {{
+Content-Type:"application/json",
+Accept:"*/*",
+Authorization: [[AccessToken]]
+}}
+
+put {runstatus: "NOT_RUNNING"} into postData
+
+
+post postData to url authUrl// Access the resource using the access token
+log it
+
+
+
+to CreateTestConfig ContentType,Accept,RunStatus,authUrl
+	GetAccessToken "client:dai:agent:integration","33617592-b0fe-4717-b3e8-02071af48ee1","vijayalaxmi","Ideabytes@123", "http://localhost:8000/auth/realms/eggplant/protocol/openid-connect/token"
+	put Global accessToken into AccessToken 
+	
+	(*set Headers to {{
+Content-Type:[[ContentType]],
+Accept:[[Accept]],
+Authorization:[[AccessToken]]
+}}*)
+	put {runstatus:RunStatus} into postData
+	
+post postData to url authUrl with headers {"Content-Type":ContentType,"Accept":Accept,"Authorization":AccessToken}
+log it
+end CreateTestConfig
+
+CreateTestConfig "application/json","*/*","NOT_RUNNING","http://localhost:8000/ai/testconfigtasks"
+
+
+
+
+
+

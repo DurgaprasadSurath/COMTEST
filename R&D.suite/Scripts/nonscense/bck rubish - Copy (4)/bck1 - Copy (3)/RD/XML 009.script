@@ -1,0 +1,39 @@
+﻿
+InspectionLotReader "XMl Teamplate01.xml"
+
+to handle InspectionLotReader
+	params XMLFile
+	put file ResourcePath(XMLFile) as a tree into XMLTree	
+	repeat with each item  of all nodes "*/Rowset/Row/INSPECTIONLOT" of  XMLTree 			
+		put 4&randomGen() into  node "/INSPECTIONLOT" of it		
+		wait 1
+		//put the text of it into the text of item repeatIndex() of all nodes "*/Rowset/Row/INSPECTIONLOT" of XMLTree
+		put  it into item repeatIndex() of  node "*/Rowset/Row/" of XMLTree
+	end repeat
+	put XMLTree into file ResourcePath("XMLFile.xml") 
+end InspectionLotReader
+
+To handle randomGen
+	put the abbrev time into time_t
+	delete every occurrence of  ":" in time_t
+	put the date into date_t
+	split date_t by "/"
+	return item 1 of date_t& item 2 of date_t&time_t
+End randomGen
+
+
+
+(*
+
+
+InspectionLotReader "XMl Teamplate.xml" to handle InspectionLotReader
+params XMLFile
+put file ResourcePath(XMLFile) as a tree into XMLTree
+put all nodes "*/Rowset/Row" of XMLTree  into  temp
+put temp as a tree into temp2
+repeat the number of items of temp2 times 
+put item repeatIndex() of temp2 as a tree  into temp3
+put the text of node "/Row/INSPECTIONLOT" of temp3
+end repeat
+end InspectionLotReader
+*)

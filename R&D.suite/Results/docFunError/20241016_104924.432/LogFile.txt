@@ -1,0 +1,2 @@
+﻿2024-10-16 10:49:24.443 +0530	START		Running Untitled5.script
+2024-10-16 10:49:24.502 +0530	Log		\t<html>\n\t<head>\n\t<title>pageTitle</title>\n\t</head>\n\t<body>\n\t<h1>pageTitle</h1>\n\t<hr/>\n\t<h3>Scripts in folder: scriptFolder as of the international date</h3>\n\t<hr/>\n\trepeat with each item of (the files of scriptFolder sorted)\n\t<p>\n\t<b>it</b>\n\t<br/>Last changed: international date of it.modificationDate\n\t<br/>Size: [[it]].size\n\t</p>\n\tend repeat\n\t</body>\n\t</html>\n                    	41	on_untitled5	Untitled5.script

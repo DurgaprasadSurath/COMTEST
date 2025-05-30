@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "project": {
+            "key": "MNP"
+        },
+        "summary": "This is Test Execution Created From Eggplant",
+        "issuetype": {
+            "id": "10170"
+        }
+        
+    },
+    "xrayFields": {
+        "testPlanKey": "MNP-2"
+    }
+}

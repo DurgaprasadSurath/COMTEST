@@ -1,0 +1,63 @@
+﻿set XMLFILE to file "C:\Users\durgaprasad.surath\Downloads\TestXML.xml"
+
+Log XMLFILE
+
+
+Log all nodes "//note" of XMLFILE
+
+Log XMLFILE as tree
+
+
+if not ImageFound(text:"Item...") then 
+	Click Image:"DropDownIcon"
+	wait 0.5
+	Click FoundImageLocation() + [-120,0]
+	wait 0.5
+	TypeText "Item"	
+	wait 1
+	Click text:"Item..."
+end if
+
+
+(*This handler requires the Excel file name with its extension, either the sheet name or its number and the test case name within the sheet. 
+It generates global variables using the names found in the Excel sheet's header row.
+*)
+
+to fetchingDataFromExcelFile 
+	params dataFileName, sheetName, testcaseName 
+	try
+		set myExcel to Workbook(ResourcePath(dataFileName))
+		set sheet to worksheet(myExcel, sheetName)
+		
+		
+		set columnNamesAsSingleItem to sheet's cellRange(1)
+		set columnNames to item 1 of columnNamesAsSingleItem
+		
+		set columnNamesCount to the number of items of columnNames	
+		set columnData to sheet's cellRange("A") 		
+		set columnCount to the number of items of columnData
+		
+		repeat columnCount times
+			if (Cell(sheet,[repeatIndex() + 1, 2]) is testcaseName) then 
+				set rowData to sheet's cellRange(repeatIndex() + 1) 
+				repeat with each item of columnNames
+					do "put 0 into Global"&&it
+					do "put item repeatIndex() of item 1 of rowData into Global"&&it
+				end repeat
+				set Cell(sheet,[repeatIndex() + 1, 1]) to "Executed"
+				exit repeat
+			end if
+		end repeat
+		
+	Catch theException
+		LogError theException.reason
+	End try
+end fetchingDataFromExcelFile
+
+
+fetchingDataFromExcelFile "Book1.xlsx", "1", "TC01"
+
+Log Global Aset
+Log Global Bset
+Log Global Cset
+Log Global Dset

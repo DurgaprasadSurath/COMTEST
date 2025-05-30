@@ -1,0 +1,4 @@
+﻿2024-04-03 20:26:47.790 +0530	START		Running Games/ScalingProperty.script
+2024-04-03 20:26:55.859 +0530	Exception	Paint_SC1	Unable To Find Image "Paint_SC1"	4	on_scalingproperty	Games/ScalingProperty.script
+2024-04-03 20:26:55.880 +0530	EndTestCase		(Duration:"8.084", Errors:"1", Exceptions:"1", StartTime:"2024-04-03 20:26:47 +0530", Successes:"0", TestCase:"Games/ScalingProperty.script", Warnings:"0")
+2024-04-03 20:26:56.074 +0530	FAILURE	Screen_Error.png	Image Not Found: imagelocation Error - Unable To Find Image "Paint_SC1" -- Execution Time 0:00:08 Games/ScalingProperty.script

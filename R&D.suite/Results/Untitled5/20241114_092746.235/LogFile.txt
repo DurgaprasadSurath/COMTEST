@@ -1,0 +1,6 @@
+﻿2024-11-14 09:27:46.243 +0530	START		Running Untitled5.script
+2024-11-14 09:27:46.289 +0530	Log		9c410ddb-e843-46bd-9679-4844a1ae84d7,192.168.90.225,ADOC,samba50*-qjc,43.206.222.125\n	4	on_untitled5	Untitled5.script
+2024-11-14 09:27:46.289 +0530	Log		YES	5	on_untitled5	Untitled5.script
+2024-11-14 09:27:46.289 +0530	Log		https://43.206.222.125\n:4430	8	on_untitled5	Untitled5.script
+2024-11-14 09:27:46.319 +0530	EndTestCase		(Duration:"0.072", Errors:"0", Exceptions:"0", StartTime:"2024-11-14 09:27:46 +0530", Successes:"1", TestCase:"Untitled5.script", Warnings:"0")
+2024-11-14 09:27:46.390 +0530	SUCCESS		Execution Time 0:00:00 Untitled5.script

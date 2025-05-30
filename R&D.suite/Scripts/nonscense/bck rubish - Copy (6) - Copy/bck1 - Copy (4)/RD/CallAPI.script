@@ -1,0 +1,110 @@
+﻿put CallModelAPI().statusCode into status
+log status
+
+put CallModelAPI().stat0usCode into executionID
+log executionID
+
+put api(CallModelAPI(),GetAgentsAPI())
+
+
+
+
+
+put GetAgentsAPI().responseBody into agentName
+log agentName
+log item 2 of agentName
+
+
+put GetListOfModels().responseBody into GetListOfModels
+//log JSONValue(GetListOfModels)
+log item 1 of JSONValue(GetListOfModels)
+
+put item 1 of JSONValue(GetListOfModels) into model1
+log model1.agent
+log model1.modeluuid
+log model1.name
+put model1.group into modelgroup
+log modelgroup
+
+log modelgroup.name
+
+
+
+
+
+
+//log Model1.modeluuid
+put Model1.modeluuid into ModelID
+log ModelID
+
+
+
+
+
+
+//To format to json values
+put GetAgentsAPI().responseBody into AgentsList
+put item 1 of JSONValue(AgentsList) into Agent1
+log Agent1
+put Agent1.agenttype into agentType
+log agentType
+put Agent1.eppanalyzerport into eppanalyzereport
+log eppanalyzereport
+put Agent1.isconnected into ConnStatus
+log ConnStatus
+put Agent1.name into agentName
+log agentName
+
+
+
+
+
+(*
+put JSONFormat(AgentsList) into AgentsLists
+delete every occurrence of "\" in AgentsLists
+delete every occurrence of "double quotes" in AgentsLists
+*)
+
+(*
+log AgentsLists
+log item 1 of AgentsList
+set the itemDelimiter to "}"
+set the listFormat to {prefix:empty}
+put item 1 of AgentsList into agent1
+delete first 2 characters in agent1
+set the itemDelimiter to ","
+
+log item 1 of agent1
+
+
+(*put JSONValue(AgentsList)*)
+
+(*put AgentsList as a tree into AgentsTree
+log AgentsTree*)
+
+set the itemDelimiter to "}"
+set the listFormat to {prefix:empty}
+put item 1 of AgentsList into agent1
+log agent1
+*)
+
+
+
+
+put GetModelTestRuns() into ListOfRunsAPIResponse
+log ListOfRunsAPIResponse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

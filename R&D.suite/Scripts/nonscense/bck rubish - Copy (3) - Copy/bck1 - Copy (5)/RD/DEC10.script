@@ -1,0 +1,26 @@
+﻿set dateList to ["1-3-21","5-01-21","6-4-21"]
+repeat the number of items of dateList 
+	put item repeatIndex() of dateList into temp
+	put temp as date
+end repeat
+/////////////////////////////////////////////////////
+set dateList to ["1-3-21","5-01-21","6-4-21"]
+put the number of items of dateList into Count 
+repeat Count times 
+	put item repeatIndex() of dateList into date1
+	split date1 by "-"
+	put date1 into temp
+	put the number of items of temp into count
+	repeat count times
+		if repeatIndex()<3
+			if length ( item repeatIndex() of date1) <  2
+				put "0" before item repeatIndex() of date1
+			end if
+		else if repeatIndex() =3
+			put "20" before item repeatIndex() of date1
+		end if
+	end repeat	
+	join date1 by "-"
+	insert date1 into DateList3
+end repeat
+Log DateList3

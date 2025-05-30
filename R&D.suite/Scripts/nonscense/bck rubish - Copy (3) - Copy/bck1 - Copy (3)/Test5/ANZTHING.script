@@ -1,0 +1,44 @@
+﻿# to perform click action and vadidate something over the screen
+to navigateToDesired action, desiredItem, offset, validation
+	if (action is not empty) then	
+		if file(suiteinfo().imagesFolder&"/"&action&".png") exists then
+			if( offset is not empty) then
+				click item desiredItem of EveryImageLocation(Image:action) + offset
+			else
+				click item desiredItem of EveryImageLocation(Image:action)
+			end if
+		else		
+			if (offset is not empty) then 
+				click item desiredItem of EveryImageLocation(text:action) + offset
+			else
+				click item desiredItem of EveryImageLocation(text: action)
+			end if
+			wait 1
+		end if
+	end if
+	
+	if (validation is not empty) then "CommonUtilities/Core".waitForValidation validation 	
+end navigateToDesired
+
+
+# to perform double click action and vadidate something over the screen
+to doubleClickEventToDesired action, desiredItem, offset, validation
+	if (action is not empty) then
+		if file(suiteinfo().imagesFolder&"/"&action&".png") exists then
+			if( offset is not empty) then
+				DoubleClick item desiredItem of EveryImageLocation(Image:action) + offset
+			else
+				DoubleClick item desiredItem of EveryImageLocation(Image:action)
+			end if
+		else			
+			if (offset is not empty) then 
+				DoubleClick item desiredItem of EveryImageLocation(text:action) + offset
+			else
+				DoubleClick item desiredItem of EveryImageLocation(text: action)
+			end if
+			wait 1
+		end if
+	end if
+	
+	if (validation is not empty) then "CommonUtilities/Core".waitForValidation validation 
+end doubleClickEventToDesired

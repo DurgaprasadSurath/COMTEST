@@ -1,0 +1,34 @@
+{
+	"entries": [
+		{
+				"message": "Running docFunError.script",
+				"identifier": "START",
+				"timestamp": "2024-10-17 12:46:07.392 +0530"
+			},
+		{
+				"handlerName": "on_logger",
+				"timestamp": "2024-10-17 12:46:07.461 +0530",
+				"scriptName": "docFunError.script",
+				"identifier": "Log",
+				"handlerLine": 3
+			},
+		{
+				"handlerName": "on_logger",
+				"timestamp": "2024-10-17 12:46:07.467 +0530",
+				"scriptName": "docFunError.script",
+				"identifier": "Log",
+				"handlerLine": 4
+			},
+		{
+				"message": "(Duration:\"0.102\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-10-17 12:46:07 +0530\", Successes:\"1\", TestCase:\"docFunError.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-17 12:46:07.503 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 docFunError.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-10-17 12:46:07.570 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-17 12:46:07.397 +0530"
+}

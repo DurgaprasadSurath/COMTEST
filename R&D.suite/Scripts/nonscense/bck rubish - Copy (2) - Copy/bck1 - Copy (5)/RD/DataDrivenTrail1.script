@@ -1,0 +1,137 @@
+﻿//set the SuiteVariables.SpreadSheetNumber to 1
+//set TestDataFile to "DataDrivenTrail1.xlsx"
+
+to handle DataDriven
+	params TestDataFile,TestcaseName
+	set the ScriptLogging to off
+	set Global MyExcelFile to ResourcePath(TestDataFile)
+	set Global MyTestDataFile to Workbook(Global MyExcelFile)
+	put  Global MyTestDataFile.worksheetcount into SheetCount
+	repeat SheetCount times
+		set Global SheetName to worksheet(Global MyTestDataFile,repeatIndex())
+		put Global SheetName's cellRange("A") into firstColData
+		put the number of items of firstColData into Count
+		repeat Count times
+			if Global SheetName's cellRange(repeatIndex()+1) is not empty then
+				if Global SheetName's Cell(repeatIndex()+1,2) is TestcaseName then 
+					if Global SheetName's Cell(repeatIndex()+1,1) is "Yes" then 
+						put Global SheetName's Cell(repeatIndex()+1,3) into Global URL
+						Log Global URL
+						put Global SheetName's Cell(repeatIndex()+1,4) into Global FilePath
+						Log  Global FilePath
+						set the SuiteVariables.RowRepeatIndex to repeatIndex()
+						//put "No" into Global SheetName's Cell(repeatIndex()+1,1)
+						exit repeat
+					end if
+				end if
+			else
+				exit repeat
+				Log "Changing the sheet"
+			end if 
+		end repeat 
+	end repeat
+end DataDriven
+
+(*to handle DataDriven
+	params Test_Data_File,Testcase_Name
+	set the ScriptLogging to off
+	if (the SuiteVariables.SpreadSheetNumber is greater than 3) then
+		set the SuiteVariables.SpreadSheetNumber to 1
+		readData Test_Data_File,Testcase_Name
+		set the SuiteVariables.SpreadSheetNumber to (the SuiteVariables.SpreadSheetNumber + 1)
+	else
+		readData Test_Data_File,Testcase_Name
+		set the SuiteVariables.SpreadSheetNumber to (the SuiteVariables.SpreadSheetNumber + 1)
+	end if
+end DataDriven
+
+to handle readData
+	params TestDataFile,TestcaseName
+	set MyExcelFile to ResourcePath(TestDataFile)
+	set MyTestDataFile to Workbook(MyExcelFile)
+	set SheetName to worksheet(MyTestDataFile,the SuiteVariables.SpreadSheetNumber)
+	put SheetName's cellRange("A") into firstCol
+	put the number of items of firstCol into Count
+	repeat Count times
+		if SheetName's cellRange(repeatIndex()+1) is not empty then
+			if SheetName's Cell(repeatIndex()+1,1) is "No" then 
+				if SheetName's Cell(repeatIndex()+1,2) is TestcaseName then 
+					put SheetName's Cell(repeatIndex()+1,3) into Global URL
+					Log Global URL
+					put SheetName's Cell(repeatIndex()+1,4) into Global FilePath
+					Log  Global FilePath
+					put "Yes" into SheetName's Cell(repeatIndex()+1,1)
+					exit repeat
+				end if
+			end if
+		else
+			Log "The row is empty"
+		end if 
+	end repeat 
+end readData*)
+
+
+to handle Launch
+	try
+		if Global URL is not empty then 
+			TypeText windowsKey,"r"
+			TypeText "Chrome"&&Global URL,return		
+		else 
+			Throw theException
+		end if
+	catch theException
+		put theException into error
+	end try
+end Launch
+
+to handle Page_Launched_Verification
+	try
+		if ImageFound(text:"Sample File Upload Form",SearchRectangle:SearchArea.ScreenPart("TopHalfOfTopHalf")) then
+			LogSuccess "Page is opened Successfully"
+		else 
+			Throw theException
+		end if
+	catch theException
+		put theException into error
+	end try
+end Page_Launched_Verification
+
+to handle ChooseFile
+	try 
+		Click text:"Choose File",caseSensitive:true,SearchRectangle:SearchArea.ScreenPart("LeftHalfOfHorizontalMiddle")
+		TypeText Global FilePath,return
+	catch theException
+		put theException into error
+	end try
+end ChooseFile
+
+to handle PressButton
+	try 
+		Click text:"Press",caseSensitive:true,SearchRectangle:SearchArea.ScreenPart("LeftHalfOfHorizontalMiddle")
+	catch theException
+		put theException into error
+	end try
+end PressButton
+
+to handle File_Uploaded_Verification 
+	try 
+		if ImageFound(text:"File Upload Results",waitfor:15,SearchRectangle:SearchArea.ScreenPart("TopHalfOfTopHalf")) then
+			LogSuccess "Page is opened Successfully"
+			put "No" into Global SheetName's Cell(the SuiteVariables.RowRepeatIndex+1,1)
+		else 
+			Throw theException
+		end if
+	catch theException
+		put theException into error
+	end try
+end File_Uploaded_Verification
+
+to handle CloseBrowser
+	try 
+		set Global URL to empty
+		set Global FilePath to empty
+		TypeText altKey,f4
+	catch theException
+		put theException into error
+	end try
+end CloseBrowser

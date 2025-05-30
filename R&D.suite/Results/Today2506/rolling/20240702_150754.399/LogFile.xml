@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Today2506/rolling_script" package="R&amp;D.suite" timestamp="2024-07-02 15:07:54.399 +0530"
+ tests="1"  failures="0" errors="0" time="34.906000">
+  <properties>
+   <property name="RunDate" value="2024-07-02 15:07:54.399 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Today2506/rolling.script" assertions="1" status="failure"  time="34.882">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

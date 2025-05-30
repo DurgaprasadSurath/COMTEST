@@ -1,0 +1,33 @@
+﻿2024-08-29 16:48:43.819 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.231 +0530	Log		C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Scripts/gen_kal.script	5	on_gen_kalyan_29082024	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.263 +0530	Log		C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Scripts/gen_kal.script	3	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.263 +0530	Log		(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.278 +0530	Log		  Script generated:  2024-08-29 15:40:17	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.278 +0530	Log		  From session:  gen_kal	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.295 +0530	Log		  Captured on:  2024-08-29 15:39:04	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.295 +0530	Log		  From server:  IB-171	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.310 +0530	Log		* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.310 +0530	Log			6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.326 +0530	Log		Click "image0001"	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.326 +0530	Log		DoubleClick "image0002"	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.342 +0530	Log		TypeText "google.com",Return	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.352 +0530	Log		hi2	8	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.357 +0530	Log		 "google.com"	11	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.357 +0530	Log		 "google.com"	13	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.357 +0530	Log		"	14	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.379 +0530	Log		Click (Image:"image0003", WaitFor:4)	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.391 +0530	Log		TypeText "keysight",Return	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.391 +0530	Log		hi2	8	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.405 +0530	Log		 "keysight"	11	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.405 +0530	Log		 "keysight"	13	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.405 +0530	Log		"	14	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.420 +0530	Log		Click "KeysightDesignEmulateandTestto"	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.436 +0530	Log		Click "ContactUsQ"	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.444 +0530	Log		TypeText "eggplant",Return	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.454 +0530	Log		hi2	8	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.454 +0530	Log		 "eggplant"	11	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.468 +0530	Log		 "eggplant"	13	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.468 +0530	Log		"	14	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.483 +0530	Log		Click (Image:"EggplantTest", WaitFor:8)	6	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:48:44.556 +0530	EndTestCase		(Duration:"0.733", Errors:"0", Exceptions:"0", StartTime:"2024-08-29 16:48:43 +0530", Successes:"1", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-29 16:48:44.612 +0530	SUCCESS		Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

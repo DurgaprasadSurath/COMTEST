@@ -1,0 +1,64 @@
+﻿put the date
+put formattedTime("%year/%mo/%da")
+put the date
+convert the  date to international date
+put the date
+put the long date
+put the short date
+
+put the date - "july,07 2021"
+put 09/13/2000
+put date().format
+put asdate(2000/12/01)
+
+put the match of <6 digits> in "1bc3 2284721234QX905"
+
+put the match of <punctuation> within "Green 1: 112-14"
+
+put occurrence (<"$">, "$895")
+
+set KingQuotes to {{
+
+Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.
+
+The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.
+
+Faith is taking the first step even when you don't see the whole staircase.
+
+Our lives begin to end the day we become silent about things that matter.
+
+Injustice anywhere is a threat to justice everywhere.
+
+I look to a day when people will not be judged by the color of their skin, but by the content of their character.
+
+I have decided to stick with love. Hate is too great a burden to bear.
+
+The time is always right to do what is right.
+
+Life's most persistent and urgent question is, "What are you doing for others?"
+
+We must learn to live together as brothers or perish together as fools.
+
+}}
+
+
+
+set LWords to <word beginning with "L", chars, word break>
+
+put every occurrence of LWords in KingQuotes
+
+
+
+
+set JWords to <"J" at start of a word, chars, end of word>
+
+put every match of JWords in KingQuotes
+
+
+
+put ["carrots","bananas","pistachios","lettuce","wasabi","aspirin","tissues"] into GroceryList
+
+put ["cat food","tissues","aspirin","soda","socks"] into TargetList
+
+put the union of GroceryList and TargetList
+put the number of items of TargetList

@@ -1,0 +1,5 @@
+﻿set Kcom_homepage to {txtUsername:"Username", \
+			txtPassword:"Password", \
+			txtLogin:"Log In"}
+
+return Kcom_homepage

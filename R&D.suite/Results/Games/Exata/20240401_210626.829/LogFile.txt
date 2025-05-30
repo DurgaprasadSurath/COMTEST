@@ -1,0 +1,8 @@
+﻿2024-04-01 21:06:26.846 +0530	START		Running Games/Exata.script
+2024-04-01 21:06:26.925 +0530	set		SEARCHRECTANGLE = [155,592,874,1041]	1	on_exata	Games/Exata.script
+2024-04-01 21:06:27.643 +0530	click	(TEXT:<"2", nonwhitespace character, some whitespace characters, nonwhitespace character, "[1024">)	at (506, 859)	3	on_exata	Games/Exata.script
+2024-04-01 21:06:27.651 +0530	set		SEARCHRECTANGLE = [328,848,685,870]	4	on_exata	Games/Exata.script
+2024-04-01 21:06:28.822 +0530	readtext		(328,848,685,870)	6	on_exata	Games/Exata.script
+2024-04-01 21:06:28.824 +0530	Log		, [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24\n,[10241. Application. CBR Server.First Unicast Message Received (seconds) -1.00145	6	on_exata	Games/Exata.script
+2024-04-01 21:06:28.863 +0530	EndTestCase		(Duration:"2.01", Errors:"0", Exceptions:"0", StartTime:"2024-04-01 21:06:26 +0530", Successes:"1", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 21:06:28.985 +0530	SUCCESS		Execution Time 0:00:02 Games/Exata.script

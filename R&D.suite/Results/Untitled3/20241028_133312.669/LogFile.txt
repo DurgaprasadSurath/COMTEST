@@ -1,0 +1,4 @@
+﻿2024-10-28 13:33:12.675 +0530	START		Running Untitled3.script
+2024-10-28 13:33:12.722 +0530	Log		Oxford	1	on_untitled3	Untitled3.script
+2024-10-28 13:33:12.738 +0530	EndTestCase		(Duration:"0.063", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 13:33:12 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 13:33:12.785 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

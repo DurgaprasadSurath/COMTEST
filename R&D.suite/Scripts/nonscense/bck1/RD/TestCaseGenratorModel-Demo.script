@@ -1,0 +1,8 @@
+﻿to LaunchApplication 
+	TypeText windowsKey,"r"
+	TypeText "Chrome https://demo.nopcommerce.com/"
+end LaunchApplication
+
+to handle text_fileds
+
+end text_fileds

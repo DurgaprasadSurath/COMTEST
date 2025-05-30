@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Test4/Useage_script" package="R&amp;D.suite" timestamp="2024-09-05 14:44:57.216 +0530"
+ tests="1"  failures="3" errors="0" time="19.759000">
+  <properties>
+   <property name="RunDate" value="2024-09-05 14:44:57.216 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Test4/Useage.script" assertions="7" status="failure"  time="19.729">
+    <failure type="LogError" message="Unable to Find&quot;Field Ticket 1&quot;" />
+    <failure type="LogError" message="Unable to Find&quot;Field Ticket 1&quot;" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 2 -- Execution Time 0:00:19 Test4/Useage.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

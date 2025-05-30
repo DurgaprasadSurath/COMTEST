@@ -1,0 +1,247 @@
+﻿set mydata to file ResourcePath("TestData.csv")
+repeat with each line ab of mydata
+	put each line of ab into data1
+	log data1
+end repeat
+
+Set mydata to CSVValue(file resourcePath("TestData.csv"))
+repeat with each item of mydata
+	put item repeatindex() of mydata into Order
+	log Order
+	put Order's OrderNumber into ordno
+	log ordno
+	put Order's locator into loc
+	log loc
+	put Order's SubInventory into subin
+	log subin 
+	put Order's Warhouse into warhs
+	log warhs
+end repeat
+
+Set mydata to CSVValue(file resourcePath("TestData.csv"))
+put item 1 of mydata into head 
+log head 
+put the number of items in head into count
+log count
+put line one of head into ord
+log ord
+put item 1 of mydata into ord2
+log ord2.OrderNumber
+log ord2's OrderNumber
+
+log the first item of line 1 of file resourcePath("TestData.csv")
+
+set mytextdata to file "C:\Users\DurgaPrasad-IB\Desktop\text.txt"
+repeat each line of mytextdata
+	put line repeatindex() of mytextdata into data1
+	//log data1
+	put the last char of data1 into data
+	//log data
+	put the end char of data into data3
+	log data3
+end repeat 
+
+to handle addingTwoNumbers firstvalue,secondvalue
+	set finalvalue to ""
+	put firstvalue + secondvalue into finalvalue
+	log "Adding two values final value is:"&finalvalue
+end addingTwoNumbers
+
+addingTwoNumbers 10,29
+
+to handle addingTwoNumbers 
+	set finalvalue to ""
+	ask "What is the first value?"
+	put it into firstvalue
+	ask "What is the seecond value?"
+	put it into secondvalue
+	put (firstvalue + secondvalue) into finalvalue
+	answer "Adding two values final value is:"&finalvalue
+end addingTwoNumbers
+
+
+to handle palindrome
+	ask "Enter a word"
+	put it into word_
+	put reverse of word_ into rev_word
+	if word_ = rev_word
+		answer "Enterd word is palindrome"
+	else
+		answer "Entered word is not a palindrome"
+	end if
+end palindrome
+
+
+
+function plural aWord
+	if aWord ends with "s" then put "es" after aWord
+	else if aWord ends with "y" then put "ies" into the last char of aWord
+		else put "s" after aWord
+	return aWord
+end plural
+
+ask "What type of object are you carrying?"
+put it into itemType
+ask "How many do you have?"
+put it into howMany
+if howMany is not 1 then put the plural of itemType into itemType
+answer "You have " & howMany && itemType
+
+
+put the long date &&time() into current
+log current
+
+beep 5
+play "Glass"
+
+/////////////////////////////
+[Yesterday 16:13] ajit behera
+to handle FilterScrubbingReport
+	Typetext Controlkey,a
+	wait 1
+	Typetext Controlkey,c
+	Put RemoteClipboard() into MscrubbingMisc
+	put CSVValue(MscrubbingMisc) into Mabc
+	Put [] into global ScrubbingList
+	//Log "MscrubbingMisc:"&Mabc
+	repeat with each item of Mabc
+		//Log it
+		put it."Order Flag" into MFlag
+		//log "MFlag:"&MFlag
+		if MFlag is "Y"
+			put it.Line into MlineNum
+			log "MlineNum:"&MlineNum
+			put it."Item Number" into MItem
+			log "MItem:"&MItem
+			put it."Ordered Quantity" into MOQ
+			log "MOQ:"&MOQ
+			Log "================="
+			(*else is
+        Log"There is no shipable item"*)
+			
+	Set ScrubbingDataFromApplication to {​​​​​SLine:MlineNum,SOrderedQuantity:MOQ,SItem:MItem}​​​​​
+insert ScrubbingDataFromApplication into global ScrubbingList
+end if
+end repeat
+
+Log "ScrubbingRpFromApp:"&global ScrubbingList
+return global ScrubbingList
+end FilterScrubbingReport
+​[Yesterday 16:14] ajit behera
+to handle IncreasingQuantity_ScrubbingReport
+	//Put FilterScrubbingReport() into VFilterScrubbingReport -- uncomment this line and comment below in th real execution
+put[{​​​​​SItem:"81619A-FG", SLine:"1.1..1", SOrderedQuantity:"1"}​​​​​,{​​​​​SItem:"08164-90BC4", SLine:"1.1..3", SOrderedQuantity:"1"}​​​​​,{​​​​​SItem:"9320-6673", SLine:"1.1..4", SOrderedQuantity:"1"}​​​​​,{​​​​​SItem:"5061-7383", SLine:"1.1..5", SOrderedQuantity:"1"}​​​​​] into VFilterScrubbingReport
+
+
+
+
+repeat with each item of VFilterScrubbingReport
+	Put item repeatIndex() of VFilterScrubbingReport into MyFilterScrubbingReport
+	put centerRight of ImageRectangle("BlueBar") into BlueBarCenter
+	Log BlueBarCenter
+	Put item 2 of BlueBarCenter into Cell_Y_Location
+	
+	Log Cell_Y_Location
+	Put bottomCenter of imageRectangle(text:"Item") into ItemNumberBottom
+	Put item 1 of ItemNumberBottom into ItemNumber_X_Location
+	Put [ItemNumber_X_Location,Cell_Y_Location] into ItemNumberCellLocation
+	Log "ItemNumberCellLocation:"&ItemNumberCellLocation
+	Click ItemNumberCellLocation
+	Typetext MyFilterScrubbingReport.SItem
+	Typetext tabKey
+	wait 3
+	Put "AIWPF1" into global SubInventory
+	Typetext global SubInventory
+	Typetext tabkey
+	wait 5
+	hotkeys.OK
+	wait 3
+	Put "AIWPF1.%" into global Locator
+	Typetext global Locator
+	wait 3
+	Typetext tabkey
+	wait 9
+	hotkeys.OK
+	wait 2
+	Typetext tabKey
+	Typetext MyFilterScrubbingReport.SOrderedQuantity
+	Typetext tabkey
+	wait 1
+	Typetext tabkey
+	Typetext tabkey
+	wait 1
+	Typetext"Testing"
+	wait 3
+	if ImageFound("LotSerialEnabled")
+		click FoundImageLocation()
+		waitfor 50,text:"Serial Number"
+		
+		//do the step Need to write the steps below
+		set SearchArea to [539,549,1141,809]
+		tables.cellInitiateLookUp ("Start Serial Number"),("Serial Numbers"),(SearchArea)
+		dataEntry.textBox ("Find"),("%")
+		wait 3
+		hotkeys.FIND
+		wait 2
+		(*navigation.button("MY") -- ADD NEW FUNCTION TO CHOOSE RANDOM ... *)
+		hotkeys.OK
+		put imagelocation(text:"Quantity") into TL
+		set QT to readtext([TL.x+35,TL.y-10],[TL.x+80,TL.y+10])
+		put imagelocation(text:"Quantity Entered") into TL
+		set EQT to readtext([TL.x+55,TL.y-10],[TL.x+80,TL.y+10])
+		if QT is equal to EQT then
+			log "Both are same"
+		else
+			log "Quantity and Quantity Entered are not same"
+		end if
+		navigation.button("Done"),("Account Alias receipt")
+		Typetext downArrow
+		wait 3
+	else if ImageFound("LotSerialDisabled")
+		Typetext downArrow
+		wait 3
+		
+		
+	end if
+	
+end repeat
+
+SearchRectangles.save
+
+end IncreasingQuantity_ScrubbingReport
+
+
+
+
+WebConnect host: "IdeabytesAMDE14", browser: "chrome"
+WebConnect host: "localhost", browser: "chrome", (*desiredCapabilities: BrowserFeatures*)
+
+typetext windowskey,"r"
+wait 0.5
+typetext "http://demo.guru99.com/test/web-table-element.php",returnkey
+typetext windowskey,uparrow
+
+set connectionProperties to {browser:"chrome",
+	host:"192.168.1.14",port:"4444",url:"http://demo.guru99.com/test/web-table-element.php",name:"WebDriver_Connection",username:"DURGAPRASAD-IB",password:"Ideabytes"}
+WebConnect connectionProperties
+
+set connectionProperties to {browser:"chrome",
+	host:"192.168.1.14",port:"4444",url:"http://demo.guru99.com/test/web-table-element.php",name:"WebDriver_Connection",}
+WebConnect connectionProperties
+
+set connectionProperties to {browser:"chrome",
+	host:"localhost",port:"4444",url:"http://demo.guru99.com/test/web-table-element.php",name:"WebDriver_Connection",}
+WebConnect connectionProperties
+
+set connectionProperties to {browser:"chrome",
+	url:"http://demo.guru99.com/test/web-table-element.php",name:"WebDriver_Connection",port:"4444"}
+WebConnect connectionProperties
+
+//////////////////////////////////////////
+WebConnect host:"192.168.1.14", browser: "chrome", port: "4444", name: "Connection1"
+typetext "http://demo.guru99.com/test/web-table-element.php",returnkey
+
+
+
+
+

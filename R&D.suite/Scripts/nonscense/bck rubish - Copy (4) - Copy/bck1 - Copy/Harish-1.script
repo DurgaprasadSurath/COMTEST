@@ -1,0 +1,30 @@
+﻿
+set universal language to "English"
+GetValue "Harish-1.json", "name", 4
+
+
+to GetValue JsonFile, Page, Key, Index:universal language
+	set FormatedJsonData to JSONValue(file ResourcePath(JsonFile))
+	repeat with each item of FormatedJsonData
+		put  it.!<<[[JsonKey]]>> into Values
+	end repeat
+	put item index of Values
+end GetValue
+
+
+
+Show RemoteWindow
+Click text:"Heelo"
+Log "Hello"
+
+
+log version().epgw
+typetext commandKey&a
+typetext ".teeee"
+
+typetext controlKey&space
+typetext commandKey&space
+typetext controlKey&commandKey&space
+typetext controlKey&commandKey&space
+
+log the language

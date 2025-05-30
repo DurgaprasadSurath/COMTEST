@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Optum/DeleteMyRecord.script",
+				"identifier": "START",
+				"timestamp": "2024-05-10 12:15:01.693 +0530"
+			},
+		{
+				"message": "(Duration:\"0.066\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-10 12:15:01 +0530\", Successes:\"1\", TestCase:\"Games/Optum/DeleteMyRecord.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-10 12:15:01.767 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Optum/DeleteMyRecord.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-10 12:15:01.948 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-10 12:15:01.699 +0530"
+}

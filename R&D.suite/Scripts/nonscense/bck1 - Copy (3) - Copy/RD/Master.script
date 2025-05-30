@@ -1,0 +1,249 @@
+﻿repeat 9 times
+	DataDrivenTrail1.DataDriven "DataDrivenTrail81.xlsx","TC001"
+	DataDrivenTrail1.Launch
+	DataDrivenTrail1.Page_Launched_Verification
+	DataDrivenTrail1.ChooseFile
+	DataDrivenTrail1.PressButton
+	DataDrivenTrail1.File_Uploaded_Verification
+	DataDrivenTrail1.CloseBrowser
+	wait 10
+end repeat
+
+
+apikey-srshimdfpaprojdahjet
+apikeysecret:1bpY7w1SzrZE+g/aFCuZ1wxHp7rhEmHd
+{"clientId":"apikey-srshimdfpaprojdahjet", "secret":"1bpY7w1SzrZE+g/aFCuZ1wxHp7rhEmHd"}
+https://almrb.saas.microfocus.com/qcbin/authentication-point
+
+
+
+TypeText controlKey,c
+Log RemoteClipboard()
+TypeText "‪C:\Users\Eggplant-Automation\Documents\DataDrivenExampleUploadFiles\1.txt"
+
+put file "C:\Users\DurgaPrasad-IB\Desktop\Test.txt" into temp 
+Log temp
+do "put"&"(Log"&Temp&")"&"into  file"& "C:\Users\DurgaPrasad-IB\Desktop\Test.txt" 
+
+put (do "Log temp") into tmp5
+log tmp5
+
+set startTime to the time
+DataDrivenTrail1.DataDriven "DataDrivenTrail81.xlsx"
+DataDrivenTrail1.Launch
+DataDrivenTrail1.Page_Launched_Verification
+DataDrivenTrail1.ChooseFile
+DataDrivenTrail1.PressButton
+//DataDrivenTrail1.File_Uploaded_Verification
+DataDrivenTrail1.CloseBrowser
+set elapsedTime to the time - startTime
+Log elapsedTime
+
+to createRandomCaptcha
+	reset random
+	put "a".."z" into Letters
+	repeat random(6,10) times
+		put any item of letters after randomText
+	end repeat
+	return randomText
+end createRandomCaptcha
+
+
+put file "C:\Users\DurgaPrasad-IB\Desktop\Test.txt" into temp 
+open file "C:\Users\DurgaPrasad-IB\Desktop\Test.txt"
+if file "C:\Users\DurgaPrasad-IB\Desktop\Test.txt" is not empty  then write return to file "C:\Users\DurgaPrasad-IB\Desktop\Test.txt" at eof 
+put temp&"Gachibowli" into  file "C:\Users\DurgaPrasad-IB\Desktop\Test.txt"
+write  return&"500032" to file ("C:\Users\DurgaPrasad-IB\Desktop\Test.txt") at eof 
+
+to handle createRandomMail
+	set Global NewGmailId to empty
+	put a..z into Letters 
+	put random(5,10) into NewGmailIdLength 
+	repeat NewGmailIdLength times 
+		put any item of letters after NewGmailId
+	end repeat
+	put NewGmailId&"@gmail.com" into Global NewGmailId
+	Log Global NewGmailId
+end createRandomMail
+
+to handle createRandomPhone
+	set Global NewPhoneNumber to 9
+	put 0..9 into Digits 
+	repeat 9 times 
+		put any item of Digits after Global NewPhoneNumber
+	end repeat
+	Log Global NewPhoneNumber
+end createRandomPhone
+
+
+
+
+
+"CommonUtilities/ErrorMessageHandler".UserFriendlymessage "File Not Found"
+
+put a..z as list into alphas 
+Log alphas
+put 1..5 as list into nums 
+Log nums
+put  for each item of nums
+put (any item of alphas for each item of nums) joined by empty into Name
+Log Name
+
+
+
+
+
+
+
+
+
+set MyExcelFile to ResourcePath("TestDataValidation.xlsx")
+set MyTestDataFile to Workbook(MyExcelFile)
+set SheetName to worksheet(MyTestDataFile,1)
+put SheetName's Cell(4,1) into PhoneNumber
+set the SuiteVariables.PhoneNumberPattern to <10 digits>
+if PhoneNumber matches pattern the SuiteVariables.PhoneNumberPattern then Log "LOL"
+put SheetName's Cell(4,6) into Mail
+set the SuiteVariables.MailPattern to <chars,"@sb-reckitt.com">
+if Mail matches pattern the SuiteVariables.MailPattern then Log "LOL2"
+
+
+
+
+
+
+
+
+if the length of PhoneNumber is equal to 10
+	Log "Lol"
+end if
+
+repeat 100 times
+	put the SuiteVariables.EmailCount&"@gmail.com" into Temp
+	Log Temp
+	set the SuiteVariables.EmailCount to the SuiteVariables.EmailCount+1
+end repeat
+
+TypeText endKey
+TypeText homeKey
+TypeText end
+
+set zipcode to pattern {{
+
+\d{5}(?:-\d{4})?
+
+}}
+set zipcode to < 5 digits then preferably ("-" , 4 digits)>
+
+
+put "www.Google.com" into Global URL
+TypeText windowsKey,r
+TypeText "chrome"&&Global URL,return
+
+set MyExcelFile to ResourcePath("DataDrivenTrail81.xlsx")
+set MyTestDataFile to Workbook(MyExcelFile)
+Log  MyTestDataFile.worksheetcount
+Log  MyTestDataFile.worksheetnames
+
+to handle DataDriven
+	params Test_Data_File,Testcase_Name
+	set the ScriptLogging to off
+	if (the SuiteVariables.SpreadSheetNumber is greater than 3) then
+		set the SuiteVariables.SpreadSheetNumber to 1
+		readData Test_Data_File,Testcase_Name
+		set the SuiteVariables.SpreadSheetNumber to (the SuiteVariables.SpreadSheetNumber + 1)
+	else
+		readData Test_Data_File,Testcase_Name
+		set the SuiteVariables.SpreadSheetNumber to (the SuiteVariables.SpreadSheetNumber + 1)
+	end if
+end DataDriven
+
+to handle readData
+	params TestDataFile,TestcaseName
+	set MyExcelFile to ResourcePath(TestDataFile)
+	set MyTestDataFile to Workbook(MyExcelFile)
+	put MyTestDataFile.worksheetcount into SheetCount
+	repeat SheetCount times
+		set SheetName to worksheet(MyTestDataFile,repeatIndex())
+		put SheetName's cellRange("A") into firstColData
+		put the number of items of firstColData into Count
+		repeat Count times
+			if SheetName's cellRange(repeatIndex()+1) is not empty then
+				if SheetName's Cell(repeatIndex()+1,2) is TestcaseName then 
+					if SheetName's Cell(repeatIndex()+1,1) is "No" then 
+						put SheetName's Cell(repeatIndex()+1,3) into Global URL
+						Log Global URL
+						put SheetName's Cell(repeatIndex()+1,4) into Global FilePath
+						Log  Global FilePath
+						put "Yes" into SheetName's Cell(repeatIndex()+1,1)
+						exit repeat
+					end if
+				end if
+			else
+				exit repeat
+				Log "Changing the sheet"
+			end if 
+		end repeat 
+	end repeat
+end readData
+
+
+/////////////////////////////////
+
+
+
+
+to handle launch
+	TypeText windowsKey,r
+	TypeText "chrome https://ard.uchicago.edu/salesforce/",return
+	set the SearchRectangle to SearchPortion.ScreenPart("BottomLeftQuadrant")
+	if ImageFound(text:"MERGE FULL",caseSensitive:Yes, waitFor:20)
+		Click text:"MERGE FULL",caseSensitive:Yes
+	else
+		//ScrollWheelDown 3
+		TypeText pageDown
+		Click text:"MERGE FULL",caseSensitive:Yes,waitFor:50
+	end if
+	set the SearchRectangle to [] 
+	WaitFor 100, text:"UChicago account",SearchRectangle:SearchPortion.ScreenPart("VerticalMiddle")
+end launch
+
+
+
+LoginT9 "t-9pgran", "jTRT95v9&^mTqf"
+
+
+
+to handle LoginT9 T9Username,T9password
+	set the SearchRectangle to SearchPortion.ScreenPart("VerticalMiddle")
+	Click text:"CNetID",caseSensitive:Yes, waitFor:20
+	typetext controlKey,"a"
+	Typetext T9Username
+	//Click [973,323]
+	
+	Click text:"Password",caseSensitive:Yes, waitFor:20
+	typetext controlKey,"a"
+	typetext T9password
+	Click text:"LOG IN",caseSensitive:Yes, waitFor:30
+	//Click text:"Enter a Passcode"
+	//3247041
+	set the SearchRectangle to []
+end LoginT9
+
+to handle test2Login Test2Username, Test2PWD
+
+
+
+	set the SearchRectangle to SearchPortion.ScreenPart("VerticalMiddle")
+	WaitFor 30 , text:"Alumni & Friends"
+	Click text:"Username", hotspot:[0,30],waitFor:20
+	typetext Test2Username
+	Click text:"Password", hotspot:[0,30],waitFor:20
+	typetext Test2PWD
+	Click text:"Log In to Sandbox"
+	set the SearchRectangle to []
+end test2Login
+
+
+
+test2Login "test2@uchicago.edu.mergefull", "ChiA&FProd2"

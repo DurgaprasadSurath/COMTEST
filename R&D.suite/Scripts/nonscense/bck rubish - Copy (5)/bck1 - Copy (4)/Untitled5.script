@@ -1,0 +1,31 @@
+﻿
+
+put file ResourcePath("slackQ1.csv") into CSVfile
+log CSVfile
+if item 5 of CSVfile contains newline then Log "YES"
+put item 5 of CSVfile into SiteURL
+put "https://"&SiteURL&":4430" into SiteURL
+log SiteURL
+Put +
+
+put item 4 of CSVfile into SiteURL
+put "https://"&SiteURL&":4430" into SiteURL
+log SiteURL
+Put +
+
+put last item of CSVfile into SiteURL
+put "https://"&SiteURL&":4430" into SiteURL
+log SiteURL
+
+
+
+Put +
+put file ResourcePath("DAIRunnerDetails.csv") into CSVfile
+
+repeat with each item of CSVfile
+	log it 
+end repeat
+
+put last item of CSVfile into SiteURL
+put "https://"&SiteURL&":4430" into SiteURL
+log SiteURL

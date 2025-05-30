@@ -1,0 +1,40 @@
+﻿
+set  the suitevariables.TestCaseRepeatCount to 0
+
+to handle testdatareader
+	params ExcelTestDataFile
+	set MyTestDataExcelFile to Workbook(ResourcePath(ExcelTestDataFile)) 
+	set SheetName to worksheet(MyTestDataExcelFile,1)
+	put SheetName's cellRange("A") into NumberofRows
+	put the number of items of NumberofRows into NumberofRowsCount
+	repeat NumberofRowsCount times
+		if Cell(SheetName,[repeatIndex()+1,1]) is empty and repeatIndex() is less than NumberofRowsCount and the suitevariables.TestCaseRepeatCount is less than 3
+			put Cell(SheetName,[repeatIndex()+1,2]) into TCName 
+			//put Cell(SheetName,[2,2]) into TCName 
+			log TCName
+			put Cell(SheetName,[repeatIndex()+1,3]) into SUTName
+			put Cell(SheetName,[repeatIndex()+1,4]) into URL
+			put Cell(SheetName,[repeatIndex()+1,5]) into Orginator_Username 
+			put Cell(SheetName,[repeatIndex()+1,6]) into Originator_Password 
+			put Cell(SheetName,[repeatIndex()+1,7]) into varProcesses 
+			put Cell(SheetName,[repeatIndex()+1,8]) into Global FilePaths 
+			put Cell(SheetName,[repeatIndex()+1,9]) into DocumentType 
+			put Cell(SheetName,[repeatIndex()+1,10]) into Title 
+			put Cell(SheetName,[repeatIndex()+1,11]) into OwningDepartment
+			put Cell(SheetName,[repeatIndex()+1,12]) into Location
+			put Cell(SheetName,[repeatIndex()+1,13]) into GivenDocumentID
+			put Cell(SheetName,[repeatIndex()+1,14]) into VerifierFirstName
+			put Cell(SheetName,[repeatIndex()+1,15]) into VerifierDateDue
+			put Cell(SheetName,[repeatIndex()+1,16]) into VerifierVerdict
+			put Cell(SheetName,[repeatIndex()+1,17]) into VerifierContext
+			put Cell(SheetName,[repeatIndex()+1,18]) into Verifier_Username
+			put Cell(SheetName,[repeatIndex()+1,19]) into Verifier_Password
+			put "Executed"  into Cell(SheetName,[repeatIndex()+1,1])
+			set the suitevariables.TestCaseRepeatCount +1 to the suitevariables.TestCaseRepeatCount 
+			Exit Repeat
+		end if 
+	end repeat
+	Log Global FilePaths
+end testdatareader
+
+testdatareader "testdata.xlsx"

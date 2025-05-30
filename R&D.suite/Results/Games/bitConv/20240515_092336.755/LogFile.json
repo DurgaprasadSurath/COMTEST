@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/bitConv.script",
+				"identifier": "START",
+				"timestamp": "2024-05-15 09:23:36.756 +0530"
+			},
+		{
+				"message": "(Duration:\"0.081\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-15 09:23:36 +0530\", Successes:\"1\", TestCase:\"Exata/bitConv.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-15 09:23:36.837 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/bitConv.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-15 09:23:36.961 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-15 09:23:36.756 +0530"
+}

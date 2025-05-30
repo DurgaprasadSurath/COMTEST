@@ -1,0 +1,29 @@
+﻿
+
+
+InspectionLotReader "XMl Teamplate01.xml","Surath.xml"
+
+to handle InspectionLotReader
+	params XMLFileNameToRead, XMLFileNameToWrite
+	put file ResourcePath(XMLFileNameToRead) as a tree into XMLTree
+	put the number of items of (all nodes "//Rowset" of XMLTree) into RowsetTagCount
+	repeat RowsetTagCount times 
+		put repeatIndex() into OuterLoopCount
+		repeat with each item  of all nodes "*/Rowset/Row/INSPECTIONLOT" of  XMLTree 
+			put 4&randomGen() into  node "/INSPECTIONLOT" of it		
+			wait 1
+			put  "*/Rowset["&OuterLoopCount&"]/Row["&repeatIndex()&"]/INSPECTIONLOT" into TagPath		
+			put it  into node TagPath of XMLTree
+		end repeat
+		put XMLTree into file ResourcePath(XMLFileNameToWrite) 
+	end repeat	
+end InspectionLotReader
+
+To handle randomGen
+	put the abbrev time into time_t
+	delete every occurrence of  ":" in time_t
+	put the date into date_t
+	split date_t by "/"
+	return item 1 of date_t& item 2 of date_t&time_t
+End randomGen
+

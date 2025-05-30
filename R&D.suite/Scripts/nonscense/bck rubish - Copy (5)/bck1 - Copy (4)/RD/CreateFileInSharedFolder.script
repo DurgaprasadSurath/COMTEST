@@ -1,0 +1,12 @@
+﻿set SharedLocation to "\\TESTING-SRV\Users\Testing-SRV\Documents\Surath Durgaprasad"
+Log SharedLocation
+set SymobolicLinkSharedLocation to "C:\Users\DurgaPrasad S\Desktop\Temp"
+Log SymobolicLinkSharedLocation
+Copy file ResourcePath("Book1.xlsx") into folder SymobolicLinkSharedLocation
+
+
+
+
+Shell "c:\windows\system32\cmd.exe","/c"&&"robocopy"&&"/MIR"&&quote&"C:\Users\DurgaPrasad S\Desktop\Temp"&quote&&quote&"\\TESTING-SRV\Users\Testing-SRV\Documents\Surath Durgaprasad"
+
+Shell "c:\windows\system32\cmd.exe","/c"&&"robocopy"&&"/MIR"&&quote&"\\TESTING-SRV\Users\Testing-SRV\Documents\Surath Durgaprasad"&quote&&quote&"C:\Users\DurgaPrasad S\Desktop\Temp"

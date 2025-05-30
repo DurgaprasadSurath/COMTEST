@@ -1,0 +1,27 @@
+﻿put the folder of LogFile of the last item of scriptresults() into MycurrentResultsFolder
+
+set myFileName to MycurrentResultsFolder& "/ResultsLog.txt"
+put <<New Run Started>> & CRLF into file (myFileName)
+put files of my folder into listoffiles
+sort listoffiles -- can I make this into one line with the above?
+repeat for each file in listoffiles
+	put file."short name" into Filename
+	if Filename contains "Run" then next repeat
+	begintestcase Filename
+	try 
+		// will disconnect all connected SUTs 
+		put each item in  AllConnectionInfo() where each's connected is true into SUTsConnected
+		repeat for each item in SUTsConnected
+			disconnect it.name
+		end repeat
+		run ( the lastPathComponent of the folder of file &"/"&Filename ) -- works but not sure a user would think of this. Do we have a comamnd to extract the relative path starting from the scriptfolder?
+		put Filename &&<<has Passed>> & CRLF after file myFileName
+		logsuccess Filename &&<<has Passed>> 
+	catch 
+		CaptureScreen {Name: (Filename&&<<  Failure>>), Rectangle: the SearchRectangle,increment:yes} 
+		put Filename &&<<has Failed>> & CRLF after file myFileName
+		logwarning Filename &&<<has Failed>> 
+		Wait 3 
+	end try 
+	endtestcase Filename
+end repeat

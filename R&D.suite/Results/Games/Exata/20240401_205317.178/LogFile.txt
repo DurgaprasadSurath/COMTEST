@@ -1,0 +1,5 @@
+﻿2024-04-01 20:53:17.188 +0530	START		Running Games/Exata.script
+2024-04-01 20:53:17.273 +0530	set		SEARCHRECTANGLE = [155,592,874,1041]	1	on_exata	Games/Exata.script
+2024-04-01 20:53:36.476 +0530	Exception	(TEXT:<1 digit, ",", whitespace characters, nonLettersOrDigits, characters, "=24">)	No Text Found On Screen: "(TEXT:<1 digit, ",", whitespace characters, nonLettersOrDigits, characters, "=24">)". Text not found.	2	on_exata	Games/Exata.script
+2024-04-01 20:53:36.564 +0530	EndTestCase		(Duration:"19.369", Errors:"1", Exceptions:"1", StartTime:"2024-04-01 20:53:17 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 20:53:36.574 +0530	ABORTED		Execution Time 0:00:19 Games/Exata.script

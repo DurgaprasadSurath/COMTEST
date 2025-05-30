@@ -1,0 +1,13 @@
+﻿set xRayAuthUrl to "https://xray.cloud.getxray.app/api/v2/authenticate"
+set xRayClientId to "8359C0D7B1E14BE59E6596F68DA0FF5C"
+set xRaySecret to "2240e5481edd49727f991c401cdb35f6f1b81ff7296a9eda081d92f737f4a77c"
+set authBody to JSONFormat of {"client_id":xRayClientId,"client_secret":xRaySecret} 
+post authBody to URL xRayAuthUrl with headers {"Content-Type":"Application/json"}
+put it into xRayToken
+delete quote from xRayToken
+
+
+set xRayImportUrl to "https://xray.cloud.getxray.app/api/v2/import/execution/multipart"
+post multipart [{fieldname:"info", filename:"issueFields.json", body:file ResourcePath("kar/issueFields.json")},{fieldname:"results", filename:"results.json", body:file ResourcePath("kar/results.json")}] to URL xRayImportUrl with headers {"Content-Type":"multipart/form-data", "Authorization":"Bearer" &&xRayToken}
+Log it
+

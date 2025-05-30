@@ -1,0 +1,14 @@
+﻿set the watchForScriptChanges to true
+
+Set temp to 100
+repeat 15 seconds
+	set temp to temp + repeatIndex()
+	Log temp
+end repeat
+
+
+set the readtimeout to 5
+open process "C:\Program Files (x86)\eggplantDAIDesignAgent\eggplantDAIDesignAgent.exe"
+read from process "C:\Program Files (x86)\eggplantDAIDesignAgent\eggplantDAIDesignAgent.exe" until end // Tries reading the process for 5 seconds
+put the result // Displays 'time oseut'
+close process "C:\Program Files (x86)\eggplantDAIDesignAgent\eggplantDAIDesignAgent.exe"

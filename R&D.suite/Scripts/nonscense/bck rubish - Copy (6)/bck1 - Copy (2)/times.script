@@ -1,0 +1,33 @@
+﻿Log now
+Put +
+Log the timeFormat 
+Put +
+Log the timeInputFormat
+Put +
+Put the timeInputFormat contains dash
+Put +
+Put the timeFormat contains dash
+Put +
+Log the timeFormat.AbbreviatedInternationalTime
+Log the timeFormat.InternationalDate
+Log the timeFormat.InternationalTime
+Log the timeFormat.LongInternationalDate
+Log the timeFormat.LongInternationalTime
+Log the timeFormat.LongUTCTime
+Log the timeFormat.ShortInternationalDate
+Log the timeFormat.ShortInternationalTime
+Log the timeFormat.UTCTime
+
+
+Put the timeInputFormat is a propertylist
+Put the timeInputFormat is a list
+Put the timeFormat is a propertylist
+Put the timeFormat is a list
+
+
+Put any item of the timeInputFormat contains dash
+
+repeat with each item of the timeInputFormat 
+	log it
+	put it contains dash
+end repeat

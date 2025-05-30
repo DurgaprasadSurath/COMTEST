@@ -1,0 +1,18 @@
+﻿put webDriver (host:"192.168.1.142", browser: "chrome", port: "4444", url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies") into driver
+set the webDriver's windowsize to "max"
+ExecuteJavaScript "scroll(0,800)"
+SwitchToFrame “frame_Active_learning_classic_embedding_uses”
+click webID: "code"
+
+SendKeys  "Hi This is testing."
+click webID: "reset"
+
+put findElements(webTagName: "a") into temp 
+log the number of items of temp
+WebScreenshot "WelcomeScreen"
+//SwitchToFrame 0
+
+
+
+//WebDisconnect All
+

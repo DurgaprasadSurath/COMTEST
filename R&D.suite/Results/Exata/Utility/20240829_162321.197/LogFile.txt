@@ -1,0 +1,4 @@
+﻿2024-08-29 16:23:21.202 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-29 16:23:21.312 +0530	Log			3	on_readdata	Exata/gen_kalyan_29082024.script
+2024-08-29 16:23:21.360 +0530	EndTestCase		(Duration:"0.158", Errors:"0", Exceptions:"0", StartTime:"2024-08-29 16:23:21 +0530", Successes:"1", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-29 16:23:21.375 +0530	SUCCESS		Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

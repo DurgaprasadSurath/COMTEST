@@ -1,0 +1,46 @@
+﻿openFile "excel.exe", "C:\Users\durgaprasad.surath\Downloads\D_RES_RES_LIGHT_LIGHT_ELEC_current_demand.xlsx", ,"Comments"
+gotoFirstCell
+selectEntireColumn
+put readColumn()
+
+to gotoFirstCell
+	TypeText controlKey, homeKey
+	wait 0.2
+	TypeText controlKey, leftArrow
+end gotoFirstCell
+
+to selectEntireColumn
+	TypeText shiftKey, spacebar
+end selectEntireColumn
+
+to readColumn
+	TypeText controlKey, "c"
+	wait 0.2
+	put RemoteClipboard() into Headers
+	split Headers by tabKey
+	return Headers
+end readColumn
+
+#to open run window
+to openRunWindow 
+	TypeText windowsKey, "r"
+	wait 0.5	
+	WaitFor universal pageWait, {text:"Type the name",SearchRectangle:"CommonUtilities/Config"().runwindow}
+end openRunWindow
+
+to openFile editor, filePath, SR:"default", expectation
+	openRunWindow
+	TypeText editor && filePath, return
+	wait 0.5	
+	set the SearchRectangle to "CommonUtilities/Config"().(SR)
+	verifyEvent expectation, "File is opened successfully.", "Failed to open file."	
+end openFile
+
+# to perform verify operation over application
+to verifyEvent verifyObject, successMsg, errorMsg	
+	if file (suiteinfo().imagesFolder&"/"&verifyObject&".png") exists or if folder (suiteinfo().imagesFolder&"/"&verifyObject) exists then
+		if ImageFound(image:verifyObject) then Log successMsg else LogError errorMsg
+	else
+		if ImageFound(text:verifyObject) then Log successMsg else LogError errorMsg
+	end if
+end verifyEvent

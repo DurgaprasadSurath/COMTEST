@@ -1,0 +1,30 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Exata.script",
+				"identifier": "START",
+				"timestamp": "2024-04-01 20:45:46.802 +0530"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:46:09.839 +0530",
+				"scriptName": "Games/Exata.script",
+				"message": "No Text Found On Screen: \"(TEXT:<2,newline or punctuation character, whitespace characters, punctuation character, characters>)\". Text not found.",
+				"image": "(TEXT:<2,newline or punctuation character, whitespace characters, punctuation character, characters>)",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"23.057\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-01 20:45:46 +0530\", Successes:\"0\", TestCase:\"Games/Exata.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-01 20:46:09.875 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:<2,newline or punctuation character, whitespace characters, punctuation character, characters>)\". Text not found. -- Execution Time 0:00:23 Games/Exata.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-01 20:46:10.129 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-01 20:45:46.818 +0530"
+}

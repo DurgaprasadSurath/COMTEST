@@ -1,0 +1,33 @@
+﻿2024-09-23 14:11:47.577 +0530	START		Running Untitled3.script
+2024-09-23 14:11:48.335 +0530	Log		121	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:48.841 +0530	Log		123	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:49.345 +0530	Log		126	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:49.851 +0530	Log		130	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:50.356 +0530	Log		135	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:50.859 +0530	Log		141	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:51.369 +0530	Log		148	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:51.933 +0530	Log		156	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:52.436 +0530	Log		165	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:52.947 +0530	Log		175	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:53.467 +0530	Log		186	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:53.971 +0530	Log		198	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:54.478 +0530	Log		211	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:54.997 +0530	Log		225	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:55.499 +0530	Log		240	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:56.009 +0530	Log		256	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:56.513 +0530	Log		273	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:57.016 +0530	Log		291	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:57.529 +0530	Log		310	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:58.032 +0530	Log		330	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:58.535 +0530	Log		351	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:59.041 +0530	Log		373	7	on_untitled3	Untitled3.script
+2024-09-23 14:11:59.544 +0530	Log		396	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:00.048 +0530	Log		420	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:00.556 +0530	Log		445	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:01.060 +0530	Log		471	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:01.562 +0530	Log		498	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:02.072 +0530	Log		526	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:02.575 +0530	Log		555	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:03.079 +0530	Log		585	7	on_untitled3	Untitled3.script
+2024-09-23 14:12:03.131 +0530	EndTestCase		(Duration:"15.539", Errors:"0", Exceptions:"0", StartTime:"2024-09-23 14:11:47 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-09-23 14:12:03.189 +0530	SUCCESS		Execution Time 0:00:15 Untitled3.script

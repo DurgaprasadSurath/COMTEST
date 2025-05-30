@@ -1,0 +1,7 @@
+﻿log format("\t", "This is What I       want")
+
+
+KeyDown altKey
+TypeText tabKey
+KeyUp altKey
+

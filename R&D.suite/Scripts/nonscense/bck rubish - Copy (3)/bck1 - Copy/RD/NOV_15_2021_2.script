@@ -1,0 +1,7 @@
+﻿put webDriver (host:"192.168.1.142", browser: "chrome", port: "4444", url: "https://www.bloombergquint.com/markets/equities/stocks-in-indices") into driver
+set the WebDriver's windowSize to max
+
+put findElement(webXPath:"//*[@id='stock-search-mobile']/div/div[2]/input") into SearchBox
+Click SearchBox
+SendKeys "IBM",return
+

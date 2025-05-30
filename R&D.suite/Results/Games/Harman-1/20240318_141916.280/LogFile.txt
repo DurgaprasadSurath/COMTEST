@@ -1,0 +1,4 @@
+﻿2024-03-18 14:19:16.290 +0530	START		Running Games/Harman-1.script
+2024-03-18 14:19:16.403 +0530	keydown		[scrollLock]	3	on_harman_1	Games/Harman-1.script
+2024-03-18 14:19:16.427 +0530	EndTestCase		(Duration:"0.124", Errors:"0", Exceptions:"0", StartTime:"2024-03-18 14:19:16 +0530", Successes:"1", TestCase:"Games/Harman-1.script", Warnings:"0")
+2024-03-18 14:19:16.546 +0530	SUCCESS		Execution Time 0:00:00 Games/Harman-1.script

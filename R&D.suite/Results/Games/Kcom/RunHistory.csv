@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-09-20 13:59:39.254 +0530,"Success",0:00:01,0,0,0,"20240920_135939.254/LogFile.txt","","",1
+2024-09-20 14:56:09.679 +0530,"Success",0:00:01,0,0,0,"20240920_145609.679/LogFile.txt","","",1
+2024-09-20 14:57:02.847 +0530,"Success",0:00:00,0,0,0,"20240920_145702.847/LogFile.txt","","",1
+2024-09-20 15:27:33.775 +0530,"Success",0:00:08,0,0,0,"20240920_152733.775/LogFile.txt","","",1

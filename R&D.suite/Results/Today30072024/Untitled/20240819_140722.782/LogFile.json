@@ -1,0 +1,27 @@
+{
+	"entries": [
+		{
+				"message": "Running Today30072024/Untitled.script",
+				"identifier": "START",
+				"timestamp": "2024-08-19 14:07:22.790 +0530"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2024-08-19 14:07:27.846 +0530",
+				"scriptName": "Today30072024/Untitled.script",
+				"identifier": "Log",
+				"handlerLine": 20
+			},
+		{
+				"message": "(Duration:\"5.077\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-19 14:07:22 +0530\", Successes:\"1\", TestCase:\"Today30072024/Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-19 14:07:27.871 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:05 Today30072024/Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-19 14:07:27.916 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-19 14:07:22.793 +0530"
+}

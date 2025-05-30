@@ -1,0 +1,25 @@
+﻿set (n, i, temp) to (10, 1, empty)
+
+repeat  until (i is greater than or equal to n)
+	set (j, k) to 1
+	
+	put repeatIndex() into OuterLoopCount
+	
+	repeat until not (j is less than or equal to (n - i))
+		put " " after temp
+		set j to (j + 1)
+	end repeat
+	set j to j
+	
+	repeat until not (k is less than or equal to i)
+		put OuterLoopCount after temp
+		set k to (k + 1)
+	end repeat
+	set k to k
+	
+	put temp
+	set i to (i + 1)
+	set temp to empty
+	
+End Repeat
+

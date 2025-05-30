@@ -1,0 +1,90 @@
+﻿put "http://ec2-3-22-49-52.us-east-2.compute.amazonaws.com:8000" into DAIServer
+put "client:dai:agent:integration" into DAIClientID
+put "95c19181-5e92-4fdb-b414-74ce92b4d619" into DAIClientSecret
+
+put DAIServer &"/auth/realms/eggplant/protocol/openid-connect/token" into URL
+put  DAIClientID into DAIClientID
+put  DAIClientSecret into DAIClientSecret
+
+put "application/x-www-form-urlencoded" into RH."Content-Type"
+put (grant_type:"client_credentials",client_id:DAIClientID,client_secret:DAIClientSecret) into RB
+DAI_API(httpMethod:"POST",url:URL,requestBody:RB,requestheaders:RH)
+
+log API()
+
+
+set userName to "bob"
+set password to "sshhh!"
+set auth to (userName & ":" & password) as base64
+post payload to url casesUrl with headers {Authorization:"Basic"&&auth}
+
+
+set jiraUsername to "user@mail.com"
+set jiraToken to "liabcdferghjkdomsi2ihn"
+set attachmentURL to "https://domain.atlassian.net/rest/api/3/issue/{Issue-ID}/attachments"
+set filePath to"C:\\Users\\User\\Book.csv"
+set auth to "Basic "&base64Encode(jiraUsername&":"&jiraToken)
+set fileName to the name of file filePath 
+post multipart {fieldname:"file", filename:fileName, body:file filePath} to URL attachmentURL with headers {"Content-Type":"multipart/form-data", "X-Atlassian-Token":"no-check", "Authorization":auth} 
+Log it
+
+
+
+(*==============================Setting up all the Environment Variables Here==============================*)
+
+set the suiteVariables.service3dPassport to "https://plmqa-3dp.pg.com/3dpassport"  --setting the suite variable to the Base URL 
+set the suiteVariables.service3dSpace to "https://plmqa-3dp.pg.com/3dpassport"  --setting the suite variable to the Base URL 
+set the suiteVariables.Username to "Username Here"  --setting the suite variable to the Username
+set the suiteVariables.Password to "Password Here"  --setting the suite variable to the Password
+set the suiteVariables.securityCon to "CATIADesigner.PG.Internal_PG"  --setting the variable to security context
+(*========================CAS Login Ticket====================================*)
+
+set CASLoginTicketUrl to the suiteVariables.service3dPassport & "/login?action=get_auth_params"  --setting the variable to the end point
+
+GET URL CASLoginTicketUrl
+
+put JSONFormat(it.responseBody) into OutputResponse
+put OutputResponse.lt into the suiteVariables.Login_Ticket
+
+(*=========================CAS Authentication====================================*)
+
+set CASAuthenticationUrl to the suiteVariables.service3dPassport & "/login"  --setting the variable to the end point
+
+post multipart {It:the suiteVariables.Login_Ticket, username:the suiteVariables.Username, password:the suiteVariables.Password} to URL CASAuthenticationUrl with headers {"Content-Type":"multipart/form-data", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon} 
+
+put JSONFormat(it.responseBody) into OutputResponse
+Log OutputResponse
+
+(*====================CAS Auth, with 3DCompass App Request Create API========================*)
+
+set CASAuth3DCompassUrl to the suiteVariables.service3dSpace & "/resources/v1/apprequestmanagement/api/createapprequest"  --setting the variable to the end point
+
+put JSONFormat of {{ 
+[{
+"Titlle": "Creating Obsolence Request using API - Title", 
+"Description": "Creating Obsolence Request using API - Desc",
+"Originator": "apollotest1.im",
+"DueDate": "2024-03-30",
+"reasonForChange": "Creating Obsolence Request using API - Reason",
+"Project": "ProjectObsolen",
+"Plant":[
+"ALMUSA PLANT~2601",
+"AMIENS PLANT - ENTERPRENEUR~4106
+],
+"TypeOfChange":"Obsolescence Request",
+"BusinessArea":[
+"Baby Care",
+"Feminine Care"]
+}]
+}} into myRequestBody 
+
+
+post myRequestBody to URL CASAuth3DCompassUrl with headers {"Content-Type":"Application/json", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon}
+
+put JSONFormat(it.responseBody) into OutputResponse
+Log OutputResponse
+
+
+
+
+

@@ -1,0 +1,4 @@
+﻿2025-03-26 10:26:30.120 +0530	START		Running Untitled3.script
+2025-03-26 10:26:30.180 +0530	Log		Diamond Bar	1	on_untitled3	Untitled3.script
+2025-03-26 10:26:30.198 +0530	EndTestCase		(Duration:"0.067", Errors:"0", Exceptions:"0", StartTime:"2025-03-26 10:26:30 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2025-03-26 10:26:30.417 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

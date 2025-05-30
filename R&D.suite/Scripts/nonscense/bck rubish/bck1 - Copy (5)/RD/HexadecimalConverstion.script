@@ -1,0 +1,54 @@
+﻿
+put 1..127 into var
+set the numberFormat to "hexadecimal"
+put var into var2
+repeat with each item of var2
+	if item repeatindex() of var is between 1 and 9 then 
+		delete every  occurrence of "0x" in it
+		put "0" before it
+	else		
+		delete every  occurrence of "0x" in it
+		put "h" after it
+	end if
+	log it
+end repeat
+
+
+
+set the numberFormat to "hexadecimal"
+put 1..127 into var
+repeat with each item of var
+	delete every  occurrence of "0x" in it
+	if item repeatindex() of var is between 1 and 9 then put "0" before it else put "h" after it
+	log it
+end repeat
+
+
+
+repeat 5 times
+	if repeatIndex()  is between 1 and 9 then log "hi"
+end repeat
+
+log 1..9
+
+enterDataByTabs ["Model1","Option1"]
+to enterDataByTabs fieldValues
+	repeat the number of items of fieldValues 
+		typetext item repeatIndex() of  fieldValues, tabkey
+	end repeat
+	set the SearchRectangle to []
+end enterDataByTabs
+
+
+enterDataByTabs 6,"Model,Option,0"
+
+to enterDataByTabs repeatTimes,fieldValues
+	repeat repeatTimes times
+		put repeatIndex() into IncrementValue
+		
+		repeat the number of items of fieldValues 
+			TypeText item repeatIndex() of  fieldValues&IncrementValue, tabkey
+		end repeat
+	end repeat
+	set the SearchRectangle to []
+end enterDataByTabs

@@ -1,0 +1,6 @@
+﻿2024-09-05 14:32:49.483 +0530	START		Running Test4/Useage.script
+2024-09-05 14:32:49.662 +0530	set		SEARCHRECTANGLE = [0,1,1170,2532]	1	on_useage	Test4/Useage.script
+2024-09-05 14:32:55.151 +0530	imagefound	(TEXT:"Field Ticket 1")	Unable to Find Image (TEXT:"Field Ticket 1"). Text not found.	3	on_useage	Test4/Useage.script
+2024-09-05 14:32:55.166 +0530	set		SEARCHRECTANGLE = [53,1363,1119,1569]	5	on_useage	Test4/Useage.script
+2024-09-05 14:32:55.499 +0530	EndTestCase		(Duration:"6.016", Errors:"1", Exceptions:"0", StartTime:"2024-09-05 14:32:49 +0530", Successes:"0", TestCase:"Test4/Useage.script", Warnings:"0")
+2024-09-05 14:32:55.516 +0530	ABORTED		Execution Time 0:00:06 Test4/Useage.script

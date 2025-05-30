@@ -1,0 +1,37 @@
+﻿set the timeInputFormat to "natural"
+
+set PresentTime to now.time
+set morning to (the time("morning") + 2 hours)
+set noon to the time("noon")
+set afternoon to (the time("noon") + 5 hours)
+set evening to (the time("noon") + 7 hours)
+set night to the time("dinner")
+
+if PresentTime is less than or equal to morning then 
+	Log "Good morning." 
+else if PresentTime is between noon and afternoon then 
+	Log "Good afternoon." 
+else if PresentTime is between afternoon and evening then 
+	Log "Good evening." 
+else if PresentTime is greater than or equal to night then 
+	Log "Good night." 
+end if 
+
+
+set the timeInputFormat to "Natural"
+log the time("morning")  // Interpreted as around 10:00 AM
+log the time("lunch")    // Interpreted as around 12:00 PM
+log the time("noon")  // Interpreted as around 12:00 PM
+log the time("afternoon") // Interpreted as around 2:00 PM
+log the time("dinner") // Interpreted as around 07:00 PM
+
+
+if (now.time) is less than or equal to (the time("morning") + 2 hours) then 
+	Log "Good morning." 
+else if (now.time) is greater than or equal to the time("noon") and if (now.time) is less than or equal to (the time("noon") + 5 hours) then 
+	Log "Good afternoon." 
+else if (now.time) is greater than or equal to (the time("noon") + 5 hours) and  if (now.time) is less than or equal to (the time("noon") + 7 hours) then 
+	Log "Good evening." 
+else if (now.time) is greater than or equal to the time("dinner") then 
+	Log "Good night." 
+end if 

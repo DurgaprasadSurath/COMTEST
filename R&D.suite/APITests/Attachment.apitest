@@ -1,0 +1,23 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = None;
+    httpVerb = PUT;
+    oauth1Token = "";
+    password = "";
+    requestBody = "{C:\\Users\\DurgaPrasad-IB\\Desktop\\REACH_Demo\\Framework.png}";
+    requestBodyFormat = "Form Data";
+    requestHeaders = "<![CDATA[Cookie:[[ALMCookie]]
+]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "[[BaseURL]]/rest/domains/[[Domain]]/projects/[[Project]]/run-step/207049/attachments/{C:\\Users\\DurgaPrasad-IB\\Desktop\\REACH_Demo\\Framework.png}";
+    userName = "";
+}

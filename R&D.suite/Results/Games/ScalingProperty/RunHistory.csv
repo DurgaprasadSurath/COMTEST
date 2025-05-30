@@ -1,0 +1,23 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-04-03 20:08:43.941 +0530,"Success",0:00:00,0,0,0,"20240403_200843.941/LogFile.txt","","",1
+2024-04-03 20:08:49.148 +0530,"Success",0:00:00,0,0,0,"20240403_200849.148/LogFile.txt","","",1
+2024-04-03 20:09:53.777 +0530,"Failure",0:00:01,1,0,1,"20240403_200953.777/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:09:59.202 +0530,"Failure",0:00:01,1,0,1,"20240403_200959.202/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:11:32.730 +0530,"Failure",0:00:02,1,0,1,"20240403_201132.730/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:12:16.824 +0530,"Failure",0:00:01,1,0,1,"20240403_201216.824/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:12:36.602 +0530,"Failure",0:00:02,1,0,1,"20240403_201236.602/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:12:49.933 +0530,"Failure",0:00:02,1,0,1,"20240403_201249.933/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:12:58.751 +0530,"Failure",0:00:02,1,0,1,"20240403_201258.751/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:13:46.139 +0530,"Failure",0:00:05,1,0,1,"20240403_201346.139/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:20:06.975 +0530,"Success",0:00:00,0,0,0,"20240403_202006.975/LogFile.txt","","",1
+2024-04-03 20:20:57.672 +0530,"Failure",0:00:04,1,0,1,"20240403_202057.672/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:21:25.702 +0530,"Failure",0:00:06,1,0,1,"20240403_202125.702/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:23:36.057 +0530,"Failure",0:00:07,1,0,1,"20240403_202336.057/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:23:52.507 +0530,"Failure",0:00:07,1,0,1,"20240403_202352.507/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:25:06.994 +0530,"Failure",0:00:08,1,0,1,"20240403_202506.994/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:25:34.165 +0530,"Failure",0:00:08,1,0,1,"20240403_202534.165/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:26:47.781 +0530,"Failure",0:00:08,1,0,1,"20240403_202647.781/LogFile.txt","","Image Not Found -- imagelocation Error - Unable To Find Image ""Paint_SC1""",0
+2024-04-03 20:27:03.149 +0530,"Success",0:00:04,0,0,0,"20240403_202703.149/LogFile.txt","","",1
+2024-04-03 20:27:44.610 +0530,"Failure",0:00:13,1,0,1,"20240403_202744.610/LogFile.txt","","No Remote Connection -- imagelocation Error - Remote Connection Unavailable",0
+2024-04-05 10:04:22.770 +0530,"Success",0:00:02,0,0,0,"20240405_100422.770/LogFile.txt","","",1
+2024-04-05 10:13:03.877 +0530,"Success",0:00:04,0,0,0,"20240405_101303.877/LogFile.txt","","",1

@@ -1,0 +1,50 @@
+﻿set the shellCommand to "ShellExecute"
+shell "read.bat >"&file "C:\Users\DurgaPrasad-IB\Desktop\New Text Document.txt",none
+
+set the shellCommand to empty
+open process "#1" with options (environment: (CWD:"/"))
+put "result:  " & result()
+put "cd " & FileWrite.getProjectPath() into changeDirectory
+put "changeDirectory=" & changeDirectory
+write changeDirectory & return to process "#1"
+put "sudo ./restartIMS2.sh" into script
+put "script=" & script
+write script & return to process "#1"
+close process "#1"
+
+
+
+
+open process "C:\Windows\system32\cmd.exe"
+write "ls" & return to process "C:\Windows\system32\cmd.exe"
+read until end from process "C:\Windows\system32\cmd.exe" into output
+put output
+close process "C:\Windows\system32\cmd.exe"
+
+tell application "Microsoft Excel" 
+
+open process ("cmd")
+
+C:\Users\DurgaPrasad-IB\Desktop
+
+global prompt
+set prompt to return & "+>"
+open process "cmd"
+put runCommand "PROMPT +$g"
+put runCommand "chdir C:\Users\DurgaPrasad-IB\Desktop\"
+put runCommand "dir"
+
+function runCommand command
+	global prompt
+write command & return to process "cmd"	read from process "cmd" until prompt
+return it
+end runCommand
+
+
+create file ResourcePath("EggplantExcel.xlsx")
+do AppleScript {{ 
+tell application "Microsoft Excel" 
+open "C:Users:DurgaPrasad-IB:Desktop:desk:TestCases.suite:Resources:apple.xlsx"
+
+end tell 
+}} 

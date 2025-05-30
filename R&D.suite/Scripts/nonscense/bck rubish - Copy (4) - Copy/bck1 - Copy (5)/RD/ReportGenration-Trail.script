@@ -1,0 +1,25 @@
+﻿
+Login
+AddProduct
+BuyProduct
+Logout
+
+
+to handle Login
+	Log "User Logged in to system."
+end Login
+
+to handle AddProduct
+	Log "User added a product to the cart."
+end AddProduct
+
+to handle BuyProduct
+	Log "User purchased the product."
+end BuyProduct
+
+to handle Logout
+	Log "User Logged out of the system."
+end Logout
+
+
+

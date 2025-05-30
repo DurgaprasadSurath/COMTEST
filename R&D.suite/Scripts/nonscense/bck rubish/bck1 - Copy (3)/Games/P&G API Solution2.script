@@ -1,0 +1,72 @@
+﻿
+set CASAuthenticationUrl to the suiteVariables.service3dPassport & "/login"  --setting the variable to the end point
+//post multipart {body:{It:the suiteVariables.Login_Ticket, username:the suiteVariables.Username, password:the suiteVariables.Password}} to URL CASAuthenticationUrl with headers {"Content-Type":"multipart/form-data", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon} 
+post multipart {body:{It:"LT-34711-qhugcg7uNnd9V2GjWlenh1xtO9wfLY", username:"sysapprequest.im", password:"LPDnewuser_0324"}} to URL CASAuthenticationUrl with headers {"Content-Type":"multipart/form-data", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon} 
+put JSONFormat(it.responseBody) into OutputResponse
+Log OutputResponse
+
+
+GET URL "https://fake-json-api.mock.beeceptor.com/users" 
+put the result
+
+put it.url
+put it.Body
+put it.responseBody
+Log it.Cookies
+
+Log api().responseBody
+Log it.responseBody
+
+put PG12() into foo
+put foo.responseCookies
+put foo.Body
+put foo.responseBody
+Log it.Cookies
+
+
+GET URL "https://catfact.ninja/fact"
+Log the result
+
+Log it
+Log it.Cookies
+
+
+DGE
+Log api().responseBody
+Log api().responseCookies
+
+
+get url "https://catfact.ninja/fact"
+
+Log cookies
+put foo.responseCookies
+put foo.Body
+put foo.responseBody
+Log foo.Cookies
+
+
+
+put it
+Log it.Cookies
+put the result
+
+put it.url
+put it.Body
+put it.responseBody
+Log it.Cookies
+
+
+
+put JSONFormat(demo.responsebody) into Body
+put Body.Lt into the suiteVariables.LoginTicket
+
+
+put "afs="&demo.responsecookies.afs.value&";"&"JSESSIONID="&demo.responsecookies.JSESSIONID.value&";"&"SERVERID="&demo.responsecookies.SERVERID.value&";" into CookieToPass
+
+
+
+set CASAuthenticationUrl to the suiteVariables.service3dPassport & "/login"  --setting the variable to the end point
+//post multipart {body:{It:the suiteVariables.Login_Ticket, username:the suiteVariables.Username, password:the suiteVariables.Password}} to URL CASAuthenticationUrl with headers {"Content-Type":"multipart/form-data", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon} 
+post {body:{It:"LT-34711-qhugcg7uNnd9V2GjWlenh1xtO9wfLY", username:"sysapprequest.im", password:"LPDnewuser_0324"}} to URL CASAuthenticationUrl with headers {"Content-Type":"application/x-www-form-urlencoded", Accept:"Application/json", SecurityContext:the suiteVariables.securityCon, Cookies:} 
+put JSONFormat(it.responseBody) into OutputResponse
+Log OutputResponse

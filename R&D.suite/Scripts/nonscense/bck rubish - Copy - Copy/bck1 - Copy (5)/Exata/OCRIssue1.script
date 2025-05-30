@@ -1,0 +1,37 @@
+﻿Click text:<"2," then some whitespace characters then some characters then "= 24", not followed by characters>
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+Log ReadText(the SearchRectangle)
+
+
+Log ReadText((40,853,523,870))
+
+
+//2,	,[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24
+//2,\t,[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24 
+
+
+
+Click text:<1 digit then comma then lots of whitespace characters then comma then "[1024]" then some characters then "=" then 2 digits>
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+Log ReadText(the SearchRectangle)
+
+
+
+
+//2,\t,[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24
+Click text:<1 digit then comma then lots of whitespace characters then "[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24" >
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+Log ReadText(the SearchRectangle)
+
+
+Click text:<"[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24" >
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+Log ReadText(the SearchRectangle)
+
+
+Click (text:<1 digit then comma then lots of whitespace characters then "[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24" >, textDifference:2)
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+Log ReadText(the SearchRectangle)
+
+
+log ImageLocation(text:"[1024], Application, CBR Server, Total Unicast Fragments Received (fragments) = 24", waitfor:0, ignorespaces:on)

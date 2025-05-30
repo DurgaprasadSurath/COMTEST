@@ -1,0 +1,57 @@
+﻿to handle InsertionOfRunData data, TransactionData	
+	put the record of TransactionData where TransactionStart is True into recordToAmend
+	
+	repeat with each (key, value) in data 
+		log [key, value] 
+		// If the first row for the header specified is empty, add data directly to the first row 
+		if recordToAmend's ("" & key & "") is empty
+			Log "Adding first value to row"
+			set the ("" & key & "") of recordToAmend to value
+		else 
+			// Otherwise append to the next row in the spreadsheet
+			Log "Adding extra values for header:" && key
+			LogSuccess TransactionData
+			add record {("" & key & ""): value} to TransactionData
+		end if
+	end repeat
+	
+	put the records of TransactionData into endingRecords
+	log endingRecords
+end InsertionOfRunData
+
+
+Set Universal TransactionData to {type:"excel",file:ResourcePath("TransactionData copy.xlsx"),name: "Sheet1",Writable:yes}
+InsertionOfRunData {"TodaysDate": "18/10"}, Universal TransactionData
+InsertionOfRunData {"TillNumber": 111}, Universal TransactionData
+InsertionOfRunData {"Product": "18/10"}, Universal TransactionData
+InsertionOfRunData {"StoreName": 111}, Universal TransactionData
+
+put 3 after hij
+log hij
+
+put  ReadText([0,50],[143,320]) into vinColumnData
+delete newline from  vinColumnData
+log vinColumnData
+set temp to 0
+repeat 10 times
+	insert  chars (temp+1)..(17+temp) of vinColumnData into VinRowData
+	set temp to (temp+17)
+end repeat
+log VinRowData
+
+put ["ABCD","EFGH","123","QWER","ASDF","456"] into vinitems 
+set temp to 0
+repeat 2 times
+	do"put  items "&temp+1&"..3 of vinitems after high"
+end repeat
+log high
+
+put [4,14,11] into listofstatescount
+set temp to 0
+repeat the number of items of Global Names
+	do  "put items "&temp+1&"..("&item repeatIndex() of listofstatescount&"+"&temp&") of Global states into"&&"global"&&item repeatIndex() of Global Names &"states"
+	set temp to item repeatIndex() of listofstatescount
+end repeat
+
+
+

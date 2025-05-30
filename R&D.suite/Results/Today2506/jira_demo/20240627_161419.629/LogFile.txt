@@ -1,0 +1,4 @@
+﻿2024-06-27 16:14:19.630 +0530	START		Running Today2506/jira_demo.script
+2024-06-27 16:14:21.633 +0530	Log		{"error":"Missing results file in the xray results import multipart request"}	11	on_jira_demo	Today2506/jira_demo.script
+2024-06-27 16:14:21.664 +0530	EndTestCase		(Duration:"2.034", Errors:"0", Exceptions:"0", StartTime:"2024-06-27 16:14:19 +0530", Successes:"1", TestCase:"Today2506/jira_demo.script", Warnings:"0")
+2024-06-27 16:14:21.686 +0530	SUCCESS		Execution Time 0:00:02 Today2506/jira_demo.script

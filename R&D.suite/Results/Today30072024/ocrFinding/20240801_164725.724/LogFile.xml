@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Today30072024/ocrFinding_script" package="R&amp;D.suite" timestamp="2024-08-01 16:47:25.724 +0530"
+ tests="1"  failures="0" errors="0" time="3.114000">
+  <properties>
+   <property name="RunDate" value="2024-08-01 16:47:25.724 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Today30072024/ocrFinding.script" assertions="1" status="success"  time="3.104">
+  </testcase>
+ </testsuite>
+</testsuites>

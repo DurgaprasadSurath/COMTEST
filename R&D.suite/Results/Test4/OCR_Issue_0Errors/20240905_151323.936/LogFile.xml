@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Test4/OCR_Issue_0Errors_script" package="R&amp;D.suite" timestamp="2024-09-05 15:13:23.936 +0530"
+ tests="1"  failures="1" errors="1" time="29.638000">
+  <properties>
+   <property name="RunDate" value="2024-09-05 15:13:23.936 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Test4/OCR_Issue_0Errors.script" assertions="2" status="error"  time="29.612">
+    <failure type="LogError" message="Unable to Find&quot;Field Ticket 1&quot;" />
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

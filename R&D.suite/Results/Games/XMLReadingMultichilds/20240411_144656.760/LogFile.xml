@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/XMLReadingMultichilds_script" package="R&amp;D.suite" timestamp="2024-04-11 14:46:56.760 +0530"
+ tests="1"  failures="0" errors="0" time="0.162000">
+  <properties>
+   <property name="RunDate" value="2024-04-11 14:46:56.760 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Games/XMLReadingMultichilds.script" assertions="1" status="success"  time="0.143">
+  </testcase>
+ </testsuite>
+</testsuites>

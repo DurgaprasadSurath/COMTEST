@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999655.5609999,
+	"ocrcapturestring": "o x in",
+	"originalcapturelocation": [
+		1456,
+		746,
+		110,
+		26
+	],
+	"createddate": 1724999655.5609999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "o x in",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_50",
+					"HotSpot": "[66,4]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1456,
+					746,
+					110,
+					26
+				],
+				"name": "GfflX.png"
+			}
+	],
+	"name": "GfflX"
+}

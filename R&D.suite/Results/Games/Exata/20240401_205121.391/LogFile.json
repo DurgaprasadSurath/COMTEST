@@ -1,0 +1,61 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Exata.script",
+				"identifier": "START",
+				"timestamp": "2024-04-01 20:51:21.396 +0530"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:51:21.475 +0530",
+				"message": "SEARCHRECTANGLE = [155,592,874,1041]",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 1,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:51:22.338 +0530",
+				"scriptName": "Games/Exata.script",
+				"message": "at (521, 846)",
+				"image": "(TEXT:<1 digit, nonLettersOrDigits, whitespace characters, nonLettersOrDigits, characters>)",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:51:22.338 +0530",
+				"message": "SEARCHRECTANGLE = [328,835,715,857]",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 3,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:51:23.579 +0530",
+				"message": "(328,835,715,857)",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 5,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:51:23.579 +0530",
+				"message": ",[1024], Application, CBR Server, Last Unicast Fragment Received (seconds)-24.00145540C\\n, (10241, Application, CBR Server. Total Unicast Fragments Received (fragments)=24",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"2.214\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-01 20:51:21 +0530\", Successes:\"1\", TestCase:\"Games/Exata.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-01 20:51:23.610 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:02 Games/Exata.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-01 20:51:23.735 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-01 20:51:21.396 +0530"
+}

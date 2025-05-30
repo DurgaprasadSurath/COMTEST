@@ -1,0 +1,9 @@
+﻿Click text:"History"
+Hide RunWindow
+Show RemoteWindow
+Click text:"Downloads"
+Show RemoteWindow
+Log ReadText( connectionInfo().ScreenSize)
+Hide RemoteWindow
+Click text:"Contacts"
+Show RunWindow

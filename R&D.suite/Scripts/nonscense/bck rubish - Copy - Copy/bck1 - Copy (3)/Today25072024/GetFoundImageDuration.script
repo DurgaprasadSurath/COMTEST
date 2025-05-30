@@ -1,0 +1,40 @@
+﻿
+set universal pageWait to 200
+openApplication "firefox", "https://www.demoblaze.com/", , "PRODUCT STORE"
+waitforElement universal pageWait, "laptop"
+
+#to open run window
+to openRunWindow 
+	TypeText windowsKey, "r"
+	wait 0.5	
+	WaitFor universal pageWait, {text:"Type the name",SearchRectangle:"CommonUtilities/Config"().runwindow}
+end openRunWindow
+
+# to open application
+to openApplication browser, url, SR:"default", expectation
+	openRunWindow
+	TypeText browser && url, return
+	wait 0.5	
+	set the SearchRectangle to "CommonUtilities/Config"().(SR)
+	verifyEvent expectation, "Application opened successfully.", "Failed to open Application."	
+end openApplication
+
+# to perform verify operation over application
+to verifyEvent verifyObject, successMsg, errorMsg	
+	if file (suiteinfo().imagesFolder&"/"&verifyObject&".png") exists or if folder (suiteinfo().imagesFolder&"/"&verifyObject) exists then
+		if ImageFound(image:verifyObject, waitfor:06) then Log successMsg else LogError errorMsg
+	else
+		if ImageFound(text:verifyObject, waitfor:06) then Log successMsg else LogError errorMsg
+	end if
+end verifyEvent
+
+# to waitfor image/text on the screen
+to waitforElement pagewait, verifyObject
+	if file (suiteinfo().imagesFolder&"/"&verifyObject&".png") exists or if folder (suiteinfo().imagesFolder&"/"&verifyObject) exists then
+		waitFor universal pagewait, image:verifyObject
+		Log "The duration to find the image on the screen is "&the result&"."
+	else
+		waitFor universal pagewait, text:verifyObject
+		Log "The duration to find the text on the screen is "&the result&"."
+	end if
+end waitforElement

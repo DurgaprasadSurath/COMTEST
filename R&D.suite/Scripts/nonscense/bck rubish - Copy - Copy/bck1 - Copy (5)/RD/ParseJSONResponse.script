@@ -1,0 +1,31 @@
+﻿put JSONValue(APIResponse) into jsonResp
+
+
+
+//log jsonResp
+
+
+
+repeat with each item respItems of jsonResp
+	//log respItems
+	if repeatIndex() is 1 then
+		log respItems
+		put JSONFormat(respItems) into jsonRespnew
+		log jsonRespnew
+		put JSONValue(jsonRespnew) into jsonValueResp
+		log jsonValueResp
+		log jsonValueResp.name
+		put jsonValueResp.premiums into jsonPremiums
+		//log jsonPremiums
+		repeat with each item premiumItem of jsonPremiums
+			log premiumItem.mode
+			log premiumItem.premium.product_benifit.totalPremium
+			log "-------------------------------------------"
+		end repeat
+		
+		
+		
+	end if
+	
+	
+end repeat

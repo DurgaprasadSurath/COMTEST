@@ -1,0 +1,21 @@
+﻿connect 132
+log hello 
+
+
+
+put ["1","23","45","98","34"] into val1
+put ["1","23","45","98","34"] into val2
+
+if val1 is val2 then log "hi" 
+
+
+
+put ["1","23","45","98","34"] into val1
+put ["98","34","45","1","23"] into val2
+set temp to 0
+repeat the number of items of val1 times
+	repeat the number of items of val2 times 
+		if item repeatIndex() of val1 is item repeatIndex() of val2 then set temp to temp + 1 
+	end repeat
+end repeat
+if temp is the number of items of val1 then log hi

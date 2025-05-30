@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Today30072024/Untitled.script",
+				"identifier": "START",
+				"timestamp": "2024-08-19 14:05:13.550 +0530"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2024-08-19 14:05:13.629 +0530",
+				"message": "C:\\Windows\\system32\\cmd.exe",
+				"scriptName": "Today30072024/Untitled.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2024-08-19 14:05:13.629 +0530",
+				"message": "/c \"C:\\Program Files (x86)\\ZBar\\bin\\zbarimg.exe\" C:\\Users\\durgaprasad.surath\\Downloads\\best.png 2>&1 > \"C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Resources/Test2.txt\"",
+				"scriptName": "Today30072024/Untitled.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"4.917\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-19 14:05:13 +0530\", Successes:\"0\", TestCase:\"Today30072024/Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-19 14:05:18.467 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:04 Today30072024/Untitled.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-08-19 14:05:18.467 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-19 14:05:13.550 +0530"
+}

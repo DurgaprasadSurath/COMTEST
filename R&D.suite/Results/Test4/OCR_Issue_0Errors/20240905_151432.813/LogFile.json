@@ -1,0 +1,221 @@
+{
+	"entries": [
+		{
+				"message": "Running Test4/OCR_Issue_0Errors.script",
+				"identifier": "START",
+				"timestamp": "2024-09-05 15:14:32.829 +0530"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:14:33.048 +0530",
+				"message": "SEARCHRECTANGLE = [0,0,1920,1080]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:14:53.910 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:14:53.915 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:14:53.943 +0530",
+				"message": "SEARCHRECTANGLE = [0,1,1920,1039]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:11.924 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:11.932 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:11.955 +0530",
+				"message": "SEARCHRECTANGLE = [212,864,957,997]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:14.070 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:14.075 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:14.095 +0530",
+				"message": "SEARCHRECTANGLE = [210,859,958,1021]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:16.271 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:16.275 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:16.310 +0530",
+				"message": "SEARCHRECTANGLE = [213,885,954,996]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:18.368 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:18.374 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:18.405 +0530",
+				"message": "SEARCHRECTANGLE = [0,464,1920,1038]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:26.807 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:26.812 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:26.861 +0530",
+				"message": "SEARCHRECTANGLE = [0,1,979,1038]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:35.973 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:35.978 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:36.005 +0530",
+				"message": "SEARCHRECTANGLE = [0,522,961,1041]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:39.557 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:15:39.561 +0530",
+				"message": "Unable to Find\"0 Error\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"66.782\", Errors:\"8\", Exceptions:\"0\", StartTime:\"2024-09-05 15:14:32 +0530\", Successes:\"0\", TestCase:\"Test4/OCR_Issue_0Errors.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-05 15:15:39.622 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error: Number of Errors logged: 8 -- Execution Time 0:01:06 Test4/OCR_Issue_0Errors.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-09-05 15:15:39.852 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-05 15:14:32.837 +0530"
+}

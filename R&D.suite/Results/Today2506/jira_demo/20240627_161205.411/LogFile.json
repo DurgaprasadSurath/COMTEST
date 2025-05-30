@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/jira_demo.script",
+				"identifier": "START",
+				"timestamp": "2024-06-27 16:12:05.418 +0530"
+			},
+		{
+				"message": "(Duration:\"1.696\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-27 16:12:05 +0530\", Successes:\"1\", TestCase:\"Today2506/jira_demo.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-27 16:12:07.119 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 Today2506/jira_demo.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-27 16:12:07.155 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-27 16:12:05.422 +0530"
+}

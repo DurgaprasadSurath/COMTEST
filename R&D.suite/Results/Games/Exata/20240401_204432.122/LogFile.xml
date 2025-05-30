@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/Exata_script" package="R&amp;D.suite" timestamp="2024-04-01 20:44:32.122 +0530"
+ tests="1"  failures="0" errors="0" time="12.631000">
+  <properties>
+   <property name="RunDate" value="2024-04-01 20:44:32.122 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Games/Exata.script" assertions="1" status="error"  time="12.619">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

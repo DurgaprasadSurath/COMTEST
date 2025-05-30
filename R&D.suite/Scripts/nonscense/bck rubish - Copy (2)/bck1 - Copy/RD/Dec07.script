@@ -1,0 +1,74 @@
+﻿put webDriver (host:"192.168.1.142", browser: "chrome", port: "4444", url: "http://demo.guru99.com/test/web-table-element.php") into driver
+
+set the webDriver's windowsize to "max"
+
+create file "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\textdatafile2.txt"
+put "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\textdatafile2.txt" into myfilevar
+set head to  FindElements(WebTagName:"th")
+set content to  FindElements(WebTagName:"td")
+set global var to 0
+put the number of items in head into count
+put the number of items in content into count2
+set global arr to count..count2 step by count
+repeat with each item of content 
+	set  global var to repeatIndex()
+	repeat with each item of head
+		put item the repeatIndex of head into property1
+		if global var > 1 and global var <= count2/count 
+			put item the  repeatIndex + item  global var - 1 of global arr of content into property2 
+		else if global var =1
+			put item the repeatIndex of content  into property2
+		else 
+			Exit repeat
+		end if
+		put property1's Text &":-"&& property2's Text  into myvar
+		log myvar
+		open file myfilevar
+		write return to file myfilevar at eof
+		write myvar to file myfilevar
+		close file myfilevar
+	end repeat
+	if  global var > count2/count then 
+		Exit repeat	
+	end if
+end repeat 
+
+
+
+WebDisconnect All
+
+TypeText windowsKey,"r"
+TypeText "Chrome http://demo.guru99.com/test/web-table-element.php",return
+
+CompareScreen "LocalHost_Password_Error.png"//,rectangle: [1,50,3,65]
+CompareScreen "gurudemo"
+wait 5
+
+put Shell("cd C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\KeysightTestCases\keysighttestcases.suite\Scripts\CommanHandlers.script") into file ResourcePath("temp.txt")
+log "temp.txt"
+
+//Connect {serverID: "192.168.1.81", portNum: 3389, password: "Ideabytes", username:" Eggplant-Automation", Type:"RDP", Width: 1920, Height: 1080,visible:"Yes"}
+
+
+put "a,b,c,d,e,f" into firstBox
+
+put "9,8,7,6,4,6,8" into secondBox
+
+put ",Here" after container chooseContainer(@firstBox, @secondBox)
+
+put firstBox// -- "a,b,c,d,e,f"
+
+put secondBox //-- "9,8,7,6,Here"
+
+
+
+to chooseContainer @c1, @c2
+
+	if the number of items in c1 < number of items in c2
+	
+	then return container c1
+	
+	else return container c2
+
+end chooseContainer
+

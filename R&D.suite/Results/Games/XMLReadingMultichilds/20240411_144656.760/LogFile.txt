@@ -1,0 +1,5 @@
+﻿2024-04-11 14:46:56.771 +0530	START		Running Games/XMLReadingMultichilds.script
+2024-04-11 14:46:56.853 +0530	Log		<note importance="high" logged="true">\n\t<E1IDB02 SEGMENT="1">\n\t\t<FIIQUALI>BA</FIIQUALI>\n\t\t<FIIBKENN>Test</FIIBKENN>\n\t</E1IDB02>\n\t<E1IDB02 SEGMENT="1">\n\t\t<FIIQUALI>BB</FIIQUALI>\n\t\t<FIIBKENN>Test</FIIBKENN>\n\t</E1IDB02>\n</note>	3	on_xmlreadingmultichilds	Games/XMLReadingMultichilds.script
+2024-04-11 14:46:56.869 +0530	Log		<note importance="high" logged="true">\n  <E1IDB02 SEGMENT="1">\n    <FIIQUALI>BA</FIIQUALI>\n    <FIIBKENN>Test</FIIBKENN>\n  </E1IDB02>\n  <E1IDB02 SEGMENT="1">\n    <FIIQUALI>BB</FIIQUALI>\n    <FIIBKENN>Test</FIIBKENN>\n  </E1IDB02>\n</note>	5	on_xmlreadingmultichilds	Games/XMLReadingMultichilds.script
+2024-04-11 14:46:56.924 +0530	EndTestCase		(Duration:"0.143", Errors:"0", Exceptions:"0", StartTime:"2024-04-11 14:46:56 +0530", Successes:"1", TestCase:"Games/XMLReadingMultichilds.script", Warnings:"0")
+2024-04-11 14:46:57.069 +0530	SUCCESS		Execution Time 0:00:00 Games/XMLReadingMultichilds.script

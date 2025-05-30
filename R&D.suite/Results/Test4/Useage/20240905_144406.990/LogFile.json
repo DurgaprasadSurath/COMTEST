@@ -1,0 +1,196 @@
+{
+	"entries": [
+		{
+				"message": "Running Test4/Useage.script",
+				"identifier": "START",
+				"timestamp": "2024-09-05 14:44:06.990 +0530"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:07.083 +0530",
+				"message": "SEARCHRECTANGLE = [0,1,1170,2532]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:11.662 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "Unable to Find Image (TEXT:\"Field Ticket 1\"). Text not found.",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:11.662 +0530",
+				"message": "Unable to Find\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:11.678 +0530",
+				"message": "SEARCHRECTANGLE = [53,1363,1119,1569]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:12.799 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "found at (241, 1435)",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:12.799 +0530",
+				"message": "Found\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:12.831 +0530",
+				"message": "SEARCHRECTANGLE = [2,1003,1169,2532]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:14.303 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "found at (241, 1435)",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:14.303 +0530",
+				"message": "Found\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:14.352 +0530",
+				"message": "SEARCHRECTANGLE = [2,759,1169,2532]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:16.077 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "found at (241, 1435)",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:16.077 +0530",
+				"message": "Found\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:16.126 +0530",
+				"message": "SEARCHRECTANGLE = [2,32,1169,2532]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:20.671 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "Unable to Find Image (TEXT:\"Field Ticket 1\"). Text not found.",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:20.671 +0530",
+				"message": "Unable to Find\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:20.686 +0530",
+				"message": "SEARCHRECTANGLE = [3,0,1170,1642]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:23.825 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "found at (241, 1434)",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:23.825 +0530",
+				"message": "Found\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:23.872 +0530",
+				"message": "SEARCHRECTANGLE = [3,846,1170,1642]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:25.449 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "found at (241, 1435)",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_findfieldticket",
+				"timestamp": "2024-09-05 14:44:25.449 +0530",
+				"message": "Found\"Field Ticket 1\"",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 4,
+				"identifier": "LogSuccess"
+			},
+		{
+				"message": "(Duration:\"18.49\", Errors:\"2\", Exceptions:\"0\", StartTime:\"2024-09-05 14:44:07 +0530\", Successes:\"5\", TestCase:\"Test4/Useage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-05 14:44:25.496 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error: Number of Errors logged: 2 -- Execution Time 0:00:18 Test4/Useage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-09-05 14:44:25.866 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-05 14:44:07.006 +0530"
+}

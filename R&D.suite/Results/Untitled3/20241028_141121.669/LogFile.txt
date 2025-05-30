@@ -1,0 +1,4 @@
+﻿2024-10-28 14:11:21.679 +0530	START		Running Untitled3.script
+2024-10-28 14:11:21.721 +0530	Log		Valdez	1	on_untitled3	Untitled3.script
+2024-10-28 14:11:21.752 +0530	EndTestCase		(Duration:"0.072", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 14:11:21 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 14:11:21.799 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

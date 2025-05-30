@@ -1,0 +1,7 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-04-11 14:45:20.587 +0530,"Success",0:00:00,0,0,0,"20240411_144520.587/LogFile.txt","","",1
+2024-04-11 14:45:36.620 +0530,"Failure",0:00:00,1,0,0,"20240411_144536.620/LogFile.txt","","InvalidValueExpr -- Unable to take value of expression 'C:\\Users\\durgaprasad.surath\\Downloads\\TestXML.xml' (reason: (null))",0
+2024-04-11 14:45:46.378 +0530,"Failure",0:00:00,1,0,0,"20240411_144546.378/LogFile.txt","","InvalidValueExpr -- Unable to take value of expression '<?xml version=""1.0"" encoding=""utf-8""?>\r⏎<note importance=""high"" logged=""true"">\r⏎	<E1IDB02 SEGMENT...' (reason: (null))",0
+2024-04-11 14:46:03.497 +0530,"Failure",0:00:00,1,0,0,"20240411_144603.497/LogFile.txt","","InvalidValueExpr -- Unable to take value of expression '<?xml version=""1.0"" encoding=""utf-8""?>\r⏎<note importance=""high"" logged=""true"">\r⏎	<E1IDB02 SEGMENT...' (reason: (null))",0
+2024-04-11 14:46:20.363 +0530,"Failure",0:00:00,1,0,0,"20240411_144620.363/LogFile.txt","","InvalidValueExpr -- Unable to take value of expression '<note importance=""high"" logged=""true"">\r⏎	<E1IDB02 SEGMENT=""1"">\r⏎		<FIIQUALI>BA</FIIQUALI>\r⏎		<FII...' (reason: (null))",0
+2024-04-11 14:46:56.760 +0530,"Success",0:00:00,0,0,0,"20240411_144656.760/LogFile.txt","","",1

@@ -1,0 +1,37 @@
+﻿//Fetching Data 
+(*Pass 1st parameter as Excel testdata file, 2nd parameter as sheet name in excel file you want read and 3rd parameter as Test Case to apply filter*)
+FetchingData "TestData_UAT.xlsx","2ndsheet","E2EQMS-ITOF-FA-003-AUTO"
+
+Log Global Originator_Password
+Log Global Originator_Username
+Log Global TCName
+Log Global GivenDocumentID
+Log Global RecordCount
+Log Global FilePath
+
+to handle FetchingData
+	params TestDataFile,SheetName,TC_Name
+	set MyExcelFile to Workbook(ResourcePath(TestDataFile))
+	set Sheet to worksheet(MyExcelFile,SheetName)
+	put Sheet's cellRange(1) into Headers
+	put item 1 of Headers into VariableNames
+	put the number of items of item 1 of Headers into HeadersCount
+	put Sheet's cellRange("A") into Lines
+	put the number of items of Lines into CountOfLines
+	repeat CountOfLines times
+		if Cell(Sheet,[repeatIndex()+1,2]) is TC_Name then 
+			put Sheet's cellRange(repeatIndex()+1) into Data
+			repeat with each item of VariableNames
+				do "put 0 into Global"&&it
+				do "put"&&"item repeatIndex() of item 1 of Data"&&"into"&&"Global"&&it
+			end repeat
+			if Global GivenDocumentID is empty then 
+				set Global GivenDocumentID to 0
+			else 
+				set the suitevariables.RecordId to Global GivenDocumentID
+			end if
+			put "Executed" into Cell(Sheet,[repeatIndex()+1,1])
+			exit repeat
+		end if
+	end repeat
+end FetchingData

@@ -1,0 +1,27 @@
+﻿set myDB to {type:"odbc",DSN:"Ts",user:"root",password:"root"}
+put executeSQL(myDB,"select * from sys.sys_config where value = 123") into Personsdata
+//put executeSQL(myDB,"select set_time from sys.sys_config where value = 65535") into Personsdata
+log Personsdata
+
+(*select * from sys.sys_config;
+select variable from sys.sys_config where value = 65535;
+select set_time from sys.sys_config where value = 65535;*)
+
+set myDB to {type:"odbc",DSN:"Ts",user:"root",password:"root"}
+put executeSQL(myDB,"insert into sys.sys_config values('Hyd','123','2022-10-18 12:38:34','Null')") into List
+
+log list
+
+
+Try
+	put hi/hi
+	log hi
+Catch theException
+	Log "cat"
+End try
+
+
+
+do "set 4 to 23"
+log 4
+

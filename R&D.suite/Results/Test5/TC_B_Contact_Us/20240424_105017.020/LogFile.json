@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_Contact_Us.script",
+				"identifier": "START",
+				"timestamp": "2024-04-24 10:50:17.028 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_contact_us",
+				"timestamp": "2024-04-24 10:50:17.107 +0530",
+				"message": "myname",
+				"scriptName": "Tests/TC_B_Contact_Us.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.09\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-24 10:50:17 +0530\", Successes:\"1\", TestCase:\"Tests/TC_B_Contact_Us.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-24 10:50:17.129 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Tests/TC_B_Contact_Us.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-24 10:50:17.236 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-24 10:50:17.035 +0530"
+}

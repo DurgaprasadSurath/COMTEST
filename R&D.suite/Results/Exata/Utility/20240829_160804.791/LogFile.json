@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 16:08:04.806 +0530"
+			},
+		{
+				"message": "(Duration:\"0.133\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-29 16:08:04 +0530\", Successes:\"0\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 16:08:04.941 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Workbook Error: Wrong file type (must be 'xls' or 'xlsx' file): C:/Users/durgaprasad.surath/Documents/universalmyWorkBook -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-08-29 16:08:05.095 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 16:08:04.806 +0530"
+}

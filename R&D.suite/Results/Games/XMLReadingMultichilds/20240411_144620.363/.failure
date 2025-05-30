@@ -1,0 +1,1 @@
+2024-04-11 14:46:20.363 +0530,Failure,0:00:00,1,0,0,20240411_144620.363/LogFile.txt,"","InvalidValueExpr -- Unable to take value of expression '<note importance=""high"" logged=""true"">\r⏎	<E1IDB02 SEGMENT=""1"">\r⏎		<FIIQUALI>BA</FIIQUALI>\r⏎		<FII...' (reason: (null))",0

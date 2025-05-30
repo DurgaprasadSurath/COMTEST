@@ -1,0 +1,75 @@
+﻿////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+to handle mathPro Number
+	put the number of chars in Number into Count
+	set CubedNumber to 0
+	repeat Count times
+		put (character repeatIndex() of Number)^3 into item repeatIndex() of Temp
+		put (item repeatIndex() of Temp + CubedNumber) into CubedNumber
+	end repeat
+	if CubedNumber equal to Number then Log "Succes for"&& CubedNumber
+end mathPro
+
+mathPro 153
+
+repeat 100000 times 
+	mathPro repeatIndex()+100
+end repeat
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+to handle mathPro_2 Number
+	put the number of chars in Number into Count
+	set TempNumber to 0
+	repeat Count - 1 times
+		put (character repeatIndex() of Number) into item repeatIndex() of Temp
+		put (item repeatIndex() of Temp + TempNumber) into TempNumber
+	end repeat
+	if TempNumber equal to character Count of Number then Log "Succes for"&& Number
+end mathPro_2
+
+mathPro_2 123
+
+repeat 1000 times 
+	mathPro_2 repeatIndex()+100
+end repeat
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+put 40 / 10 into temp
+put (40 rem 10) into temp2
+put temp&temp2
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+to handle mathPro_3 Number
+	put the number of chars in Number into Count
+	set TempNumber to 0
+	repeat Count  times
+		put (character repeatIndex() of Number)^repeatIndex() into item repeatIndex() of Temp
+		put (item repeatIndex() of Temp + TempNumber) into TempNumber
+	end repeat
+	Log "The Final Result is"&&TempNumber
+end mathPro_3
+
+mathPro_3 1234
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//pass the logic as 1 or 2 u want and number list values you needed
+to handle mathPro_4 logic,NumberofList 
+	if logic is 1 then
+		repeat NumberofList Times
+			put repeatIndex()^2 + 1
+		end repeat
+	else if logic is 2 then
+		repeat NumberofList Times
+			put 2^repeatIndex() + (repeatIndex() - 1)
+		end repeat
+	end if
+end mathPro_4
+
+mathPro_4 2,10
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

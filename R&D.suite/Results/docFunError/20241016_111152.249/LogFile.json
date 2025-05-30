@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running docFunError.script",
+				"identifier": "START",
+				"timestamp": "2024-10-16 11:11:52.256 +0530"
+			},
+		{
+				"message": "(Duration:\"0.13\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-16 11:11:52 +0530\", Successes:\"0\", TestCase:\"docFunError.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-16 11:11:52.398 +0530"
+			},
+		{
+				"message": "Error 0 in NSXMLErrorDomain: NSXMLErrorDomain code: 0 -- Execution Time 0:00:00 docFunError.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-10-16 11:11:52.567 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-16 11:11:52.263 +0530"
+}

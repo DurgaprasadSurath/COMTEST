@@ -1,0 +1,4 @@
+﻿2024-04-01 21:11:54.777 +0530	START		Running Games/Exata.script
+2024-04-01 21:11:54.858 +0530	set		SEARCHRECTANGLE = [155,592,874,1041]	1	on_exata	Games/Exata.script
+2024-04-01 21:12:10.566 +0530	EndTestCase		(Duration:"15.789", Errors:"1", Exceptions:"0", StartTime:"2024-04-01 21:11:54 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 21:12:10.582 +0530	ABORTED		Execution Time 0:00:15 Games/Exata.script

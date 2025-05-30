@@ -1,0 +1,14 @@
+﻿Click text:"dès",Language:"French"
+
+--defaults write Eggplant RFBClipboardEncoding 4
+--defaults delete Eggplant RFBClipboardEncoding
+
+
+TypeText controlKey, "a"
+TypeText controlKey, "c"
+Log RemoteClipboard()
+
+
+Log ReadText((0,35,1883,875))
+
+

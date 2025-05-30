@@ -1,0 +1,7 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-04-24 10:50:17.020 +0530,"Success",0:00:00,0,0,0,"20240424_105017.020/LogFile.txt","","",1
+2024-04-24 10:50:22.483 +0530,"Failure",0:00:00,1,0,0,"20240424_105022.483/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'myname'",0
+2024-04-24 10:50:27.664 +0530,"Failure",0:00:00,1,0,0,"20240424_105027.664/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'name'",0
+2024-04-24 10:50:33.302 +0530,"Failure",0:00:00,1,0,0,"20240424_105033.302/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'name'",0
+2024-04-24 10:50:39.212 +0530,"Failure",0:00:00,1,0,0,"20240424_105039.212/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'script'",0
+2024-04-24 10:50:46.276 +0530,"Failure",0:00:00,1,0,0,"20240424_105046.276/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'scriptname'",0

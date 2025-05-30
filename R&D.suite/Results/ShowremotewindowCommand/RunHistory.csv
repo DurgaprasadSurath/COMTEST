@@ -1,0 +1,9 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2025-03-26 19:26:49.023 +0530,"Failure",0:00:07,1,0,0,"20250326_192649.023/LogFile.txt","","Unknown Property or Function -- Unable to access global property or function 'SCREENRESOLUTION'",0
+2025-03-26 19:28:28.474 +0530,"Success",0:00:02,0,0,0,"20250326_192828.474/LogFile.txt","","",1
+2025-03-26 19:29:11.159 +0530,"Failure",0:00:02,1,0,0,"20250326_192911.159/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'hidshowe'",0
+2025-03-26 19:29:22.244 +0530,"Success",0:00:02,0,0,0,"20250326_192922.244/LogFile.txt","","",1
+2025-03-26 19:29:27.513 +0530,"Success",0:00:02,0,0,0,"20250326_192927.513/LogFile.txt","","",1
+2025-03-26 19:29:42.652 +0530,"Success",0:00:02,0,0,0,"20250326_192942.652/LogFile.txt","","",1
+2025-03-26 19:29:55.865 +0530,"Success",0:00:02,0,0,0,"20250326_192955.865/LogFile.txt","","",1
+2025-03-26 19:34:39.252 +0530,"Success",0:00:03,0,0,0,"20250326_193439.252/LogFile.txt","","",1

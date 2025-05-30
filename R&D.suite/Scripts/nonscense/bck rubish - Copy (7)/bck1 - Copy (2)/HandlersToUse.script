@@ -1,0 +1,32 @@
+﻿to CloneRepo
+	if file ResourcePath("ShellOutput.txt") exists then Delete file ResourcePath("ShellOutput.txt")
+	set MyCommand to quote & ResourcePath("CloneGitRepo.bat") & quote && quote & SuiteInfo().scriptsFolder & "/common" & quote && ">" && quote & ResourcePath("ShellOutput.txt") & quote && "2>&1"
+	replace every occurrence of "/" in MyCommand with "\"
+	put MyCommand into file ResourcePath("MyCommand.bat")
+	Shell "C:\Windows\system32\cmd.exe", "/c" && ResourcePath("MyCommand.bat")
+	set the ScriptLogging to Off
+	Repeat 3 minutes
+		if (file ResourcePath("ShellOutput.txt") contains "Repository cloned successfully") then 
+			Log "Repository cloned successfully."
+			Exit repeat
+		else if (file ResourcePath("ShellOutput.txt") contains "Failed to clone the repository") then 
+			Log "Failed to clone the repository"
+			Exit repeat
+		end if
+		Wait 0.5
+	End Repeat
+	set the ScriptLogging to On
+end CloneRepo
+
+
+to ExtractTextFromField FieldLabel, offsetX1, offsetY1, offsetX2, offsetY2
+	if file (suiteinfo().imagesFolder&"/"&FieldLabel&".png") exists or folder (suiteinfo().imagesFolder&"/"&FieldLabel) exists then
+		put ImageLocation(ImageName: FieldLabel) into fieldCoordinates
+	else
+		put ImageLocation(text: FieldLabel) into fieldCoordinates
+	end if	
+	set fieldArea to [[fieldCoordinates.x + offsetX1, fieldCoordinates.y + offsetY1], [fieldCoordinates.x + offsetX2, fieldCoordinates.y + offsetY2]]
+	put ReadText(fieldArea) into extractedText
+	return extractedText
+end ExtractTextFromField
+

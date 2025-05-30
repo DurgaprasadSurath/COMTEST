@@ -1,0 +1,4 @@
+﻿2024-06-27 17:54:15.675 +0530	START		Running Today2506/jira_demo.script
+2024-06-27 17:54:21.666 +0530	Log		{"error":"Issue created with key MNP-5 is not of type Test Execution or Sub Test Execution"}	13	on_jira_demo	Today2506/jira_demo.script
+2024-06-27 17:54:21.698 +0530	EndTestCase		(Duration:"6.017", Errors:"0", Exceptions:"0", StartTime:"2024-06-27 17:54:15 +0530", Successes:"1", TestCase:"Today2506/jira_demo.script", Warnings:"0")
+2024-06-27 17:54:21.724 +0530	SUCCESS		Execution Time 0:00:06 Today2506/jira_demo.script

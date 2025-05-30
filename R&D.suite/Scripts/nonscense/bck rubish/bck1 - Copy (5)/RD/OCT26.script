@@ -1,0 +1,48 @@
+﻿
+to handle Application_is_launched_and_login_page_is_displaying
+	DoubleClick {ImageName:"ChromeIcon",waitfor: 5}
+	wait 5
+	TypeText "https://parabank.parasoft.com/parabank/index.htm",return
+end Application_is_launched_and_login_page_is_displaying
+
+to handle user_enters_STR_STR_and_clicks_on_login_button
+	params str1, str2
+	wait 5
+	Click ImageLocation(text:"Username")+[0,15]
+	TypeText str1
+	TypeText tabKey
+	//Click ImageLocation(text:"Password")+[0,15]
+	TypeText str2
+	Click ImageLocation(text:"LOG IN",caseSensitive: true)
+	wait 7
+end user_enters_STR_STR_and_clicks_on_login_button
+
+to handle login_successful_page_should_be_displayed
+	Waitfor 10, text:"Log Out"
+	if ImageFound(text:"Log Out", waitFor:5) then
+		Log "Login Sucess"
+	end if
+end login_successful_page_should_be_displayed
+
+to handle user_should_login_into_account
+	user_enters_STR_STR_and_clicks_on_login_button "abcd","abcd"
+end user_should_login_into_account
+
+to handle user_opens_a_new_account_by_select_the_appropriate_options
+	wait 2
+	Click ImageLocation(text:"Open New Account",caseSensitive: true)
+	Click ImageLocation(text:"What type")+[0,30]
+	Click ImageLocation(text:"SAVINGS", waitfor:5)
+	Click ImageLocation(text:"Please choose")+[0,30]
+	Click ImageLocation(text:1, waitfor:5)
+	Click text:"OPEN NEW ACCOUNT", caseSensitive: true,waitfor:5
+	wiat 15
+end user_opens_a_new_account_by_select_the_appropriate_options
+
+to handle new_account_should_be_created
+	waitfor 5,text:"Congratulations, your account is now open."
+	if ImageFound(text:"Congratulations, your account is now open.") then
+		Log "New account is created sucessfully"
+	end if
+end new_account_should_be_created
+

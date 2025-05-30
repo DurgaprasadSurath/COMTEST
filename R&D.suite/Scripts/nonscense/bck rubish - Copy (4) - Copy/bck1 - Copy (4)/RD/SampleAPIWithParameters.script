@@ -1,0 +1,14 @@
+﻿to SampleAPI URL
+	put URL into authURL
+	#put delayTime after authURL
+	put "?cmClientl=dummyvalue" after authURL
+	put "?cmChanne=dummyvalue2" after authURL
+	//put "?delay=[[delayTime]]" after authURL
+	log authURL
+	#get url authURL
+	#log it
+end SampleAPI
+
+SampleAPI "https://reqres.in/api/users"
+
+

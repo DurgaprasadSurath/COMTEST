@@ -1,0 +1,459 @@
+﻿shell ("C:\Windows\system32\cmd.exe"&&"/c C:\Windows\system32\notepad.exe")
+
+Shell "c:\windows\system32\cmd.exe", "/k"&&"adb get-serialno 2>&1 > "&quote&"C:\Users\DurgaPrasad S\Desktop\New folder\test.txt"&quote
+
+Shell "C:\Windows\system32\cmd.exe","/c"&&"C:\Windows\system32\notepad.exe"
+(*
+log "this script runs"
+
+if 6 > 5 then return true else return false*)
+
+to subt
+	log "this script runs"
+	
+	if 6 > 5 then return true else return false
+end subt
+
+
+
+log readtext([0,0,500,500], saveImageFile:resourcepath("Feb20_1.png"))
+
+
+//
+set Examplepattern to <characters>  --Numbers, Alphabets and Speacial characters  are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <letters>  --Alphabets are accepted, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <nonletters> --Alphabets are not accepted, Numbers and Speacial characters  are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <lowercase letters>  --Lower case Alphabets are accepted, Upper case Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <nonlowercase letters>  --Upper case Alphabets are accepted,  case Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <uppercase letters>  --Upper case Alphabets are accepted,  case Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <capital letters>  --Upper case Alphabets are accepted,  case Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <nonuppercase letters>  --Lower case Alphabets are accepted, Upper case Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <noncapital letters>  --Lower case Alphabets are accepted, Upper case Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <digits>  --Numbers are accepted, Alphabets and Speacial characters not are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"  
+
+
+//
+set Examplepattern to <nondigits>  --Numbers are not accepted, Alphabets and Speacial characters  are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"  
+
+
+//
+set Examplepattern to <lettersOrDigits>  --Numbers, Alphabets are accepted and Speacial characters  are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"  
+
+
+//
+set Examplepattern to <nonLettersOrDigits>  --Numbers, Alphabets are not accepted and Speacial characters  are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%@" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"  
+put ".,:;" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"  
+
+
+//
+set Examplepattern to <whitespace characters>  --Only whitespace characters are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put tab&space into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "AB AC" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <nonwhitespace characters>  --Only Non whitespace characters are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put tab&space into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "AB AC" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <word characters>  --Only one word is accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put tab&space into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "AB AC" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABRCA DABRA" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <nonword characters>  --No words are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABCD" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put tab&space into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "AB AC" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "ABRCA DABRA" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <punctuation characters>  --({[.,:;''""!?]}) are accepted, Alphabets, Numbers and Speacial characters are not accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put quote&".,'!():;-?{}[]" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <nonpunctuation characters>  --({[.,:;''""!?]}) are not accepted, Alphabets, Numbers and Speacial characters are accepted
+put "1234" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "#$%" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "abcd" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put quote&".,'!():;-?{}[]" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+put "Hello" into User
+set the SuiteVariables.UserFormat to <(User)>  --dynamic genration of format
+
+//
+set zipcode to < 5 digits then preferably ("-" , 4 digits)>
+Log zipcode
+
+//
+set Examplepattern to <"*" then quote then "*">
+put "*"&quote&"*" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching"
+put "Hello" into Temp
+Log Temp
+if Temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <"cat" then "pig" then "are animals">
+put "cat are animals" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "cat pig are animals" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "catpigare animals" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern to <lots of chars>
+put "Case insensitivity. Some case-insensitivity flags affect only the ASCII characters. Other flags affect all characters. Some engines have two different flags, one for ASCII, the other for Unicode. Exactly which\ characters belong to the POSIX classes also varies.Cousins of case insensitivity. As ASCII has case distinction, case insensitivity became a logical feature in text searching. Unicode introduced alphabetic scripts\ without case like Devanagari. For these, case sensitivity is not " into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+put "A".."Z" into Alphabets
+set Examplepattern to <case sensitive,characters from (Alphabets)>
+put "eggplant" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "EGGPLANT" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "EggPlant" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+put "a".."z" into Alphabets
+set Examplepattern to <case sensitive,characters from (Alphabets)>
+put "eggplant" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "EGGPLANT" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "EggPlant" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+put "A".."Z" into Alphabets
+set Examplepattern to <case sensitive,character from (Alphabets) then case insensitive, characters from (Alphabets) >
+put "eggplant" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "EGGPLANT" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "EggPlant" into Name
+Log Name
+if Name matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+
+
+//
+set Examplepattern to <digit then "." then digits>
+put "1.123" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "0.000" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put ".234" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+put "1" into temp
+Log temp
+if temp matches Examplepattern then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+//
+set Examplepattern1 to <2 digits>
+set Examplepattern2 to <2 letters>
+set Examplepattern3 to <Examplepattern1 then Examplepattern2>
+set Examplepattern4 to <Examplepattern3 then 2 punctuation characters>
+put "12AB:!" into temp
+Log temp
+if temp matches Examplepattern4 then Log "The pattern is matching" else Log "Pattern Not matched"
+put "AB12:!" into temp
+Log temp
+if temp matches Examplepattern4 then Log "The pattern is matching" else Log "Pattern Not matched"
+
+
+
+
+
+put "O+" matches pattern "?:O\+|O-|B\+|B-|A\+|A-|AB\+|AB-"
+put "O+" matches pattern "(?:O\+|O-|B\+|B-|A\+|A-|AB\+|AB-)"
+
+
+
+
+
+log ADBCall()

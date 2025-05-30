@@ -1,0 +1,5 @@
+﻿2024-10-16 10:45:43.173 +0530	START		Running Untitled5.script
+2024-10-16 10:45:43.319 +0530	Log		\t<html>\n\t<head>\n\t<title>Hello</title>\n\t</head>\n\t<body>\n\t<h1>HELLO</h1>\n\t<h3>Eggplant</h3>\n\t</body>\n\t</html>\n                    	13	on_untitled5	Untitled5.script
+2024-10-16 10:45:43.356 +0530	Log		<?xml version="1.0" encoding="utf-8"?>\n<html>\n  <head>\n    <title>Hello</title>\n  </head>\n  <body>\n    <h1>HELLO</h1>\n    <h3>Eggplant</h3>\n  </body>\n</html>	17	on_untitled5	Untitled5.script
+2024-10-16 10:45:43.385 +0530	EndTestCase		(Duration:"0.212", Errors:"0", Exceptions:"0", StartTime:"2024-10-16 10:45:43 +0530", Successes:"1", TestCase:"Untitled5.script", Warnings:"0")
+2024-10-16 10:45:43.491 +0530	SUCCESS		Execution Time 0:00:00 Untitled5.script

@@ -1,0 +1,7 @@
+﻿to handle Netophostconnection
+	log hi
+end Netophostconnection
+
+Log SutInfo()
+
+log the sutInfo's device

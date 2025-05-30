@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Kcom_script" package="R&amp;D.suite" timestamp="2024-09-20 13:59:39.254 +0530"
+ tests="1"  failures="0" errors="0" time="1.182000">
+  <properties>
+   <property name="RunDate" value="2024-09-20 13:59:39.254 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Kcom.script" assertions="1" status="success"  time="1.179">
+  </testcase>
+ </testsuite>
+</testsuites>

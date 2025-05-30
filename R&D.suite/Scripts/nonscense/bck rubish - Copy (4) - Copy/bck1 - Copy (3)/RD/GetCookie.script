@@ -1,0 +1,25 @@
+﻿put Auth() into Temp
+split Temp by "@"
+if  item 5 of Temp contains "Path=/;" then
+	delete all  occurrences of "Path=/;" in item 5 of Temp	
+end if
+if  item 5 of Temp contains "Path=/,"  then
+	delete all  occurrences of "Path=/," in item 5 of Temp	
+end if
+if  item 5 of Temp contains "Path=/"&quote&"," then
+	delete all  occurrences of "Path=/"&quote&"," in item 5 of Temp
+end if
+if  item 5 of Temp contains "HttpOnly," then
+	delete all  occurrences of "HttpOnly," in item 5 of Temp	
+end if
+put  item 5 of Temp into Global Cookie
+split Global Cookie by ":"
+if first character  of item 2 of Global Cookie is quote then
+	delete first character  of item 2 of Global Cookie
+end if
+if last character  of item 2 of Global Cookie is space then
+	delete last character  of item 2 of Global Cookie
+end if
+set the suiteVariables.ALMCookie to  item 2 of Global Cookie
+
+

@@ -1,0 +1,5 @@
+﻿2024-10-17 12:44:43.552 +0530	START		Running docFunError.script
+2024-10-17 12:44:43.627 +0530	Log			2	on_logger	docFunError.script
+2024-10-17 12:44:43.635 +0530	Log			3	on_logger	docFunError.script
+2024-10-17 12:44:43.664 +0530	EndTestCase		(Duration:"0.103", Errors:"0", Exceptions:"0", StartTime:"2024-10-17 12:44:43 +0530", Successes:"1", TestCase:"docFunError.script", Warnings:"0")
+2024-10-17 12:44:43.743 +0530	SUCCESS		Execution Time 0:00:00 docFunError.script

@@ -1,0 +1,131 @@
+﻿(*put a reference to file ResourcePath("MyTest2006.txt") into MYData
+Log MYData
+
+put "Hello this is edited" into file ResourcePath("MyTest2006.txt")
+Log MYData*)
+
+
+
+(*
+
+put a reference to file ResourcePath("test.json") into MYData
+put JSONValue(MYData) into JSONDATA
+put @JSONDATA.people into ALLDATA
+
+put @item 1 of ALLDATA into MY1 
+Log MY1.city
+
+put "SURATH" into MY1.city
+Log JSONDATA
+*)
+
+
+--put a reference to JSONValue(file ResourcePath("test.json")) into MYData
+
+log file ResourcePath("test.json") 
+Put +
+
+set MYDATA to @JSONValue(file ResourcePath("test.json"))
+set ALLDATA to @MYDATA 
+set PEOPLEDATA to @ALLDATA.people 
+set DATA1 to @item 1 of PEOPLEDATA
+set DATA1.city to "SURATH"
+
+Put +
+log file ResourcePath("test.json") 
+Put +
+Log MYDATA
+(*
+click text:<not preceded by characters then "Airplane mode" then not followed by characters>
+
+
+set Option to "Airplane mode"
+put EveryImageLocation(text:<not preceded by characters then Option then not followed by characters>) into AirplaneLocs
+if (the number of items of AirplaneLocs is 2) then 	
+	Tap item 2 of AirplaneLocs
+else 
+	Tap item 1 of AirplaneLocs
+end if
+
+log ReadText((496,194,1292,822), validCharacters:"abcdefghijklmnopqrstwvxyzABCDEFGHIJKLMNOPQRSTWVXYZ")
+*)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set the SearchRectangle to (49,1317,1027,1503)
+put ReadText(the SearchRectangle) into Var
+Log Var
+put +
+split Var by newline
+Log Var
+put +
+
+
+
+
+
+
+
+
+
+set the SearchRectangle to (222,983,937,2400)
+put ReadText(the SearchRectangle) into Var
+Log Var
+put +
+split Var by newline
+Log Var
+put +
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

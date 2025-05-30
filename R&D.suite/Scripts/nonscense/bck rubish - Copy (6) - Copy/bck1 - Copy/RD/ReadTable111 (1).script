@@ -1,0 +1,50 @@
+﻿put [["Week", "Topic", "Reading Assignment"], [1, "Course Introduction", "Chapter 1"]] into ClassAssignments 
+
+
+//put readtable("topleft","bottomright") into ClassAssignmentsTable 
+
+put readtable("TLImage","TLBottomRight",EnhanceLocalContrast:yes,textDifference:1) into ClassAssignmentsTable 
+//log ClassAssignmentsTable
+
+put ClassAssignmentsTable as list
+//log ClassAssignmentsTable 
+// Stores the output of readtable into a variable
+put trimall(ClassAssignmentsTable,"@") into Temp
+put trimall(Temp,"\n") into Temp1
+put trimall(Temp1,"\") into Temp2
+put Temp2 into ClassAssignmentsTable
+
+delete first char of ClassAssignmentsTable
+delete last char of ClassAssignmentsTable
+log  ClassAssignmentsTable
+set the itemDelimiter to "]"
+
+put ClassAssignmentsTable joined with "]"
+
+log item 1 of ClassAssignmentsTable 
+
+//insert "]" after item 1 of ClassAssignmentsTable
+//log ClassAssignmentsTable
+log number of items of ClassAssignmentsTable
+
+delete  item 1 of Temp
+
+log ClassAssignmentsTable
+
+put the first item of ClassAssignments into AssiTlgnmentsHeader // Stores the content in a variable
+
+put the first item of ClassAssignmentsTable into TableHeader // Stores the content in a variable
+
+//Assert that AssignmentsHeader=TableHeader // Asserts whether the expected header and the actual table header are the same
+
+repeat for each item 2 to -1 of ClassAssignmentsTable // Iterates from the second to last item. Each item represents a row in the table
+
+	if the second item of it is not "Review, final exam" then // Checks the value of the second column of the table row
+		
+		Log "Assignment" && the repeatIndex && "is" && the third item of it && colon && the second item of it & period // Concatenates strings, the repeatIndex, and values from different row columns, and logs the message
+		
+	end if
+	
+end repeat
+
+

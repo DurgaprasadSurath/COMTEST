@@ -1,0 +1,66 @@
+﻿put file ("C:\Users\DurgaPrasad S\Desktop\Jsonresponse_summary.json")  into JsonAvinash
+put JSONValue(JsonAvinash) into ResponseBody
+//put JSONValue((ResponseValue.responseBody)."content") into ResponseBody
+put ResponseBody.content into outputValues
+put 0 into (totalOdometerCount, totalElectricityUsed, gallonsDieselSaved, totaldieselEmmissions, the defaultNumberFormat)
+repeat with each item of outputValues
+	replace every occurrence of "*" in it.odometer with ""
+	replace every occurrence of " " in it.odometer with ""
+	if (it.odometer is not empty and it.odometer is not "-") and (it.odometer  < 700000) then	
+		set totalOdometerCount to (totalOdometerCount + it.odometer) 	
+		if it.vehicleModel... 
+			...is "Saf-T-Liner C2 Jouley" then	
+				set totalElectricityUsed to (totalElectricityUsed + ((it.odometer *1.4)/1000))
+				set gallonsDieselSaved to (gallonsDieselSaved + (it.odometer *6.2))
+				set totaldieselEmmissions to (totaldieselEmmissions + ((it.odometer *6.2)*22.47))
+			...is "MT50e" then
+				set totalElectricityUsed to (totalElectricityUsed + ((it.odometer *1.2)/1000))
+				set gallonsDieselSaved to (gallonsDieselSaved + (it.odometer *6.5))
+				set totaldieselEmmissions to (totaldieselEmmissions + ((it.odometer *6.5)*22.47))			
+			else
+				set totalElectricityUsed to (totalElectricityUsed + ((it.odometer *2.15)/1000))
+				set gallonsDieselSaved to (gallonsDieselSaved + (it.odometer *3.26))
+				set totaldieselEmmissions to (totaldieselEmmissions + ((it.odometer *3.26)*22.47))			
+		end if
+	else
+		LogError "Invalid Odometer Value "&it.odometer &" for "&it.vehicleVIN
+	end if
+end repeat
+
+log totalOdometerCount 
+log totalElectricityUsed 
+log gallonsDieselSaved 
+log totaldieselEmmissions 
+(*
+
+put JSONValue(ResponseValue.responseBody) into ResponseBody
+put ResponseBody.content into outputValues
+put 0 into (totalOdometerCount, totalElectricityUsed, gallonsDieselSaved, totaldieselEmmissions, the defaultNumberFormat)
+repeat with each item of outputValues
+	replace every occurrence of "*" in it.odometer with ""
+	replace every occurrence of " " in it.odometer with ""
+	if (it.odometer is not empty and it.odometer is not "-") and (it.odometer  < 700000) then	
+		set totalOdometerCount to (totalOdometerCount + it.odometer) 	
+		if it.vehicleModel... 
+			...is "Saf-T-Liner C2 Jouley" then	
+				set totalElectricityUsed to (totalElectricityUsed + ((it.odometer *1.4)/1000))
+				set gallonsDieselSaved to (gallonsDieselSaved + (it.odometer *6.2))
+				set totaldieselEmmissions to (totaldieselEmmissions + ((it.odometer *6.2)*22.47))
+			...is "MT50e" then
+				set totalElectricityUsed to (totalElectricityUsed + ((it.odometer *1.2)/1000))
+				set gallonsDieselSaved to (gallonsDieselSaved + (it.odometer *6.5))
+				set totaldieselEmmissions to (totaldieselEmmissions + ((it.odometer *6.5)*22.47))			
+			else
+				set totalElectricityUsed to (totalElectricityUsed + ((it.odometer *2.15)/1000))
+				set gallonsDieselSaved to (gallonsDieselSaved + (it.odometer *3.26))
+				set totaldieselEmmissions to (totaldieselEmmissions + ((it.odometer *3.26)*22.47))			
+		end if
+	else
+		LogError "Invalid Odometer Value "&it.odometer &" for "&it.vehicleVIN
+	end if
+end repeat
+
+log totalOdometerCount 
+log totalElectricityUsed 
+log gallonsDieselSaved 
+log totaldieselEmmissions *)

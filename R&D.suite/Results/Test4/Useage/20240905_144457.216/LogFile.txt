@@ -1,0 +1,24 @@
+﻿2024-09-05 14:44:57.241 +0530	START		Running Test4/Useage.script
+2024-09-05 14:44:57.329 +0530	set		SEARCHRECTANGLE = [0,1,1170,2532]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:02.152 +0530	imagefound	(TEXT:"Field Ticket 1")	Unable to Find Image (TEXT:"Field Ticket 1"). Text not found.	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:02.155 +0530	LogError		Unable to Find"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:02.168 +0530	set		SEARCHRECTANGLE = [53,1363,1119,1569]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:03.292 +0530	imagefound	(TEXT:"Field Ticket 1")	found at (241, 1435)	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:03.296 +0530	LogSuccess		Found"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:03.345 +0530	set		SEARCHRECTANGLE = [2,1003,1169,2532]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:04.900 +0530	imagefound	(TEXT:"Field Ticket 1")	found at (241, 1435)	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:04.903 +0530	LogSuccess		Found"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:04.966 +0530	set		SEARCHRECTANGLE = [2,759,1169,2532]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:06.851 +0530	imagefound	(TEXT:"Field Ticket 1")	found at (241, 1435)	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:06.854 +0530	LogSuccess		Found"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:06.900 +0530	set		SEARCHRECTANGLE = [2,32,1169,2532]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:11.937 +0530	imagefound	(TEXT:"Field Ticket 1")	Unable to Find Image (TEXT:"Field Ticket 1"). Text not found.	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:11.942 +0530	LogError		Unable to Find"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:11.958 +0530	set		SEARCHRECTANGLE = [3,0,1170,1642]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:15.280 +0530	imagefound	(TEXT:"Field Ticket 1")	found at (241, 1434)	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:15.285 +0530	LogSuccess		Found"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:15.334 +0530	set		SEARCHRECTANGLE = [3,846,1170,1642]	2	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:16.916 +0530	imagefound	(TEXT:"Field Ticket 1")	found at (241, 1435)	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:16.919 +0530	LogSuccess		Found"Field Ticket 1"	4	on_findfieldticket	Test4/Useage.script
+2024-09-05 14:45:16.976 +0530	EndTestCase		(Duration:"19.729", Errors:"2", Exceptions:"0", StartTime:"2024-09-05 14:44:57 +0530", Successes:"5", TestCase:"Test4/Useage.script", Warnings:"0")
+2024-09-05 14:45:17.257 +0530	FAILURE	Screen_Error.png	Script Error: Number of Errors logged: 2 -- Execution Time 0:00:19 Test4/Useage.script

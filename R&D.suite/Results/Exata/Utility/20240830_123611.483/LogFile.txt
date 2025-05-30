@@ -1,0 +1,9 @@
+﻿2024-08-30 12:36:11.499 +0530	START		Running Exata/Utility.script
+2024-08-30 12:36:20.300 +0530	Log		TypeText "run"	10	on_createtestdata	Exata/Utility.script
+2024-08-30 12:36:20.324 +0530	Log		1	17	on_createtestdata	Exata/Utility.script
+2024-08-30 12:36:20.342 +0530	Log		TypeText "keysight.com",Return	10	on_createtestdata	Exata/Utility.script
+2024-08-30 12:36:20.381 +0530	Log		2	17	on_createtestdata	Exata/Utility.script
+2024-08-30 12:36:20.409 +0530	Log		TypeText "hello"	10	on_createtestdata	Exata/Utility.script
+2024-08-30 12:36:20.430 +0530	Log		3	17	on_createtestdata	Exata/Utility.script
+2024-08-30 12:36:20.831 +0530	EndTestCase		(Duration:"9.323", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 12:36:11 +0530", Successes:"1", TestCase:"Exata/Utility.script", Warnings:"0")
+2024-08-30 12:36:20.883 +0530	SUCCESS		Execution Time 0:00:09 Exata/Utility.script

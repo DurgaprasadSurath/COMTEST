@@ -1,0 +1,12 @@
+﻿2025-03-26 19:29:27.530 +0530	START		Running ShowremotewindowCommand.script
+2025-03-26 19:29:27.957 +0530	click	(TEXT:"History")	at (265, 631)	1	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:27.967 +0530	hide		RunWindow	2	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:27.984 +0530	show		RemoteWindow	3	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:29.070 +0530	click	(TEXT:"Downloads")	at (372, 630)	5	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:29.835 +0530	readtext		(427,640)	6	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:29.841 +0530	Log		Downloads	6	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:29.856 +0530	hide		RemoteWindow	7	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:30.227 +0530	click	(TEXT:"Contacts")	at (52, 629)	9	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:30.234 +0530	show		RunWindow	10	on_showremotewindowcommand	ShowremotewindowCommand.script
+2025-03-26 19:29:30.502 +0530	EndTestCase		(Duration:"2.964", Errors:"0", Exceptions:"0", StartTime:"2025-03-26 19:29:27 +0530", Successes:"1", TestCase:"ShowremotewindowCommand.script", Warnings:"0")
+2025-03-26 19:29:30.783 +0530	SUCCESS		Execution Time 0:00:02 ShowremotewindowCommand.script

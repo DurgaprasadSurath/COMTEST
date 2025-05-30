@@ -1,0 +1,165 @@
+﻿to handle aioutputfileconverstion excelfile1,excelfile2,aioutputfile
+
+	//setting the variables to the resource path
+	set MyExcelFile1 to Workbook(ResourcePath(excelfile1)) 
+	set MyCsvFile to file ResourcePath(aioutputfile)
+	
+	//setting the variable to the sheet 1 of excel file
+	set Sheet1_File1 to worksheet(MyExcelFile1,1)
+	
+	//writing the desired headings to the particular cells of the excel file 
+	put "Subject" into Cell(Sheet1_File1,[1,1])
+	put "TestCase Name" into Cell(Sheet1_File1,[1,2])
+	put "Type" into Cell(Sheet1_File1,[1,3])
+	put "Step Name" into Cell(Sheet1_File1,[1,4])
+	put "Description (Design Steps)" into Cell(Sheet1_File1,[1,5])
+	put "Expected Result (Design Steps)" into Cell(Sheet1_File1,[1,6])
+	put "Approval Status" into Cell(Sheet1_File1,[1,7])
+	put "GxP Flag" into Cell(Sheet1_File1,[1,8])
+	put "Test Script Phase" into Cell(Sheet1_File1,[1,9])
+
+
+	//loop for getting the steps from the test case column of csv file and storing them into the excel file
+	set Global Count1 to 0
+	set Global Count2 to 0
+	set Global Count3 to 0
+	set Global Count4 to 0
+	set Global ListOfBlankCells to 0
+	//getting the number of rows from csv file and storing it into varaible 
+	put the number of lines of MyCsvFile into NumberOfLines
+	//getting the number of items from first row of csv file and storing it into variable
+	put the number of items of line 1 of MyCsvFile into Headings
+	repeat (NumberOfLines - 1) times
+		//storing the loop count into variable 
+		put repeatIndex() into Global Count1
+		//getting the number of items from the row of csv file and storing into variable
+		put the number of items of line (repeatIndex() + 1) of MyCsvFile into NumberOfItems
+		//getting the differnce between items of each row and storing into variable 
+		put (NumberOfItems - Headings) into Global Count2
+		repeat (Global Count2 + 1) times
+			//put repeatIndex() into Cell(Sheet1_File1,[(repeatIndex() + Global Count4 + 1) ,4])
+			put item (repeatIndex() + 1) of line (Global Count1 + 1) of MyCsvFile into FullActionStep
+			if FullActionStep contains quote then
+				delete quote from FullActionStep
+			end if
+			//dividing the action into two items and storing into variable
+			put FullActionStep split by "::" into Global step
+			if first character of item 1 of Global step is space then	
+				delete first occurrence of space in item 1 of Global step 
+			end if
+			
+			put item 1 of Global step  split by space into temp
+			
+			//deleting the extra charcters from the variable
+			if item 2 of Global step contains quote then 
+				delete quote from item 2 of Global step
+			end if
+			//storing all steps into the variable 
+			put  item 2 of Global step  into item (repeatIndex() + Global Count4) of Global ListOfActions
+			put  item 2 of  temp into item (repeatIndex() + Global Count4) of Global ListOfStates
+			if Global Count1 equal to 1 then
+				put item 2 of Global step into Cell(Sheet1_File1,[(repeatIndex() + Global Count4 + 1) ,4])
+				//put item 2 of Global step into Cell(Sheet1_File1,[(repeatIndex() + 1) ,3])
+			else 
+				put item 2 of Global step into Cell(Sheet1_File1,[(repeatIndex() + Global Count4 + 1) ,4])
+			end if
+			put repeatIndex() into Global Count3	
+		end repeat
+		//storing the repeat index value into the list variable
+		put Global Count3 into item repeatIndex() of Global List1
+		put (Global Count3 + Global Count4) into Global Count4
+		put Global Count2 into item repeatIndex() of Global ListOfBlankCells
+	end repeat
+	
+	//loop for deleting unwanted chars from the variable and storing into same variable
+	repeat the number of lines of MyCsvFile times 
+		if item 1 of line repeatIndex() of MyCsvFile contains quote then
+			delete quote from item 1 of line repeatIndex() of MyCsvFile 	
+			put item 1 of line repeatIndex() of MyCsvFile into item repeatIndex() of MyHeaderItems 
+		else 
+			put item 1 of line repeatIndex() of MyCsvFile into item repeatIndex() of MyHeaderItems
+		end if
+	end repeat
+	
+	//loop for getting the test name from names column of csv file and storing them into the excel file
+	set Count to 0
+	repeat the number of items of MyCsvFile
+		if repeatIndex() equal to 1 then 
+			put item repeatIndex() of MyHeaderItems  into Cell(Sheet1_File1,[(repeatIndex() + 1) ,1])
+		else
+			if item (repeatIndex() - 1) of Global ListOfBlankCells equal to empty then
+				exit repeat
+			end if
+			put item repeatIndex() of MyHeaderItems into Cell(Sheet1_File1,[(repeatIndex() + Count),1])
+			put ( item (repeatIndex() - 1) of Global ListOfBlankCells + Count) into Count
+		end if
+	end repeat
+	
+	//spliting the items by comma and storing into another variable
+	split Global ListOfActions by ","
+	put the unique items of Global ListOfActions into Global UniqueListOfActions
+	//loop for storing the unquie actions into the excel file 
+	repeat the number of items of  Global UniqueListOfActions
+		put item repeatIndex() of Global UniqueListOfActions into Cell(Sheet1_File2,[(repeatIndex() + 1),1])
+	end repeat
+	
+	//spliting the items by comma and storing into another variable
+	split Global ListOfStates by ","
+	put the unique items of Global ListOfStates into Global UniqueListOfStates
+	//loop for storing the unquie states into the excel file 
+	repeat the number of items of  Global UniqueListOfStates
+		put item repeatIndex() of Global UniqueListOfStates into Cell(Sheet1_File2,[(repeatIndex() + 1),4])
+	end repeat
+	
+	//loop for change of state
+	set Global Count1 to 0
+	set Global Count2 to 0
+	set Global Count3 to 0
+	set Global Count4 to 0
+	set Global Count5 to 0
+	
+	repeat the number of items of Global List1
+		set List2 to empty
+		repeat item repeatIndex() of Global List1 times
+			put item (repeatIndex() + Global Count2) of Global ListOfStates into item repeatIndex() of List2
+			put repeatIndex() into Global Count1
+		end repeat
+		put (Global Count1 + Global Count2) into Global Count2
+		
+		repeat the number of items of List2 
+			if repeatIndex() equal to 1
+				put 1 into Global Count3
+			end if 
+			if item Global Count3 of List2 not equal to item repeatIndex() of List2
+				put "(State Transition from"&&item (repeatIndex() - 1) of List2&&"State"&&"to"&&item repeatIndex() of List2 &&"State)" into item (Global Count5 + repeatIndex()) of Global List3
+				put repeatIndex() into Global Count3 
+			else 
+				if item Global Count3 of List2 equal to item 1 of Global UniqueListOfStates
+					put "(Initial State)" into item (Global Count5 + repeatIndex()) of Global List3
+				else
+					put "(No State Transition)" into item (Global Count5 + repeatIndex()) of Global List3
+				end if
+				
+			end if
+			put repeatIndex() into Global Count4
+		end repeat
+		put (Global Count4 + Global Count5) into Global Count5
+	end repeat
+	
+	//loop for writing description and expected result in to the excel file
+	repeat the number of items of Global UniqueListOfActions
+		put (repeatIndex() + 1) into Count
+		repeat the number of items of Global ListOfActions
+			if item (Count - 1) of Global UniqueListOfActions equal to item repeatIndex() of Global ListOfActions then 
+				put Cell(Sheet1_File2,[Count,2]) into Cell(Sheet1_File1,[(repeatIndex() + 1),3])
+				put Cell(Sheet1_File2,[Count,3]) && item repeatIndex() of Global List3  into Cell(Sheet1_File1,[(repeatIndex() + 1),4])
+			end if	
+		end repeat
+	end repeat
+end aioutputfileconverstion
+
+
+aioutputfileconverstion"Data1.xlsx","Data2.xlsx","Enablon_POC-testcase-report-Tue Jan 11 2022.csv"
+aioutputfileconverstion "excel_app_1.xlsx","excel_app_2.xlsx","ApparelMenu_NopCom-testcase-report-Fri Oct 22 2021.csv"
+
+aioutputfileconverstion"March14-2.xlsx","March14-3.xlsx","March14.csv"

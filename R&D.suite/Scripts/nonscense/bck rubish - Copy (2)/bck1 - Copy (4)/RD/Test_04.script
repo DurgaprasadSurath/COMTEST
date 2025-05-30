@@ -1,0 +1,91 @@
+﻿put {CompanyName:IdeaBytes,Location:Gachibowli,EmployerName:Surath,EmployeId:IB1257} into details
+log details.Location
+log details's EmployeId
+
+
+set detective to {name: "Sherlock Holmes",
+
+	address: "221 B Baker Street, London",
+	
+	remarks: "Enjoys playing violin, solving mysteries"}
+
+put {name:"Hank", age:47} helped by parent,actor into candidate
+log candidate
+
+put a new Appointment with {time:"8:30"} into meeting
+log meeting's Appointment
+
+set oddPlist to {alpha:"ok", "87":"four score and seven", "$":50}
+log oddPlist
+
+set typeCode to 1
+if typeCode is 1 then set leaveType to "vacation" else set leaveType to "sick"
+set leaveInfo to {employee:name, date:today, (leaveType):hoursTaken}
+log leaveInfo
+
+set day to 2
+if day is 1 then set day to today else set day to yesterday
+set leaveInfo to {employee:name, date:(day), (leaveType):hoursTaken}
+log leaveInfo
+
+
+put {firstName:"Joseph", age:50} into joe
+put property age of joe // 50
+put the AGE of joe // 50
+put joe's firstName // Joseph
+put joe.firstName // Joseph
+log joe
+
+
+put  file "C:\Users\DurgaPrasad-IB\Desktop\text.txt" into Locations 
+split Locations using "," and ":" 
+set con to "The easiest way to interact with a plain-text file is to access it as a container by using the put or set command"
+//log Locations
+//log the keys of Locations
+repeat with each of the keys of Locations 	
+	//if the keys of Locations contains  "easiest" then log it 
+	set the objectContainsItemDefinition to KeyOrValueEquals 
+	if con is among the keys of Locations then log it
+	if Locations contains con then log it 
+end repeat
+
+if "cost" isn't among the keys of part then set part's cost to 10
+
+
+set myEnvironments to {WindowsVM:["Chrome","Firefox","Internet Explorer"],LinuxVM:["Chrome","Firefox"],MacOSXVM:["Chrome","Safari","Firefox"]}
+repeat with each SUT of the keys of myEnvironments 
+	log SUT
+	(*	Connect SUT
+	put myEnvironments.(SUT) into BrowserList
+	repeat with each Browser of BrowserList 
+		RunWithNewResults "WebTest", Browser
+	end repeat*)
+end repeat
+
+set PersonalInfo to {asText:"Robert",age:31,hair:"brown",height:"5 feet 11 inches",degrees:["BS","MS"]}
+sort PersonalInfo 
+log the  values of PersonalInfo
+log the  keys of PersonalInfo
+log the keys and values of PersonalInfo
+put "hair" is among the keys of PersonalInfo 
+put PersonalInfo contains "hair" 
+put PersonalInfo contains "brown"
+set the objectContainsItemDefinition to KeyorValueEquals
+put "hair" is in PersonalInfo
+put "BS" is in PersonalInfo
+set the objectContainsItemDefinition to NestedValueContains
+put PersonalInfo contains "BS"
+
+TypeText windowsKey,"e"
+
+to makeNewObject initialProperties
+	get new object with initialProperties helped by me
+	add properties of me to it
+	send "initialize" to it
+	return it
+end makeNewObject
+
+
+set Color to {asText:"Pink","Candy Floss":424,"Warley Rose":874,"Alyssum Wonder":737}
+log Color 
+log Color."Candy Floss"

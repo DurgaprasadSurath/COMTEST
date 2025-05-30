@@ -1,0 +1,6 @@
+﻿2024-09-20 14:57:02.852 +0530	START		Running Kcom.script
+2024-09-20 14:57:02.958 +0530	typetext		[commandKey]a	1	on_kcom	Kcom.script
+2024-09-20 14:57:02.963 +0530	setremoteclipboard		Set Text:34465A	2	on_kcom	Kcom.script
+2024-09-20 14:57:03.723 +0530	typetext		[controlKey]v	4	on_kcom	Kcom.script
+2024-09-20 14:57:03.748 +0530	EndTestCase		(Duration:"0.889", Errors:"0", Exceptions:"0", StartTime:"2024-09-20 14:57:02 +0530", Successes:"1", TestCase:"Kcom.script", Warnings:"0")
+2024-09-20 14:57:03.818 +0530	SUCCESS		Execution Time 0:00:00 Kcom.script

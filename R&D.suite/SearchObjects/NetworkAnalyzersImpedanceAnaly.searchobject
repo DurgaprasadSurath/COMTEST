@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999650.0809999,
+	"ocrcapturestring": "Network Analyzers, Impedance Analyze",
+	"originalcapturelocation": [
+		382,
+		516,
+		317,
+		19
+	],
+	"createddate": 1724999650.0809999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Network Analyzers, Impedance Analyze",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_64",
+					"HotSpot": "[90,8]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					382,
+					516,
+					317,
+					19
+				],
+				"name": "NetworkAnalyzersImpedanceAnaly.png"
+			}
+	],
+	"name": "NetworkAnalyzersImpedanceAnaly"
+}

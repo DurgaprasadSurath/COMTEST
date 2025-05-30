@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/DDD.script",
+				"identifier": "START",
+				"timestamp": "2024-06-17 10:30:10.706 +0530"
+			},
+		{
+				"handlerName": "on_ddd",
+				"timestamp": "2024-06-17 10:30:10.738 +0530",
+				"message": "\\t",
+				"scriptName": "Tests/DDD.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.047\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-17 10:30:10 +0530\", Successes:\"1\", TestCase:\"Tests/DDD.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-17 10:30:10.769 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Tests/DDD.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-17 10:30:10.863 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-17 10:30:10.706 +0530"
+}

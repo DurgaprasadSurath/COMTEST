@@ -1,0 +1,22 @@
+﻿to handle Launch_App
+	wait 3
+	TypeText altKey,f2
+	TypeText "google-chrome"
+	TypeText return
+	wait 2
+	TypeText "https://demo.nopcommerce.com/",return
+	Log "nopCommerce Demo web site is launched"
+	CaptureScreen {Name: "Launch_App"}
+end Launch_App
+
+to handle Login
+	click text:"Log In"
+	Log "Log In Option is clicked"
+	CaptureScreen {Name: "Log_In"}
+end Login
+
+to handle HomePage
+	click text:"REGISTER"
+	Log "REGISTER button is clicked"
+	CaptureScreen {Name: "HomePage"}
+end HomePage

@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/XMLReadingMultichilds.script",
+				"identifier": "START",
+				"timestamp": "2024-04-11 14:46:20.369 +0530"
+			},
+		{
+				"handlerName": "on_xmlreadingmultichilds",
+				"timestamp": "2024-04-11 14:46:20.433 +0530",
+				"message": "<note importance=\"high\" logged=\"true\">\\n\\t<E1IDB02 SEGMENT=\"1\">\\n\\t\\t<FIIQUALI>BA</FIIQUALI>\\n\\t\\t<FIIBKENN>Test</FIIBKENN>\\n\\t</E1IDB02>\\n\\t<E1IDB02 SEGMENT=\"1\">\\n\\t\\t<FIIQUALI>BB</FIIQUALI>\\n\\t\\t<FIIBKENN>Test</FIIBKENN>\\n\\t</E1IDB02>\\n</note>",
+				"scriptName": "Games/XMLReadingMultichilds.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.136\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-04-11 14:46:20 +0530\", Successes:\"0\", TestCase:\"Games/XMLReadingMultichilds.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-11 14:46:20.513 +0530"
+			},
+		{
+				"message": "InvalidValueExpr: Unable to take value of expression '<note importance=\"high\" logged=\"true\">⏎\\t<E1IDB02 SEGMENT=\"1\">⏎\\t\\t<FIIQUALI>BA</FIIQUALI>⏎\\t\\t<FII...' (reason: (null)) -- Execution Time 0:00:00 Games/XMLReadingMultichilds.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-11 14:46:20.665 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-11 14:46:20.374 +0530"
+}

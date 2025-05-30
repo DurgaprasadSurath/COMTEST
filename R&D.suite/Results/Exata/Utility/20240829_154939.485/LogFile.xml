@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Exata/gen_kalyan_29082024_script" package="R&amp;D.suite" timestamp="2024-08-29 15:49:39.485 +0530"
+ tests="1"  failures="1" errors="0" time="0.126000">
+  <properties>
+   <property name="RunDate" value="2024-08-29 15:49:39.485 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Exata/gen_kalyan_29082024.script" assertions="1" status="failure"  time="0.125">
+    <failure type="FAILURE" message="STFileException: File C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&amp;D.suite/Resources/gen_kal.xlsx couldn&apos;t be read using the defaultStringEncoding (UTF8) -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

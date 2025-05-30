@@ -1,0 +1,50 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Wan.script",
+				"identifier": "START",
+				"timestamp": "2024-02-19 10:59:26.185 +0530"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 10:59:26.250 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 10:59:26.268 +0530",
+				"scriptName": "Games/Wan.script",
+				"identifier": "Log",
+				"handlerLine": 9
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 10:59:26.286 +0530",
+				"message": "123",
+				"scriptName": "Games/Wan.script",
+				"handlerLine": 14,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_wan",
+				"timestamp": "2024-02-19 10:59:26.303 +0530",
+				"scriptName": "Games/Wan.script",
+				"identifier": "Log",
+				"handlerLine": 20
+			},
+		{
+				"message": "(Duration:\"0.135\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-19 10:59:26 +0530\", Successes:\"1\", TestCase:\"Games/Wan.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-19 10:59:26.325 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Wan.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-19 10:59:26.437 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-19 10:59:26.189 +0530"
+}

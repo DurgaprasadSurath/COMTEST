@@ -1,0 +1,40 @@
+﻿//reading Excel for Particular Cell
+//provide excel file name, sheet name, header row number, header cell value , validation value, header cell value
+to handle ExcelFileReading ExcelFileName,SheetNumber,RowNum,CellValue1,CellValue2,CellValue3
+	//setting work book to a variable 
+	set MyExcelFile to Workbook(ResourcePath(ExcelFileName))
+	//setting work sheet to a variable
+	set MySheet to worksheet(MyExcelFile,SheetNumber)
+	//putting entire row into a Global variable
+	put MySheet.cellRange (RowNum) into Global RowData
+	//putting all rows in excel into a variable
+	put MySheet.cellRange into TotalRowsData
+	//putting the number of rows into a variable
+	put the number of items of TotalRowsData into TotalRows
+	//putting the total cell in a row into a variable
+	put the number of items of item 1 of Global RowData into TotalColumns
+	//loop for getting the column number for matched condition
+	repeat TotalColumns times
+		if MySheet.cell(RowNum,repeatIndex()) is CellValue1
+			put repeatIndex() into Global ColNum
+		end if
+	end repeat
+	//loop for getting a particular row number for matched condition
+	repeat TotalRows times
+		if MySheet.cell(repeatIndex(),Global ColNum) is CellValue2
+			insert repeatIndex() into Global RequiredRows
+		end if
+	end repeat
+	//loop for getting the data from cells where it matches the condition
+	repeat TotalColumns times
+		if MySheet.cell(RowNum,repeatIndex()) is CellValue3
+			put repeatIndex() into Global ColNum2
+		end if
+	end repeat
+	//loop for logging the data in the cells for the above row number and column number
+	repeat the number of items of Global RequiredRows times
+		Log MySheet.cell(item repeatIndex() of Global RequiredRows,Global ColNum2)
+	end repeat
+end ExcelFileReading
+
+ExcelFileReading "RB - External OR Report-10012022-4.xlsx","RB - External OR Report","4","Total","3.00","Basic Substance"

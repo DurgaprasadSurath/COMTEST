@@ -1,0 +1,10 @@
+﻿put encodeText("eggplant", Password) into temp
+Log temp
+put DecodeText("'g6uv~0t", "A#N(-@") into temp2
+Log temp2
+put EncodeText("Ideabytes") into temp3
+Log temp3
+put DecodeText("8#je>:-sJ") into temp4
+Log temp4
+
+

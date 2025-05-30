@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1713951404.994,
+	"lastfoundlocation": [
+		17,
+		15,
+		45,
+		31
+	],
+	"originalcapturelocation": [
+		17,
+		15,
+		45,
+		31
+	],
+	"createddate": 1713951360.648,
+	"lastfounddate": 1713951413.1760001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 54269,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[22,15]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "DropDownIcon.png",
+				"connectionname": "IB-81",
+				"type": 1,
+				"capturerect": [
+					17,
+					15,
+					45,
+					31
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.81"
+			}
+	],
+	"name": "DropDown"
+}

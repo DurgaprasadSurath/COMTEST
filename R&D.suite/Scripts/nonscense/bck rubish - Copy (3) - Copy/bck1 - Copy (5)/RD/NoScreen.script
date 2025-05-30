@@ -1,0 +1,3 @@
+﻿set OCRProperties to {ignoreSpaces:true,ignoreNewLines:true}
+set the TextStyle to OCRProperties
+if ImageFound(text:"No data to display") then Log FoundImageLocation() 

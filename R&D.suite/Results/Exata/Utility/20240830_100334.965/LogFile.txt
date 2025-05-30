@@ -1,0 +1,6 @@
+﻿2024-08-30 10:03:34.975 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-30 10:03:35.062 +0530	Log		TypeText Param1,Return	10	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:03:35.076 +0530	Log		TypeText Param2,Return	10	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:03:35.092 +0530	Log		TypeText Param3,Return	10	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:03:35.126 +0530	EndTestCase		(Duration:"0.142", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 10:03:34 +0530", Successes:"1", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-30 10:03:35.206 +0530	SUCCESS		Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

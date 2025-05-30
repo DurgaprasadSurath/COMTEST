@@ -1,0 +1,16 @@
+﻿
+set MyExcelFile to Workbook(ResourcePath("1.xlsx")) 
+set File1Sheet1 to worksheet(MyExcelFile,1)
+put File1Sheet1's cellRange("A") into StepRow
+
+
+set MyExcelFile2 to Workbook(ResourcePath("2.xlsx")) 
+set File12Sheet1 to worksheet(MyExcelFile2,1)
+put File12Sheet1's cellRange("A") into StepRow2
+
+
+repeat the number of items of StepRow times 
+	if Cell(File1Sheet1,[repeatIndex(),1]) is Cell(File12Sheet1,[repeatIndex(),1]) then 
+		Log (Cell(File1Sheet1,[repeatIndex(),1]))&&"is matching with"&&(Cell(File12Sheet1,[repeatIndex(),1]))
+	end if
+end repeat

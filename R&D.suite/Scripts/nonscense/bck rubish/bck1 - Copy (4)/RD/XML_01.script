@@ -1,0 +1,5 @@
+﻿put url "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH" as a tree into myTree
+Log myTree
+put myTree into file ResourcePath("DemoSites")
+
+

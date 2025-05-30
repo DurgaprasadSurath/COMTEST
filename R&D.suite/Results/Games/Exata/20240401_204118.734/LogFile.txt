@@ -1,0 +1,4 @@
+﻿2024-04-01 20:41:18.746 +0530	START		Running Games/Exata.script
+2024-04-01 20:41:42.095 +0530	Exception	(TEXT:<1 digit, punctuation character, whitespace characters>)	No Text Found On Screen: "(TEXT:<1 digit, punctuation character, whitespace characters>)". Text not found.	2	on_exata	Games/Exata.script
+2024-04-01 20:41:42.131 +0530	EndTestCase		(Duration:"23.38", Errors:"1", Exceptions:"1", StartTime:"2024-04-01 20:41:18 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 20:41:42.341 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:<1 digit, punctuation character, whitespace characters>)". Text not found. -- Execution Time 0:00:23 Games/Exata.script

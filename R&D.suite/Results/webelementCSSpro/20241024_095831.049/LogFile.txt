@@ -1,0 +1,5 @@
+﻿2024-10-24 09:58:31.055 +0530	START		Running Untitled1.script
+2024-10-24 09:58:31.312 +0530	Log		inline	3	on_untitled1	Untitled1.script
+2024-10-24 09:58:31.374 +0530	Log		700 24px / 30px system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"	5	on_untitled1	Untitled1.script
+2024-10-24 09:58:31.410 +0530	EndTestCase		(Duration:"0.349", Errors:"0", Exceptions:"0", StartTime:"2024-10-24 09:58:31 +0530", Successes:"1", TestCase:"Untitled1.script", Warnings:"0")
+2024-10-24 09:58:31.482 +0530	SUCCESS		Execution Time 0:00:00 Untitled1.script

@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/clipboardIssue.script",
+				"identifier": "START",
+				"timestamp": "2024-04-12 09:54:30.875 +0530"
+			},
+		{
+				"handlerName": "on_clipboardissue",
+				"timestamp": "2024-04-12 09:54:31.016 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Games/clipboardIssue.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clipboardissue",
+				"timestamp": "2024-04-12 09:54:31.778 +0530",
+				"message": "[controlKey]c",
+				"scriptName": "Games/clipboardIssue.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clipboardissue",
+				"timestamp": "2024-04-12 09:54:31.786 +0530",
+				"message": "?????,\\n\\n??????\\n\\n?????,\\n\\n??????",
+				"scriptName": "Games/clipboardIssue.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.935\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-12 09:54:30 +0530\", Successes:\"1\", TestCase:\"Games/clipboardIssue.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-12 09:54:31.835 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/clipboardIssue.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-12 09:54:32.006 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-12 09:54:30.881 +0530"
+}

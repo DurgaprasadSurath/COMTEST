@@ -1,0 +1,71 @@
+﻿set ProtectionSection_pat to empty
+set ProtectionSection_pat to <some characters preceded by "(" followed by ")">
+
+set RouteSection_str to "12345678901234567890123456789012(123)" --32 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+set RouteSection_str to "123456789012345678901234567890123(123)"  --33 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+Log "=================================================================="
+set ProtectionSection_pat to empty
+set ProtectionSection_pat to <lots of characters preceded by "(" followed by ")">
+
+set RouteSection_str to "12345678901234567890123456789012(123)"   --32 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+set RouteSection_str to "123456789012345678901234567890123(123)"  --33 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+Log "=================================================================="
+set ProtectionSection_pat to empty
+set ProtectionSection_pat to <characters preceded by "(" followed by ")">
+
+set RouteSection_str to "12345678901234567890123456789012(123)"   --32 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+set RouteSection_str to "123456789012345678901234567890123(123)"  --33 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+Log "=================================================================="
+set ProtectionSection_pat to empty
+set ProtectionSection_pat to <nonletters preceded by "(" followed by ")">
+
+set RouteSection_str to "12345678901234567890123456789012(123)"   --32 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+set RouteSection_str to "123456789012345678901234567890123(123)"  --33 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+Log "=================================================================="
+set ProtectionSection_pat to empty
+set ProtectionSection_pat to <lettersOrDigits preceded by "(" followed by ")">
+
+set RouteSection_str to "12345678901234567890123456789012(123)"   --32 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+set RouteSection_str to "123456789012345678901234567890123(123)"  --33 number + (123)
+set OptionalProtectionSection_str to instance of ProtectionSection_pat in RouteSection_str
+log OptionalProtectionSection_str
+
+//set 
+log readtext([100,200], caseSensitive:true)
+
+log readtext([0,0,500,500])
+
+
+
+click text:<"phone",comma, characters>
+
+Click text:<digits, ":", digits, characters>
+
+

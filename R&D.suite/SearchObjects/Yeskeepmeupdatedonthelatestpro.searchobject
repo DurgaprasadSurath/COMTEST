@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999652.323,
+	"ocrcapturestring": "□ Yes, keep me updated on the latest products, resources, and events",
+	"originalcapturelocation": [
+		366,
+		614,
+		536,
+		20
+	],
+	"createddate": 1724999652.323,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "□ Yes, keep me updated on the latest products, resources, and events",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_64",
+					"HotSpot": "[7,14]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					366,
+					614,
+					536,
+					20
+				],
+				"name": "Yeskeepmeupdatedonthelatestpro.png"
+			}
+	],
+	"name": "Yeskeepmeupdatedonthelatestpro"
+}

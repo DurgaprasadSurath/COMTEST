@@ -1,0 +1,37 @@
+﻿2024-07-02 15:29:26.266 +0530	START		Running Today2506/rolling.script
+2024-07-02 15:29:26.379 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.421 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.462 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.499 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.562 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.636 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.685 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.756 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.841 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:26.939 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.028 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.112 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.180 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.254 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.350 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.455 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.536 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.618 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.703 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.810 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:27.889 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.035 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.112 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.187 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.281 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.342 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.398 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.520 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.574 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.635 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.692 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.742 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.787 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.801 +0530	Log		uU.SU.SU.S.u.s.cU.S.CeU.S.CellU.S.CelluU.S.CeilulzU.S.CellularU.S.Cellular T-U.S.Cellular T-XU.S.Cellular T-MoU.S.Cellular T-Mob:U.S.Cellular T-MobilU.S.Cellular T-Mobile*U.S.Cellular T-MobilesU.S.Cellular T-MobilesU.S.Cellular T-Mobiles’.S.Cellular T-MobilesCellular T-MobilesCellular T-Mobileslular T-Mobilessilar T-MobilesT-MobilesMobilesMobiles.icbilesbileslies?ss	9	on_rolling	Today2506/rolling.script
+2024-07-02 15:29:28.852 +0530	EndTestCase		(Duration:"2.579", Errors:"0", Exceptions:"0", StartTime:"2024-07-02 15:29:26 +0530", Successes:"1", TestCase:"Today2506/rolling.script", Warnings:"0")
+2024-07-02 15:29:28.898 +0530	SUCCESS		Execution Time 0:00:02 Today2506/rolling.script

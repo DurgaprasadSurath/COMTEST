@@ -1,0 +1,36 @@
+﻿set the SuiteVariables.Test to "Demo"
+
+delete the SuiteVariables.Test
+
+Remove property "Test" from the SuiteVariables
+
+delete row the SuiteVariables.Test
+
+
+put file(the SuiteInfo.path&"/SuiteInfo") into SuiteFile 
+
+Remove property "Test" from file(the SuiteInfo.path&"/SuiteInfo")
+log file (folder of the SuiteInfo.path&"SuiteInfo")
+
+
+
+
+put file(the SuiteInfo.path&"/SuiteInfo") as propertyList into temp
+Log temp
+put temp.SuiteVariables as propertyList into temp2 
+Remove property "Test" from temp2 
+put temp2 as propertyList into temp.SuiteVariables
+put temp as propertyList into file(the SuiteInfo.path&"/SuiteInfo")
+
+Log  file(the SuiteInfo.path&"/SuiteInfo") as propertyList 
+
+put the SuiteVariables.Test
+
+
+set the SuiteVariables.Test to "Dem3"
+
+delete the SuiteVariables.Test 
+
+log the SuiteVariables
+
+

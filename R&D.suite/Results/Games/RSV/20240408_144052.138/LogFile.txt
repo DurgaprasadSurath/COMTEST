@@ -1,0 +1,6 @@
+﻿2024-04-08 14:40:52.153 +0530	START		Running Games/RSV.script
+2024-04-08 14:40:52.305 +0530	set		SUITEVARIABLES = {csvfile:@"C:\\\\Users\\\\durgaprasad.surath\\\\Downloads\\\\Book.csv", Test:"Demo"}	1	on_rsv	Games/RSV.script
+2024-04-08 14:40:52.364 +0530	delete		SUITEVARIABLES = {csvfile:@"C:\\\\Users\\\\durgaprasad.surath\\\\Downloads\\\\Book.csv"}	3	on_rsv	Games/RSV.script
+2024-04-08 14:40:52.416 +0530	st_remove_properties		SUITEVARIABLES = {csvfile:@"C:\\\\Users\\\\durgaprasad.surath\\\\Downloads\\\\Book.csv"}	5	on_rsv	Games/RSV.script
+2024-04-08 14:40:52.452 +0530	EndTestCase		(Duration:"0.289", Errors:"0", Exceptions:"0", StartTime:"2024-04-08 14:40:52 +0530", Successes:"1", TestCase:"Games/RSV.script", Warnings:"0")
+2024-04-08 14:40:52.613 +0530	SUCCESS		Execution Time 0:00:00 Games/RSV.script

@@ -1,0 +1,23 @@
+﻿put file resourcepath("PeopleXCD (1).json") into APIResponse
+put JSONValue(APIResponse) into JSONResponse
+//log JSONResponse
+
+put JSONResponse.definition into Def
+put def.elements into Elements
+log number of items of Elements
+log Elements
+repeat with each item of Elements
+	put "ElementUuid"
+	log it.elementUuid
+	put "ID"
+	log it.id
+	put "Invisible"
+	log it.invisible
+	put "Parameters"
+	log it.parameters
+end repeat
+put item 1 of Elements into Item1 
+put Item1.parameters into Item1Params
+put item 2 of Elements into Item2
+log Item2
+

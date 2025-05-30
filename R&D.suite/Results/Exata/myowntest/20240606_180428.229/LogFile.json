@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/myowntest.script",
+				"identifier": "START",
+				"timestamp": "2024-06-06 18:04:28.237 +0530"
+			},
+		{
+				"handlerName": "on_username",
+				"timestamp": "2024-06-06 18:04:28.296 +0530",
+				"message": "Surath",
+				"scriptName": "Exata/myowntest.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.074\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-06 18:04:28 +0530\", Successes:\"1\", TestCase:\"Exata/myowntest.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-06 18:04:28.319 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/myowntest.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-06 18:04:28.410 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-06 18:04:28.242 +0530"
+}

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Games/XMLReadingMultichilds">
+ <run>
+  <RunDate>2024-04-11 14:45:20.587 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.165000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240411_144520.587/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-11 14:45:36.620 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.122000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240411_144536.620/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>InvalidValueExpr -- Unable to take value of expression &#x27;C:\Users\durgaprasad.surath\Downloads\TestXML.xml&#x27; (reason: (null))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-11 14:45:46.378 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.088000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240411_144546.378/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>InvalidValueExpr -- Unable to take value of expression &#x27;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;⏎&lt;note importance=&quot;high&quot; logged=&quot;true&quot;&gt;⏎	&lt;E1IDB02 SEGMENT...&#x27; (reason: (null))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-11 14:46:03.497 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.127000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240411_144603.497/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>InvalidValueExpr -- Unable to take value of expression &#x27;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;⏎&lt;note importance=&quot;high&quot; logged=&quot;true&quot;&gt;⏎	&lt;E1IDB02 SEGMENT...&#x27; (reason: (null))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-11 14:46:20.363 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.148000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240411_144620.363/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>InvalidValueExpr -- Unable to take value of expression &#x27;&lt;note importance=&quot;high&quot; logged=&quot;true&quot;&gt;⏎	&lt;E1IDB02 SEGMENT=&quot;1&quot;&gt;⏎		&lt;FIIQUALI&gt;BA&lt;/FIIQUALI&gt;⏎		&lt;FII...&#x27; (reason: (null))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-11 14:46:56.760 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.162000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240411_144656.760/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Games/ScalingProperty">
+ <run>
+  <RunDate>2024-04-03 20:08:43.941 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.301000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240403_200843.941/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:08:49.148 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.219000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240403_200849.148/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:09:53.777 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.775000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_200953.777/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:09:59.202 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.462000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_200959.202/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:11:32.730 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.746000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_201132.730/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:12:16.824 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.857000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_201216.824/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:12:36.602 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.062000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_201236.602/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:12:49.933 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_201249.933/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:12:58.751 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.619000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_201258.751/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:13:46.139 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>5.705000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_201346.139/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:20:06.975 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.901000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240403_202006.975/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:20:57.672 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>4.833000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202057.672/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:21:25.702 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>6.751000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202125.702/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:23:36.057 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.468000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202336.057/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:23:52.507 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.100000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202352.507/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:25:06.994 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>8.120000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202506.994/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:25:34.165 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>8.156000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202534.165/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:26:47.781 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>8.098000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202647.781/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- imagelocation Error - Unable To Find Image &quot;Paint_SC1&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:27:03.149 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.776000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240403_202703.149/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-03 20:27:44.610 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>13.528000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240403_202744.610/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>No Remote Connection -- imagelocation Error - Remote Connection Unavailable</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-05 10:04:22.770 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.588000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240405_100422.770/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-05 10:13:03.877 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.791000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240405_101303.877/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

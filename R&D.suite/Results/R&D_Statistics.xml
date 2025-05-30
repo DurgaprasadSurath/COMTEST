@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Test3/optum">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-09-17 15:02:32 +0530</FirstRun>
+  <LastRun>2024-09-17 15:04:27 +0530</LastRun>
+  <TotalTimeOnSuccess>0.291000</TotalTimeOnSuccess>
+ </script>
+ <script name="postcsv-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-02-21 19:40:55 +0530</FirstRun>
+  <LastRun>2024-02-22 16:11:26 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Exata/fg">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-09-04 15:17:22 +0530</FirstRun>
+  <LastRun>2024-09-04 15:18:03 +0530</LastRun>
+  <TotalTimeOnSuccess>4.023000</TotalTimeOnSuccess>
+ </script>
+ <script name="callStack_Function">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-02-22 16:40:08 +0530</FirstRun>
+  <LastRun>2024-02-22 16:40:08 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test3/Untitled3">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-09-23 14:11:47 +0530</FirstRun>
+  <LastRun>2024-09-23 14:12:53 +0530</LastRun>
+  <TotalTimeOnSuccess>46.022000</TotalTimeOnSuccess>
+ </script>
+ <script name="PG2-API">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-05-06 10:03:13 +0530</FirstRun>
+  <LastRun>2024-05-06 10:03:13 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="naturalTimes">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2024-10-16 11:29:06 +0530</FirstRun>
+  <LastRun>2024-10-17 13:27:39 +0530</LastRun>
+  <TotalTimeOnSuccess>0.118000</TotalTimeOnSuccess>
+ </script>
+ <script name="RD/Untitled">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-06-27 14:06:27 +0530</FirstRun>
+  <LastRun>2024-06-27 14:06:27 +0530</LastRun>
+  <TotalTimeOnSuccess>0.223000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/RSV">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-04-08 14:40:52 +0530</FirstRun>
+  <LastRun>2024-04-08 14:40:52 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Wan">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>46</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-02-19 10:28:23 +0530</FirstRun>
+  <LastRun>2024-02-19 15:30:15 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="postcsv2-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>71</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2024-02-21 19:53:50 +0530</FirstRun>
+  <LastRun>2024-02-22 16:07:11 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Exata/Utility">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>122</NumberOfRuns>
+  <NumberOfFails>16</NumberOfFails>
+  <FirstRun>2024-08-29 15:47:55 +0530</FirstRun>
+  <LastRun>2024-08-30 14:01:35 +0530</LastRun>
+  <TotalTimeOnSuccess>218.177001</TotalTimeOnSuccess>
+ </script>
+ <script name="pcatVolume">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-10-16 15:15:25 +0530</FirstRun>
+  <LastRun>2024-10-16 15:16:20 +0530</LastRun>
+  <TotalTimeOnSuccess>3.750000</TotalTimeOnSuccess>
+ </script>
+ <script name="Untitled1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2024-10-24 11:22:38 +0530</FirstRun>
+  <LastRun>2024-10-24 12:26:43 +0530</LastRun>
+  <TotalTimeOnSuccess>0.426000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test3/Untitled4">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-10-01 12:41:51 +0530</FirstRun>
+  <LastRun>2024-10-01 12:42:05 +0530</LastRun>
+  <TotalTimeOnSuccess>0.338000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/compp">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>10</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-03-07 16:05:05 +0530</FirstRun>
+  <LastRun>2024-03-07 16:15:10 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/postCSV3">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>16</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-02-21 20:58:32 +0530</FirstRun>
+  <LastRun>2024-02-22 10:11:35 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="ShowremotewindowCommand">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2025-03-26 19:26:49 +0530</FirstRun>
+  <LastRun>2025-03-26 19:34:39 +0530</LastRun>
+  <TotalTimeOnSuccess>17.562000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Harman-1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>15</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-03-18 14:19:16 +0530</FirstRun>
+  <LastRun>2024-03-18 14:42:12 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today2506/rolling">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>15</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-07-02 15:05:54 +0530</FirstRun>
+  <LastRun>2024-07-05 12:36:11 +0530</LastRun>
+  <TotalTimeOnSuccess>88.878000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test5/TC_B_Contact_Us">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2024-04-24 10:50:17 +0530</FirstRun>
+  <LastRun>2024-04-24 10:50:46 +0530</LastRun>
+  <TotalTimeOnSuccess>0.105000</TotalTimeOnSuccess>
+ </script>
+ <script name="DGE-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-10 17:14:24 +0530</FirstRun>
+  <LastRun>2024-05-30 14:10:59 +0530</LastRun>
+  <TotalTimeOnSuccess>2.818000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Kcom">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-09-20 13:59:39 +0530</FirstRun>
+  <LastRun>2024-09-20 15:27:33 +0530</LastRun>
+  <TotalTimeOnSuccess>11.245000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test4/OCR_Issue_0Errors">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-09-05 15:14:32 +0530</FirstRun>
+  <LastRun>2024-09-05 15:14:32 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test5/Master_Script">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-04-24 10:51:05 +0530</FirstRun>
+  <LastRun>2024-04-24 10:53:46 +0530</LastRun>
+  <TotalTimeOnSuccess>0.220000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/ScalingProperty">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>22</NumberOfRuns>
+  <NumberOfFails>16</NumberOfFails>
+  <FirstRun>2024-04-03 20:08:43 +0530</FirstRun>
+  <LastRun>2024-04-05 10:13:03 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Untitled3">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>162</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-10-28 13:32:37 +0530</FirstRun>
+  <LastRun>2025-03-26 10:26:31 +0530</LastRun>
+  <TotalTimeOnSuccess>22.020000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today30072024/ocrFinding">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-08-01 16:47:25 +0530</FirstRun>
+  <LastRun>2024-08-01 16:47:25 +0530</LastRun>
+  <TotalTimeOnSuccess>3.114000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/clipboardIssue">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-04-12 09:54:30 +0530</FirstRun>
+  <LastRun>2024-04-12 11:03:00 +0530</LastRun>
+  <TotalTimeOnSuccess>4.327000</TotalTimeOnSuccess>
+ </script>
+ <script name="docFunError">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>28</NumberOfRuns>
+  <NumberOfFails>10</NumberOfFails>
+  <FirstRun>2024-10-09 12:36:40 +0530</FirstRun>
+  <LastRun>2024-10-17 12:50:12 +0530</LastRun>
+  <TotalTimeOnSuccess>2.236000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today30072024/timerCount">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-07-30 10:35:43 +0530</FirstRun>
+  <LastRun>2024-07-30 10:35:43 +0530</LastRun>
+  <TotalTimeOnSuccess>1.105000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Json read">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-02-06 17:40:44 +0530</FirstRun>
+  <LastRun>2024-02-06 17:42:01 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="PG1-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-06 09:53:00 +0530</FirstRun>
+  <LastRun>2024-05-06 09:57:10 +0530</LastRun>
+  <TotalTimeOnSuccess>15.805000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/RunningPostman">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-04-11 18:19:32 +0530</FirstRun>
+  <LastRun>2024-04-11 18:22:46 +0530</LastRun>
+  <TotalTimeOnSuccess>0.297000</TotalTimeOnSuccess>
+ </script>
+ <script name="Darran">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>11</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-10-22 23:10:33 +0530</FirstRun>
+  <LastRun>2024-10-23 15:58:57 +0530</LastRun>
+  <TotalTimeOnSuccess>3.444000</TotalTimeOnSuccess>
+ </script>
+ <script name="PG12-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-10 15:44:30 +0530</FirstRun>
+  <LastRun>2024-05-10 15:44:30 +0530</LastRun>
+  <TotalTimeOnSuccess>1.610000</TotalTimeOnSuccess>
+ </script>
+ <script name="Exata/Untitled">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-08-29 15:10:02 +0530</FirstRun>
+  <LastRun>2024-08-30 14:45:49 +0530</LastRun>
+  <TotalTimeOnSuccess>0.306000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/XMLReadingMultichilds">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2024-04-11 14:45:20 +0530</FirstRun>
+  <LastRun>2024-04-11 14:46:56 +0530</LastRun>
+  <TotalTimeOnSuccess>0.327000</TotalTimeOnSuccess>
+ </script>
+ <script name="Exata/myowntest">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-06-06 18:04:28 +0530</FirstRun>
+  <LastRun>2024-06-06 18:05:35 +0530</LastRun>
+  <TotalTimeOnSuccess>0.162000</TotalTimeOnSuccess>
+ </script>
+ <script name="Untitled4">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-10-29 11:32:06 +0530</FirstRun>
+  <LastRun>2024-10-29 11:40:55 +0530</LastRun>
+  <TotalTimeOnSuccess>0.643000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Optum/DeleteMyRecord">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-10 12:15:01 +0530</FirstRun>
+  <LastRun>2024-05-10 12:15:01 +0530</LastRun>
+  <TotalTimeOnSuccess>0.081000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/ffte">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-02-19 21:06:21 +0530</FirstRun>
+  <LastRun>2024-02-19 21:06:21 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Game2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>16</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2024-02-13 16:41:15 +0530</FirstRun>
+  <LastRun>2024-03-01 10:51:24 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="AppFuxion">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-06-12 14:22:44 +0530</FirstRun>
+  <LastRun>2024-06-12 14:23:15 +0530</LastRun>
+  <TotalTimeOnSuccess>13.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test5/DDD">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-06-17 10:29:29 +0530</FirstRun>
+  <LastRun>2024-06-17 12:55:53 +0530</LastRun>
+  <TotalTimeOnSuccess>0.245000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test4/Useage">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2024-09-05 14:23:33 +0530</FirstRun>
+  <LastRun>2024-09-05 14:44:57 +0530</LastRun>
+  <TotalTimeOnSuccess>26.968000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Exata">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>51</NumberOfRuns>
+  <NumberOfFails>27</NumberOfFails>
+  <FirstRun>2024-04-01 20:15:57 +0530</FirstRun>
+  <LastRun>2024-04-02 11:35:32 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/Scre">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-02-15 10:38:58 +0530</FirstRun>
+  <LastRun>2024-02-15 21:00:05 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today2506/DB1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>24</NumberOfRuns>
+  <NumberOfFails>7</NumberOfFails>
+  <FirstRun>2024-06-25 14:00:24 +0530</FirstRun>
+  <LastRun>2024-06-26 09:44:52 +0530</LastRun>
+  <TotalTimeOnSuccess>4.387000</TotalTimeOnSuccess>
+ </script>
+ <script name="Untitled5">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-11-14 09:26:47 +0530</FirstRun>
+  <LastRun>2024-11-14 09:28:44 +0530</LastRun>
+  <TotalTimeOnSuccess>0.412000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test3/Untitled1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-09-13 11:34:16 +0530</FirstRun>
+  <LastRun>2024-09-13 11:34:27 +0530</LastRun>
+  <TotalTimeOnSuccess>0.181000</TotalTimeOnSuccess>
+ </script>
+ <script name="Harish-1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2025-03-26 11:06:35 +0530</FirstRun>
+  <LastRun>2025-03-26 11:06:35 +0530</LastRun>
+  <TotalTimeOnSuccess>0.028000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/optum 2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-09-18 10:30:38 +0530</FirstRun>
+  <LastRun>2024-09-18 10:30:38 +0530</LastRun>
+  <TotalTimeOnSuccess>0.691000</TotalTimeOnSuccess>
+ </script>
+ <script name="times">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-10-17 13:40:07 +0530</FirstRun>
+  <LastRun>2024-10-17 13:55:28 +0530</LastRun>
+  <TotalTimeOnSuccess>1.642000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today30072024/Untitled">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-08-19 11:57:24 +0530</FirstRun>
+  <LastRun>2024-08-19 14:07:22 +0530</LastRun>
+  <TotalTimeOnSuccess>20.530000</TotalTimeOnSuccess>
+ </script>
+ <script name="Exata/OCR">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>27</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-13 17:17:43 +0530</FirstRun>
+  <LastRun>2024-05-16 12:13:55 +0530</LastRun>
+  <TotalTimeOnSuccess>166.185000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/LOGIssue">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>11</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-04-24 11:05:58 +0530</FirstRun>
+  <LastRun>2024-04-24 11:14:22 +0530</LastRun>
+  <TotalTimeOnSuccess>578.368000</TotalTimeOnSuccess>
+ </script>
+ <script name="Untitled2-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2025-02-25 12:24:12 +0530</FirstRun>
+  <LastRun>2025-02-25 12:24:48 +0530</LastRun>
+  <TotalTimeOnSuccess>2.386000</TotalTimeOnSuccess>
+ </script>
+ <script name="Games/bitConv">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-05-15 09:20:44 +0530</FirstRun>
+  <LastRun>2024-05-15 11:06:16 +0530</LastRun>
+  <TotalTimeOnSuccess>0.426000</TotalTimeOnSuccess>
+ </script>
+ <script name="webelementCSSpro">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-10-24 09:58:31 +0530</FirstRun>
+  <LastRun>2024-10-24 09:58:31 +0530</LastRun>
+  <TotalTimeOnSuccess>0.359000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test3/Untitled2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-09-18 10:06:30 +0530</FirstRun>
+  <LastRun>2024-09-18 10:06:58 +0530</LastRun>
+  <TotalTimeOnSuccess>0.895000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today30072024/scrn">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-07-31 15:07:35 +0530</FirstRun>
+  <LastRun>2024-07-31 15:09:59 +0530</LastRun>
+  <TotalTimeOnSuccess>8.747000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today2006">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>45</NumberOfRuns>
+  <NumberOfFails>9</NumberOfFails>
+  <FirstRun>2024-06-20 14:41:44 +0530</FirstRun>
+  <LastRun>2024-06-21 18:11:41 +0530</LastRun>
+  <TotalTimeOnSuccess>9.488000</TotalTimeOnSuccess>
+ </script>
+ <script name="Exata/Untitled1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>14</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-08-29 16:35:21 +0530</FirstRun>
+  <LastRun>2024-08-29 16:45:22 +0530</LastRun>
+  <TotalTimeOnSuccess>4.727000</TotalTimeOnSuccess>
+ </script>
+ <script name="Today2506/jira_demo">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>10</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-06-27 16:12:05 +0530</FirstRun>
+  <LastRun>2024-06-27 19:02:23 +0530</LastRun>
+  <TotalTimeOnSuccess>28.357000</TotalTimeOnSuccess>
+ </script>
+</statistics>

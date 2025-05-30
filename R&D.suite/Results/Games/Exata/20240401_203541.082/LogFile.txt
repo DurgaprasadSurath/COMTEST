@@ -1,0 +1,4 @@
+﻿2024-04-01 20:35:41.086 +0530	START		Running Games/Exata.script
+2024-04-01 20:35:59.105 +0530	Exception	(TEXT:<2, punctuation character, whitespace characters, punctuation character, some characters preceded by "=24">)	No Text Found On Screen: "(TEXT:<2, punctuation character, whitespace characters, punctuation character, some characters preceded by "=24">)". Text not found.	5	on_exata	Games/Exata.script
+2024-04-01 20:35:59.138 +0530	EndTestCase		(Duration:"18.036", Errors:"1", Exceptions:"1", StartTime:"2024-04-01 20:35:41 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 20:35:59.307 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:<2, punctuation character, whitespace characters, punctuation character, some characters preceded by "=24">)". Text not found. -- Execution Time 0:00:18 Games/Exata.script

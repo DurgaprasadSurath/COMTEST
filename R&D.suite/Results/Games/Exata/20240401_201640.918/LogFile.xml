@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/Exata_script" package="R&amp;D.suite" timestamp="2024-04-01 20:16:40.918 +0530"
+ tests="1"  failures="1" errors="1" time="17.850000">
+  <properties>
+   <property name="RunDate" value="2024-04-01 20:16:40.918 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Games/Exata.script" assertions="1" status="error"  time="17.839">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Text Found On Screen: &quot;(TEXT:&quot;2,\t\t , [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24&quot;)&quot;. Text not found. -- Execution Time 0:00:17 Games/Exata.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;2,\t\t , [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/rolling.script",
+				"identifier": "START",
+				"timestamp": "2024-07-05 12:35:56.760 +0530"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:36:06.872 +0530",
+				"message": "1 his text is S'This text is scrolling nThis text is scrolling fromThis text is scrolling from rishis text is scrolling from righttext is scrolling from right to Lext is scrolling from right to leext is scrolling from right to leext is scrolling from right to leext is scrolling from right to leext is scrolling from right to leext is scrolling from right to lecrollms from naht to left. Kev) left. Kevsisht - Essplant) left. Kevsisht - Essplantht - EggplantEggplant■planttThisThisThisThisThis texThis texThis texThis texThis texThis textThis text is scroThis text is scroThis text is scroThis text is scroThis text is scrollmThis text is scrollmThis text is scrolling fr<This text is scrolling fro:This text is scrolling fro:This text is scrolling fromThis text is scrolling from nThis text is scrolling from risThis text is scrolling from ristext is scrolling from right> text is scrolling from right toxt is scrolling from right to lefscrollins from risht to left.iscrolling from right to left. Kescrolling from right to left. Kescrolling from right to left. Keins from risht to left. Kevsishiins from risht to left. Kevsishi",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:36:06.876 +0530",
+				"message": "AUT has no text.",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 9,
+				"identifier": "LogWarning"
+			},
+		{
+				"message": "(Duration:\"10.136\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-07-05 12:35:56 +0530\", Successes:\"1\", TestCase:\"Today2506/rolling.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-05 12:36:06.901 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:10 Today2506/rolling.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-07-05 12:36:06.924 +0530"
+			}
+	],
+	"createdTimestamp": "2024-07-05 12:35:56.763 +0530"
+}

@@ -1,0 +1,134 @@
+﻿
+to handle App_is_Launched
+	set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	DoubleClick "ChromeIcon"
+	set the SearchRectangle to empty
+	wait 5
+	TypeText "https://www.keysight.com/in/en/home.html",return
+	wait 5
+	if ImageFound(text:"Cookies on Keysight", waitFor:15) then
+		Click text:"AGREE AND PROCEED",caseSensitive:true,waitfor:30
+		wait 3
+		if ImageFound(text:"Preference Request Submitted", waitFor:15) then
+			Click text:"CLOSE",caseSensitive:true,waitfor:30
+		end if
+	end if
+end App_is_Launched
+
+to handle hook_before_step
+	params  temp
+	Log temp
+	if temp.Name is "Given"
+		if ImageFound("KEYSIGHTTECHNOLOGIES_LOGO") then 
+			Click imageName:"KEYSIGHTTECHNOLOGIES_LOGO"	
+		end if
+	end if
+end hook_before_step
+
+
+to handle region_should_be_india
+	set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	put ImageLocation(text:"Electronic design") into TabName
+	set the SearchRectangle to []
+	set the SearchRectangle to [[TabName.x+35,TabName.y+60],[TabName.x+1500,TabName.y+20]]
+	put ReadText(the SearchRectangle) into Url
+	set the SearchRectangle to []
+	if Url contains "in" then
+		Log "region is india"
+	else
+		Click (Image:"Globe_Icon", WaitFor:14.6)
+		wait 4
+		Click text:"India"
+	end if
+end region_should_be_india
+
+to handle hook_after_scenario
+	TypeText controlKey,"w"
+	wait 4
+end hook_after_scenario
+
+to handle Click_the_search_icon_and_enter_search_product
+	click imagename:"SearchIcon",waitfor:10
+	TypeText "N2826A"
+end Click_the_search_icon_and_enter_search_product
+
+to handle validate_the_product
+	if ImageFound(text:"N2826A",waitfor:15) then
+		Click FoundImageLocation()
+		//	Log "validation is done"
+	end if 
+end validate_the_product
+
+to handle product_is_diplayed
+	wait 5
+	if ImageFound(text:"N2826A",waitfor:15) then
+		//	Log "validation is done"
+	end if 
+end product_is_diplayed
+
+to handle Click_the_search_icon_and_enter_search_produc_NUM
+	params num1
+	click imagename:"SearchIcon",waitfor:10
+	TypeText "Meters"
+end Click_the_search_icon_and_enter_search_produc_NUM
+
+to handle productNUM_is_diplayed
+	params num1
+	wait 5
+	if ImageFound(text:"Meters",waitfor:15) then
+		//	Log "validation is done"
+	end if 
+end productNUM_is_diplayed
+
+to handle validate_the_productNUM
+	params num1
+	if ImageFound(text:"Meters",waitfor:15) then
+		Click FoundImageLocation()
+		//Log "validation is done"
+	end if 
+end validate_the_productNUM
+
+to handle oscilloscopes_menu_page_opened
+	(*set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	DoubleClick "ChromeIcon"
+	set the SearchRectangle to empty
+	wait 5
+	TypeText "https://www.keysight.com/in/en/home.html",return
+	wait 5
+	if ImageFound(text:"Cookies on Keysight", waitFor:45) then
+		Click text:"AGREE AND PROCEED",caseSensitive:true,waitfor:30
+		wait 3
+		if ImageFound(text:"Preference Request Submitted", waitFor:15) then
+			Click text:"CLOSE",caseSensitive:true,waitfor:30
+		end if
+	end if*)
+	//	log "pro"
+	Click text:"PRODUCTS + SERVICES",waitfor:12
+	wait 3
+	Click text:"Oscilloscopes + Analyzers",textDifference:1,waitfor:30
+	wait 6
+	Click ImageLocation(text:"Oscilloscopes + Analyzers",textDifference:1)+[262,-6]
+	waitfor 20,text:"Spectrum Analyzers (Signal Analyzers)"
+	wait 5
+end oscilloscopes_menu_page_opened
+
+to handle search_multiple_products
+	params Products
+	put the number of items of Products into temp
+	repeat temp times
+		put item repeatIndex() of Products into item
+		Click imageName:"SearchIcon",waitfor:15
+		wait 3
+		
+		TypeText item's searchitem,return
+		
+		wait 8
+	end repeat
+end search_multiple_products
+
+to handle validate_the_products
+	if ImageFound(text:"N2826A",waitfor:15) then
+		Click FoundImageLocation()
+		//	Log "validation is done"
+	end if 
+end validate_the_products

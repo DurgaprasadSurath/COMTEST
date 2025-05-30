@@ -1,0 +1,14 @@
+﻿
+set scriptName to  "gen_kal.script"  
+
+
+set EPFScriptFile to filePath of scriptName
+log EPFScriptFile
+
+readData scriptName 
+
+readData "gen_kal.script"
+to readData rd
+	set EPFScriptFile to filePath of rd
+	log EPFScriptFile
+end readData

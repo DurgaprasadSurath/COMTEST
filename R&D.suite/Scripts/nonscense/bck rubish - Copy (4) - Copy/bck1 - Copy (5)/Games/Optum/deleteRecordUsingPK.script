@@ -1,0 +1,11 @@
+﻿//deleting records where the condition matches
+to DeleteRecords ExcelName,SheetName
+	set Global MyExcelDB to {file:ResourcePath(ExcelName), type:"excel", writeable:yes,name:SheetName}
+	//To find the Primary Key please do Log all the records and findout the PK key and replace them below.
+	Log records of Global MyExcelDB
+	//deleting a record where it matches with primary key value
+	delete record from Global MyExcelDB where _pk_ = 1003
+	delete record from Global MyExcelDB where _pk_ = 1004
+end DeleteRecords
+
+DeleteRecords "IRIS-ImportMember.xlsx","TDCP_OutputSheet"

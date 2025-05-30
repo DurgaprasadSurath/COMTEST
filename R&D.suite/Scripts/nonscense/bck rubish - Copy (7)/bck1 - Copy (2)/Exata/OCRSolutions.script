@@ -1,0 +1,40 @@
+﻿(*=======================Approch-1==========================================*)
+put "[1024], Application, CBR Server, Total Unicast Fragments Received (fragments) = 24" into txtToFind
+put ImageLocation(text:txtToFind, waitfor:0, ignorespaces:on) into txtLoc
+
+--Setting Search Rectangle to whole line 
+set the SearchRectangle to [[txtLoc.x - 274, txtLoc.y - 5], [txtLoc.x + 600, txtLoc.y + 9]]
+put ReadText(the SearchRectangle) into lineOutput
+split lineOutput by comma
+if item 1 of lineOutput is 2 then Log "Line starts with 2"
+
+--Setting Search Rectangle to prefix of the line
+set the SearchRectangle to [[txtLoc.x - 274, txtLoc.y - 5], [txtLoc.x - 240, txtLoc.y + 9]]
+put ReadText(the SearchRectangle) into preFixOfOutput
+if preFixOfOutput contains "2" then Log "Line starts with 2"
+
+
+
+(*=======================Approch-2==========================================*)
+TypeText windowsKey, "r"
+wait 1
+TypeText "notepad"&&quote&"C:\Users\Testingserver\OneDrive\Documents\Surath_Testing\ExataGUI Files\exata_May_14_24_12_21_03.stat"&quote, return
+wait 1
+TypeText windowsKey, upArrow
+
+TypeText controlKey, "a"
+TypeText controlKey, "c"
+put RemoteClipboard() into fileContent
+put fileContent into file ResourcePath("MyTest.txt")
+
+
+//Updating the stat file
+set TextData to file ResourcePath("MyTest.txt")
+put "4,               ,[1026], Application,  CBR Server,Total Unicast Messages Received (messages) = 24" into txtToFind
+
+repeat with each line of TextData	
+	if it contains txtToFind then 
+		Log "Line"&&repeatIndex()&&" is having the"&&quote&txtToFind&quote  --Change this user message as per needs
+		exit repeat
+	end if	
+end repeat

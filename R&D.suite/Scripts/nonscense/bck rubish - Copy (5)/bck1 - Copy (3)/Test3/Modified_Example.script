@@ -1,0 +1,52 @@
+TestDataFetching.fetchingTestData
+
+Click "image0004"
+Click "image0005"
+TypeText Global Param1
+Click "image0006"
+Click "chromehttpsmy359835ssocrmondem"
+Drag "chromehttjsmy359835ssoermondem"
+Drop "image0007"
+TypeText Backspace,Backspace,Return
+TypeText Global Param2,Return
+Click "image0008"
+MoveTo "image0009"
+Click text:Global Param3
+MoveTo text:Global Param4
+Click "image0008"
+MoveTo "image0009"
+ScrollWheelDown 0.8
+MoveTo "image0010"
+ScrollWheelDown 0.1
+MoveTo text:Global Param5
+ScrollWheelDown 0.1
+MoveTo "image0012"
+ScrollWheelDown 0.1
+MoveTo "image0013"
+ScrollWheelUp 1.4
+ScrollWheelDown 0.0
+Click "image0014"
+Click "ReplacementorupgradeproductInf"
+Click "image0015"
+Click "NetworkAnalyzersImpedanceAnaly"
+Click "ONeedtechnicalsupport"
+Click "image0016"
+TypeText Global Param6
+Click "Yeskeepmeupdatedonthelatestpro"
+MoveTo "image0017"
+TypeText controlKey, Global Param7
+ScrollWheelDown 1.6
+MoveTo "image0018"
+ScrollWheelDown 2.0
+Drag text:Global Param8
+Drop "image0020"
+MoveTo "image0021"
+ScrollWheelDown 0.4
+MoveTo "GfflX"
+ScrollWheelDown 0.1
+Click "image0022"
+Click text:Global Param9
+Click "image0024"
+Click "image0025"
+Click "Lookingtocreateapageforabusine"
+Click text:Global Param10

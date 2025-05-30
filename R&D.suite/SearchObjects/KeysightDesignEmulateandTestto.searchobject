@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724926220.7290001,
+	"ocrcapturestring": "Keysight: Design, Emulate, and Test to Accelerate Innovation",
+	"originalcapturelocation": [
+		229,
+		297,
+		541,
+		23
+	],
+	"createddate": 1724926220.7290001,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Keysight: Design, Emulate, and Test to Accelerate Innovation",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_70",
+					"HotSpot": "[138,19]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					229,
+					297,
+					541,
+					23
+				],
+				"name": "KeysightDesignEmulateandTestto.png"
+			}
+	],
+	"name": "KeysightDesignEmulateandTestto"
+}

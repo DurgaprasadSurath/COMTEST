@@ -1,0 +1,3 @@
+﻿2024-09-04 15:17:22.719 +0530	START		Running Exata/fg.script
+2024-09-04 15:17:22.861 +0530	EndTestCase		(Duration:"0.133", Errors:"1", Exceptions:"0", StartTime:"2024-09-04 15:17:22 +0530", Successes:"0", TestCase:"Exata/fg.script", Warnings:"0")
+2024-09-04 15:17:22.891 +0530	FAILURE		STUnknownMessage: ERROR: No Such Function: 't2' -- Execution Time 0:00:00 Exata/fg.script

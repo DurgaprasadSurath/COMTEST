@@ -1,0 +1,148 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/rolling.script",
+				"identifier": "START",
+				"timestamp": "2024-07-05 12:29:11.683 +0530"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.155 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.207 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.407 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.530 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.623 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.710 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.806 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:12.931 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:13.144 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:13.266 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:13.369 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:13.670 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:13.971 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:14.110 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:14.310 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 2,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-05 12:29:14.397 +0530",
+				"message": "1 his text is scroThis text is scrolling fro:his text is scrolling from rightscrolling from right to lef> scrolling from right to left. K,.Tolling from right to left. KeysUms from risht to left. Kevsislfrom right to left. Kevsisht - Erisht to left. Kevsisht - Essplazht to left. Kevsisht - Essplantzht to left. Kevsisht - Essplantzht to left. Kevsisht - Essplantzht to left. Kevsisht - EssplantIt",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"2.828\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-07-05 12:29:11 +0530\", Successes:\"1\", TestCase:\"Today2506/rolling.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-05 12:29:14.517 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:02 Today2506/rolling.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-07-05 12:29:14.539 +0530"
+			}
+	],
+	"createdTimestamp": "2024-07-05 12:29:11.687 +0530"
+}

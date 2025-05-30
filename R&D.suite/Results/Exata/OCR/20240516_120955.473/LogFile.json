@@ -1,0 +1,77 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/OCR.script",
+				"identifier": "START",
+				"timestamp": "2024-05-16 12:09:55.475 +0530"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.458 +0530",
+				"scriptName": "Exata/OCR.script",
+				"message": "at (311, 859)",
+				"image": "(TEXT:\"[1024], Application, CBR Server, Total Unicast Fragments Received (fragments) = 24\")",
+				"handlerLine": 3,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.474 +0530",
+				"message": "SEARCHRECTANGLE = [[37,854],[911,868]]",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 4,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.601 +0530",
+				"message": "(37,854,911,868)",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 5,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.615 +0530",
+				"message": "2,\\t,[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.621 +0530",
+				"message": "SEARCHRECTANGLE = [[37,854],[71,868]]",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 6,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.647 +0530",
+				"message": "(37,854,71,868)",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_ocr",
+				"timestamp": "2024-05-16 12:09:59.664 +0530",
+				"message": "2.",
+				"scriptName": "Exata/OCR.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"4.204\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-16 12:09:55 +0530\", Successes:\"1\", TestCase:\"Exata/OCR.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-16 12:09:59.695 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:04 Exata/OCR.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-16 12:09:59.869 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-16 12:09:55.475 +0530"
+}

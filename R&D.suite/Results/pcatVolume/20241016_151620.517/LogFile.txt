@@ -1,0 +1,5 @@
+﻿2024-10-16 15:16:20.532 +0530	START		Running Untitled2.script
+2024-10-16 15:16:21.131 +0530	click	(TEXT:"Ringtone")	at (179, 404)	1	on_untitled2	Untitled2.script
+2024-10-16 15:16:21.429 +0530	EndTestCase		(Duration:"0.897", Errors:"1", Exceptions:"0", StartTime:"2024-10-16 15:16:20 +0530", Successes:"0", TestCase:"Untitled2.script", Warnings:"0")
+2024-10-16 15:16:21.735 +0530	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Command: 'volumeupbutton' -- Execution Time 0:00:00 Untitled2.script
+2024-10-16 15:16:22.211 +0530	FAILURE	Screen_Error_Web.png	STUnknownMessage: ERROR: No Such Command: 'volumeupbutton' -- Execution Time 0:00:00 Untitled2.script

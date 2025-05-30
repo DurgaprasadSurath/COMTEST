@@ -1,0 +1,38 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Exata.script",
+				"identifier": "START",
+				"timestamp": "2024-04-01 20:58:19.844 +0530"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:58:19.938 +0530",
+				"message": "SEARCHRECTANGLE = [155,592,874,1041]",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 1,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:58:37.535 +0530",
+				"scriptName": "Games/Exata.script",
+				"message": "No Text Found On Screen: \"(TEXT:<\"2\", nonwhitespace character, whitespace characters, nonwhitespace character, characters followed by \"=24\">)\". Text not found.",
+				"image": "(TEXT:<\"2\", nonwhitespace character, whitespace characters, nonwhitespace character, characters followed by \"=24\">)",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"17.739\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-01 20:58:19 +0530\", Successes:\"0\", TestCase:\"Games/Exata.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-01 20:58:37.584 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:<\"2\", nonwhitespace character, whitespace characters, nonwhitespace character, characters followed by \"=24\">)\". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\\n -- Execution Time 0:00:17 Games/Exata.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-01 20:58:37.785 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-01 20:58:19.844 +0530"
+}

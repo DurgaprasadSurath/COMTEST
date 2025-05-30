@@ -1,0 +1,9 @@
+﻿to RefreshApp
+	repeat until imageFound(image:"BrowserMenu")
+		SwipeDown
+		wait 2
+	end repeat
+	Click "BrowserMenu"
+	WaitFor 10, "ChromeRefresh"
+	Click "ChromeRefresh"
+end RefreshApp

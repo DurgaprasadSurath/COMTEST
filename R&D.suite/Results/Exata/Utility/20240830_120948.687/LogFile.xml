@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Exata/Utility_script" package="R&amp;D.suite" timestamp="2024-08-30 12:09:48.687 +0530"
+ tests="1"  failures="1" errors="0" time="8.988000">
+  <properties>
+   <property name="RunDate" value="2024-08-30 12:09:48.687 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Exata/Utility.script" assertions="1" status="failure"  time="8.974">
+    <failure type="FAILURE" message="STInvalidBoolean: Value &apos;&quot;run&quot;&apos; is not TRUE, FALSE, YES, NO, ON, OFF or empty -- Execution Time 0:00:08 Exata/Utility.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

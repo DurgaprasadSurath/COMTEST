@@ -1,0 +1,18 @@
+﻿
+Put ["Industry", "Multimedia", "Product_Area", "Resource_Type"] into filterList
+
+Repeat with each item filter of filterList	
+	if (filter is "Product_Area") then
+		put core.readTextUsingText(filter, 0, 20, 250, 350, "LHLH") into Filtercheckbox
+	else if (filter is "Resource_Type") then 
+		put core.readTextUsingText(filter, 0, 20, 250, 280, "LHLH") into Filtercheckbox
+	else
+		core.scrollToUp "LearnResources"
+		put core.readTextUsingText(filter, 0, 20, 250, 300, "LHLH") into Filtercheckbox
+	end if
+	split Filtercheckbox by "]"
+	if (the number of items of Filtercheckbox is 6) then LogSuccess "All the options available on the screen." else LogWarning "Not all options are available on the screen."
+	wait 0.5
+	ScrollWheelDown 0.5
+	core.navigate(filter), ,"LHLH"
+End repeat

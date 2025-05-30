@@ -1,0 +1,14 @@
+﻿to handle captureAtLog
+	try
+		log "Executing capture screen"
+		//CaptureScreen
+		
+		CaptureScreen {Name:the suitevariables.currentScreenshotsFolder&"/"&the suitevariables.screenshotNum,imageFormat:JPG}
+		log  "Executed Capture Screen"
+		put the suitevariables.screenshotNum + 1 into the suitevariables.screenshotNum
+		
+	Catch theException
+		"CommonUtilities/ErrorHandlers".errorCapture theException   ---Handler to user understadable error messages
+	End try
+	
+end captureAtLog

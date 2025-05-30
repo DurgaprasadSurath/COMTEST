@@ -1,0 +1,34 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/Untitled1.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 16:38:36.503 +0530"
+			},
+		{
+				"handlerName": "on_untitled1",
+				"timestamp": "2024-08-29 16:38:36.625 +0530",
+				"scriptName": "Exata/Untitled1.script",
+				"identifier": "Log",
+				"handlerLine": 6
+			},
+		{
+				"handlerName": "on_readdata",
+				"timestamp": "2024-08-29 16:38:36.641 +0530",
+				"scriptName": "Exata/Untitled1.script",
+				"identifier": "Log",
+				"handlerLine": 3
+			},
+		{
+				"message": "(Duration:\"0.143\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-29 16:38:36 +0530\", Successes:\"1\", TestCase:\"Exata/Untitled1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 16:38:36.657 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/Untitled1.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-29 16:38:36.735 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 16:38:36.514 +0530"
+}

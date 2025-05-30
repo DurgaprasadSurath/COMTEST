@@ -1,0 +1,5 @@
+﻿2024-02-21 20:10:30.606 +0530	START		Running postcsv2.apitest
+2024-02-21 20:10:30.616 +0530	LogError		Validation Error: Failed to parse JSON request body. Unexpected character i at index 1. file=@C:\\Users\\durgaprasad.surath\\Downloads\\Book.csv
+2024-02-21 20:10:30.779 +0530	EndTestCase		(Duration:"0.165", Errors:"1", Exceptions:"0", StartTime:"2024-02-21 20:10:30 +0530", Successes:"0", TestCase:"postcsv2.apitest", Warnings:"0")
+2024-02-21 20:10:30.948 +0530	Error Screen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/RandD/R&D.suite/Results/postcsv2-API/20240221_201030.595/Screen_Error.png	CapturedErrorScreenshot	AF277CD6-D070-7909-553A-EFA1B37B4C8E
+2024-02-21 20:10:30.955 +0530	FAILURE	Screen_Error.png	Script Error: Number of Errors logged: 1 -- Execution Time 0:00:00 postcsv2.apitest

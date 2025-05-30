@@ -1,0 +1,4 @@
+﻿2024-04-01 20:16:40.929 +0530	START		Running Games/Exata.script
+2024-04-01 20:16:58.749 +0530	Exception	(TEXT:"2,\t\t , [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24")	No Text Found On Screen: "(TEXT:"2,\t\t , [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24")". Text not found.	1	on_exata	Games/Exata.script
+2024-04-01 20:16:58.769 +0530	EndTestCase		(Duration:"17.839", Errors:"1", Exceptions:"1", StartTime:"2024-04-01 20:16:40 +0530", Successes:"0", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 20:16:58.905 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"2,\t\t , [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24")". Text not found. -- Execution Time 0:00:17 Games/Exata.script

@@ -1,0 +1,35 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/postCSV3.script",
+				"identifier": "START",
+				"timestamp": "2024-02-21 21:08:46.562 +0530"
+			},
+		{
+				"handlerName": "on_postcsv3",
+				"timestamp": "2024-02-21 21:08:47.832 +0530",
+				"message": "XSRF check failed",
+				"scriptName": "Games/postCSV3.script",
+				"handlerLine": 15,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_postcsv3",
+				"timestamp": "2024-02-21 21:08:47.842 +0530",
+				"scriptName": "Games/postCSV3.script",
+				"identifier": "Log",
+				"handlerLine": 16
+			},
+		{
+				"message": "(Duration:\"1.307\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-21 21:08:46 +0530\", Successes:\"1\", TestCase:\"Games/postCSV3.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-21 21:08:47.877 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 Games/postCSV3.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-21 21:08:48.110 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-21 21:08:46.567 +0530"
+}

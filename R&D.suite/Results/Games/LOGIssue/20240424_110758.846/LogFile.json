@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/LOGIssue.script",
+				"identifier": "START",
+				"timestamp": "2024-04-24 11:07:58.853 +0530"
+			},
+		{
+				"message": "(Duration:\"0.072\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-04-24 11:07:58 +0530\", Successes:\"0\", TestCase:\"Games/LOGIssue.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-24 11:07:58.930 +0530"
+			},
+		{
+				"message": "STInvalidNumber: Value is not a number: 'miinimal' -- Execution Time 0:00:00 Games/LOGIssue.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-24 11:07:59.023 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-24 11:07:58.856 +0530"
+}

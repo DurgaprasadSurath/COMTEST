@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Game2.script",
+				"identifier": "START",
+				"timestamp": "2024-02-13 16:45:37.772 +0530"
+			},
+		{
+				"handlerName": "function_subt",
+				"timestamp": "2024-02-13 16:45:37.834 +0530",
+				"message": "this script runs",
+				"scriptName": "Games/ffte.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_game2",
+				"timestamp": "2024-02-13 16:45:37.839 +0530",
+				"message": "Hello ",
+				"scriptName": "Games/Game2.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.083\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-13 16:45:37 +0530\", Successes:\"1\", TestCase:\"Games/Game2.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-13 16:45:37.860 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Game2.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-13 16:45:37.973 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-13 16:45:37.775 +0530"
+}

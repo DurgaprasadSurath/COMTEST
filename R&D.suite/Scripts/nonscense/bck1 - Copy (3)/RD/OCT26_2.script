@@ -1,0 +1,75 @@
+﻿
+to handle user_clicks_on_billpay_option__fill_the_details
+	wait 5
+	Click text:"Bill Pay",caseSensitive:true
+	Click ImageLocation(text:"Payee Name")+[55,0]
+	TypeText "jhon"
+	Click ImageLocation(text:"Address")+[55,0]
+	TypeText "washington"
+	Click ImageLocation(text:"City")+[55,0]
+	TypeText "washingtonDC"
+	Click ImageLocation(text:"State")+[55,0]
+	TypeText "DC"
+	Click ImageLocation(text:"Zip Code")+[55,0]
+	TypeText 120120
+	Click ImageLocation(text:"Phone")+[55,0]
+	TypeText 1440001234
+	Click ImageLocation(text:"Account #")+[60,0]
+	//TypeText account
+	TypeText 12345
+	Click ImageLocation(text:"Verify Account #")+[60,0]
+	//TypeText ver_acc
+	TypeText 12345
+	Click ImageLocation(text:"Amount")+[55,0]
+	//TypeText amount
+	TypeText 100
+	Click ImageLocation(text:"From account")+[55,0]
+	Click text:2, waitFor:5
+	Click text:"SEND PAYMENT",caseSensitive:true
+	wait 10
+end user_clicks_on_billpay_option__fill_the_details
+
+to handle bill_payment_successful_page_should_be_displayed
+	waitfor 5,text:"Bill Payment Complete"
+	if ImageFound(text:"Bill Payment Complete", waitFor:5)then
+		Log "Bill Payment Complete"
+	end if
+end bill_payment_successful_page_should_be_displayed
+
+
+
+to handle user_clicks_on_request_loan_and_enters_the_VAR_VAR_and_VAR_details
+	params Loan_amount, Down_payment, From_account
+	Log Loan_amount, Down_payment, From_account
+	Click text:"Request Loan", waitfor:5
+	Click ImageLocation(text:"Loan Amount")+[75,0]
+	TypeText Loan_amount
+	Click ImageLocation(text:"Down Payment")+[75,0]
+	TypeText Down_payment
+	Click ImageLocation(text:"From account")+[75,0]
+	Click text:From_account
+	Click text:"APPLY NOW",caseSensitive:true
+	wait 7
+end user_clicks_on_request_loan_and_enters_the_VAR_VAR_and_VAR_details
+
+to handle loan_request_should_be_successful
+	waitfor 5, text:"Loan Request Processed"
+	if ImageFound(text:"Loan Request Processed", waitfor:5)then
+		Log "Loan Request Processed"
+	end if
+	TypeText controlKey,"w"
+end loan_request_should_be_successful
+
+to handle transfer_complete_message_is_displayed
+	waitfor 5,text:"Transfer Complete!"
+	if ImageFound(text:"Transfer Complete!", waitFor:5)then
+		Log "Transfer Complete!"
+	end if
+end transfer_complete_message_is_displayed
+
+to handle user_clicks_trnasfer_funds_and_enter_detatils
+	Click text:"Transfer Funds", waitfor:5
+	Click ImageLocation(text:"Amount")+[75,0]
+	TypeText 100
+	Click text:"TRANSFER", caseSensitive:true
+end user_clicks_trnasfer_funds_and_enter_detatils

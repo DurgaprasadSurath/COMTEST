@@ -1,0 +1,37 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Exata.script",
+				"identifier": "START",
+				"timestamp": "2024-04-01 20:31:57.957 +0530"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:31:58.726 +0530",
+				"scriptName": "Games/Exata.script",
+				"message": "at (521, 846)",
+				"image": "(TEXT:<1 digit, whitespace characters, punctuation character,characters,\"=24\",not followed by characters>)",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:31:58.731 +0530",
+				"message": "SEARCHRECTANGLE = [328,835,715,857]",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 5,
+				"identifier": "set"
+			},
+		{
+				"message": "(Duration:\"5.814\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-01 20:31:57 +0530\", Successes:\"1\", TestCase:\"Games/Exata.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-01 20:32:03.774 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:05 Games/Exata.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-01 20:32:03.865 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-01 20:31:57.959 +0530"
+}

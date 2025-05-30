@@ -1,0 +1,16 @@
+﻿params email,password,checkbox
+
+to handle Login email,password,checkbox
+	set SearchRectangle to SR.ScreenPart("TopHalf")
+	click text:"Log in",waitfor:30
+	set SearchRectangle to[]
+	set SearchRectangle to SR.ScreenPart("BottomHalf")
+	click text:"Email",hotspot:[0,y]
+	TypeText email
+	click text:"Password",hotspot:[0,y]
+	TypeText password
+	if checkbox is ("yes" or "y" or "s")
+		click text:"Remeber",hotspot:[0,y]
+	end if
+	set SearchRectangle to[]
+end Login

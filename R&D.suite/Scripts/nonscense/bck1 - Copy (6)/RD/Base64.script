@@ -1,0 +1,2 @@
+﻿put base64encode of file "C:\Users\admin\Pictures\Screenshots\Screenshot (67).png" into temp
+log temp

@@ -1,0 +1,36 @@
+﻿to GetListOfAgents1 Accept,authUrl
+	GetAccessTokenAPIScript
+	put Global accessToken into AccessToken 
+	(*put ","&Headers after authUrl
+	set Headers to {{
+Accept:[[Accept]],
+Authorization:[[AccessToken]]
+}}
+	Get Headers to url authUrl*)
+	Get url authUrl with headers {Accept:Accept,
+		Authorization:AccessToken}
+	log it
+end GetListOfAgents1
+
+GetListOfAgents1 "*/*","http://localhost:8000/ai/agents"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

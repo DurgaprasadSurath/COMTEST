@@ -1,0 +1,9 @@
+﻿to handle log1
+	params log_var
+	log log_var
+end log1
+
+to handle log2
+	params log_var
+	log log_var
+end log2

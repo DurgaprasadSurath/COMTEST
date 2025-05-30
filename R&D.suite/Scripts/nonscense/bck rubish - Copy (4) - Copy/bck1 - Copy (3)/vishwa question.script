@@ -1,0 +1,31 @@
+﻿(*
+put [Industry,Multimedia,Product_Area,Resource_Type] into FilterList
+repeat with each item in FilterList
+	core.clickTextAtSpot(item repeatIndex() of FilterList), 15,55+x,"LHLH"
+end repeat
+--here i want to increment that x value 6 times at 55+x,
+--if we take x =10
+
+--below is the core handler of click at spot
+-------------------------------
+
+to clickTextAtSpot toFind,xCord,yCord,section
+	try
+		if section is empty then set section to universal browser
+		click {waitfor:universal pageWait,text:universal data.(toFind),hotspot:[xCord,yCord],language: universal language & ", English", ignoreNewlines:on, ignorespaces:on,searchRectangle:(config().SUT.(section))}
+		logsuccess toFind && "found"
+		return FoundImageInfo().imageRectangle
+	Catch theException
+		core.errorCapture theException
+	End try
+end clickTextAtSpot
+--15,55 is the hotspot i want to increase incrementally with 10 value
+*)
+
+
+Put ["Industry", "Multimedia", "Product_Area", "Resource_Type"] into filterList
+set myYCord to 10
+Repeat with each item filter of filterList	
+	core.clickTextAtSpot(filter), 15, (55 + myYCord), "LHLH"
+	set myYCord to (myYCord + 10)
+End repeat

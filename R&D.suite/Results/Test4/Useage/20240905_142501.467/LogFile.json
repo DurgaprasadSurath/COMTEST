@@ -1,0 +1,84 @@
+{
+	"entries": [
+		{
+				"message": "Running Test4/Useage.script",
+				"identifier": "START",
+				"timestamp": "2024-09-05 14:25:01.481 +0530"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:03.311 +0530",
+				"message": "(0,1,1170,2532)",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 1,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:03.314 +0530",
+				"message": "11:32\\n84+\\nAcknowledged\\nCement and Corrosion\\nEvaluation Services -\\t;\\n9-7/8\" Section\\nAlmanhal Engeneering Factory Lie\\nRig: Oxy-Muk-Kahmah-Rig-1\\nPl review & sign\\nxL\\n\\n>\\nF.\\ndelivery docume\\nactionable (1)\\nPl review & sign\\nI R n o-n i— •-\\t- -- -■-! —\\n■ bsib WTZXj |\\t■E^fl ■|2y fl fl|flflF«^fl AT£u|\\t*1 111\\nreference (0)\\nsupport team\\n4\\n\\nk\\n1\\nVIIV\\n1\\n\\n\\nF\\nMadhubalan M\\nOperational Support\\nAshlev Cochrane\\nAC\\nTechnical Support\\nsee more v",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 1,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:03.384 +0530",
+				"message": "(53,1363,1119,1569)",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 3,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:03.389 +0530",
+				"message": "Field Ticket 1\\n0 issued by SLB, 06/11/24, 06:13pm",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:03.926 +0530",
+				"message": "(2,1003,1169,2532)",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 5,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:03.930 +0530",
+				"message": "deliverydocumer' 'On O\\nactionable (1)\\nPl review & sign\\n>\\nField Ticket 1\\n\\n0 issued by SLB, 06/11/24, 06:13pm\\nJ\\nreference (0)\\nsupport team\\n4\\n\\n\\n1\\nviiv\\ni\\n\\n\\nF\\nMadhubalan M\\nOperational Support\\nAshlev Cochrane\\nAC\\nTechnical Support\\nsee more v",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:04.778 +0530",
+				"message": "(2,759,1169,2532)",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 7,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:25:04.782 +0530",
+				"message": "Rig: Oxy-Muk-Kahmah-Rig-1\\nPl review & sign\\nviz\\ndeliverydocumer' 'On O\\nactionable (1)\\n\\n\\nPl review & sign\\n>\\nField Ticket 1\\n0 issued by SLB, 06/11/24, 06:13pm\\nk\\tJ\\nreference (0)\\nsupport team\\n4\\n\\n\\n1\\nviiv\\ni\\n\\n\\nF\\nMadhubalan M\\nOperational Support\\nAshlev Cochrane\\nAC\\nTechnical Support\\nsee more v",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"3.319\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-09-05 14:25:01 +0530\", Successes:\"1\", TestCase:\"Test4/Useage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-05 14:25:04.806 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:03 Test4/Useage.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-09-05 14:25:04.838 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-05 14:25:01.484 +0530"
+}

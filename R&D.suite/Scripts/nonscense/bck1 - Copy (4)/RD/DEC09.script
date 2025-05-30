@@ -1,0 +1,12 @@
+﻿put file ResourcePath("response.txt") into Myfile
+Log values of Myfile
+Log item 1 of Myfile
+Log the number of items of Myfile 
+repeat the number of items of Myfile 
+	Log item repeatIndex() of Myfile
+	if  item repeatIndex() of Myfile contains "responseTime"
+	then 
+		Log "++++++++++++++"
+		CoverageReport
+	end if
+end repeat

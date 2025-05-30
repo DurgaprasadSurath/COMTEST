@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/Untitled1.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 16:35:52.623 +0530"
+			},
+		{
+				"handlerName": "on_untitled1",
+				"timestamp": "2024-08-29 16:35:52.894 +0530",
+				"message": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Scripts/gen_kal.script",
+				"scriptName": "Exata/Untitled1.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_readdata",
+				"timestamp": "2024-08-29 16:35:52.899 +0530",
+				"message": "gen_kal.script",
+				"scriptName": "Exata/Untitled1.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.294\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-29 16:35:52 +0530\", Successes:\"1\", TestCase:\"Exata/Untitled1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 16:35:52.922 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/Untitled1.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-29 16:35:52.954 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 16:35:52.626 +0530"
+}

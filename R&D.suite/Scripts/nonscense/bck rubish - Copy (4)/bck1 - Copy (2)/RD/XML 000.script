@@ -1,0 +1,22 @@
+﻿
+InspectionLotReader "XMl Teamplate01.xml"
+
+to handle InspectionLotReader
+	params XMLFile
+	put file ResourcePath(XMLFile) as a tree into XMLTree
+	repeat with each item  of all nodes "*/Rowset/Row/*" of  XMLTree 
+		put 4&randomGen() into  node "/INSPECTIONLOT" of it
+		put it into item repeatIndex() of XMLTree
+	end repeat
+	put XMLTree into file ResourcePath("XMLFile.xml") 
+end InspectionLotReader
+
+To handle randomGen
+	put the abbrev time into time_t
+	delete every occurrence of  ":" in time_t
+	put the date into date_t
+	split date_t by "/"
+	return item 1 of date_t& item 2 of date_t&time_t
+End randomGen
+
+put randomGen()

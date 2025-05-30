@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724926221.4879999,
+	"ocrcapturestring": "Contact Us\t© Q.",
+	"originalcapturelocation": [
+		1415,
+		104,
+		235,
+		25
+	],
+	"createddate": 1724926221.4879999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Contact Us\t© Q.",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_64",
+					"HotSpot": "[216,19]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1415,
+					104,
+					235,
+					25
+				],
+				"name": "ContactUsQ.png"
+			}
+	],
+	"name": "ContactUsQ"
+}

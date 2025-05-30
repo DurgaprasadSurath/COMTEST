@@ -1,0 +1,28 @@
+﻿
+set FibonacciGen to {a:0, b:1, objectType:"iterator", script: {{
+
+to handle nextValue
+
+if my b is more than ten thousand then return end
+
+set [my a, my b] to [my b, my a + my b]
+
+return my a
+
+end nextValue
+
+}} }
+
+set fib to a new FibonacciGen
+
+repeat 10
+	
+	insert fib.nextValue into firstTen
+	
+end repeat
+
+put firstTen 
+
+(*put fib.nextValue 
+
+put each item of fib*)

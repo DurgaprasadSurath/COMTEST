@@ -1,0 +1,42 @@
+{
+  "Homepage": {
+    "company": [
+      "Ideabytes",
+      "Keysight",
+      "TCS",
+      "Eggplant"
+    ],
+    "name": [
+      "TechCo",
+      "Hardware",
+      "Service Provider",
+      "Automation tool"
+    ],
+    "employees": [
+      "Harish",
+      "Venkatesh",
+      "Gopi",
+      "Surath"
+    ]
+  },
+  "LoginPage": {
+    "Username": [
+      "user1",
+      "user2",
+      "user3",
+      "user4"
+    ],
+    "Password": [
+      "TechCo",
+      "Hardware",
+      "Service Provider",
+      "Automation tool"
+    ],
+    "Otp": [
+      "2345",
+      "0987",
+      "0456",
+      "0654"
+    ]
+  }
+}

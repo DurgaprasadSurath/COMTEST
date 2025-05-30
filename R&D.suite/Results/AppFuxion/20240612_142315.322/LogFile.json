@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running AppFuxion.script",
+				"identifier": "START",
+				"timestamp": "2024-06-12 14:23:15.330 +0530"
+			},
+		{
+				"handlerName": "on_appfuxion",
+				"timestamp": "2024-06-12 14:23:18.224 +0530",
+				"scriptName": "AppFuxion.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"What's on your mind?\")",
+				"handlerLine": 1,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"message": "(Duration:\"2.993\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-12 14:23:15 +0530\", Successes:\"1\", TestCase:\"AppFuxion.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-12 14:23:18.328 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:03 AppFuxion.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-12 14:23:18.454 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-12 14:23:15.333 +0530"
+}

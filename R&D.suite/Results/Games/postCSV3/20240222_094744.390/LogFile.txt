@@ -1,0 +1,5 @@
+﻿2024-02-22 09:47:44.398 +0530	START		Running Games/postCSV3.script
+2024-02-22 09:47:45.042 +0530	Log		XSRF check failed	15	on_postcsv3	Games/postCSV3.script
+2024-02-22 09:47:45.047 +0530	Log			16	on_postcsv3	Games/postCSV3.script
+2024-02-22 09:47:45.077 +0530	EndTestCase		(Duration:"0.674", Errors:"0", Exceptions:"0", StartTime:"2024-02-22 09:47:44 +0530", Successes:"1", TestCase:"Games/postCSV3.script", Warnings:"0")
+2024-02-22 09:47:45.209 +0530	SUCCESS		Execution Time 0:00:00 Games/postCSV3.script

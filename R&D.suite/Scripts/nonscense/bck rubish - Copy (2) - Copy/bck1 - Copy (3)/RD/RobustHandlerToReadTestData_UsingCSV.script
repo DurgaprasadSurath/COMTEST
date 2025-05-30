@@ -1,0 +1,27 @@
+﻿//Fetching Data 
+(*Pass 1st parameter as CSV testdata file and 2nd parameter as Test Case to apply filter*)
+InitialToFinalFetchingData "InitialToFinal_TestData_UAT.csv","E2EQMS-ITOF-FA-001-AUTO"
+Log Global Originator_Password
+Log Global Originator_Username
+Log Global TCName
+Log Global GivenDocumentID
+Log Global RecordCount
+Log Global FilePath
+
+to handle InitialToFinalFetchingData
+	params TestDataFile,TC_Name
+	set MyCSVFile to file ResourcePath(TestDataFile)
+	put line 1 of MyCSVFile into Headers
+	put the number of items of Headers into HeadersCount
+	put the number of lines of MyCSVFile into CountOfLines
+	repeat CountOfLines times
+		if item 2 of line repeatIndex() of MyCSVFile is TC_Name then	
+			put line repeatIndex() of MyCSVFile into Data
+			repeat with each item of Headers
+				do "put 0 into Global"&&it
+				do "put"&&"item repeatIndex() of Data"&&"into"&&"Global"&&it
+			end repeat
+			exit repeat
+		end if
+	end repeat	
+end InitialToFinalFetchingData

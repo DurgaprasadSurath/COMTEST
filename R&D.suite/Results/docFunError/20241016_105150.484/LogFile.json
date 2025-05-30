@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled5.script",
+				"identifier": "START",
+				"timestamp": "2024-10-16 10:51:50.488 +0530"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-10-16 10:51:50.535 +0530",
+				"message": "\\t<html>\\n\\t<head>\\n\\t<title>pageTitle</title>\\n\\t</head>\\n\\t<body>\\n\\t<h1>pageTitle</h1>\\n\\t<hr/>\\n\\t<h3>Scripts in folder: scriptFolder as of the international date</h3>\\n\\t<hr/>\\n\\trepeat with each item of (the files of scriptFolder sorted)\\n\\t<p>\\n\\t<b>it</b>\\n\\t<br/>Last changed: international date of it.modificationDate\\n\\t<br/>Size: it.size\\n\\t</p>\\n\\tend repeat\\n\\t</body>\\n\\t</html>\\n                    ",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 41,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-10-16 10:51:50.535 +0530",
+				"message": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\\n<html>\\n  <head>\\n    <title>pageTitle</title>\\n  </head>\\n  <body><h1>pageTitle</h1><hr></hr><h3>Scripts in folder: scriptFolder as of the international date</h3><hr></hr>\\n\\trepeat with each item of (the files of scriptFolder sorted)\\n\\t<p><b>it</b><br></br>Last changed: international date of it.modificationDate\\n\\t<br></br>Size: it.size\\n\\t</p>\\n\\tend repeat\\n\\t</body>\\n</html>",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 45,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.078\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-10-16 10:51:50 +0530\", Successes:\"1\", TestCase:\"Untitled5.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-16 10:51:50.566 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Untitled5.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-10-16 10:51:50.613 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-16 10:51:50.488 +0530"
+}

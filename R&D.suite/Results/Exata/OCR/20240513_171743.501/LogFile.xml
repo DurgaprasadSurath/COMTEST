@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Exata/OCR_script" package="R&amp;D.suite" timestamp="2024-05-13 17:17:43.501 +0530"
+ tests="1"  failures="0" errors="0" time="4.389000">
+  <properties>
+   <property name="RunDate" value="2024-05-13 17:17:43.501 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Exata/OCR.script" assertions="1" status="success"  time="4.372">
+  </testcase>
+ </testsuite>
+</testsuites>

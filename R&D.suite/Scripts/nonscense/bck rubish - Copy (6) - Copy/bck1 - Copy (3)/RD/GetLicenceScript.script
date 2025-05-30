@@ -1,0 +1,4 @@
+﻿GetAccessTokenAPIScript
+
+put Getlicense().responseBody into APIResponse
+log APIResponse

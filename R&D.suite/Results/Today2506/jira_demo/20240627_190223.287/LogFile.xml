@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Today2506/jira_demo_script" package="R&amp;D.suite" timestamp="2024-06-27 19:02:23.287 +0530"
+ tests="1"  failures="0" errors="0" time="6.746000">
+  <properties>
+   <property name="RunDate" value="2024-06-27 19:02:23.287 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Today2506/jira_demo.script" assertions="1" status="success"  time="6.74">
+  </testcase>
+ </testsuite>
+</testsuites>

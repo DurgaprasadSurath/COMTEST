@@ -1,0 +1,21 @@
+﻿Typetext commandKey,"a"
+put the KeyDownDelay into defaultKeyDownDelay
+set the KeyDownDelay to .6
+TypeText "34465A"
+set the KeyDownDelay to defaultKeyDownDelay
+
+Typetext commandKey, tabKey
+
+Typetext commandKey,"a"
+TypeText commandKey, "M"
+
+TypeText "34465A"
+
+
+Typetext shiftKey, commandKey, "A"
+
+Typetext  commandKey, "A"
+
+Typetext  optionKey,commandKey, "A"
+
+Typetext  controlKey,commandKey, "A"

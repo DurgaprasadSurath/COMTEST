@@ -1,0 +1,30 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/ScalingProperty.script",
+				"identifier": "START",
+				"timestamp": "2024-04-03 20:12:58.761 +0530"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-03 20:13:01.344 +0530",
+				"scriptName": "Games/ScalingProperty.script",
+				"message": "Unable To Find Image \"Paint_SC1\"",
+				"image": "Paint_SC1",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"2.604\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-03 20:12:58 +0530\", Successes:\"0\", TestCase:\"Games/ScalingProperty.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-03 20:13:01.376 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: imagelocation Error - Unable To Find Image \"Paint_SC1\" -- Execution Time 0:00:02 Games/ScalingProperty.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-03 20:13:01.632 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-03 20:12:58.766 +0530"
+}

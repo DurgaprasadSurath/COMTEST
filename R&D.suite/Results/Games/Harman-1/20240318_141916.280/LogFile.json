@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Harman-1.script",
+				"identifier": "START",
+				"timestamp": "2024-03-18 14:19:16.290 +0530"
+			},
+		{
+				"handlerName": "on_harman_1",
+				"timestamp": "2024-03-18 14:19:16.403 +0530",
+				"message": "[scrollLock]",
+				"scriptName": "Games/Harman-1.script",
+				"handlerLine": 3,
+				"identifier": "keydown"
+			},
+		{
+				"message": "(Duration:\"0.124\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-03-18 14:19:16 +0530\", Successes:\"1\", TestCase:\"Games/Harman-1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-18 14:19:16.427 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Harman-1.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-03-18 14:19:16.546 +0530"
+			}
+	],
+	"createdTimestamp": "2024-03-18 14:19:16.297 +0530"
+}

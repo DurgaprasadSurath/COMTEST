@@ -1,0 +1,61 @@
+﻿Connect "SQRC-Machine-04"
+wait 5
+TypeText return
+TypeText windowsKey,"r"
+TypeText "C:\StandAlone\RunSeleniumServer.bat",return
+wait 40
+
+//webconnect{host:ConnectionInfo().ServerID, browser:"chrome", url:"https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#"}
+put webDriver(host:"10.48.58.20", browser:"chrome", port:4444,url:"https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#") into driver
+
+
+put webDriver(host:ConnectionInfo().ServerID, browser:"chrome", port:4444,url:"https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#") into driver
+
+set the webdriver's windowsize to "max"
+set the SearchRectangle to empty
+
+WaitFor 30, text:"Critical manufacturing",ignoreSpaces:"yes",ignoreNewLines:"yes",textDifference:3
+
+WebConnect {host:ConnectionInfo().ServerID, browser: "chrome", url: "https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#"} 
+
+put webDriver (host:"10.48.58.17", browser: "chrome", port: "4444", url: "https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#") into driver
+
+put webDriver (host:ConnectionInfo().ServerID, browser: "chrome", url: "https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#") into driver
+
+log ConnectionInfo()
+
+WaitFor 60, webXpath: "//*[@id='LoginForm']/div/div[1]/div/img"
+
+Click webXpath: "//*[@id='okta-signin-username']"
+
+//SendKeys "￹text￺TP-EPF-TOKEN￻"
+
+
+//*[@id="okta-signin-password"]
+
+//*[@id="LoginForm"]/div/div[1]/div/img
+
+//C:\StandAlone\RunSeleniumServer.bat
+
+
+
+set the shellCommand to "ShellExecute"
+
+shell "C:\Windows\System32\cmd.exe /c && cd C:\Selenium_StandAlone\New_Selenium\ && RunSeleniumServer.bat"
+wait 10
+put webDriver(host:ConnectionInfo().ServerID, browser:"chrome", port:4444,url:"https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#") into driver
+
+shell ResourcePath("stand.bat")
+wait 10
+put webDriver(host:ConnectionInfo().ServerID, browser:"chrome", port:4444,url:"https://rct8.enablon.com/8.14/RB.8.14.TRAIN/#") into driver
+
+C:\Windows\System32\cmd.exe  /c cd C:\Selenium_StandAlone\New_Selenium\ && /c RunSeleniumServer.bat
+
+set the timeInputFormat's date  to "[dd]-[mm]-[YYYY]"
+set the timeformat's   date  to "dd-MMM-YYYY"
+log the date
+log the common date
+
+shell myFolder&"rundrirecttcfile.bat",none
+
+///C:\Selenium_StandAlone\New_Selenium\RunSeleniumServer.bat

@@ -1,0 +1,23 @@
+﻿to handle config
+	set Global temp to 0 
+end config
+
+to handle Values
+	put random(500) into Global var1
+	put random(500) into Global var2
+end Values
+
+To Handle operations
+	params operation
+	do "Log"&&Global var1& operation &Global var2
+	set Global temp to (Global temp + 1)
+	return Global temp
+End operations
+
+
+to LogDone
+	Log "Operation is done!"
+end LogDone
+
+
+

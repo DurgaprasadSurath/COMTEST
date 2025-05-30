@@ -1,0 +1,7 @@
+﻿
+put "https://dummy.restapiexample.com/api/v1/create/" into authURL --- Storing Endpoint into variable called authURL
+put {"name":"Employee1","salary":25000,"age":25} into PostData  --- Storing the body data to a variable called PostData
+post PostData to url authURL --- Running the API using HTTP method 'post'
+log it ----- Displaying the body response after running the API
+
+

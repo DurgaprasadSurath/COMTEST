@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1712154933.3759999,
+	"lastfoundlocation": [
+		527,
+		437,
+		519,
+		232
+	],
+	"originalcapturelocation": [
+		527,
+		437,
+		519,
+		232
+	],
+	"createddate": 1712154933.3759999,
+	"lastfounddate": 1712155129.2490001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[259,116]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Paint_SC1.png",
+				"connectionname": "IB-171",
+				"type": 1,
+				"capturerect": [
+					527,
+					437,
+					519,
+					232
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "192.168.1.171"
+			}
+	],
+	"name": "Paint_SC1"
+}

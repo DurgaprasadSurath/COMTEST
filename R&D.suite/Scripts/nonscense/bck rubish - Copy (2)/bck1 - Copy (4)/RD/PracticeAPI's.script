@@ -1,0 +1,9 @@
+﻿put url "https://dummy.restapiexample.com/api/v1/employee/1" into URL
+//Get URL
+//log the result
+//put ",[[Headers]]" after URL
+Get URL
+log it
+
+
+---------------------------------------------

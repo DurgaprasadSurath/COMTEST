@@ -1,0 +1,487 @@
+﻿2024-07-02 15:24:32.763 +0530	START		Running Today2506/rolling.script
+2024-07-02 15:24:32.890 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:32.895 +0530	Log		Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.030 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.037 +0530	Log		Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.094 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.096 +0530	Log		ular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.160 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.162 +0530	Log		lar T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.231 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.233 +0530	Log		T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.290 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.294 +0530	Log		■ T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.326 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.330 +0530	Log		Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.355 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.359 +0530	Log		Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.385 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.391 +0530	Log		Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.498 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.500 +0530	Log		.icbiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.532 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.534 +0530	Log		obiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.560 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.563 +0530	Log		biles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.590 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.593 +0530	Log		biles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.622 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.625 +0530	Log		ales	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.653 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.656 +0530	Log		ales	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.683 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.685 +0530	Log		?s	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.710 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.713 +0530	Log		?s	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.732 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.736 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.755 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.759 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.776 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.779 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.792 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.795 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.808 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.810 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.825 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.828 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.841 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.844 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.859 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.862 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.876 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.878 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.892 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.895 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.908 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.911 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.922 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.925 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.938 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.942 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.958 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.961 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.976 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.978 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.991 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:33.994 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.008 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.012 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.025 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.027 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.041 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.043 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.060 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.064 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.078 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.081 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.094 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.096 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.111 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.114 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.127 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.130 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.143 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.146 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.161 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.164 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.177 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.180 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.195 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.197 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.211 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.213 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.227 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.230 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.243 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.246 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.262 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.266 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.279 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.282 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.296 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.298 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.313 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.316 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.329 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.331 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.347 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.349 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.362 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.365 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.384 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.386 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.400 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.403 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.416 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.419 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.432 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.436 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.451 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.455 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.469 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.472 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.486 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.489 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.503 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.506 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.520 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.523 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.535 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.538 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.551 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.554 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.569 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.573 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.586 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.589 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.604 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.606 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.620 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.624 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.639 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.643 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.660 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.664 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.679 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.681 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.696 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.699 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.716 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.718 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.732 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.736 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.753 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.756 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.771 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.775 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.790 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.793 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.806 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.809 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.822 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.825 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.840 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.843 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.858 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.861 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.878 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.881 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.896 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.899 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.913 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.917 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.932 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.935 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.951 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.956 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.973 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.976 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.992 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:34.995 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.010 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.012 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.026 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.028 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.044 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.046 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.061 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.064 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.082 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.085 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.099 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.102 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.118 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.122 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.138 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.140 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.156 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.159 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.173 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.176 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.192 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.195 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.208 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.211 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.226 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.229 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.243 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.245 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.259 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.262 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.278 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.281 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.297 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.299 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.316 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.319 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.332 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.334 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.347 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.349 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.362 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.367 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.383 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.387 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.402 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.405 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.418 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.421 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.440 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.443 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.458 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.461 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.478 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.481 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.498 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.501 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.517 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.519 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.532 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.535 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.551 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.557 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.573 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.577 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.592 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.594 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.608 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.611 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.625 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.629 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.642 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.645 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.660 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.663 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.682 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.685 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.699 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.702 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.718 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.721 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.738 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.741 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.755 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.759 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.775 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.778 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.792 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.795 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.810 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.813 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.827 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.829 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.843 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.846 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.862 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.866 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.882 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.885 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.899 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.901 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.915 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.917 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.934 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.937 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.952 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.957 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.974 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.976 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.992 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:35.995 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.008 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.010 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.023 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.026 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.040 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.042 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.057 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.060 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.079 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.082 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.095 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.098 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.113 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.116 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.130 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.134 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.155 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.159 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.176 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.178 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.191 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.194 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.209 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.212 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.227 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.229 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.254 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.257 +0530	Log		■	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.284 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.288 +0530	Log		■	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.322 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.325 +0530	Log		u	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.348 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.350 +0530	Log		u	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.382 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.388 +0530	Log		u.	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.411 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.414 +0530	Log		u.	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.443 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.445 +0530	Log		U.S	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.473 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.477 +0530	Log		U.S	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.523 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.525 +0530	Log		U.S.C	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.571 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.575 +0530	Log		U.S.C	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.632 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.636 +0530	Log		U.S.Ct	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.669 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.672 +0530	Log		U.S.Cel	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.733 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.737 +0530	Log		U.S.Celli	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.793 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.795 +0530	Log		U.S.Cellul	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.881 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.884 +0530	Log		U.S.Cellulai	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.920 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.923 +0530	Log		U.S.Cellular ‘	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.951 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.955 +0530	Log		U.S.Cellular 1	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:36.997 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.000 +0530	Log		U.S.Cellular 1	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.057 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.060 +0530	Log		U.S.Cellular T-	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.096 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.100 +0530	Log		.Cellular	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.211 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.213 +0530	Log		U.S.Cellular T-Me	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.282 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.285 +0530	Log		U.S.Cellular T-Mob:	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.348 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.351 +0530	Log		U.S.Cellular T-Mobile	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.508 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.512 +0530	Log		U.S.CeUular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.566 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.568 +0530	Log		U.S.Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.633 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.637 +0530	Log		U.S.Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.739 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.741 +0530	Log		U.S.Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.824 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.828 +0530	Log		J.S.Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.933 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.937 +0530	Log		. S. Cellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.994 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:37.997 +0530	Log		ellular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.067 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.070 +0530	Log		llular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.123 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.126 +0530	Log		ular T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.187 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.189 +0530	Log		lar T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.219 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.222 +0530	Log		ar T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.277 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.280 +0530	Log		T-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.357 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.360 +0530	Log		r-Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.395 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.398 +0530	Log		Mobiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.490 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.493 +0530	Log		.icbiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.524 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.527 +0530	Log		obiles	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.554 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.557 +0530	Log		ales	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.590 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.594 +0530	Log		ales	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.622 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.625 +0530	Log		lies	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.652 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.661 +0530	Log		lies	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.689 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.691 +0530	Log		?s	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.720 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.723 +0530	Log		?s	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.745 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.748 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.773 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.776 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.791 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.794 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.808 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.810 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.825 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.829 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.843 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.846 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.861 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.864 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.878 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.881 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.896 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.899 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.912 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.915 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.928 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.931 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.943 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.946 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.965 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.969 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.983 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.985 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:38.999 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.002 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.017 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.019 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.033 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.035 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.052 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.055 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.077 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.080 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.094 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.096 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.110 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.113 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.126 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.129 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.144 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.147 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.161 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.167 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.180 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.183 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.198 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.201 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.215 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.217 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.230 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.233 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.246 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.248 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.266 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.270 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.288 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.292 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.308 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.312 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.329 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.331 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.346 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.350 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.376 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.380 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.399 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.402 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.418 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.421 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.433 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.436 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.450 +0530	readtext		(2,86,198,103)	2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.454 +0530	Log			2	on_rolling	Today2506/rolling.script
+2024-07-02 15:24:39.513 +0530	EndTestCase		(Duration:"6.745", Errors:"1", Exceptions:"0", StartTime:"2024-07-02 15:24:32 +0530", Successes:"0", TestCase:"Today2506/rolling.script", Warnings:"0")
+2024-07-02 15:24:39.523 +0530	ABORTED		Execution Time 0:00:06 Today2506/rolling.script

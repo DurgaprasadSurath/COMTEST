@@ -1,0 +1,4 @@
+﻿2024-10-28 13:33:09.205 +0530	START		Running Untitled3.script
+2024-10-28 13:33:09.320 +0530	Log		Santa Clarita	1	on_untitled3	Untitled3.script
+2024-10-28 13:33:09.326 +0530	EndTestCase		(Duration:"0.12", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 13:33:09 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 13:33:09.388 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

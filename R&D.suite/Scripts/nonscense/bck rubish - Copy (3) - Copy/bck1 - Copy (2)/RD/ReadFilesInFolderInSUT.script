@@ -1,0 +1,43 @@
+﻿
+-- Making the folder a network shared folder is a straightforward technique to get the number of files in the folder.
+getFileCountSharedFolder "\\DESKTOP-4JNNBPQ\Users\Testingserver\AppData\Local\eggplant\agent\Logs"
+
+to getFileCountSharedFolder folderPath
+	//command to count the number of files in a given folder
+	put the files in folderPath into FilesToBeExtracted
+	Log the number of items of FilesToBeExtracted
+end getFileCountSharedFolder
+
+
+
+
+-- Reading File count from SUT using Command Prompt
+getFileCount "C:\Users\Testingserver\AppData\Local\eggplant\agent\Logs"
+
+to getFileCount folderPath
+	//Open Run window in SUT
+	TypeText windowsKey, "r" 
+	wait 0.5
+	//Opening the Command Prompt
+	TypeText "cmd", return
+	wait 0.5
+	//Maximize the Command Prompt window
+	TypeText windowsKey, upArrow
+	wait 0.5
+	//Change the current working directory
+	TypeText "cd"&&folderPath, return
+	//Windows command to count the number of files in a given folder
+	TypeText "dir /a-d /b | find /c /v"&&quote&quote, return
+	wait 1 
+	//Using the Folder path as a reference, create a search rectangle to read the text.
+	put EveryImageLocation(text:folderPath, textDifference:2) into cmdPromtFolderPath
+	--set the SearchRectangle to [[-(remoteScreenSize().x-(item 2 of cmdPromtFolderPath).x),(item 2 of cmdPromtFolderPath).y+9.5],[(item 2 of cmdPromtFolderPath).x+350,(item 2 of cmdPromtFolderPath).y+30]]
+	--wait 6
+	--Log ReadText(the SearchRectangle)
+	Drag [0,(item 2 of cmdPromtFolderPath).y+9.5]
+	wait 0.5
+	Drop [(item 2 of cmdPromtFolderPath).x+350,(item 2 of cmdPromtFolderPath).y+30]
+	TypeText controlKey, "c"
+	Log RemoteClipboard()
+	--set the SearchRectangle to empty
+end getFileCount

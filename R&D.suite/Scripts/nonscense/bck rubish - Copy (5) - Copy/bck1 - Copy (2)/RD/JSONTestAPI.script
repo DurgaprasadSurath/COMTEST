@@ -1,0 +1,9 @@
+﻿to getJSONTestAPI authURL
+	put {"property" : ["Sites"], "report_type" : ["ALL"]} into postData
+	post postData to url authUrl with headers {"Content-Type":"application/json","Accept":"application/json","accept-encoding":"gzip,deflate"}
+
+	log it
+	
+end getJSONTestAPI
+
+getJSONTestAPI "http://ip.jsontest.com/"

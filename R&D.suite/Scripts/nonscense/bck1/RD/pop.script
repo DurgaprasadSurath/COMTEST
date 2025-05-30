@@ -1,0 +1,34 @@
+﻿put ("dog","cat","armadillo") into Animalia
+
+push "pig" into Animalia
+
+pop Animalia into Pets
+pop ￹stackList￺TP-EPF-TOKEN￻ into ￹variable￺TP-EPF-TOKEN￻
+
+put Pets 
+
+
+
+
+put ("dog","cat","armadillo") into Animalia
+
+push "hedgehog" into Animalia
+
+pull from Animalia into Pets
+
+put Pets //Returns "dog"
+
+
+shuffle the words of "we hold these truths to be self evident"
+put it
+
+put shuffle("bluebeard")
+
+
+put textDifference("Hobbit", "habit")
+put textDifference("Hobbit", "hobo")
+
+
+put trim(" my words ", "ms ") 
+put trimStart(" my words ")
+put " my words ".trimEnd("ms ")

@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/jira_demo.script",
+				"identifier": "START",
+				"timestamp": "2024-06-27 19:02:23.298 +0530"
+			},
+		{
+				"handlerName": "on_jira_demo",
+				"timestamp": "2024-06-27 19:02:30.013 +0530",
+				"message": "{\"id\":\"10505\",\"key\":\"MNP-6\",\"self\":\"https://ideabytes.atlassian.net/rest/api/2/issue/10505\"}",
+				"scriptName": "Today2506/jira_demo.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"6.74\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-27 19:02:23 +0530\", Successes:\"1\", TestCase:\"Today2506/jira_demo.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-27 19:02:30.060 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:06 Today2506/jira_demo.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-27 19:02:30.139 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-27 19:02:23.302 +0530"
+}

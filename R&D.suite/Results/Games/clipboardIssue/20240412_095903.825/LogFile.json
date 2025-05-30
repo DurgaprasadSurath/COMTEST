@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/clipboardIssue.script",
+				"identifier": "START",
+				"timestamp": "2024-04-12 09:59:03.834 +0530"
+			},
+		{
+				"handlerName": "on_clipboardissue",
+				"timestamp": "2024-04-12 09:59:03.978 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "Games/clipboardIssue.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clipboardissue",
+				"timestamp": "2024-04-12 09:59:04.745 +0530",
+				"message": "[controlKey]c",
+				"scriptName": "Games/clipboardIssue.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clipboardissue",
+				"timestamp": "2024-04-12 09:59:04.838 +0530",
+				"message": "床前明月光，\\n\\n疑是地上霜。\\n\\n举头望明月，\\n\\n低头思故乡。",
+				"scriptName": "Games/clipboardIssue.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"1.161\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-04-12 09:59:03 +0530\", Successes:\"1\", TestCase:\"Games/clipboardIssue.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-12 09:59:05.005 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:01 Games/clipboardIssue.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-12 09:59:05.187 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-12 09:59:03.839 +0530"
+}

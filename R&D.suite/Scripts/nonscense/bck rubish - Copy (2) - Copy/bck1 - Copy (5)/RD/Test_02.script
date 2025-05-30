@@ -1,0 +1,31 @@
+﻿put file "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\textdatafile.txt" into textfile
+(*create file "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\csvdatafile.csv"*)
+put "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\csvdatafile.csv" into Var1
+
+repeat with each line of textfile
+	open file Var1
+	if it begins with  "Company" then
+		put line repeatIndex() of textfile split by "-" into data
+		put item 2 of data into global company
+		put global company into item 1 of line repeatIndex() of file var1
+	else if it begins with  "Group" then
+		put line repeatIndex() of textfile split by "-" into data
+		put item 2 of data into global group
+		put global group into item 2 of line repeatIndex() of file var1
+	else if it begins with  "Prev Close (Rs)" then
+		put line repeatIndex() of textfile split by "-" into data
+		put item 2 of data into global prevclose
+		put global prevclose into item 3 of line repeatIndex() of file var1
+	else if it begins with  "Current Price (Rs)" then
+		put line repeatIndex() of textfile split by "-" into data
+		put item 2 of data into global currentprice
+		put global currentprice into item 4 of line repeatIndex() of file var1
+	else if it begins with  "% Change" then
+		put line repeatIndex() of textfile split by "-" into data
+		put item 2 of data into global change
+		put global change into item 5 of line repeatIndex() of file var1
+	end if
+	close file Var1	
+end repeat
+
+

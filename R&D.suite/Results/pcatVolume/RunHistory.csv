@@ -1,0 +1,4 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-10-16 15:15:25.163 +0530,"Success",0:00:01,0,0,0,"20241016_151525.163/LogFile.txt","","",1
+2024-10-16 15:16:09.719 +0530,"Success",0:00:01,0,0,0,"20241016_151609.719/LogFile.txt","","",1
+2024-10-16 15:16:20.517 +0530,"Failure",0:00:00,1,0,0,"20241016_151620.517/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'volumeupbutton'",0

@@ -1,0 +1,3 @@
+﻿put GetListOfAgents() into Response
+put Response.responseBody into APIResponse
+log APIResponse

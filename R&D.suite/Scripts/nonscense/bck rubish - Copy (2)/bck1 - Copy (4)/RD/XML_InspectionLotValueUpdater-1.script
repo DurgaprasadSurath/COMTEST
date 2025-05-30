@@ -1,0 +1,28 @@
+﻿
+InspectionLotValueUpdater {XMLFileNameToRead:"InspectionLotValueUpdater.xml", XMLFileNameToWrite:"UpdatedLotId.xml"} by name
+
+to handle InspectionLotValueUpdater
+	params XMLFileNameToRead, XMLFileNameToWrite
+	put file ResourcePath(XMLFileNameToRead) as a tree into XMLTree
+	put the number of items of (all nodes "//Rowset" of XMLTree) into RowsetTagCount
+	repeat RowsetTagCount times 
+		put repeatIndex() into OuterLoopCount
+		put "*/Rowset["&OuterLoopCount&"]/Row" into RowTags
+		put the number of items of (all nodes RowTags of XMLTree) into RowTagCount
+		repeat RowTagCount times
+			put "*/Rowset["&OuterLoopCount&"]/Row["&repeatIndex()&"]/INSPECTIONLOT" into InspectionLotTagPath
+			put 4&randomGen() into  node InspectionLotTagPath of XMLTree		
+			wait 1
+		end repeat
+	end repeat	
+	put XMLTree into file ResourcePath(XMLFileNameToWrite) 
+	Log "Update is Done!"
+end InspectionLotValueUpdater
+
+To handle randomGen
+	put the abbrev time into time_t
+	delete every occurrence of  ":" in time_t
+	put the date into date_t
+	split date_t by "/"
+	return item 1 of date_t& item 2 of date_t&time_t
+End randomGen

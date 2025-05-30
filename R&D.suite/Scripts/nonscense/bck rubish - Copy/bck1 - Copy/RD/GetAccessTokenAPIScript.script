@@ -1,0 +1,51 @@
+﻿put {grant_type: "client_credentials", username: "vijayalaxmi", password: "Ideabytes@123", client_id: "client:dai:agent:integration", client_secret:"249daf3f-2a7a-4072-9b63-15f393a4ba4a"} into postData
+
+put "http://localhost:8000/auth/realms/eggplant/protocol/openid-connect/token" into authUrl
+
+post postData to url authUrl// Access the resource using the access token
+log the JSONValue of it
+put the access_token of the JSONValue of it into Global accessToken
+put the refresh_token of the JSONValue of it into Global refreshToken
+#log "AccessToken" && Global accessToken
+put "Bearer " before Global accessToken
+log Global accessToken
+
+
+put GetListOfModels().responseBody into APIResponse
+log APIResponse
+
+
+
+
+put "test" into var
+put "first" before var
+log var
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(*put "xxxxxx" into username
+put "xxxxxx" into password
+put "client:dai:agent:integration" into clientId
+put "xxxxxxx-xxxxxxx-xxxx-xxxxxxxxxxx" into clientSecret //ENTER YOUR SECRET ID HERE
+put "http://10.208.18.122:8000/auth/realms/eggplant/protocol/openid-connect/token" into authUrl// Post the credentials to the auth server. This will return the access token
+put {grant_type: "client_credentials", username: username, password: password, client_id: clientId, client_secret:clientSecret} into postData
+post postData to url authUrl// Access the resource using the access token
+put the access_token of the JSONValue of it into Global accessToken
+log Global accessToken*)

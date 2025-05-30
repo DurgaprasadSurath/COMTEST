@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/ScalingProperty_script" package="R&amp;D.suite" timestamp="2024-04-03 20:27:44.610 +0530"
+ tests="1"  failures="1" errors="1" time="13.528000">
+  <properties>
+   <property name="RunDate" value="2024-04-03 20:27:44.610 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Games/ScalingProperty.script" assertions="1" status="error"  time="0.092">
+    <failure type="FAILURE" message="No Remote Connection: imagelocation Error - Remote Connection Unavailable -- Execution Time 0:00:13 Games/ScalingProperty.script" />
+    <error type="Exception" message="Remote Connection Unavailable" />
+  </testcase>
+ </testsuite>
+</testsuites>

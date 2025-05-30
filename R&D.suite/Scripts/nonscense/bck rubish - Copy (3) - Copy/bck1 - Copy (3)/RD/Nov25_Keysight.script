@@ -1,0 +1,290 @@
+﻿
+to handle hook_before_feature
+	TypeText Altkey,F2
+	set the SearchRectangle to SearchScreen.ScreenPart("Center")
+	waitfor 20,text:"Application Finder"
+	set the SearchRectangle to Empty
+	TypeText "google-chrome",return
+	TypeText "https://www.keysight.com/in/en/home.html",return   
+	wait 2
+	if ImageFound(text:"Cookies on Keysight", waitFor:20) then
+		Click text:"AGREE AND PROCEED",caseSensitive:true,waitfor:30
+		wait 3
+		if ImageFound(text:"Preference Request Submitted", waitFor:15) then
+			Click text:"CLOSE",caseSensitive:true,waitfor:30
+		end if
+	end if
+	wait 5
+end hook_before_feature
+
+to handle hook_after_feature
+	TypeText controlKey,"w"
+end hook_after_feature
+
+to handle hook_after_scenario
+	params var
+	if var.Name is "Searching for the product cart options" then 
+		Log "Done"
+	else
+		set the SearchRectangle to SearchScreen.ScreenPart("TopNavigationBar")
+		DoubleClick {Image:"url_replace", WaitFor:10}
+		//DoubleClick {Image:"Refresh_Button_2", WaitFor:15.6}
+		TypeText controlKey,"a"
+		wait 1
+		set the SearchRectangle to []
+		TypeText "https://www.keysight.com/in/en/home.html",return   
+	end if
+	
+	if ImageFound(text:"Cookies on Keysight", waitFor:20) then
+		Click text:"AGREE AND PROCEED",caseSensitive:true,waitfor:30
+		wait 3
+		if ImageFound(text:"Preference Request Submitted", waitFor:15) then
+			Click text:"CLOSE",caseSensitive:true,waitfor:30
+		end if
+	end if
+end hook_after_scenario
+
+to handle selecting_the_country
+	set the SearchRectangle to SearchScreen.ScreenPart("TopHalf")
+	put ImageLocation(imageName:"url_replace") into TabName
+	set the SearchRectangle to []
+	set the SearchRectangle to [[TabName.x- 120,TabName.y-25],[TabName.x+1400,TabName.y+20]]
+	put ReadText(the SearchRectangle) into Url
+	Log Url
+	set the SearchRectangle to []
+	if Url contains "in" then
+		Log "region is india"
+	else
+		repeat until ImageFound(imageName:"Globe_2",waitfor:5)
+			ScrollWheelUp 3
+		end repeat
+		if ImageFound(ImageName:"Globe_2",waitfor:5) then 
+			MoveTo {Image:"Globe_2", WaitFor:14.6}
+		end if
+		Click {Image:"Globe_2", WaitFor:14.6}
+		wait 4
+		Click text:"India",waitfor:20
+	end if
+end selecting_the_country
+
+to handle validate_the_contry
+	wait 5
+	set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	if ImageFound(text:"Electronic design") then
+		put ImageLocation(text:"Electronic design") into TabName
+	else 
+		put ImageLocation(text:"Resources | Key") into TabName
+	end if
+	set the SearchRectangle to []
+	set the SearchRectangle to [[TabName.x+35,TabName.y+60],[TabName.x+1500,TabName.y+20]]
+	put ReadText(the SearchRectangle) into Url
+	set the SearchRectangle to []
+end validate_the_contry
+
+to handle User_enters_the_product
+	click imageName:"SearchIcon",waitfor:10
+	TypeText "N2826A",return
+	wait 5
+end User_enters_the_product
+
+to handle the_product_should_be_opened
+	set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	put ImageLocation(imageName:"KEYSIGHTTECHNOLOGIES_LOGO") into LOGO
+	set the SearchRectangle to []
+	set the SearchRectangle to [[LOGO.x- 530,LOGO.y+ 280],[LOGO.x+1450,LOGO.y+120]]
+	put ReadText(the SearchRectangle) into NAME
+	set the SearchRectangle to []
+	if NAME contains "N2826A" then 
+		Log NAME
+		Log "Product page is opened"
+	end if
+end the_product_should_be_opened
+
+to handle validate_the_product
+	wait 5
+	set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	put ImageLocation(imageName:"KEYSIGHTTECHNOLOGIES_LOGO") into LOGO
+	set the SearchRectangle to []
+	set the SearchRectangle to [[LOGO.x+500,LOGO.y+ 650],[LOGO.x+1400,LOGO.y+260]]
+	put ReadText(the SearchRectangle) into NAME
+	Log NAME
+	set the SearchRectangle to []
+	
+end validate_the_product
+
+to handle select_the_oscilloscopes
+	Click text:"PRODUCTS + SERVICES",waitfor:12
+	wait 3
+	Click text:"Oscilloscopes + Analyzers",textDifference:1,waitfor:30
+	wait 6
+	Click ImageLocation(text:"Oscilloscopes + Analyzers",textDifference:1)+[262,-6]
+	waitfor 20,text:"Spectrum Analyzers (Signal Analyzers)"
+	wait 5
+end select_the_oscilloscopes
+
+to handle search_for_view_all_option
+	repeat until ImageFound(Image:"ImageSwipeButton", WaitFor:6.5)
+		ScrollWheelDown 4
+	end repeat
+	wait 3
+	if ImageFound(Image:"ImageSwipeButton", WaitFor:6.5) then 
+		MoveTo ImageLocation(Image:"ImageSwipeButton", WaitFor:6.5)
+		wait 5
+		
+	end if
+	click ImageLocation(Image:"ImageSwipeButton", WaitFor:6.5)
+	wait 6
+	click text:"View All",waitfor:15
+	wait 6
+end search_for_view_all_option
+
+to handle validate_the_filters
+	wait 6
+	put ImageLocation(text:"Filter By", waitFor:10) into fiterBy
+	set the SearchRectangle to [[fiterBy.x- 80,fiterBy.y+20],[fiterBy.x+180,fiterBy.y+700]]
+	Log ReadText(the SearchRectangle)
+	set the SearchRectangle to []
+end validate_the_filters
+
+to handle click_on_the_papers
+	Click text:"RESOURCES"
+	wait 6
+	repeat until ImageFound("ImageSwipeButton")
+		ScrollWheelDown 3
+	end repeat
+	waitfor 10,text:"LATEST WHITE PAPERS"
+end click_on_the_papers
+
+to handle select_a_pdf
+	wait 5
+	put ImageLocation(text:"LATEST WHITE PAPERS",caseSensitive:true) into whitepapers
+	set the SearchRectangle to [[whitepapers.x- 900,whitepapers.y+40],[whitepapers.x+900,whitepapers.y+300]]
+	MoveTo text:"White Papers",caseSensitive:true,waitfor:10
+	Click text:"White Papers",caseSensitive:true,waitfor:10
+	set the SearchRectangle to []
+	wait 5
+end select_a_pdf
+
+to handle enter_the_details_in_form
+	set the SearchRectangle to SearchScreen.ScreenPart("RightHalf")
+	if ImageFound(text:"Email",caseSens:true, waitFor:30)
+		Click text:"Email", waitfor:30
+		TypeText "Abc123@gmail.com"
+		wait 3
+		Click ImageLocation(text:"Not at this time") - [54,0]
+		Click text:"Continue",waitfor:5
+	end if
+	set the SearchRectangle to []
+	set the SearchRectangle to SearchScreen.ScreenPart("RightHalf")
+	if ImageFound(text:"First Name", waitFor:5) and if ImageFound(text:"Last Name", waitFor:15) then
+		Click text:"First Name", waitfor:30
+		TypeText "Jhon"
+		Click text:"Last Name", waitfor:30
+		TypeText "DC"
+		Click text:"Company", waitfor:30
+		TypeText "Abc123"
+		//CommanHandlers.textBox "First Name", "Jhon"
+		//CommanHandlers.textBox "Last Name", "DC"
+		//CommanHandlers.textBox "Company", "ABC"
+		Click text:"Please select",waitfor:15
+		Click text:"India",waitfor:15
+		Click text:"Company", waitfor:30
+		TypeText "Abc123"
+		(*CommanHandlers.textBox "Business Phone", 123456789
+		repeat until ImageFound(text:"Download",waitfor:20)
+			ScrollWheelDown 4
+		end repeat
+		CommanHandlers.textBox "Job Title", "Testing"
+		//Click text:"Download",waitfor:5*)
+	else if ImageFound(text:"Job Level", waitFor:15) 
+		Click ImageLocation(text:"Job Level")+[0,33]
+		Click text:"Student",waitfor:15
+		wait 1
+		Click ImageLocation(text:"Job Responsibility")+[0,33]
+		Click text:"Information Technology",waitfor:15
+		wait 1
+		Click ImageLocation(text:"Job Role")+[0,33]
+		Click text:"Test Engineer",waitfor:15
+		wait 1
+		Click ImageLocation(text:"Job Role")+[0,112]
+		//Click ImageLocation(text:"Industry")+[0,33]
+		Click text:"Automotive",waitfor:15
+	else
+		//Click text:"Download",waitfor:5
+		set the SearchRectangle to empty
+	end if
+	TypeText controlKey,"w"
+	
+end enter_the_details_in_form
+
+to handle validate_the_form
+	Log "form validation"
+end validate_the_form
+
+to handle selected_the_product
+	set the SearchRectangle to SearchScreen.ScreenPart("TopRightQuadrant")
+	repeat until ImageFound(imageName:"SearchIcon", waitFor:10)
+		ScrollWheelUp 3
+	end repeat
+	set the SearchRectangle to []
+	Click imageName:"SearchIcon",waitfor:10
+	TypeText "N2826A",return
+	wait 5
+end selected_the_product
+
+to handle change_the_country_to_US
+	set the SearchRectangle to SearchScreen.ScreenPart("TopLeftQuadrant")
+	put ImageLocation(text:"N2826A Replacement") into TabName
+	set the SearchRectangle to []
+	set the SearchRectangle to [[TabName.x+35,TabName.y+60],[TabName.x+1500,TabName.y+20]]
+	put ReadText(the SearchRectangle) into Url
+	set the SearchRectangle to []
+	if Url contains "us" then
+		Log "region is US"
+	else
+		Click {Image:"Globe_2", WaitFor:15}
+		wait 5
+		Click text:"United States",waitfor:15
+		wait 5
+	end if
+end change_the_country_to_US
+
+to handle click_buy_and_add_it_to_cart
+	Click text:"Buy Now",caseSensitive:true,waitfor:15
+	wait 3
+	Click text:"View Cart",waitfor:16
+	wait 5
+end click_buy_and_add_it_to_cart
+
+
+to handle select_VAR__and_VAR
+	params QUANTITY, Enter_Promotion_Code
+	if ImageFound(text:"QUANTITY",waitfor:30) then 
+		Log "Quantity option is available"
+	end if
+	put ImageLocation(text:"QUANTITY")+[0,42] into temp
+	Click temp
+	set the SearchRectangle to [[temp.x- 50,temp.y],[temp.x+50,temp.y+200]]
+	Click text:QUANTITY,waitfor:15
+	set the SearchRectangle to empty
+	wait 4
+	set the SearchRectangle to SearchScreen.ScreenPart("LeftHalf")
+	Click text:"Enter Promotion Code",waitfor:30
+	wait 6
+	if ImageFound(text:"Promtion Code", waitFor:30) then
+		Log "Enter Promotion Code Functionality is working"
+	end if
+	Click text:"Promotion Code",waitfor:30
+	wait 3
+	TypeText Enter_Promotion_Code
+	wait 2
+	set the SearchRectangle to []
+end select_VAR__and_VAR
+
+to handle validate_the_cart_options_and_VAR
+	params packageDelivery
+	put ImageLocation(text:packageDelivery) into temp
+	set the SearchRectangle to [[temp.x- 50,temp.y],[temp.x+140,temp.y+140]]
+	Log ReadText(the SearchRectangle)
+	set the SearchRectangle to []
+end validate_the_cart_options_and_VAR

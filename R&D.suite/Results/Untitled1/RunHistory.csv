@@ -1,0 +1,9 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-10-24 11:22:38.690 +0530,"Failure",0:00:00,1,0,0,"20241024_112238.690/LogFile.txt","","Error 200 in Eggplant -- File Transfers are Not Supported on this connection.",0
+2024-10-24 11:38:43.677 +0530,"Success",0:00:00,0,0,0,"20241024_113843.677/LogFile.txt","","",1
+2024-10-24 11:40:02.701 +0530,"Success",0:00:00,0,0,0,"20241024_114002.701/LogFile.txt","","",1
+2024-10-24 11:40:07.832 +0530,"Success",0:00:00,0,0,0,"20241024_114007.832/LogFile.txt","","",1
+2024-10-24 11:44:07.766 +0530,"Success",0:00:00,0,0,0,"20241024_114407.766/LogFile.txt","","",1
+2024-10-24 12:25:24.358 +0530,"Failure",0:00:00,1,0,0,"20241024_122524.358/LogFile.txt","","Remote Connection Unavailable -- A connection is required to copy a file from the SUT",0
+2024-10-24 12:25:42.411 +0530,"Success",0:00:00,0,0,0,"20241024_122542.411/LogFile.txt","","",1
+2024-10-24 12:26:43.750 +0530,"Success",0:00:00,0,0,0,"20241024_122643.750/LogFile.txt","","",1

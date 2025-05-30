@@ -1,0 +1,5 @@
+﻿2024-06-27 17:41:06.176 +0530	START		Running Today2506/jira_demo.script
+2024-06-27 17:41:07.079 +0530	Log		eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiJmYjExNjE2OC0wZjNjLTNhZTgtYjMzZS1kODdmYjY5ODU1OTEiLCJhY2NvdW50SWQiOiI2Mzg5Yzg1MzVmYzE2MDU0NGUxY2FmYmIiLCJpc1hlYSI6ZmFsc2UsImlhdCI6MTcxOTQ5MDI2NiwiZXhwIjoxNzE5NTc2NjY2LCJhdWQiOiI4MzU5QzBEN0IxRTE0QkU1OUU2NTk2RjY4REEwRkY1QyIsImlzcyI6ImNvbS54cGFuZGl0LnBsdWdpbnMueHJheSIsInN1YiI6IjgzNTlDMEQ3QjFFMTRCRTU5RTY1OTZGNjhEQTBGRjVDIn0.y9d8wA6kULsF_aOVswi1l_LD6HJWE_xE0ZgsQ4viqg8	8	on_jira_demo	Today2506/jira_demo.script
+2024-06-27 17:41:07.851 +0530	Log		{"error":"Missing results file in the xray results import multipart request"}	13	on_jira_demo	Today2506/jira_demo.script
+2024-06-27 17:41:07.897 +0530	EndTestCase		(Duration:"1.712", Errors:"0", Exceptions:"0", StartTime:"2024-06-27 17:41:06 +0530", Successes:"1", TestCase:"Today2506/jira_demo.script", Warnings:"0")
+2024-06-27 17:41:07.945 +0530	SUCCESS		Execution Time 0:00:01 Today2506/jira_demo.script

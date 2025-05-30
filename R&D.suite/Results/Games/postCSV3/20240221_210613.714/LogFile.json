@@ -1,0 +1,27 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/postCSV3.script",
+				"identifier": "START",
+				"timestamp": "2024-02-21 21:06:13.727 +0530"
+			},
+		{
+				"handlerName": "on_postcsv3",
+				"timestamp": "2024-02-21 21:06:14.492 +0530",
+				"scriptName": "Games/postCSV3.script",
+				"identifier": "Log",
+				"handlerLine": 15
+			},
+		{
+				"message": "(Duration:\"0.785\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-21 21:06:13 +0530\", Successes:\"1\", TestCase:\"Games/postCSV3.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-21 21:06:14.521 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/postCSV3.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-21 21:06:14.754 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-21 21:06:13.734 +0530"
+}

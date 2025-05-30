@@ -1,0 +1,10 @@
+﻿2024-03-18 14:39:45.211 +0530	START		Running Games/Harman-1.script
+2024-03-18 14:39:45.269 +0530	Log		[960,540]	1	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:45.272 +0530	setoption		MouseMoveSpeed = 10	3	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:45.276 +0530	mousebuttondown		Button:2	4	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:47.236 +0530	moveto		at (1440, 810)	5	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:47.944 +0530	mousebuttonup		Button:2	6	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:47.949 +0530	Log		[1440,810]	24	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:47.953 +0530	Log		[960,540]	25	on_harman_1	Games/Harman-1.script
+2024-03-18 14:39:47.979 +0530	EndTestCase		(Duration:"2.761", Errors:"0", Exceptions:"0", StartTime:"2024-03-18 14:39:45 +0530", Successes:"1", TestCase:"Games/Harman-1.script", Warnings:"0")
+2024-03-18 14:39:48.105 +0530	SUCCESS		Execution Time 0:00:02 Games/Harman-1.script

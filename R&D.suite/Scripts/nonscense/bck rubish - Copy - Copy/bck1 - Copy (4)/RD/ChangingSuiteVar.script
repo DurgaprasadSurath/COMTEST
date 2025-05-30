@@ -1,0 +1,9 @@
+﻿put url ChangeURL as a tree into myTree
+//Log myTree
+
+put "1" into Temp
+Log Temp
+
+set Count to {site:"google,yahoo"}
+Log Count
+

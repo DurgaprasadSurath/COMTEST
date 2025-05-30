@@ -1,0 +1,14 @@
+﻿to handle ScriptGenerator fileContents
+	put file ResourcePath(fileContents)  into JsonFile
+	put JSONValue(JsonFile) into DenverInfo
+	put DenverInfo.item into TestcaseContent2
+	put the SuiteInfo.path & "/APITests" into APITestsFolder
+	repeat with each item of TestcaseContent2
+		put APITestsFolder&"/"&it.name&".apitest" into name
+		create file APITestsFolder&"/"&it.name&".apitest"
+		put "{URLparameters = ({checkedNumber = <*BY>;param = starttime;showCheckedNumber = <*BY>;value = "&quote&"[[todayandtime]]"&quote&";});authenticationType = None;httpVerb = "&quote&it.request.method&quote&";oauth1Token = "&quote&quote&";password = "&quote&quote&";requestBody = "&quote&quote&";requestBodyFormat = "&quote&"Form Url Encoded"&quote&";requestHeaders = "&quote&"<![CDATA[authorization:Bearer [[accessToken]]]]>"&quote&";requests = "&quote&quote&";testResults = "&quote&quote&";testScript = "&quote&quote&";url ="&quote&it.request.url.raw&quote&";userName = "&quote&quote&";}" into file name
+	end repeat
+end ScriptGenerator
+
+
+ScriptGenerator "DAI.json"

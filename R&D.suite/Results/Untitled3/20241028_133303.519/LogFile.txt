@@ -1,0 +1,4 @@
+﻿2024-10-28 13:33:03.520 +0530	START		Running Untitled3.script
+2024-10-28 13:33:03.598 +0530	Log		Kettering	1	on_untitled3	Untitled3.script
+2024-10-28 13:33:03.614 +0530	EndTestCase		(Duration:"0.094", Errors:"0", Exceptions:"0", StartTime:"2024-10-28 13:33:03 +0530", Successes:"1", TestCase:"Untitled3.script", Warnings:"0")
+2024-10-28 13:33:03.662 +0530	SUCCESS		Execution Time 0:00:00 Untitled3.script

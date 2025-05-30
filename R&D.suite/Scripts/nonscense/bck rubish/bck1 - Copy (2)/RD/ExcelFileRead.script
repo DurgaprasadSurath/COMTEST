@@ -1,0 +1,128 @@
+﻿APItestcases "Data.xlsx","1"
+
+to handle APItestcases
+	params TestDataFile,SheetName
+	set MyExcelFile to Workbook(ResourcePath(TestDataFile))
+	set Sheet to worksheet(MyExcelFile,SheetName)
+	Log Sheet's cell(1,1)
+	Log the common date of Sheet's cell(2,1)
+	Log the common date of Sheet's cell(3,1)
+	Log the common date of  Sheet's cell(4,1)
+	Log Sheet's cell(5,1)
+	
+end APItestcases
+
+
+APItestcases "Data.xlsx","1"
+//cell(6,1) contains ,,[a,b,c],d
+to handle APItestcases
+	params TestDataFile,SheetName
+	set MyExcelFile to Workbook(ResourcePath(TestDataFile))
+	set Sheet to worksheet(MyExcelFile,SheetName)
+	put Sheet's cell(6,1) into temp
+	//put [] into ListValues
+	put "["&temp&"]"  into ListValues
+	put ListValues as list into tewq
+	log tewq
+	repeat the number of items of tewq times
+		log item repeatIndex() of tewq	
+	end repeat
+end APItestcases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set var  to  "Global"
+put 
+set var2 to "SUTName"  
+put var&&var2 into var3
+log var3
+put (log var3)
+
+put 199 into var3
+
+
+to CharUsageStats  string
+
+	repeat with each char of string
+		add 1 to r's (it)
+		log r's (it)
+	end repeat
+	
+	return r
+	
+end CharUsageStats
+
+CharUsageStats "repeat the number of lines of MyCSVfile times"
+Log the result
+
+
+
+
+set MyCSVfile to file ResourcePath("InitialToFinal_TestData_UAT.csv")
+
+repeat the number of lines of MyCSVfile times
+	repeat the number of items of line 1 of MyCSVfile
+		put item repeatIndex() of line 1 of MyCSVfile into item repeatIndex() of global var
+		set temp1 to repeatIndex()
+		log var
+		repeat the number of items of line  repeatIndex()+1  of MyCSVfile times
+			log  item  repeatIndex()  of line  repeatIndex()+1 of MyCSVfile
+			//set "Global"&&var to item  repeatIndex()   of line  repeatIndex()+1 of MyCSVfile
+			
+			//put item repeatIndex() of line repeatIndex()+1 of MyCSVfile into value("Global"&&var)
+			Log "Global"&&var 
+			if repeatIndex()  is greater than temp1 then
+				exit repeat
+			end if
+		end repeat
+		
+	end repeat
+	
+end repeat
+
+
+set universal text to "Hi"
+set universal message to "Hope doing good"
+
+
+repeat with each item of the universalNames
+	
+	put "Universal " & it & " is " & value("universal " & it)
+	
+end repeat
+//////////////////////////////////
+
+set temp to 10
+set var to "temp"
+
+put temp
+put var
+put value(var)
+/////////////////////////////////
+
+put  [var1, var2, var3, var4, var5] into DataList
+
+put [10,20,30,40,50] into ValueList
+
+repeat with each Data in DataList
+	
+	set item repeatIndex() of DataList to item repeatIndex() of ValueList 
+	Log value(item repeatIndex() of DataList ) 
+	
+end repeat
+Log var1
+Log value(var1)

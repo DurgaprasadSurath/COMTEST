@@ -1,0 +1,86 @@
+﻿set the ScriptLogging to off
+
+--Excel Interaction
+set Global MyExcelFile to ResourcePath("GoogleTrends.xlsx")
+set Global MyTestDataFile to Workbook(Global MyExcelFile)
+set Global SheetName to worksheet(Global MyTestDataFile,1)
+put "Date" into Global SheetName's Cell(1,1) 
+put "Pho" into Global SheetName's Cell(1,2) 
+put "Ramen" into Global SheetName's Cell(1,3) 
+put "Soba" into Global SheetName's Cell(1,4) 
+
+
+--Fetching Data from graph
+TypeText windowsKey,r
+TypeText "Chrome https://trends.google.com/trends/explore?date=today%201-m&q=%2Fm%2F02y17j,%2Fm%2F09gms,%2Fm%2F012y1_",return
+wait 3
+TypeText controlKey,0
+WaitForAll 30, {text:"Google Trends",caseSensitive:true,SearchRectangle: SearchArea.ScreenPart("LeftHalfOfTopLeftQuadrant")},{text:"Interest over time",caseSensitive:true,validWords:"*",SearchRectangle: SearchArea.ScreenPart("BottomHalfOfTopHalf")}
+put ImageLocation(text:"Average",SearchRectangle: SearchArea.ScreenPart("TopHalfOfBottomHalf")) into AvgPlace
+set the SearchRectangle to [[AvgPlace.x+60,AvgPlace.y-7],[AvgPlace.x+160,AvgPlace.y+10]]
+wait 2
+put ReadText(the SearchRectangle,dpi:144,preferDictionarywords:off) into LableName
+put ImageLocation(text:LableName,dpi:144,preferDictionarywords:off) into LableNameLocation
+set loc to 30
+set loc2 to 0
+//set loc3 to 40
+repeat until ImageFound(imageName:"ShareIcon", waitFor:05,SearchRectangle:[[LableNameLocation.x+loc2,LableNameLocation.y-250],[LableNameLocation.x+loc,LableNameLocation.y-320]])
+	MoveTo [LableNameLocation.x+loc2,LableNameLocation.y-96]
+	set the SearchRectangle to [[LableNameLocation.x-50,LableNameLocation.y],[LableNameLocation.x+1000,LableNameLocation.y-250]]
+	put ImageLocation(text:"Ramen") into RamenLabel
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-81],[RamenLabel.x+84,RamenLabel.y-45]]
+	put ReadText(the SearchRectangle,dpi:144) into Date
+	put Date into Global SheetName's Cell(repeatIndex()+1,1) 
+	Log Date
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-45],[RamenLabel.x+84,RamenLabel.y-17]]
+	put ReadText(the SearchRectangle) into PhoValue
+	if PhoValue is empty then 
+		exit repeat
+	end if
+	if PhoValue contains newline  then 
+		split PhoValue by newline 
+		//if item 2 of PhoValue is not empty then
+		put item 2 of PhoValue into Global SheetName's Cell(repeatIndex()+1,2)
+		//else 
+		//Log "There is No Value to fetech"
+		//exit repeat
+		//end if 
+	else if PhoValue contains tab  then 
+		split PhoValue by tab 
+		if item 2 of PhoValue is not empty then
+			put item 2 of PhoValue into Global SheetName's Cell(repeatIndex()+1,2)
+		else 
+			Log "There is No Value to fetech"
+			exit repeat
+		end if 
+	end if
+	Log  item 1 of PhoValue&"-"& item 2 of PhoValue
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-15],[RamenLabel.x+84,RamenLabel.y+13]]
+	put ReadText(the SearchRectangle) into RamenValue
+	if RamenValue contains newline   then 
+		split RamenValue by newline 
+		put item 2 of RamenValue into Global SheetName's Cell(repeatIndex()+1,3)
+	else if RamenValue contains tab then 
+		split RamenValue by tab 
+		put item 2 of RamenValue into Global SheetName's Cell(repeatIndex()+1,3)
+	end if
+	Log  item 1 of RamenValue&"-"& item 2 of RamenValue
+	set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y+13],[RamenLabel.x+84,RamenLabel.y+47]]
+	put ReadText(the SearchRectangle) into SobaValue
+	if SobaValue contains newline  then 
+		split SobaValue by newline 
+		put item 2 of SobaValue into Global SheetName's Cell(repeatIndex()+1,4)
+	else if SobaValue contains tab 
+		split SobaValue by newline 
+		put item 2 of SobaValue into Global SheetName's Cell(repeatIndex()+1,4)
+	end if
+	Log  item 1 of SobaValue&"-"& item 2 of SobaValue
+	set loc to loc + 30
+	set loc2 to loc2 + 30
+	//set loc3 to loc3 + 40
+end repeat
+
+
+
+
+//set the SearchRectangle to [[RamenLabel.x-37,RamenLabel.y-81],[RamenLabel.x+84,RamenLabel.y+47]]

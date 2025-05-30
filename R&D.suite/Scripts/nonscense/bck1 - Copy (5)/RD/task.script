@@ -1,0 +1,78 @@
+﻿(*put [5,5.9,5.13,12.39,15,5.236,5.736] into List
+Put the number of items of List into Count
+set the numberFormat to "00.000"
+put List as text
+repeat Count times 
+	delete last character of item repeatIndex() of List
+	put item repeatIndex() of List
+end repeat*)
+/////////////////////////////////////////
+
+(*
+repeat Count times 
+	put  item repeatIndex() of List rounded to 2 places into List_2
+end repeat
+*)
+
+
+(*if item repeatIndex() of List contains "." then 
+		split item repeatIndex() of List by "." 
+		put item repeatIndex() of List  into temp
+		repeat the number of items of temp 
+			//log item repeatIndex() of temp
+			if the number of chars in item repeatIndex() of temp > 2 
+				put  item repeatIndex() of temp into item repeatIndex() of temp2
+			else 
+				put 0 before the first character  of  temp2 // item repeatIndex() of temp
+				
+				Log temp2
+			end if
+		end repeat
+	else
+		if the number of chars in item repeatIndex() of temp < 2 
+			put  item repeatIndex() of temp into item repeatIndex() of temp2
+		end if
+		
+	end if*)
+//end repeat
+///////////////////////////////////////
+set myList to [5,1.8,1.05,15,15.05,15.505]
+put the number of items of myList into Count2
+repeat Count2 times
+	put item repeatIndex() of myList into listItem
+	if listItem contains "." then
+		split listItem by "."
+		put listItem into temp
+		put the number of items of temp into count
+		repeat count times
+			if repeatindex() is 1
+				if length(item repeatindex() of temp) is 1 then
+					put "0" before item repeatindex() of temp
+				end if
+			else if repeatIndex() is 2
+				if length(item repeatindex() of temp) is 1 then
+					put "0" after item repeatindex() of temp
+				else if  length(item repeatindex() of temp) > 2 then
+					delete last character of item repeatIndex() of  temp
+				end if
+			end if
+		end repeat
+		join temp by "."
+		insert temp into newTemp	
+	else 
+		if length(listItem) < 2 then 
+			put "0" before listItem
+			put ".00" after  listItem
+			put listItem into item repeatIndex() of newTemp
+		else if  length(listItem) = 2 then 
+			put ".00" after  listItem
+			put listItem into item repeatIndex() of newTemp
+		end if
+	end if
+end repeat
+set the listFormat to {prefix:"[",suffix:"]",separator: ","}
+log newTemp
+
+put ReadText([355,182],[552,380]) into List2
+Log List2
+

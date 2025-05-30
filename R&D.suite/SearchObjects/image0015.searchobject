@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999649.4879999,
+	"ocrcapturestring": "eieci",
+	"originalcapturelocation": [
+		460,
+		408,
+		70,
+		30
+	],
+	"createddate": 1724999649.4879999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "eieci",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_45",
+					"HotSpot": "[35,14]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					460,
+					408,
+					70,
+					30
+				],
+				"name": "image0015.png"
+			}
+	],
+	"name": "image0015"
+}

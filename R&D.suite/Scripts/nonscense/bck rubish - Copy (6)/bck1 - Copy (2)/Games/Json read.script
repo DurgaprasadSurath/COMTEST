@@ -1,0 +1,12 @@
+﻿(*set JsonData to file ResourcePath("test.json") 
+//Log JsonData
+put JSONValue(JsonData) into Temp
+Log Temp.people*)
+params var1,var2
+//Log var1,var2
+
+return { 
+	Nsx:{
+		daya:[0,73,1919,1035]
+	}
+}

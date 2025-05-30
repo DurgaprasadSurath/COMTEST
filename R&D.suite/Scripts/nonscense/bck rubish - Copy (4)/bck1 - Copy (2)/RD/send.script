@@ -1,0 +1,38 @@
+﻿set TestList to ("script1","script2","script3") -- create a list of the scripts you want to run, in the order in which you'd like to run them
+
+//repeat this process with each script in the list
+
+repeat with each item TestScript of TestList
+	
+	RunWithNewResults TestScript -- run each script in the test, creating a new set of results for each
+	
+	put the result into Outcome -- get the result of the script execution and store it in a variable
+	
+	put TestScript & the long date into title -- create the title for the email
+	
+	put Outcome's logfile into screenError -- store the file path of the log file
+	
+	replace "logfile.txt" with "screen_error.tiff" in screenError -- store the file path of the screen error, if there is one
+	
+	// Use a conditional statement to send the email based on whether or not the script failed
+	
+	if Outcome's status is "failure" then
+		
+		SendMail{To: "durgaprasadsurath@gmail.com",\ 
+					subject:"hi",\
+					body:"the test script generated an error.",\
+				} 
+	else
+		
+		SendMail{to: "firstname.lastname@somecompany.com",\
+					subject: title,\
+					body: "the test script ran successfully.",\
+					attachment: Outcome's logfile}		
+	end if	
+end repeat
+
+log hi 
+SendMail{To: "durgaprasadsurath@gmail.com", subject:"hi", body:"the test script generated an error."} 
+
+
+

@@ -1,0 +1,5 @@
+﻿GetAccessTokenHandler.GetAccessToken "client:dai:agent:integration","9462bd41-50e7-444a-a03c-8250899378f1","vijayalaxmi","Ideabytes@123", "http://localhost:8000/auth/realms/eggplant/protocol/openid-connect/token"
+
+
+put RegisterEnvironment().responseBody into APIResponse
+log APIResponse

@@ -1,0 +1,6 @@
+﻿2024-08-30 09:58:43.069 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-30 09:58:43.123 +0530	Log		[@"TypeText \"google.com\"","Return"]	7	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 09:58:43.123 +0530	Log		[@"TypeText \"keysight\"","Return"]	7	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 09:58:43.139 +0530	Log		[@"TypeText \"eggplant\"","Return"]	7	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 09:58:43.154 +0530	EndTestCase		(Duration:"0.079", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 09:58:43 +0530", Successes:"1", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-30 09:58:43.187 +0530	SUCCESS		Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

@@ -1,0 +1,73 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-04-01 20:15:57.962 +0530,"Failure",0:00:21,1,0,1,"20240401_201557.962/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""2,               ,[1024], Application,  CBR Server,Total Unicast Messages Received (messages) = 24"")"". Text not found.",0
+2024-04-01 20:16:40.918 +0530,"Failure",0:00:17,1,0,1,"20240401_201640.918/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""2,		 , [1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24"")"". Text not found.",0
+2024-04-01 20:27:38.929 +0530,"Failure",0:00:17,1,0,1,"20240401_202738.929/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""2,,[1024], Application, CBR Server, Total Unicast Fragments Received (fragments)=24"")"". Text not found.",0
+2024-04-01 20:30:18.530 +0530,"Success",0:00:00,0,0,0,"20240401_203018.530/LogFile.txt","","",1
+2024-04-01 20:30:23.417 +0530,"Success",0:00:00,0,0,0,"20240401_203023.417/LogFile.txt","","",1
+2024-04-01 20:30:25.287 +0530,"Success",0:00:00,0,0,0,"20240401_203025.287/LogFile.txt","","",1
+2024-04-01 20:31:35.458 +0530,"Success",0:00:05,0,0,0,"20240401_203135.458/LogFile.txt","","",1
+2024-04-01 20:31:57.949 +0530,"Success",0:00:05,0,0,0,"20240401_203157.949/LogFile.txt","","",1
+2024-04-01 20:32:33.761 +0530,"Failure",0:00:17,1,0,1,"20240401_203233.761/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2, punctuation character, whitespace characters, punctuation character, characters,""=24"", not followed by characters>)"". Text not found.",0
+2024-04-01 20:33:24.383 +0530,"Failure",0:00:17,1,0,1,"20240401_203324.383/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2, punctuation character, whitespace characters, punctuation character, characters, ""=24"">)"". Text not found.",0
+2024-04-01 20:34:09.646 +0530,"Failure",0:00:17,1,0,1,"20240401_203409.646/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2, punctuation character, whitespace characters, punctuation character, words, ""=24"">)"". Text not found.",0
+2024-04-01 20:35:41.082 +0530,"Failure",0:00:18,1,0,1,"20240401_203541.082/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2, punctuation character, whitespace characters, punctuation character, some characters preceded by ""=24"">)"". Text not found.",0
+2024-04-01 20:36:23.317 +0530,"Failure",0:00:18,1,0,1,"20240401_203623.317/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2, punctuation character, whitespace characters, punctuation character, lots of characters preceded by ""=24"">)"". Text not found.",0
+2024-04-01 20:37:39.891 +0530,"Failure",0:00:24,1,0,1,"20240401_203739.891/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<1 digit, punctuation character, whitespace characters, punctuation character, lots of characters preceded by ""="", 2 digits>)"". Text not found.",0
+2024-04-01 20:41:18.734 +0530,"Failure",0:00:23,1,0,1,"20240401_204118.734/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<1 digit, punctuation character, whitespace characters>)"". Text not found.",0
+2024-04-01 20:41:48.940 +0530,"Success",0:00:06,0,0,0,"20240401_204148.940/LogFile.txt","","",1
+2024-04-01 20:42:04.177 +0530,"Failure",0:00:23,1,0,1,"20240401_204204.177/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<1 digit, character, whitespace characters, punctuation character, lots of characters preceded by ""="", 2 digits>)"". Text not found.",0
+2024-04-01 20:42:33.906 +0530,"Aborted",0:00:11,1,0,1,"20240401_204233.906/LogFile.txt","","",0
+2024-04-01 20:42:52.348 +0530,"Failure",0:00:22,1,0,1,"20240401_204252.348/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<1 digit, character, whitespace characters, punctuation character, characters preceded by ""="" then 2 digits>)"". Text not found.",0
+2024-04-01 20:43:26.205 +0530,"Success",0:00:06,0,0,0,"20240401_204326.205/LogFile.txt","","",1
+2024-04-01 20:44:32.122 +0530,"Aborted",0:00:12,1,0,1,"20240401_204432.122/LogFile.txt","","",0
+2024-04-01 20:44:49.739 +0530,"Aborted",0:00:17,1,0,1,"20240401_204449.739/LogFile.txt","","",0
+2024-04-01 20:45:12.006 +0530,"Failure",0:00:23,1,0,1,"20240401_204512.006/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2, punctuation character, whitespace characters, punctuation character, characters>)"". Text not found.",0
+2024-04-01 20:45:46.798 +0530,"Failure",0:00:23,1,0,1,"20240401_204546.798/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2,newline or punctuation character, whitespace characters, punctuation character, characters>)"". Text not found.",0
+2024-04-01 20:46:39.326 +0530,"Failure",0:00:22,1,0,1,"20240401_204639.326/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2,punctuation character, newline or whitespace characters, punctuation character, characters>)"". Text not found.",0
+2024-04-01 20:49:33.373 +0530,"Aborted",0:00:08,1,0,1,"20240401_204933.373/LogFile.txt","","",0
+2024-04-01 20:49:47.310 +0530,"Aborted",0:00:08,1,0,1,"20240401_204947.310/LogFile.txt","","",0
+2024-04-01 20:50:13.923 +0530,"Failure",0:00:19,1,0,1,"20240401_205013.923/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<2,nonLettersOrDigits, whitespace characters, nonLettersOrDigits, characters>)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 20:50:46.761 +0530,"Success",0:00:05,0,0,0,"20240401_205046.761/LogFile.txt","","",1
+2024-04-01 20:51:21.391 +0530,"Success",0:00:02,0,0,0,"20240401_205121.391/LogFile.txt","","",1
+2024-04-01 20:51:45.471 +0530,"Aborted",0:00:08,1,0,1,"20240401_205145.471/LogFile.txt","","",0
+2024-04-01 20:52:02.346 +0530,"Failure",0:00:20,1,0,1,"20240401_205202.346/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<1 digit, nonLettersOrDigits, whitespace characters, nonLettersOrDigits, characters, ""Application, CBR Server. Total Unicast Fragments Received (fragments)=24"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 20:52:40.066 +0530,"Success",0:00:02,0,0,0,"20240401_205240.066/LogFile.txt","","",1
+2024-04-01 20:52:55.064 +0530,"Aborted",0:00:12,1,0,1,"20240401_205255.064/LogFile.txt","","",0
+2024-04-01 20:53:17.178 +0530,"Aborted",0:00:19,1,0,1,"20240401_205317.178/LogFile.txt","","",0
+2024-04-01 20:53:45.802 +0530,"Aborted",0:00:15,1,0,1,"20240401_205345.802/LogFile.txt","","",0
+2024-04-01 20:54:32.729 +0530,"Success",0:00:01,0,0,0,"20240401_205432.729/LogFile.txt","","",1
+2024-04-01 20:54:41.611 +0530,"Success",0:00:01,0,0,0,"20240401_205441.611/LogFile.txt","","",1
+2024-04-01 20:56:01.027 +0530,"Success",0:00:02,0,0,0,"20240401_205601.027/LogFile.txt","","",1
+2024-04-01 20:56:06.209 +0530,"Success",0:00:02,0,0,0,"20240401_205606.209/LogFile.txt","","",1
+2024-04-01 20:56:29.068 +0530,"Success",0:00:01,0,0,0,"20240401_205629.068/LogFile.txt","","",1
+2024-04-01 20:56:38.691 +0530,"Success",0:00:01,0,0,0,"20240401_205638.691/LogFile.txt","","",1
+2024-04-01 20:57:07.863 +0530,"Aborted",0:00:10,1,0,1,"20240401_205707.863/LogFile.txt","","",0
+2024-04-01 20:57:45.926 +0530,"Failure",0:00:18,1,0,1,"20240401_205745.926/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:< ""2"", nonwhitespace character, whitespace characters, characters followed by ""=24"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 20:58:19.839 +0530,"Failure",0:00:17,1,0,1,"20240401_205819.839/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", nonwhitespace character, whitespace characters, nonwhitespace character, characters followed by ""=24"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 20:58:52.102 +0530,"Aborted",0:00:12,1,0,1,"20240401_205852.102/LogFile.txt","","",0
+2024-04-01 20:59:20.595 +0530,"Aborted",0:00:06,1,0,1,"20240401_205920.595/LogFile.txt","","",0
+2024-04-01 20:59:33.327 +0530,"Failure",0:00:18,1,0,1,"20240401_205933.327/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", nonwhitespace character, some whitespace characters, nonwhitespace character, characters then ""=24"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:00:07.796 +0530,"Failure",0:00:17,1,0,1,"20240401_210007.796/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", nonwhitespace character, some whitespace characters, nonwhitespace character, some characters then ""=24"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:00:51.946 +0530,"Aborted",0:00:10,1,0,1,"20240401_210051.946/LogFile.txt","","",0
+2024-04-01 21:03:57.291 +0530,"Aborted",0:00:16,1,0,0,"20240401_210357.291/LogFile.txt","","",0
+2024-04-01 21:04:46.866 +0530,"Aborted",0:00:18,1,0,1,"20240401_210446.866/LogFile.txt","","",0
+2024-04-01 21:05:17.694 +0530,"Aborted",0:00:06,1,0,1,"20240401_210517.694/LogFile.txt","","",0
+2024-04-01 21:05:31.930 +0530,"Aborted",0:00:12,1,0,1,"20240401_210531.930/LogFile.txt","","",0
+2024-04-01 21:05:59.038 +0530,"Failure",0:00:18,1,0,1,"20240401_210559.038/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", nonwhitespace character, some whitespace characters, ""[1024"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:06:26.829 +0530,"Success",0:00:02,0,0,0,"20240401_210626.829/LogFile.txt","","",1
+2024-04-01 21:07:43.932 +0530,"Failure",0:00:18,1,0,1,"20240401_210743.932/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", punctuation character, some whitespace characters, punctuation character, ""[1024"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:08:07.103 +0530,"Aborted",0:00:12,1,0,1,"20240401_210807.103/LogFile.txt","","",0
+2024-04-01 21:08:58.107 +0530,"Failure",0:00:18,1,0,1,"20240401_210858.107/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", punctuation character, lots of whitespace characters, punctuation character, ""[1024"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:09:25.374 +0530,"Success",0:00:02,0,0,0,"20240401_210925.374/LogFile.txt","","",1
+2024-04-01 21:10:16.298 +0530,"Failure",0:00:17,1,0,1,"20240401_211016.298/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2"", character, lots of whitespace characters, nonwhitespace character, some characters , ""=24"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:11:27.057 +0530,"Failure",0:00:18,1,0,1,"20240401_211127.057/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2,"", lots of whitespace characters, "",[1024"", some characters then ""=24"" followed by empty>)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:11:54.767 +0530,"Aborted",0:00:15,1,0,0,"20240401_211154.767/LogFile.txt","","",0
+2024-04-01 21:12:15.286 +0530,"Failure",0:00:19,1,0,1,"20240401_211215.286/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:<""2,"", whitespace characters, "",[1024"">)"". Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n",0
+2024-04-01 21:15:24.737 +0530,"Aborted",0:00:16,1,0,1,"20240401_211524.737/LogFile.txt","","",0
+2024-04-01 21:15:41.765 +0530,"Aborted",0:00:13,1,0,1,"20240401_211541.765/LogFile.txt","","",0
+2024-04-01 21:16:05.493 +0530,"Success",0:00:01,0,0,0,"20240401_211605.493/LogFile.txt","","",1
+2024-04-01 21:18:41.463 +0530,"Success",0:00:01,0,0,0,"20240401_211841.463/LogFile.txt","","",1
+2024-04-01 21:19:34.851 +0530,"Success",0:00:02,0,0,0,"20240401_211934.851/LogFile.txt","","",1
+2024-04-01 21:19:42.207 +0530,"Success",0:00:02,0,0,0,"20240401_211942.207/LogFile.txt","","",1
+2024-04-02 11:10:11.421 +0530,"Success",0:00:10,0,0,0,"20240402_111011.421/LogFile.txt","","",1
+2024-04-02 11:35:32.580 +0530,"Success",0:00:02,0,0,0,"20240402_113532.580/LogFile.txt","","",1

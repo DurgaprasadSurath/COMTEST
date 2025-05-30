@@ -1,0 +1,50 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Scre.script",
+				"identifier": "START",
+				"timestamp": "2024-02-15 10:38:58.810 +0530"
+			},
+		{
+				"handlerName": "on_scre",
+				"timestamp": "2024-02-15 10:38:58.895 +0530",
+				"message": "{company:\"Ideabytes\", password:\"pass\", user1:\"gopi\"}",
+				"scriptName": "Games/Scre.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_scre",
+				"timestamp": "2024-02-15 10:38:58.900 +0530",
+				"message": "+++++++++++++++++++++++++",
+				"scriptName": "Games/Scre.script",
+				"handlerLine": 7,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_scre2",
+				"timestamp": "2024-02-15 10:38:58.939 +0530",
+				"scriptName": "Games/scre2.script",
+				"identifier": "Log",
+				"handlerLine": 6
+			},
+		{
+				"handlerName": "on_scre2",
+				"timestamp": "2024-02-15 10:38:58.959 +0530",
+				"scriptName": "Games/scre2.script",
+				"identifier": "Log",
+				"handlerLine": 7
+			},
+		{
+				"message": "(Duration:\"0.165\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-15 10:38:58 +0530\", Successes:\"1\", TestCase:\"Games/Scre.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-15 10:38:58.983 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Scre.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-15 10:38:59.101 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-15 10:38:58.814 +0530"
+}

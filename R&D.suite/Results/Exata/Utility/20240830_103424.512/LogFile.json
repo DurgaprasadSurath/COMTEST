@@ -1,0 +1,163 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-30 10:34:24.528 +0530"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:24.953 +0530",
+				"message": "Modified_gen_kal.script",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:24.984 +0530",
+				"message": "Modified_gen_kal.script",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.000 +0530",
+				"message": "(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.016 +0530",
+				"message": "  Script generated:  2024-08-29 15:40:17",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.016 +0530",
+				"message": "  From session:  gen_kal",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.038 +0530",
+				"message": "  Captured on:  2024-08-29 15:39:04",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.047 +0530",
+				"message": "  From server:  IB-171",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.063 +0530",
+				"message": "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.063 +0530",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"identifier": "Log",
+				"handlerLine": 17
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.079 +0530",
+				"message": "Click \"image0001\"",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.079 +0530",
+				"message": "DoubleClick \"image0002\"",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.094 +0530",
+				"message": "TypeText Param1,Return",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.110 +0530",
+				"message": "Click (Image:\"image0003\", WaitFor:4)",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.110 +0530",
+				"message": "TypeText Param2,Return",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.126 +0530",
+				"message": "Click \"KeysightDesignEmulateandTestto\"",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.147 +0530",
+				"message": "Click \"ContactUsQ\"",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.157 +0530",
+				"message": "TypeText Param3,Return",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 12,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_createmodifiedscript",
+				"timestamp": "2024-08-30 10:34:25.173 +0530",
+				"message": "Click (Image:\"EggplantTest\", WaitFor:8)",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"handlerLine": 17,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.692\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-30 10:34:24 +0530\", Successes:\"1\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-30 10:34:25.221 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-30 10:34:25.268 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-30 10:34:24.528 +0530"
+}

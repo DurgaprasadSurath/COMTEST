@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running RD/Untitled.script",
+				"identifier": "START",
+				"timestamp": "2024-06-27 14:06:27.661 +0530"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2024-06-27 14:06:27.818 +0530",
+				"message": "Set Text:1234",
+				"scriptName": "RD/Untitled.script",
+				"handlerLine": 1,
+				"identifier": "setremoteclipboard"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2024-06-27 14:06:27.881 +0530",
+				"message": "[controlKey]v",
+				"scriptName": "RD/Untitled.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"0.222\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-27 14:06:27 +0530\", Successes:\"1\", TestCase:\"RD/Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-27 14:06:27.898 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 RD/Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-27 14:06:27.945 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-27 14:06:27.661 +0530"
+}

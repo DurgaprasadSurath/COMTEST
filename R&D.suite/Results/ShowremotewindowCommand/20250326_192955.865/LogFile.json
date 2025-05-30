@@ -1,0 +1,103 @@
+{
+	"entries": [
+		{
+				"message": "Running ShowremotewindowCommand.script",
+				"identifier": "START",
+				"timestamp": "2025-03-26 19:29:55.886 +0530"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:56.270 +0530",
+				"scriptName": "ShowremotewindowCommand.script",
+				"message": "at (265, 631)",
+				"image": "(TEXT:\"History\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:56.279 +0530",
+				"message": "RunWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 2,
+				"identifier": "hide"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:56.309 +0530",
+				"message": "RemoteWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 3,
+				"identifier": "show"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:57.389 +0530",
+				"scriptName": "ShowremotewindowCommand.script",
+				"message": "at (372, 630)",
+				"image": "(TEXT:\"Downloads\")",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:57.398 +0530",
+				"message": "RemoteWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 5,
+				"identifier": "show"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:58.134 +0530",
+				"message": "(427,640)",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:58.143 +0530",
+				"message": "Downloads",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:58.153 +0530",
+				"message": "RemoteWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 7,
+				"identifier": "hide"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:58.514 +0530",
+				"scriptName": "ShowremotewindowCommand.script",
+				"message": "at (52, 629)",
+				"image": "(TEXT:\"Contacts\")",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:58.521 +0530",
+				"message": "RunWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 9,
+				"identifier": "show"
+			},
+		{
+				"message": "(Duration:\"2.924\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-03-26 19:29:55 +0530\", Successes:\"1\", TestCase:\"ShowremotewindowCommand.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-03-26 19:29:58.819 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:02 ShowremotewindowCommand.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2025-03-26 19:29:59.096 +0530"
+			}
+	],
+	"createdTimestamp": "2025-03-26 19:29:55.893 +0530"
+}

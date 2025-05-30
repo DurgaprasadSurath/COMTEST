@@ -1,0 +1,10 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-09-05 14:23:33.883 +0530,"Success",0:00:02,0,0,0,"20240905_142333.883/LogFile.txt","","",1
+2024-09-05 14:24:14.976 +0530,"Success",0:00:02,0,0,0,"20240905_142414.976/LogFile.txt","","",1
+2024-09-05 14:25:01.467 +0530,"Success",0:00:03,0,0,0,"20240905_142501.467/LogFile.txt","","",1
+2024-09-05 14:30:56.055 +0530,"Failure",0:00:27,1,0,1,"20240905_143056.055/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Field Ticket 1"")"". Text not found.  Restricted Search Rectangle ((0,1),(1170,2532))\n",0
+2024-09-05 14:32:49.473 +0530,"Aborted",0:00:06,1,0,0,"20240905_143249.473/LogFile.txt","","",0
+2024-09-05 14:33:09.946 +0530,"Success",0:00:19,0,0,0,"20240905_143309.946/LogFile.txt","","",1
+2024-09-05 14:35:01.307 +0530,"Failure",0:00:18,2,0,0,"20240905_143501.307/LogFile.txt","","Script Error -- Number of Errors logged: 2",5
+2024-09-05 14:44:06.990 +0530,"Failure",0:00:18,2,0,0,"20240905_144406.990/LogFile.txt","","Script Error -- Number of Errors logged: 2",5
+2024-09-05 14:44:57.216 +0530,"Failure",0:00:19,2,0,0,"20240905_144457.216/LogFile.txt","","Script Error -- Number of Errors logged: 2",5

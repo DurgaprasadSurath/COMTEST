@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ShowremotewindowCommand_script" package="R&amp;D.suite" timestamp="2025-03-26 19:26:49.023 +0530"
+ tests="1"  failures="1" errors="0" time="7.100000">
+  <properties>
+   <property name="RunDate" value="2025-03-26 19:26:49.023 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="ShowremotewindowCommand.script" assertions="1" status="failure"  time="7.069">
+    <failure type="FAILURE" message="Unknown Property or Function: Unable to access global property or function &apos;SCREENRESOLUTION&apos; -- Execution Time 0:00:07 ShowremotewindowCommand.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

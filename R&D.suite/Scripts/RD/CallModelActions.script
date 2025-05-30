@@ -1,0 +1,20 @@
+﻿set the listFormat to {separator:"}"}
+
+
+put GetListOfModelActions() into APIResponse
+put APIResponse.responseBody into JSONResponse
+log JSONResponse
+
+put JSONValue(JSONResponse) into ResponseValue
+log ResponseValue
+log the number of items of ResponseValue
+
+repeat with each value of ResponseValue
+	log repeatIndex() && value.actionName
+end repeat
+
+
+put GetListOfModels() into Response
+log Response.responseBody
+
+

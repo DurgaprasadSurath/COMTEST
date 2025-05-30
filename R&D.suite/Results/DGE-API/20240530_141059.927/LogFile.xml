@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="DGE_apitest" package="R&amp;D.suite" timestamp="2024-05-30 14:10:59.927 +0530"
+ tests="1"  failures="0" errors="0" time="1.527000">
+  <properties>
+   <property name="RunDate" value="2024-05-30 14:10:59.927 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="DGE.apitest" assertions="1" status="success"  time="1.515">
+  </testcase>
+ </testsuite>
+</testsuites>

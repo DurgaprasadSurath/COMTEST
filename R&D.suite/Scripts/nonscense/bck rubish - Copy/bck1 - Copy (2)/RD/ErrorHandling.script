@@ -1,0 +1,46 @@
+﻿to handle Exception_Checking
+	try	
+		//put "image:OKButtonPopup" into temp
+		//Click imageName:"OKButtonPopup", waitFor:4
+		//call_xyz
+		put ganesh into demo
+		//assert imagefound(text:"Ganesh") is true12
+		put readtext() into var		
+	Catch theException
+		UserFriendlymessage theException
+	End try
+end Exception_Checking
+
+to handle UserFriendlymessage message
+	if message contains ...
+		"Not Found": UI_Element_notfound()
+		
+		"No Such Command": Handler_notfound()
+		
+		"AssertionFailed":Validation_Failed()
+		
+		"InvalidParameters":Passing_Parameters_Issue()
+		else
+			Scripterror	
+	end if
+end UserFriendlymessage
+
+to UI_Element_notfound
+	LogError "Prescribed UI Element has not found in page"
+end UI_Element_notfound
+
+to Handler_notfound
+	LogError "Called Method has not found"
+end Handler_notfound
+
+to Validation_Failed
+	LogError "Validation has Failed"
+end Validation_Failed
+
+to Passing_Parameters_Issue
+	LogError "Invalid Properties are given"
+end Passing_Parameters_Issue
+
+to Scripterror
+	LogError "Technical Error has found"
+end Scripterror

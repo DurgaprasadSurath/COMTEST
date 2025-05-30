@@ -1,0 +1,8 @@
+﻿2024-03-18 14:41:58.052 +0530	START		Running Games/Harman-1.script
+2024-03-18 14:41:58.110 +0530	mousebuttondown		Button:2	2	on_harman_1	Games/Harman-1.script
+2024-03-18 14:42:00.075 +0530	moveto		at (1440, 810)	3	on_harman_1	Games/Harman-1.script
+2024-03-18 14:42:00.777 +0530	mousebuttonup		Button:2	4	on_harman_1	Games/Harman-1.script
+2024-03-18 14:42:00.782 +0530	Log		[1440,810]	22	on_harman_1	Games/Harman-1.script
+2024-03-18 14:42:00.786 +0530	Log		[960,540]	23	on_harman_1	Games/Harman-1.script
+2024-03-18 14:42:00.808 +0530	EndTestCase		(Duration:"2.75", Errors:"0", Exceptions:"0", StartTime:"2024-03-18 14:41:58 +0530", Successes:"1", TestCase:"Games/Harman-1.script", Warnings:"0")
+2024-03-18 14:42:00.946 +0530	SUCCESS		Execution Time 0:00:02 Games/Harman-1.script

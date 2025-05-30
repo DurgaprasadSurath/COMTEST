@@ -1,0 +1,2 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-05-06 10:03:13.314 +0530,"Failure",0:00:00,1,0,0,"20240506_100313.314/LogFile.txt","","Script Error -- Number of Errors logged: 1",0

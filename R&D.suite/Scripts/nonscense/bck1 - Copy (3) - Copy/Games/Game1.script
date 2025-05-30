@@ -1,0 +1,56 @@
+﻿(*
+set the SearchRectangle to [478,467,780,628]
+MoveTo Image:"OCR_EX1"
+
+*)
+
+//put EveryImageLocation(Image:"RedArrow")
+
+
+Click Image:"Bookings" // Bookings is ImageCollection
+repeat with each item of files of folder of FoundImageInfo().ImagePath
+	split it by "."
+	log folder(item 1 of it&"."&item 2 of it)
+	log folder of (item 1 of it&"."&"imageinfo")
+	if (folder of (item 1 of it&"."&item 2 of it) is not FoundImageInfo().ImagePath) and (folder of (item 1 of it&"."&"imageinfo") is not FoundImageInfo().ImagePath) then 
+		log (item 1 of it&"."&item 2 of it)
+		Delete file (item 1 of it&"."&item 2 of it)
+	end if
+end repeat
+
+
+
+
+Click Image:"Bookings" // Bookings is ImageCollection
+repeat with each item of files(folder(FoundImageInfo().ImagePath))
+	put it into File_Name
+	split File_Name by "."
+	if (folder(it) & item 1 of File_Name &".png" is not FoundImageInfo().ImagePath) and (folder(it) & item 1 of File_Name &".imageinfo" is not FoundImageInfo().ImagePath) then 
+		Delete file it
+	end if
+end repeat
+
+
+
+to handle reversedString
+	params myString -- Replace with your desired string
+	put "" into reversedString
+	repeat with i = length of (myString) down to 1
+		put Character(i) of myString after reversedString
+	end repeat
+	log reversedString
+end reversedString
+
+reversedString "hello"
+
+
+to handle reverseNumber
+	params myNumber
+	put 0 into reversedNumber	
+	repeat while myNumber is not 0
+		put myNumber mod 10 into digit
+		put reversedNumber * 10 + digit into reversedNumber
+		put myNumber div 10 into myNumber
+	end repeat	
+	return reversedNumber
+end reverseNumber

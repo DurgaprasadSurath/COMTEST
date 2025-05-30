@@ -1,0 +1,80 @@
+﻿set the ScriptLogging to off
+set the SearchRectangle to SearchArea.ScreenPart("BottomRightQuadrant")
+put ImageLocation(text:"Deviations",validWords:"*",validCharacters:"*",waitfor:10) into BarLocation 
+set Global minValue to 0
+repeat 6 times
+	put [[BarLocation.x-977+Global minValue,BarLocation.y-125],[BarLocation.x-876+Global minValue,BarLocation.y+10]] into Bar
+	put [[BarLocation.x-977+Global minValue,BarLocation.y+120],[BarLocation.x-876+Global minValue,BarLocation.y+98]] into BarLable
+	set the SearchRectangle to BarLable
+	put ReadText(BarLable,preferDictionarywords:off,contrast:"On",contrastTolerance:"68",ValidCharacters:"Q1234567890",PreferredPattern:"Q+[0-9]") into Global BarLableName
+	if Global BarLableName contains return then
+		split Global BarLableName by return
+		put item 1 of Global BarLableName&"-"& item 2 of Global BarLableName into Global NewBarLableName
+	else
+		put Global BarLableName into Global NewBarLableName
+	end if
+	set the SearchRectangle to Bar
+	put  ReadText(Bar) into temp
+	put repeatIndex() into Count
+	if temp is empty then 
+		set the SearchRectangle to [875,390,976,490]
+		put ReadText(the SearchRectangle) into temp2
+		split temp2 by return
+		if the number of items of temp2 is 2 then 
+			if item 1 of temp2 contains space then
+				put item 1 of temp2 into temp3 
+				split temp3 by space
+				put (item 1 of temp3&".0") into (item 1 of Global Value)
+			else
+				put item 1 of temp2 into temp3 
+				if last character  of temp3 is 0 then 
+					delete last character  of temp3 
+					put (item 1 of temp3&".0") into (item 1 of Global Value)
+				end if
+			end if
+			if item 2 of temp2 contains space then
+				put item 2 of temp2 into temp3 
+				split temp3 by space
+				put (item 1 of temp3&".0") into (item 2 of Global Value)
+			else
+				put item 2 of temp2 into temp3 
+				if last character  of temp3 is 0 then 
+					delete last character  of temp3 
+					put (item 1 of temp3&".0") into (item 2 of Global Value)
+				end if
+			end if
+		end if
+		
+	else 
+		put ReadText(Bar) into temp2
+		split temp2 by return
+		if the number of items of temp2 is 2 then 
+			if item 1 of temp2 contains space then
+				put item 1 of temp2 into temp3 
+				split temp3 by space
+				put (item 1 of temp3&".0") into (item 1 of Global Value)
+			else
+				put item 1 of temp2 into temp3 
+				if last character  of temp3 is 0 then 
+					delete last character  of temp3 
+					put (item 1 of temp3&".0") into (item 1 of Global Value)
+				end if
+			end if
+			if item 2 of temp2 contains space then
+				put item 2 of temp2 into temp3 
+				split temp3 by space
+				put (item 1 of temp3&".0") into (item 2 of Global Value)
+			else
+				put item 2 of temp2 into temp3 
+				if last character  of temp3 is 0 then 
+					delete last character  of temp3 
+					put (item 1 of temp3&".0") into (item 2 of Global Value)
+				end if
+			end if
+		end if
+	end if
+	Log Global NewBarLableName&"-"&"("&Global Value&")"
+	set Global Value to empty
+	set Global BarLableName to empty
+	set Global minValue to Global minValue+146
+end repeat

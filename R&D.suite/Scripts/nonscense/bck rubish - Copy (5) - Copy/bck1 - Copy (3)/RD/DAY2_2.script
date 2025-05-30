@@ -1,0 +1,17 @@
+﻿
+to handle LaunchApplication
+	Connect 171
+	wait 5 
+	TypeText windowsKey,"r"
+	TypeText "Chrome www.demoblaze.com",return
+end LaunchApplication
+
+
+to handle Addition
+	params var1,var2
+	return (var1 + var2)
+end Addition
+
+function Multi para1, para2
+	return (para1*para2)
+end Multi

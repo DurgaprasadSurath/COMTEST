@@ -1,0 +1,3 @@
+﻿2024-10-17 12:47:13.693 +0530	START		Running docFunError.script
+2024-10-17 12:47:13.787 +0530	EndTestCase		(Duration:"0.086", Errors:"1", Exceptions:"0", StartTime:"2024-10-17 12:47:13 +0530", Successes:"0", TestCase:"docFunError.script", Warnings:"0")
+2024-10-17 12:47:13.861 +0530	FAILURE		StrictVariablesViolation: Variable 'var11' used without being set -- Execution Time 0:00:00 docFunError.script

@@ -1,0 +1,60 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled5.script",
+				"identifier": "START",
+				"timestamp": "2024-11-14 09:28:44.772 +0530"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-11-14 09:28:44.830 +0530",
+				"message": "9c410ddb-e843-46bd-9679-4844a1ae84d7,192.168.90.225,ADOC,samba50*-qjc,43.206.222.125\\n",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-11-14 09:28:44.835 +0530",
+				"message": "YES",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-11-14 09:28:44.839 +0530",
+				"message": "https://43.206.222.125\\n:4430",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 8,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-11-14 09:28:44.839 +0530",
+				"message": "https://samba50*-qjc:4430",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 13,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_untitled5",
+				"timestamp": "2024-11-14 09:28:44.839 +0530",
+				"message": "https://43.206.222.125\\n:4430",
+				"scriptName": "Untitled5.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.106\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-11-14 09:28:44 +0530\", Successes:\"1\", TestCase:\"Untitled5.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-11-14 09:28:44.879 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Untitled5.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-11-14 09:28:44.938 +0530"
+			}
+	],
+	"createdTimestamp": "2024-11-14 09:28:44.772 +0530"
+}

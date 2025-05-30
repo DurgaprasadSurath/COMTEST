@@ -1,0 +1,13 @@
+﻿function plural aWord
+	if aWord ends with "s" then put "es" after aWord
+	else if aWord ends with "y" then put "ies" into the last char of aWord
+		else put "s" after aWord
+	return aWord
+end plural
+
+ask "What type of object are you carrying?"
+put it into itemType
+ask "How many do you have?"
+put it into howMany
+if howMany is not 1 then put the plural of itemType into itemType
+answer "You have " & howMany && itemType

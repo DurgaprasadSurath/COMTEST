@@ -1,0 +1,6 @@
+﻿2024-02-19 10:55:25.737 +0530	START		Running Games/Wan.script
+2024-02-19 10:55:25.793 +0530	Log		123	5	on_wan	Games/Wan.script
+2024-02-19 10:55:25.810 +0530	Log		123	9	on_wan	Games/Wan.script
+2024-02-19 10:55:25.827 +0530	Log		123	14	on_wan	Games/Wan.script
+2024-02-19 10:55:25.849 +0530	EndTestCase		(Duration:"0.107", Errors:"0", Exceptions:"0", StartTime:"2024-02-19 10:55:25 +0530", Successes:"1", TestCase:"Games/Wan.script", Warnings:"0")
+2024-02-19 10:55:25.962 +0530	SUCCESS		Execution Time 0:00:00 Games/Wan.script

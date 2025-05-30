@@ -1,0 +1,20 @@
+﻿Log ReadText((213,887,956,999))
+
+find0Error(0,0,1920,1080)
+find0Error (0,1,1920,1039)
+find0Error (212,864,957,997)
+find0Error (210,859,958,1021)
+find0Error (213,885,954,996)
+find0Error (0,464,1920,1038)
+find0Error (0,1,979,1038)
+find0Error (0,522,961,1041)
+
+to find0Error SR
+	Set the SearchRectangle to SR
+	wait 1
+	If ImageFound(text:"0 Error", waitFor:0) then LogSuccess "Found"&quote&"0 Error"&quote else LogError "Unable to Find"&quote&"0 Error"&quote
+	Put +
+end find0Error
+
+
+

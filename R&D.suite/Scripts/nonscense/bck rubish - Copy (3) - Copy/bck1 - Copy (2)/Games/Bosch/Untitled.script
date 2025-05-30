@@ -1,0 +1,37 @@
+﻿#put "Converted Values to Binary"&& myConvertedData
+#set the numberFormat to "binary16"
+#put "0b" before each item of myConvertedData
+#log myConvertedData
+put item 1 of myConvertedData into num1
+#put format("%b",item 1 of myConvertedData) into num1
+log "Num1 :"&&num1
+#put format("%b",item 2 of myConvertedData) into num2
+put item 2 of myConvertedData into num2
+log "Num2 :"&&num2
+#set the numberFormat to "binary16"
+put num1 as binary bitAnd num2 as binary
+put 0b0001001000110011 bitAnd 0b0000000000000011
+
+set the Numberformat to "binary4"
+set num1 to  1 
+Log num1
+
+
+set num1 to  1234 as hexadecimal
+Log num1
+Log num1 as deci
+//	0b0000010011010010
+
+0b10011010010
+set the Numberformat to "binary16"
+set num1 to  1234
+set num2  to 0003
+Log num1 
+Log num2
+
+put (num1 bitAnd num2 )
+put (num1 as binary bitAnd num2 as binary) as binary
+
+
+put <0001001000110100> into nullByte
+log nullByte

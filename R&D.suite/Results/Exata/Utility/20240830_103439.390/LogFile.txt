@@ -1,0 +1,21 @@
+﻿2024-08-30 10:34:39.409 +0530	START		Running Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.830 +0530	Log		gen_kal.script	4	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.847 +0530	Log		Modified_gen_kal.script	6	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.861 +0530	Log		(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.882 +0530	Log		  Script generated:  2024-08-29 15:40:17	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.893 +0530	Log		  From session:  gen_kal	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.893 +0530	Log		  Captured on:  2024-08-29 15:39:04	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.919 +0530	Log		  From server:  IB-171	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.925 +0530	Log		* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.940 +0530	Log			17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.940 +0530	Log		Click "image0001"	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.956 +0530	Log		DoubleClick "image0002"	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.972 +0530	Log		TypeText Param1,Return	12	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.982 +0530	Log		Click (Image:"image0003", WaitFor:4)	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:39.988 +0530	Log		TypeText Param2,Return	12	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:40.003 +0530	Log		Click "KeysightDesignEmulateandTestto"	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:40.019 +0530	Log		Click "ContactUsQ"	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:40.019 +0530	Log		TypeText Param3,Return	12	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:40.035 +0530	Log		Click (Image:"EggplantTest", WaitFor:8)	17	on_createmodifiedscript	Exata/gen_kalyan_29082024.script
+2024-08-30 10:34:40.098 +0530	EndTestCase		(Duration:"0.676", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 10:34:39 +0530", Successes:"1", TestCase:"Exata/gen_kalyan_29082024.script", Warnings:"0")
+2024-08-30 10:34:40.160 +0530	SUCCESS		Execution Time 0:00:00 Exata/gen_kalyan_29082024.script

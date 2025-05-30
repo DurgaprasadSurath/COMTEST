@@ -1,0 +1,115 @@
+﻿to handle creatingFile fileName
+	create a new folder ResourcePath("TestCases")
+	if file ResourcePath(fileName) exists then 
+		open file ResourcePath(fileName) 
+		Log "File Alredy Exists"
+	else 
+		put the folder of ResourcePath("TestCases")&"TestCases" into testcasefolder
+		create file testcasefolder&"/"&fileName
+	end if
+end creatingFile
+
+to handle CreatTestCaseFiles
+	params csvfile
+	set mycsvfile to file ResourcePath(csvfile)
+	put the number of lines of mycsvfile into count
+	repeat count times
+		if item 1 of line repeatIndex()+1 of mycsvfile not empty then
+			put item 1 of line repeatIndex()+1 of mycsvfile into temp
+			delete quote from temp
+			put temp into item repeatIndex() of Global TestCaseFiles
+		else
+			exit repeat
+		end if
+	end repeat
+	repeat with each item of  Global TestCaseFiles
+		creatingFile it&".csv"
+	end repeat
+end CreatTestCaseFiles
+
+// To write data into a cell 
+To WriteDataintoCsv FileName,Value,ItemNum,LineNum
+	set MyCsvFile to ResourcePath("TestCases"&"/"&FileName)
+	//putting value into a pariticular cell by giving line number and item number
+	put Value into item ItemNum of line LineNum of file MyCsvFile
+End WriteDataintoCsv
+
+to handle TestCaseBulider 
+	params directtestcasefile
+	CreatTestCaseFiles directtestcasefile
+	set MyDirectTestCaseFile to file ResourcePath(directtestcasefile)
+	repeat with each item of  Global TestCaseFiles
+		put the lastPathComponent of it&".csv" into temp3
+		
+		WriteDataintoCsv temp3,"Subject",1,1
+		WriteDataintoCsv temp3,"TestCase Name",2,1
+		WriteDataintoCsv temp3,"Type",3,1
+		WriteDataintoCsv temp3,"Step Name",4,1
+		WriteDataintoCsv temp3,"Description (Design Steps)",5,1
+		WriteDataintoCsv temp3,"Expected Result (Design Steps)",6,1
+		WriteDataintoCsv temp3,"Approval Status",7,1
+		WriteDataintoCsv temp3,"GxP Flag",8,1
+		WriteDataintoCsv temp3,"Test Script Phase",9,1
+		
+		put repeatIndex() into Global Count1
+		put the number of items of line 1 of MyDirectTestCaseFile into HeaderCount
+		
+		put line repeatIndex()+1 of MyDirectTestCaseFile into Row
+		put the number of items of Row into temp2
+		
+		repeat ((temp2 - HeaderCount) +1) times
+			
+			put item (repeatIndex() + 1) of line (Global Count1 + 1) of MyDirectTestCaseFile into FullActionStep
+			if FullActionStep contains quote then
+				delete quote from FullActionStep
+			end if
+			//dividing the action into two items and storing into variable
+			if FullActionStep contains "::" then 
+				put FullActionStep split by "::" into Global step
+				//log Global step
+				if first character of item 1 of Global step is space then
+					delete first occurrence of space in item 1 of Global step
+				end if
+				
+				put item 1 of Global step split by space into temp
+				
+				//deleting the extra charcters from the variable
+				if item 2 of Global step contains quote then
+					delete quote from item 2 of Global step
+				end if
+				
+				if item 2 of Global step contains "\" then
+					delete every occurrence of "\"  from item 2 of Global step
+				end if
+				
+				put item 2 of Global step into item repeatIndex() of Global NeededStep
+			else 
+				put FullActionStep split by space into Global step
+				log Global step
+				if first character of item 1 of Global step is space then
+					delete first occurrence of space in item 1 of Global step
+				end if
+				
+				put item 1 of Global step split by space into temp
+				
+				//deleting the extra charcters from the variable
+				if item 3 of Global step contains quote then
+					delete quote from item 2 of Global step
+				end if
+				
+				if item 3 of Global step contains "\" then
+					delete every occurrence of "\"  from item 2 of Global step
+				end if
+				
+				put item 3 of Global step into item repeatIndex() of Global NeededStep
+			end if
+		end repeat	
+		repeat the number of items of Global NeededStep times
+			WriteDataintoCsv temp3,item repeatIndex() of Global NeededStep,4,repeatIndex()+1 
+			//WriteDataintoCsv temp3,item repeatIndex() of Global NeededStep,5,repeatIndex()+1 
+			//WriteDataintoCsv temp3,item repeatIndex() of Global NeededStep,6,repeatIndex()+1 
+		end repeat
+		set Global NeededStep to empty
+	end repeat
+end TestCaseBulider
+

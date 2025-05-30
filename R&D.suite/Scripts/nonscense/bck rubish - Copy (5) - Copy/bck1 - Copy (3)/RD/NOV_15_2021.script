@@ -1,0 +1,92 @@
+﻿
+put webDriver (host:"10.39.227.117", browser: "chrome", port: "4444", url: "https://www.google.com/") into driver
+set the WebDriver's windowSize to max
+
+SendKeys "http://km.aifb.kit.edu/sites/webdatacommons/webtables/index.html",return
+
+put findElement(webPartialLinkText: "WDC - Web Tables") into link
+click link
+ExecuteJavaScript "scroll(0,2500)"
+put "C:\Users\DurgaPrasad-IB\Surath\EggPlant_Suite_Files\SUITES\WebDriver\WebDriver.suite\Resources\Nov17.txt" into myfilevar
+put findElements(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr") into content
+//log content
+set  global temp to 0
+open file myfilevar
+repeat the number of items of content times
+	put item (4+global temp) of content's Text into item repeatIndex() of global Data 
+	//log global Data
+	delete "Text:" from item repeatIndex() of global Data 
+	delete every occurrence of "\"  in item repeatIndex() of global Data 
+	delete every occurrence of quote  in item repeatIndex() of global Data 
+	delete first character of item repeatIndex() of global Data 
+	//log  item repeatIndex() of global Data
+	//replace space with "," in item repeatIndex() of global Data 
+	//log  item repeatIndex() of global Data 
+	put (global temp+12) into global temp 
+	
+	write item repeatIndex() of global Data to file myfilevar
+	write return to file myfilevar at eof 
+	
+end repeat
+close file myfilevar
+//log global Data
+put file ResourcePath("Nov17.txt") into myfilevar
+put the number of lines of myfilevar into count
+repeat count times
+	put line repeatIndex() of myfilevar into var
+	replace space with comma in var
+	//log the number of items of var 
+	log var
+end repeat
+
+
+
+
+
+
+
+
+
+
+
+(*
+put findElements(webTagName: "tbody") into table 
+log the number of items of table
+put findElement(webXPath: "//*[@id='toccontent']/table[2]/tbody") into joo
+log joo
+*)
+
+
+
+(*
+repeat 3 times
+	//not work
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr['"+[repeatIndex()]+"']") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr[+[repeatIndex()]+]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr['+[repeatIndex()]+']") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr[[repeatIndex()]]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr[repeatIndex()]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr["+repeatIndex()+"]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr['"+repeatIndex()+"']]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr["+repeatIndex()+"]]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr['+repeatIndex()+']]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr[/+repeatIndex()+/]]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr[+/repeatIndex()/+]]") into hoo
+	//put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr[repeatIndex()]]") into hoo
+	log hoo	
+end repeat
+*)
+
+
+(*
+put findElements(webXPath: "//*[@id='toccontent']/table[2]/tbody/tr") into content
+log the number of items of content
+
+repeat the number of items of content
+	log repeatIndex()
+	
+	put findElement(webXPath:"//*[@id='toccontent']/table[2]/tbody/tr['"+[repeatIndex()]+"']]") into hoo
+	log hoo
+end repeat
+*)
+

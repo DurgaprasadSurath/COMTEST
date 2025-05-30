@@ -1,0 +1,22 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = None;
+    httpVerb = POST;
+    oauth1Token = "";
+    password = "";
+    requestBody = "{\"clientId\":\"apikey-lmcnlbipbsnpnqbqqsmq\", \"secret\":\"hgkfbngfhmjeonbb\"}";
+    requestBodyFormat = "JSON (application/json)";
+    requestHeaders = "<![CDATA[]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "[[BaseURL]]/rest/oauth2/login";
+    userName = "";
+}

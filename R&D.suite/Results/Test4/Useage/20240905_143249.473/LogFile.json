@@ -1,0 +1,45 @@
+{
+	"entries": [
+		{
+				"message": "Running Test4/Useage.script",
+				"identifier": "START",
+				"timestamp": "2024-09-05 14:32:49.483 +0530"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:32:49.662 +0530",
+				"message": "SEARCHRECTANGLE = [0,1,1170,2532]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 1,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:32:55.151 +0530",
+				"scriptName": "Test4/Useage.script",
+				"message": "Unable to Find Image (TEXT:\"Field Ticket 1\"). Text not found.",
+				"image": "(TEXT:\"Field Ticket 1\")",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_useage",
+				"timestamp": "2024-09-05 14:32:55.166 +0530",
+				"message": "SEARCHRECTANGLE = [53,1363,1119,1569]",
+				"scriptName": "Test4/Useage.script",
+				"handlerLine": 5,
+				"identifier": "set"
+			},
+		{
+				"message": "(Duration:\"6.016\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-09-05 14:32:49 +0530\", Successes:\"0\", TestCase:\"Test4/Useage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-05 14:32:55.499 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:06 Test4/Useage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-09-05 14:32:55.516 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-05 14:32:49.483 +0530"
+}

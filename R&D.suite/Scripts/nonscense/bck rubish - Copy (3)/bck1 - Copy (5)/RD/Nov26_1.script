@@ -1,0 +1,24 @@
+﻿to handle hook_before_feature
+	Log "Hook Before Feature"
+end hook_before_feature
+
+to handle hook_before_scenario
+	Log "Hook Before scenario"
+end hook_before_scenario
+
+to handle hook_before_step
+	Log "Hook Before step"
+end hook_before_step
+
+to handle hook_after_step
+	Log "Hook after step"
+end hook_after_step
+
+to handle hook_after_scenario
+	Log "Hook after scenario"
+end hook_after_scenario
+
+to handle hook_after_feature
+	Log "Hook after Feature"
+end hook_after_feature
+

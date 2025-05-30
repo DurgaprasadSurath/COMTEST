@@ -1,0 +1,2 @@
+AIAgentName,DAIPassword,DAIRunnerPath,DAIServer,DAIUserName,EPFSuitePath,GroupName,LicenseServer,ModelName,TCName,TCTemplate
+Surath200,Ideabytes@123456,C:\\Users\\SReddy6\\Documents\\RB_AI_ALM_WorkSpace\\DAIRunner,http://10.48.11.201:8000/,vishwabhushan.yerekar@rb.com,C:\Users\SReddy6\Documents\AjitWorkSpace\VeevaFinalSuite\VeevaVault_QMS.suite,vishwabhushan.yerekar@rb.com,http://10.48.11.202:8080/eggplantALM/alm,E2EQMS_Dev_Capa_UAT,E2EQMS-TS020-FP-DV-AUTO,C:\Users\SReddy6\Documents\RB_AI_ALM_WorkSpace\rbtesting_E2EQMS-TS020-FP-DV-AUTO.xml

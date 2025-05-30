@@ -1,0 +1,5 @@
+﻿2024-04-24 10:51:05.731 +0530	START		Running Tests/Master_Script.script
+2024-04-24 10:51:05.769 +0530	Log		HI	1	on_tc_a_careers	Tests/TC_A_Careers.script
+2024-04-24 10:51:05.779 +0530	Log		Hello	1	on_tc_b_contact_us	Tests/TC_B_Contact_Us.script
+2024-04-24 10:51:05.820 +0530	EndTestCase		(Duration:"0.084", Errors:"0", Exceptions:"0", StartTime:"2024-04-24 10:51:05 +0530", Successes:"1", TestCase:"Tests/Master_Script.script", Warnings:"0")
+2024-04-24 10:51:05.920 +0530	SUCCESS		Execution Time 0:00:00 Tests/Master_Script.script

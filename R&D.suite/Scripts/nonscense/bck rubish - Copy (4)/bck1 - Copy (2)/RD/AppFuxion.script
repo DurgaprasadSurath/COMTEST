@@ -1,0 +1,10 @@
+﻿
+TypeText windowsKey, "r"
+wait 2
+TypeText "file:///C:/Sample_Quotes_With_Color_Pages/index.html", return
+wait 2
+
+repeat 5 mins
+	wait 0.5
+	If ImageFound(text:"The way to get started is to quit talking and begin doing. -Walt Disney", ignoreSpaces:Yes, ignoreNewLines:Yes) then CaptureScreen (Name: "Test", Rectangle: FoundImageInfo().ImageRectangle, increment:Yes)
+end repeat

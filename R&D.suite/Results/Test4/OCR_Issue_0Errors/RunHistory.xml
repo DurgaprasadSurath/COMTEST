@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Test4/OCR_Issue_0Errors">
+ <run>
+  <RunDate>2024-09-05 15:13:23.936 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>29.638000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240905_151323.936/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 15:14:32.813 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>66.807000</Duration>
+  <Errors>8</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240905_151432.813/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 8</ErrorMessage>
+ </run>
+</runHistory>

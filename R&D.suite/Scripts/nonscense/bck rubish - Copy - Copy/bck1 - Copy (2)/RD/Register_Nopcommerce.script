@@ -1,0 +1,63 @@
+﻿
+params global gender,firstname,lastname,day,month,year,email,companyname,newsletter,password,confirmpassword
+
+to handle register  gender,firstname,lastname,day,month,year,email,companyname,newsletter,password,confirmpassword
+	set SearchRectangle to SR.ScreenPart("TopRightQuadrant")
+	click text:"Register",casesensetive:yes,waitfor:30
+	set SearchRectangle to []
+
+	if gender is ("Male" or "M")
+		click text:"Male",hotspot:[758,521]
+	else if gender is ("Female" or "F")
+		click text:"Female",hotspot:[821,521]
+	end if
+	
+	click text:"First name",hotspot:[897,577]
+	//click ImageLocation(text:"First name") +[x,0]
+	TypeText firstname
+	click text:"Last name",hotspot:[897,624]
+	TypeText lastname
+	
+	repeat until ImageFound(text:"Company Details", waitFor:30)
+		ScrollWheelDown 10
+	end repeat
+	
+	click text:"Day"
+	Moveto text:20
+	repeat until ImageFound(text:day, waitFor:30)
+		ScrollWheelDown 10
+	end repeat
+	click day
+	click text:"Month"
+	click  month
+	click text:"Year"
+	MoveTo text:19
+	repeat until ImageFound(text:year, waitFor:30)
+		ScrollWheelDown 10
+	end repeat
+	click  year
+	
+	click text:"Email",hotspot:[x,0]
+	TypeText email
+	
+	click text:"Company name",hotspot:[x,0]
+	TypeText companyname
+	
+	if newsletter is ("No" or "N" or "n")
+		click text:"Newsletter",hotspot:[x,0]
+	end if
+	
+	repeat until ImageFound(text:"REGISTER",casesenstive:yes,waitFor:30)
+		ScrollWheelDown 10
+	end repeat
+	
+	click text:"Password",hotspot:[x,0]
+	TypeText password
+	
+	click text:"Confirm password",hotspot:[x,0]
+	TypeText confirmpassword
+	
+	//click text:"REGISTER",casesenstive:yes,waitfor:90
+	
+end register
+

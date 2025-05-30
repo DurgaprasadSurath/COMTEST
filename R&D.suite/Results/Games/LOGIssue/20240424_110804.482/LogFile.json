@@ -1,0 +1,15 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/LOGIssue.script",
+				"identifier": "START",
+				"timestamp": "2024-04-24 11:08:04.488 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/LOGIssue.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-04-24 11:08:04.707 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-24 11:08:04.491 +0530"
+}

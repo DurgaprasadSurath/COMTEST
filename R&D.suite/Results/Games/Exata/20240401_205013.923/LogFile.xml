@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Games/Exata_script" package="R&amp;D.suite" timestamp="2024-04-01 20:50:13.923 +0530"
+ tests="1"  failures="1" errors="1" time="19.823000">
+  <properties>
+   <property name="RunDate" value="2024-04-01 20:50:13.923 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Games/Exata.script" assertions="1" status="error"  time="19.82">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Text Found On Screen: &quot;(TEXT:&lt;2,nonLettersOrDigits, whitespace characters, nonLettersOrDigits, characters&gt;)&quot;. Text not found.  Restricted Search Rectangle ((155,592),(874,1041))\n -- Execution Time 0:00:19 Games/Exata.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&lt;2,nonLettersOrDigits, whitespace characters, nonLettersOrDigits, characters&gt;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

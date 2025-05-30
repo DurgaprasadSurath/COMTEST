@@ -1,0 +1,9 @@
+﻿2024-10-17 13:27:39.725 +0530	START		Running Untitled1.script
+2024-10-17 13:27:39.785 +0530	Log		Good afternoon.	6	on_untitled1	Untitled1.script
+2024-10-17 13:27:39.795 +0530	Log		10:00 AM	15	on_untitled1	Untitled1.script
+2024-10-17 13:27:39.801 +0530	Log		12:00 PM	16	on_untitled1	Untitled1.script
+2024-10-17 13:27:39.801 +0530	Log		12:00 PM	17	on_untitled1	Untitled1.script
+2024-10-17 13:27:39.801 +0530	Log		02:00 PM	18	on_untitled1	Untitled1.script
+2024-10-17 13:27:39.816 +0530	Log		07:00 PM	19	on_untitled1	Untitled1.script
+2024-10-17 13:27:39.835 +0530	EndTestCase		(Duration:"0.105", Errors:"0", Exceptions:"0", StartTime:"2024-10-17 13:27:39 +0530", Successes:"1", TestCase:"Untitled1.script", Warnings:"0")
+2024-10-17 13:27:40.436 +0530	SUCCESS		Execution Time 0:00:00 Untitled1.script

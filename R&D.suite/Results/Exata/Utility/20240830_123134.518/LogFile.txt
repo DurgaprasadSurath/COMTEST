@@ -1,0 +1,6 @@
+﻿2024-08-30 12:31:34.529 +0530	START		Running Exata/Utility.script
+2024-08-30 12:31:42.249 +0530	Log		hel	10	on_createtestdata	Exata/Utility.script
+2024-08-30 12:31:42.276 +0530	Log		hel	10	on_createtestdata	Exata/Utility.script
+2024-08-30 12:31:42.339 +0530	Log		hel	10	on_createtestdata	Exata/Utility.script
+2024-08-30 12:31:42.718 +0530	EndTestCase		(Duration:"8.189", Errors:"0", Exceptions:"0", StartTime:"2024-08-30 12:31:34 +0530", Successes:"1", TestCase:"Exata/Utility.script", Warnings:"0")
+2024-08-30 12:31:42.781 +0530	SUCCESS		Execution Time 0:00:08 Exata/Utility.script

@@ -1,0 +1,88 @@
+{
+	"entries": [
+		{
+				"message": "Running ShowremotewindowCommand.script",
+				"identifier": "START",
+				"timestamp": "2025-03-26 19:29:11.182 +0530"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:11.594 +0530",
+				"scriptName": "ShowremotewindowCommand.script",
+				"message": "at (265, 631)",
+				"image": "(TEXT:\"History\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:11.604 +0530",
+				"message": "RunWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 2,
+				"identifier": "hide"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:11.739 +0530",
+				"message": "RemoteWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 3,
+				"identifier": "show"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:12.704 +0530",
+				"scriptName": "ShowremotewindowCommand.script",
+				"message": "at (372, 630)",
+				"image": "(TEXT:\"Downloads\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:13.451 +0530",
+				"message": "(427,640)",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 6,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:13.458 +0530",
+				"message": "Downloads",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 6,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:13.474 +0530",
+				"message": "RemoteWindow",
+				"scriptName": "ShowremotewindowCommand.script",
+				"handlerLine": 7,
+				"identifier": "hide"
+			},
+		{
+				"handlerName": "on_showremotewindowcommand",
+				"timestamp": "2025-03-26 19:29:13.815 +0530",
+				"scriptName": "ShowremotewindowCommand.script",
+				"message": "at (52, 629)",
+				"image": "(TEXT:\"Contacts\")",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"2.686\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2025-03-26 19:29:11 +0530\", Successes:\"0\", TestCase:\"ShowremotewindowCommand.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-03-26 19:29:13.875 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STUnknownMessage: ERROR: No Such Command: 'hidshowe' -- Execution Time 0:00:02 ShowremotewindowCommand.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-03-26 19:29:14.214 +0530"
+			}
+	],
+	"createdTimestamp": "2025-03-26 19:29:11.187 +0530"
+}

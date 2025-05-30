@@ -1,0 +1,21 @@
+﻿set questions to ["Q1", "Q2", "Q3", "Q4"]
+set defaultValues to ["A1", "A2", "A3", "A4"]
+set titles to ["T1", "T2", "T3", "T4"]
+set msgs to ["M1", "M2", "M3", "M4"]
+repeat 4 times
+	Ask item repeatIndex() of questions with item repeatIndex() of defaultValues title item repeatIndex() of titles message item repeatIndex() of  msgs
+	Put it 
+end repeat
+
+makeURL(https://www.justdial.com/india/Data-Logger?search=Data-Logger&srcterm=Data Logger&ref=auto&nct=10153491&searchfrom=ft|b2b_prsltpg)
+
+
+put makeURL(host:"www.justdial.com/Data-Logger", path:"search", query:{"Data-Logger", "srcterm":"Data Logger", "ref":"auto", "nct":"10153491", "searchfrom": "ft|b2b_prsltpg"})
+
+put extractURL("https://www.justdial.com/india/Data-Logger?search=Data-Logger&srcterm=Data%20Logger&ref=auto&nct=10153491&searchfrom=ft|b2b_prsltpg")
+
+log URLDecode("https://www.justdial.com/india/Data-Logger?search=Data-Logger&srcterm=Data%20Logger&ref=auto&nct=10153491&searchfrom=ft|b2b_prsltpg")
+
+log URLEncode("https://www.justdial.com/india/Data-Logger?search=Data-Logger&srcterm=Data%20Logger&ref=auto&nct=10153491&searchfrom=ft|b2b_prsltpg")
+
+WebConnect host:"192.168.1.83", browser: "chrome", port: "4444", name: "Connection2", url: "https%3A%2F%2Fwww.justdial.com%2Findia%2FData-Logger%3Fsearch%3DData-Logger%26srcterm%3DData%2520Logger%26ref%3Dauto%26nct%3D10153491%26searchfrom%3Dft%7Cb2b_prsltpg"

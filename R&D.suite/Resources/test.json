@@ -1,0 +1,36 @@
+{
+  "people": [
+    {
+      "city": "Denver",
+      "airports": [
+        "Denver International",
+        "Rocky Mountain Metropolitan",
+        "Centennial",
+        "Front Range"
+      ],
+      "elevation": 5280,
+      "coordinates": [
+        39.7392,
+        104.9903
+      ],
+      "locatedInMountains": false,
+      "stateCapital": true
+    },
+    {
+      "city": "London",
+      "airports": [
+        "Denver International",
+        "Rocky Mountain Metropolitan",
+        "Centennial",
+        "Front Range"
+      ],
+      "elevation": 5280,
+      "coordinates": [
+        39.7392,
+        104.9903
+      ],
+      "locatedInMountains": false,
+      "stateCapital": true
+    }
+  ]
+}

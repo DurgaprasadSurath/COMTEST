@@ -1,0 +1,32 @@
+﻿(*
+if "Games/ffte".subt() then 
+	Log "Hello "
+end if
+*)
+
+
+run "Games/Json read" "temp", "Nsx.('daya')"
+
+
+
+Click (Text:"SURATH", contrastColor:(255,0,0), contrast:"On", WaitFor:8, contrastTolerance:"37")
+
+set the SearchRectangle to (497,388,879,509)
+Log ReadText(the SearchRectangle, contrastColor:(255,0,0), contrast:"On", WaitFor:8, contrastTolerance:"37")
+
+Log the remoteWorkInterval
+
+set the remoteWorkInterval to 0.1
+
+
+
+put ImageLocation(text:<>)
+
+Click text:<"2," then some whitespace characters then some characters then "= 24", not followed by characters>
+//Click text:"2,\t,[1024], Application, CBR Server,Total Unicast Fragments Received (fragments) = 24"
+set the SearchRectangle to FoundImageInfo().ImageRectangle
+wait 1
+Log ReadText(the SearchRectangle)
+
+
+Log ReadText(40,853,523,870)

@@ -1,0 +1,63 @@
+﻿put {{"
+# Define the path to the Excel file and the image
+$excelFile = "C:\Users\durgaprasad.surath\Downloads\Book1.xlsx"
+$imageFile = "C:\Users\durgaprasad.surath\Downloads\image.png"
+
+# Create an Excel application object
+$excel = New-Object -ComObject Excel.Application
+$excel.Visible = $true
+Write-Host "Excel File Path: '$excelFile'"
+
+# Open the workbook
+try {
+    $workbook = $excel.Workbooks.Open($excelFile)
+} catch {
+    Write-Host "Failed to open Excel file: $_"
+}
+
+# Select the worksheet where you want to add the image
+$sheet = $workbook.Sheets.Item("Sheet1")
+
+# Define the position and size for the image
+$left = 10
+$top = 10
+$width = 100
+$height = 100
+
+# Insert the image into the worksheet
+$sheet.Shapes.AddPicture($imageFile, $false, $true, $left, $top, $width, $height)
+
+# Save and close the workbook
+$workbook.Save()
+$workbook.Close()
+$excel.Quit()
+
+# Release the COM object
+[System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel)
+
+"}} into powerShellScript
+
+
+log powerShellScript
+
+# Save string into a powershell script
+put "C:\Users\durgaprasad.surath\Downloads\runit.ps1" into scriptPath
+--put powerShellScript into file scriptPath
+
+# Execute powershell script
+
+put "powershell -ExecutionPolicy Bypass -File " & quote&scriptPath&quote into psScripPath
+log psScripPath
+set the shellCommand to "ShellExecute"
+Shell "C:\Windows\System32\WindowsPowerShell\v1.0\powershell"," -ExecutionPolicy Bypass -File"&&quote&"C:\Users\durgaprasad.surath\Downloads\runit.ps1"&quote
+
+put shell(psScriptPath) into result
+
+#put shell("powershell -ExecutionPolicy Bypass -File " & scriptPath) into result
+
+// Check the result
+if result contains "Error" then
+	logError "Failed to insert image into Excel file"
+else
+	log "Image successfully inserted into Excel file"
+end if

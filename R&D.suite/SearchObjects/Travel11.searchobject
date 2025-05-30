@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		278,
+		190,
+		111,
+		54
+	],
+	"lastmodifieddate": 1712223397.158,
+	"createddate": 1712223397.158,
+	"name": "Travel11",
+	"lastfounddate": 1712224653.793,
+	"ocrcapturestring": "Document",
+	"lastfoundlocation": [
+		279,
+		190,
+		111,
+		54
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 65024,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[55,27]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Travel11.png",
+				"connectionname": "IB-81",
+				"type": 1,
+				"connectionserverid": "192.168.1.81",
+				"capturerect": [
+					278,
+					190,
+					111,
+					54
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Document"
+			}
+	]
+}

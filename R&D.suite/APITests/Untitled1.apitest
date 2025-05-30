@@ -1,0 +1,24 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = None;
+    httpVerb = GET;
+    oauth1Token = "";
+    password = "a5$.UH4wu6/,E2=qO";
+    requestBody = "";
+    requestBodyFormat = "Form Url Encoded";
+    requestHeaders = "<![CDATA[Content-Type:application/json
+Cookie:[[ALMCookie]]
+]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "https://almrb.saas.microfocus.com/qcbin/rest/domains/RB_SANDBOX/projects/TRAINING2/tests/2466";
+    userName = "sunil.reddy@reckitt.com";
+}

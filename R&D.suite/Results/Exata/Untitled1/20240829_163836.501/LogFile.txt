@@ -1,0 +1,5 @@
+﻿2024-08-29 16:38:36.503 +0530	START		Running Exata/Untitled1.script
+2024-08-29 16:38:36.625 +0530	Log			6	on_untitled1	Exata/Untitled1.script
+2024-08-29 16:38:36.641 +0530	Log			3	on_readdata	Exata/Untitled1.script
+2024-08-29 16:38:36.657 +0530	EndTestCase		(Duration:"0.143", Errors:"0", Exceptions:"0", StartTime:"2024-08-29 16:38:36 +0530", Successes:"1", TestCase:"Exata/Untitled1.script", Warnings:"0")
+2024-08-29 16:38:36.735 +0530	SUCCESS		Execution Time 0:00:00 Exata/Untitled1.script

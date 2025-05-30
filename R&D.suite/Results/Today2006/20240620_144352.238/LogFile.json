@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2006.script",
+				"identifier": "START",
+				"timestamp": "2024-06-20 14:43:52.251 +0530"
+			},
+		{
+				"handlerName": "on_today2006",
+				"timestamp": "2024-06-20 14:43:52.338 +0530",
+				"message": "Hi This Is A Test!\\n",
+				"scriptName": "Today2006.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.108\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-06-20 14:43:52 +0530\", Successes:\"1\", TestCase:\"Today2006.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-20 14:43:52.368 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Today2006.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-06-20 14:43:52.557 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-20 14:43:52.257 +0530"
+}

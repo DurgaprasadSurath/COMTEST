@@ -1,0 +1,36 @@
+﻿put random(100,150) 
+
+Log ImageLocation(image:"Chrome_Logo")
+Log ImageFound(text:"chrome")
+
+Log ImageLocation(image:"Chrome_Logo")
+Put ImageRectangle("Chrome_Logo") into Var
+
+set the SearchRectangle to [[var.x+100,var.y-30],[var.x+400,var.y+150]]
+wait 10
+DoubleClick text: "Sample",hotspot:[100,60]
+set the SearchRectangle to empty //[]
+put  the mouseDragSpeed  into var
+set the mouseDragSpeed to 09
+
+Click "windows"
+set the mouseDragSpeed to  var
+log RemoteScreenSize()
+
+
+put EveryImageLocation("Chrome") into chromeLoc
+Click item 3 of ChromeLoc
+
+
+
+ScrollWheelDown 4
+
+Click Image
+
+
+Drag image:"Scroller"
+Drop image:"Scroller",hotspot:[0,900]
+
+
+TypeText downArrow
+TypeText pageDown

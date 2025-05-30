@@ -1,0 +1,20 @@
+﻿put GetListOfDummyEmployees().responseBody into APIResponse -- Calling the GetListOfDummyEmployees API and Putting the ResponseBody into APIResponse variable
+put JSONValue(APIResponse) into JSONResponse
+put JSONResponse.data into EmployeeData
+repeat with each emp of EmployeeData 
+	put emp.id into EmpID
+	#log EmpID
+	put emp.employee_name into EmpName
+	#log EmpName
+	if EmpID is 1 
+		put EmpID into EmpID1 -- Storing one Particular Employee ID into some Variable
+	end if
+end repeat
+log EmpID1
+
+
+put GetDummySpecificEmpDetails().responseBody into APIResponse
+log APIResponse
+
+
+

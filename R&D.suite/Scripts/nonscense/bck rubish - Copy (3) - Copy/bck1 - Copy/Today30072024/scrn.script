@@ -1,0 +1,22 @@
+﻿log ResourcePath()
+log the suiteInfo
+log the folder
+log  the suiteInfo.imagesFolder&"/"
+set the folder to the suiteInfo.imagesFolder&"/"
+--set the folder to ResourcePath()&"/"
+--log the folder
+
+log defaultSuiteDirectory
+put CompareScreen("hello") into homeDiffs
+--log the folder
+
+
+log the directory
+
+put CompareScreen(name: "ContactsScreen") 
+set the directory to the suiteInfo.imagesFolder&"/"
+put CompareScreen(name: the directory&"ContactsScreen") into homeDiffs
+
+
+
+put CompareScreen(name:the suiteInfo.imagesFolder&"/" &"ContactsScreen")

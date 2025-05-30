@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 15:47:55.793 +0530"
+			},
+		{
+				"message": "(Duration:\"0.126\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-29 15:47:55 +0530\", Successes:\"0\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 15:47:55.919 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STFileException: File C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/Eggplant/EggplantSuites/Personal/RandD/R&D.suite/Resources/gen_kal.xlsx couldn't be read using the defaultStringEncoding (UTF8) -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-08-29 15:47:56.082 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 15:47:55.793 +0530"
+}

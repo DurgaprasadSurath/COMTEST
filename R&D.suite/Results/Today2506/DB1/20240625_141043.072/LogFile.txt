@@ -1,0 +1,6 @@
+﻿2024-06-25 14:10:43.078 +0530	START		Running Today2506/DB1.script
+2024-06-25 14:10:43.184 +0530	Log		[{first_name:"morgan", gender:"Female", last_name:"smith", password:"a84cf2d984ed2eb7948b9fda85275a7f", status:1, user_id:715, username:"ross44"}]	4	on_db1	Today2506/DB1.script
+2024-06-25 14:10:43.215 +0530	Log		[{first_name:"morgan", gender:"Female", last_name:"smith", password:"a84cf2d984ed2eb7948b9fda85275a7f", status:1, user_id:715, username:"ross44"}]	6	on_db1	Today2506/DB1.script
+2024-06-25 14:10:43.215 +0530	Log		ross44	8	on_db1	Today2506/DB1.script
+2024-06-25 14:10:43.279 +0530	EndTestCase		(Duration:"0.201", Errors:"0", Exceptions:"0", StartTime:"2024-06-25 14:10:43 +0530", Successes:"1", TestCase:"Today2506/DB1.script", Warnings:"0")
+2024-06-25 14:10:43.341 +0530	SUCCESS		Execution Time 0:00:00 Today2506/DB1.script

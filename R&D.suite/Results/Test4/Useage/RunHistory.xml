@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Test4/Useage">
+ <run>
+  <RunDate>2024-09-05 14:23:33.883 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.142000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240905_142333.883/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:24:14.976 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.470000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240905_142414.976/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:25:01.467 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>3.338000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240905_142501.467/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:30:56.055 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>27.350000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240905_143056.055/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Field Ticket 1&quot;)&quot;. Text not found.  Restricted Search Rectangle ((0,1),(1170,2532))
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:32:49.473 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>6.026000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240905_143249.473/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:33:09.946 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>19.018000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240905_143309.946/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:35:01.307 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>18.297000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>5</Successes>
+  <LogFile>20240905_143501.307/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 2</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:44:06.990 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>18.506000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>5</Successes>
+  <LogFile>20240905_144406.990/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 2</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-09-05 14:44:57.216 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>19.759000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>5</Successes>
+  <LogFile>20240905_144457.216/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 2</ErrorMessage>
+ </run>
+</runHistory>

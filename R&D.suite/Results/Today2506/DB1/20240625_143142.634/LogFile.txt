@@ -1,0 +1,3 @@
+﻿2024-06-25 14:31:42.640 +0530	START		Running Today2506/DB1.script
+2024-06-25 14:31:42.712 +0530	EndTestCase		(Duration:"0.067", Errors:"1", Exceptions:"0", StartTime:"2024-06-25 14:31:42 +0530", Successes:"0", TestCase:"Today2506/DB1.script", Warnings:"0")
+2024-06-25 14:31:42.739 +0530	FAILURE		STDatabaseConnectionError: Failed to connect to ODBC database odbc:27 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user 'root'@'localhost' (using password: NO), SQLSTATE=HY000 -- Execution Time 0:00:00 Today2506/DB1.script

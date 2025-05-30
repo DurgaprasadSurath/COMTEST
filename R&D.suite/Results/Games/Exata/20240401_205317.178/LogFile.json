@@ -1,0 +1,37 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Exata.script",
+				"identifier": "START",
+				"timestamp": "2024-04-01 20:53:17.188 +0530"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:53:17.273 +0530",
+				"message": "SEARCHRECTANGLE = [155,592,874,1041]",
+				"scriptName": "Games/Exata.script",
+				"handlerLine": 1,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_exata",
+				"timestamp": "2024-04-01 20:53:36.476 +0530",
+				"scriptName": "Games/Exata.script",
+				"message": "No Text Found On Screen: \"(TEXT:<1 digit, \",\", whitespace characters, nonLettersOrDigits, characters, \"=24\">)\". Text not found.",
+				"image": "(TEXT:<1 digit, \",\", whitespace characters, nonLettersOrDigits, characters, \"=24\">)",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"19.369\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-01 20:53:17 +0530\", Successes:\"0\", TestCase:\"Games/Exata.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-01 20:53:36.564 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:19 Games/Exata.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-04-01 20:53:36.574 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-01 20:53:17.193 +0530"
+}

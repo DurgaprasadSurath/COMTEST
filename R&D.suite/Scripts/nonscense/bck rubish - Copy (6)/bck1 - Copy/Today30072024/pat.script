@@ -1,0 +1,9 @@
+﻿set textValue to "EGGPLANT" 
+Tap {text:<not preceded by characters then textValue then not followed by characters>,casesensitive:true}
+
+set textValue to "EGGPLANT" 
+Tap {text:<not preceded by characters then textValue then not followed by characters>,casesensitive:false}
+
+
+
+Set input1 to quote&"T@#^&!`~[]{}/;:'\Test/w:Tes1*T?"&quote&"Tet"&quote&"T<T>Test|Te.."&quote

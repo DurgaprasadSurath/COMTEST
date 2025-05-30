@@ -1,0 +1,18 @@
+﻿2024-03-07 16:14:26.531 +0530	START		Running Games/compp.script
+2024-03-07 16:14:26.574 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:14:26.655 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	Captured initial baseline image "tutorialSut_menu"	3	on_compp	Games/compp.script
+2024-03-07 16:14:26.661 +0530	Log			4	on_compp	Games/compp.script
+2024-03-07 16:14:26.673 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:14:26.729 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- No significant differences from baseline	3	on_compp	Games/compp.script
+2024-03-07 16:14:26.733 +0530	Log			4	on_compp	Games/compp.script
+2024-03-07 16:14:26.783 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:14:26.802 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- No significant differences from baseline	3	on_compp	Games/compp.script
+2024-03-07 16:14:26.806 +0530	Log			4	on_compp	Games/compp.script
+2024-03-07 16:14:26.886 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:14:26.897 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- No significant differences from baseline	3	on_compp	Games/compp.script
+2024-03-07 16:14:26.901 +0530	Log			4	on_compp	Games/compp.script
+2024-03-07 16:14:26.985 +0530	set		COMPARESCREENACTION = Warning	2	on_compp	Games/compp.script
+2024-03-07 16:14:27.008 +0530	CompareScreen	[Baseline_Screens]/tutorialSut_menu.png	CompareScreen "tutorialSut_menu" -- No significant differences from baseline	3	on_compp	Games/compp.script
+2024-03-07 16:14:27.011 +0530	Log			4	on_compp	Games/compp.script
+2024-03-07 16:14:27.213 +0530	EndTestCase		(Duration:"0.677", Errors:"0", Exceptions:"0", StartTime:"2024-03-07 16:14:26 +0530", Successes:"1", TestCase:"Games/compp.script", Warnings:"0")
+2024-03-07 16:14:27.358 +0530	SUCCESS		Execution Time 0:00:00 Games/compp.script

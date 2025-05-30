@@ -1,0 +1,11 @@
+﻿universal SampleXML
+
+
+set SampleXML to tree( { _XMLinfo : { version : "1.0", CharacterEncoding : "utf-8"}, _tag : "spin",  _attributes:{id: "0000"}, _children : [ { _tag : "reel_1", _attributes : { value : "SKULL"} }, { _tag : "reel_2", _attributes : { value : "BAR"} }, { _tag : "reel_3", _attributes : { value : "WHEEL"} }, { _tag : "total", _attributes : { credits : "2, 029"} }]})
+
+
+put the number of items of all nodes "spin/" of SampleXML into numberOfTracks
+Repeat numberOfTracks times
+	put repeatIndex() into the number of node merge("*/cd/tracklist/track[{repeatIndex()}]","{", "}")  of SampleXMLTreeFormat
+End Repeat
+put SampleXMLTreeFormat into  file ResourcePath("updated_sample.xml")

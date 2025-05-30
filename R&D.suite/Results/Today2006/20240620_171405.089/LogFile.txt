@@ -1,0 +1,3 @@
+﻿2024-06-20 17:14:05.097 +0530	START		Running Today2006.script
+2024-06-20 17:14:05.171 +0530	EndTestCase		(Duration:"0.068", Errors:"1", Exceptions:"0", StartTime:"2024-06-20 17:14:05 +0530", Successes:"0", TestCase:"Today2006.script", Warnings:"0")
+2024-06-20 17:14:05.277 +0530	FAILURE		STInvalidNumber: Value is not a number: '{airports:["Denve...' -- Execution Time 0:00:00 Today2006.script

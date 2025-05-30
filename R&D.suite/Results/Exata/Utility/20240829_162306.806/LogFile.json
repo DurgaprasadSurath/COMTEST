@@ -1,0 +1,27 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 16:23:06.813 +0530"
+			},
+		{
+				"handlerName": "on_readdata",
+				"timestamp": "2024-08-29 16:23:07.152 +0530",
+				"scriptName": "Exata/gen_kalyan_29082024.script",
+				"identifier": "Log",
+				"handlerLine": 3
+			},
+		{
+				"message": "(Duration:\"0.366\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-29 16:23:06 +0530\", Successes:\"1\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 16:23:07.183 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-08-29 16:23:07.230 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 16:23:06.817 +0530"
+}

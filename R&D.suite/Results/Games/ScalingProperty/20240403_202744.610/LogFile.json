@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/ScalingProperty.script",
+				"identifier": "START",
+				"timestamp": "2024-04-03 20:27:58.040 +0530"
+			},
+		{
+				"handlerName": "on_scalingproperty",
+				"timestamp": "2024-04-03 20:27:58.123 +0530",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "Games/ScalingProperty.script",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"0.092\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-04-03 20:27:58 +0530\", Successes:\"0\", TestCase:\"Games/ScalingProperty.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-04-03 20:27:58.141 +0530"
+			},
+		{
+				"message": "No Remote Connection: imagelocation Error - Remote Connection Unavailable -- Execution Time 0:00:13 Games/ScalingProperty.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-04-03 20:27:58.259 +0530"
+			}
+	],
+	"createdTimestamp": "2024-04-03 20:27:58.045 +0530"
+}

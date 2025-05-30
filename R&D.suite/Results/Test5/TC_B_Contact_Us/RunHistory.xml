@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Tests/TC_B_Contact_Us">
+ <run>
+  <RunDate>2024-04-24 10:50:17.020 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.105000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240424_105017.020/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-24 10:50:22.483 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.111000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240424_105022.483/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;myname&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-24 10:50:27.664 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.077000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240424_105027.664/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;name&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-24 10:50:33.302 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.064000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240424_105033.302/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;name&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-24 10:50:39.212 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.065000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240424_105039.212/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;script&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-04-24 10:50:46.276 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.070000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240424_105046.276/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;scriptname&#x27;</ErrorMessage>
+ </run>
+</runHistory>

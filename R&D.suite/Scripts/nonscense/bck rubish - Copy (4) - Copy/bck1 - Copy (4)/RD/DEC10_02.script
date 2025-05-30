@@ -1,0 +1,47 @@
+﻿
+set dateList to ["01-03-2021"]
+set the listFormat to {prefix:empty,suffix:empty}
+split dateList by "-"
+put dateList into date1
+set the listFormat to standardListFormat
+put monthNames() into monthList
+put item (item 2 of date1) of monthList into item 2 of date1
+join date1 by"-"
+Log date1
+
+
+
+set the listFormat to standardListFormat
+put monthNames() into monthList
+put the number of items of monthList into count
+put ["1","Dec","2021"] into tempDate
+repeat count times
+	if item repeatIndex() of monthList contains item 2 of tempDate  
+		Log repeatIndex()
+	end if
+end repeat
+
+
+
+
+(*log formattedTime("[monthName]",item 2 of date1)
+set the listformat to {prefix:empty,suffix:empty,separator:","}
+//log item 3 of monthList
+
+log formattedTime("[monthName]",item 3 of date1)//log monthList
+put formattedTime("%b") of item 3 of monthList into monthName
+log monthNameput the number of items in monthList into count
+log countrepeat count times
+put item repeatIndex() of monthList into months
+if item 2 of date1 matches <formattedTime("[mon]",item repeatIndex() of monthList)>
+	log "The month is" && item repeatIndex() of months
+end if
+end repeat*)
+
+
+
+(*put file ResourcePath("caltext.txt") as a tree into mytree 
+//log mytree
+if mytree contains word "AddResponse" then
+log "##############"
+end if*)

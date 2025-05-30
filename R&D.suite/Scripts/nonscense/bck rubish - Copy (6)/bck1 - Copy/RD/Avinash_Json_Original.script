@@ -1,0 +1,86 @@
+﻿put file ("C:\Users\DurgaPrasad S\Desktop\Jsonresponse_summary.json")  into JsonAvinash
+put JSONValue(JsonAvinash) into ResponseBody
+//put JSONValue(ResponseValue.responseBody) into ResponseBody
+put ResponseBody.content into outputValues
+set totalOdometerCount to 0
+set totalElectricityUsed to 0
+set gallonsDieselSaved to 0
+set totaldieselEmmissions to 0
+set the defaultNumberFormat to "0"
+Repeat with each item CurrBus of outputValues
+	put CurrBus.odometer into CurrOdometer
+	put CurrBus.vehicleModel into CurrvehicleModel
+	replace every occurrence of "*" in CurrOdometer with ""
+	replace every occurrence of " " in CurrOdometer with ""
+	
+	
+	if (CurrOdometer is not empty) and (CurrOdometer <700000) and (CurrOdometer is not "-")
+		
+		--****** Calculating Tototal Odometer count
+		add CurrOdometer to totalOdometerCount
+		
+		if (CurrvehicleModel is "Saf-T-Liner C2 Jouley") --or (CurrvehicleModel is "Jouley")
+			
+			// Electricity Used Calulcations for Saf-T-Liner C2 Jouley or Jouley
+			put CurrOdometer into Electricityused
+			multiply Electricityused by 1.4 
+			divide Electricityused by 1000
+			add Electricityused to totalElectricityUsed
+			
+			// Gallons Diesel saved Calulcations for Saf-T-Liner C2 Jouley 0r Jouley
+			put CurrOdometer into dieselSaved
+			divide dieselSaved by 6.2
+			add dieselSaved to gallonsDieselSaved
+			
+			//Diesel Emissions saved calculations
+			put dieselSaved into dieselEmmission
+			multiply dieselEmmission by 22.47
+			add dieselEmmission to totaldieselEmmissions
+			
+		else if CurrvehicleModel is "MT50e"
+			
+			// Electricity Used Calulcations for MT50e
+			put CurrOdometer into Electricityused
+			multiply Electricityused by 1.2
+			divide Electricityused by 1000
+			add Electricityused to totalElectricityUsed
+			
+			// Gallons Diesel saved Calulcations for MT50e
+			put CurrOdometer into dieselSaved
+			divide dieselSaved by 6.5
+			add dieselSaved to gallonsDieselSaved
+			
+			//Diesel Emissions saved calculations
+			put dieselSaved into dieselEmmission
+			multiply dieselEmmission by 22.47
+			add dieselEmmission to totaldieselEmmissions
+			
+		else
+			
+			// Electricity Used Calulcations
+			put CurrOdometer into Electricityused
+			multiply Electricityused by 2.15
+			divide Electricityused by 1000
+			add Electricityused to totalElectricityUsed
+			
+			
+			// Gallons Diesel saved Calulcations
+			put CurrOdometer into dieselSaved
+			divide dieselSaved by 3.26
+			add dieselSaved to gallonsDieselSaved
+			
+			//Diesel Emissions saved calculations
+			put dieselSaved into dieselEmmission
+			multiply dieselEmmission by 22.47
+			add dieselEmmission to totaldieselEmmissions
+			
+		End If
+		
+		
+	else
+		LogError "Invalid Odometer Value "&CurrOdometer&" for "&CurrBus.vehicleVIN
+		
+	end if
+	
+End repeat
+

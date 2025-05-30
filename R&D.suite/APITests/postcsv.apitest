@@ -1,0 +1,32 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = "Basic Auth";
+    httpVerb = POST;
+    oauth1Token = "";
+    password = "((/c>;#'9Lk.Iwx\\K%IsNW#{";
+    requestBody = "{
+    \"fields\": {
+        \"summary\": \"Created from rest api\",
+        \"issuetype\": {
+            \"id\": \"10007\"
+        },
+        \"project\": {
+            \"key\": \"CSI\"
+        }
+    }
+}";
+    requestBodyFormat = "JSON (application/json)";
+    requestHeaders = "<![CDATA[]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "https://ideabytes.atlassian.net/rest/api/3/issue";
+    userName = "DurgaPrasad.Surath@ideabytes.com";
+}

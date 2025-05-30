@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running Kcom.script",
+				"identifier": "START",
+				"timestamp": "2024-09-20 14:57:02.852 +0530"
+			},
+		{
+				"handlerName": "on_kcom",
+				"timestamp": "2024-09-20 14:57:02.958 +0530",
+				"message": "[commandKey]a",
+				"scriptName": "Kcom.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_kcom",
+				"timestamp": "2024-09-20 14:57:02.963 +0530",
+				"message": "Set Text:34465A",
+				"scriptName": "Kcom.script",
+				"handlerLine": 2,
+				"identifier": "setremoteclipboard"
+			},
+		{
+				"handlerName": "on_kcom",
+				"timestamp": "2024-09-20 14:57:03.723 +0530",
+				"message": "[controlKey]v",
+				"scriptName": "Kcom.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"0.889\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-09-20 14:57:02 +0530\", Successes:\"1\", TestCase:\"Kcom.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-20 14:57:03.748 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Kcom.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-09-20 14:57:03.818 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-20 14:57:02.856 +0530"
+}

@@ -1,0 +1,4 @@
+﻿set OCRProperties to {ignoreSpaces:true,ignoreNewLines:true}
+set the TextStyle to OCRProperties
+set the SearchRectangle to part.screenpart("RightHalfOfBottomRightQuadrant")
+if ImageFound(text:"No data to display") then Log FoundImageLocation() 

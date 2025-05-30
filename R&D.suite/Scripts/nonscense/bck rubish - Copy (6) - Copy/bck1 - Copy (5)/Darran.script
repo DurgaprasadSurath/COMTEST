@@ -1,0 +1,21 @@
+﻿set pList to {lightNum:1888, departureCity:"JFK", arrivalCity:"LAX", allowedCitied:"3"}
+Log pList
+
+put allowedCities(@pList)
+
+to allowedCities pList
+	log Param(1)
+	put ">> tests/testParams/allowedCities()"
+	log pList
+	log pList.allowedCitied
+	allowedCities()
+	if pList.allowedCitied is empty then exit handler
+end allowedCities
+
+
+
+
+put JsonFormat(getResponse).id into userId
+Log "ID : " &userId
+
+//Log JSONValue (getResponse)

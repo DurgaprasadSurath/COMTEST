@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Untitled1">
+ <run>
+  <RunDate>2024-10-16 11:29:06.036 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.059000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20241016_112906.036/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-10-16 11:46:32.484 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.337000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20241016_114632.484/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unknown Property or Function -- Unable to access global property or function &#x27;MORNING&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-10-16 12:39:37.467 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.166000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20241016_123937.467/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unknown Property or Function -- Unable to access global property or function &#x27;MORNING&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-10-17 13:27:39.717 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.118000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20241017_132739.717/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

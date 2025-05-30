@@ -1,0 +1,137 @@
+﻿
+//Calling Main handler 
+//Pass a postman collection
+ScriptGenerator {fileContents:"frq.json"} by name
+
+
+
+
+//Main Handler to generate the Api Tests
+to handle ScriptGenerator 
+	params fileContents
+	put file ResourcePath(fileContents) into JsonFile
+	put JSONValue(JsonFile) into DenverInfo
+	put DenverInfo.item into TestcaseContent2
+	put the SuiteInfo.path & "/APITests" into APITestsFolder
+	repeat with each item of TestcaseContent2
+		put APITestsFolder&"/"&it.name&".apitest" into name
+		create file APITestsFolder&"/"&it.name&".apitest"
+		put it.request.body into API_Body
+		put it.request.header into API_Headers
+		put it.request.url.query into API_Url_Params
+		set bodyType to empty
+		set bodyContentData to empty
+		set headerValues to empty
+		set paramsData to empty
+		if API_Url_Params is not empty then 
+			Url_Params {queryContent:API_Url_Params} by name 
+			put the result into paramsData		
+		end if	
+		if API_Body is not empty then 
+			Body_Type {bodyContent:it.request.body} by name 
+			put the result into bodyType
+			Body_Content {content:it.request.body} by name 
+			put the result into bodyContentData			
+		end if		
+		if API_Headers is not empty then 
+			Header_Content {HeaderContent:it.request.header} by name 
+			put the result into headerValues
+		end if
+		put "{URLparameters = ("&paramsData&");authenticationType = None;httpVerb = "&quote&it.request.method&quote&";oauth1Token = "&quote&quote&";password = "&quote&quote&";requestBody = "&quote&bodyContentData&quote&";requestBodyFormat ="&quote&bodyType&quote&";requestHeaders = "&quote&"<![CDATA["&headerValues&"]]>"&quote&";requests = "&quote&quote&";testResults = "&quote&quote&";testScript = "&quote&quote&";url ="&quote&it.request.url.raw&quote&";userName = "&quote&quote&";}" into file name
+	end repeat
+end ScriptGenerator
+
+
+//Getting Body Type from the Collection
+to handle Body_Type 
+	params bodyContent
+	set type to empty
+	if bodyContent.mode is "formdata" then 
+		put "Form Data" into type
+	else if  bodyContent.mode is "urlencoded" then 
+		put "Form Url Encoded" into type
+	else if  bodyContent.mode is "raw" then 
+		if bodyContent.options.raw.language is "text" then
+			put "Text (text/plain)" into type
+		else if bodyContent.options.raw.language is "json" then 
+			put "JSON (application/json)" into type
+		else if bodyContent.options.raw.language is "xml" then 
+			put "XML (application/xml)" into type
+		end if
+	end if 
+	return type
+end Body_Type
+
+
+//Getting Body Content from the Collection
+to handle Body_Content 
+	params content
+	set contentData to empty
+	if content.mode is "formdata" then 
+		if content.formdata.type is "file" then
+			put content.formdata into formdata_encodeData
+			repeat with each item of formdata_encodeData
+				//TODO Encode the file 
+				insert it.key&":"&it.src into formdataData			
+			end repeat
+			join formdataData using newline
+			put formdataData into contentData
+			else
+			put content.formdata into formdata_encodeData
+			repeat with each item of formdata_encodeData
+				insert it.key&":"&it.value into formdataData			
+			end repeat
+			join formdataData using newline
+			put formdataData into contentData
+		end if
+		else if content.mode is "urlencoded" then 
+		put content.urlencoded into urlencoded_encodeData
+		repeat with each item of urlencoded_encodeData
+			insert it.key&":"&it.value into urlencodedData
+		end repeat
+		join urlencodedData using newline
+		put urlencodedData into contentData
+		else if content.mode is "raw" then 			
+		if content.options.raw.language is "text" then
+			put content.raw into contentData
+		else if content.options.raw.language is "json" then 
+			put JSONFormat(content.raw) into content_Data
+			Delete character 1 of content_Data
+			Delete last character of content_Data
+			put content_Data into contentData
+		else if content.options.raw.language is "xml" then 
+			put XMLRPCFormat(content.raw) into contentData
+		end if
+	end if 
+	return contentData
+end Body_Content
+
+
+//Getting Header values from the Collection
+to handle Header_Content 
+	params HeaderContent	
+	set HeaderContentData to empty
+	repeat with each item of HeaderContent
+		insert it.key&":"&it.value into header_Data			
+	end repeat
+	join header_Data using newline
+	put header_Data into HeaderContentData
+	return HeaderContentData
+end Header_Content
+
+
+//Getting Params from the Collection
+to handle Url_Params 
+	params queryContent
+	set Query_Content to empty
+	repeat with each item of queryContent
+		put "{checkedNumber = <*BY>;param = "&quote&it.key&quote&";showCheckedNumber = <*BY>;value = "&quote&it.value&quote&";}" into item repeatIndex() of params_Data			
+	end repeat
+	put params_Data into Query_Content
+	return Query_Content
+end Url_Params
+
+
+
+
+

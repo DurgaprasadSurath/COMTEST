@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled3.script",
+				"identifier": "START",
+				"timestamp": "2024-10-28 14:17:07.836 +0530"
+			},
+		{
+				"handlerName": "on_untitled3",
+				"timestamp": "2024-10-28 14:17:07.883 +0530",
+				"message": "Ontario",
+				"scriptName": "Untitled3.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.066\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-10-28 14:17:07 +0530\", Successes:\"1\", TestCase:\"Untitled3.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-28 14:17:07.902 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Untitled3.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-10-28 14:17:07.962 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-28 14:17:07.836 +0530"
+}

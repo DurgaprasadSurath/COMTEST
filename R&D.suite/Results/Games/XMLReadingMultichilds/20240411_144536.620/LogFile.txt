@@ -1,0 +1,3 @@
+﻿2024-04-11 14:45:36.630 +0530	START		Running Games/XMLReadingMultichilds.script
+2024-04-11 14:45:36.743 +0530	EndTestCase		(Duration:"0.105", Errors:"1", Exceptions:"0", StartTime:"2024-04-11 14:45:36 +0530", Successes:"0", TestCase:"Games/XMLReadingMultichilds.script", Warnings:"0")
+2024-04-11 14:45:36.892 +0530	FAILURE		InvalidValueExpr: Unable to take value of expression 'C:\Users\durgaprasad.surath\Downloads\TestXML.xml' (reason: (null)) -- Execution Time 0:00:00 Games/XMLReadingMultichilds.script

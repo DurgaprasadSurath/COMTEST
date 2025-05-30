@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Json read.script",
+				"identifier": "START",
+				"timestamp": "2024-02-06 17:42:01.964 +0530"
+			},
+		{
+				"handlerName": "on_json_read",
+				"timestamp": "2024-02-06 17:42:02.036 +0530",
+				"message": "[{airports:[\"Denver International\",\"Rocky Mountain Metropolitan\",\"Centennial\",\"Front Range\"], city:\"Denver\", coordinates:[39.7392,104.9903], elevation:5280, locatedInMountains:\"False\", stateCapital:\"True\"},{airports:[\"Denver International\",\"Rocky Mountain Metropolitan\",\"Centennial\",\"Front Range\"], city:\"Denver\", coordinates:[39.7392,104.9903], elevation:5280, locatedInMountains:\"False\", stateCapital:\"True\"}]",
+				"scriptName": "Games/Json read.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.09\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-06 17:42:01 +0530\", Successes:\"1\", TestCase:\"Games/Json read.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-06 17:42:02.057 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Json read.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-06 17:42:02.176 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-06 17:42:01.966 +0530"
+}

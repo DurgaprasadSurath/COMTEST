@@ -1,0 +1,3 @@
+﻿2024-08-30 12:09:48.697 +0530	START		Running Exata/Utility.script
+2024-08-30 12:09:57.675 +0530	EndTestCase		(Duration:"8.974", Errors:"1", Exceptions:"0", StartTime:"2024-08-30 12:09:48 +0530", Successes:"0", TestCase:"Exata/Utility.script", Warnings:"0")
+2024-08-30 12:09:57.998 +0530	FAILURE	Screen_Error.png	STInvalidBoolean: Value '"run"' is not TRUE, FALSE, YES, NO, ON, OFF or empty -- Execution Time 0:00:08 Exata/Utility.script

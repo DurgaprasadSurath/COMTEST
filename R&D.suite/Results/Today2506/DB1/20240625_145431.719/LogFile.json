@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/DB1.script",
+				"identifier": "START",
+				"timestamp": "2024-06-25 14:54:31.721 +0530"
+			},
+		{
+				"message": "(Duration:\"0.096\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-06-25 14:54:31 +0530\", Successes:\"0\", TestCase:\"Today2506/DB1.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-25 14:54:31.817 +0530"
+			},
+		{
+				"message": "STDatabaseConnectionError: Failed to connect to ODBC database odbc:31 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user 'ro0ot'@'localhost' (using password: YES), SQLSTATE=HY000 -- Execution Time 0:00:00 Today2506/DB1.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-06-25 14:54:31.849 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-25 14:54:31.721 +0530"
+}

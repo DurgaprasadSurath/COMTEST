@@ -1,0 +1,11 @@
+﻿
+
+
+
+
+
+logger 1
+
+to logger var, var2
+	log Param(1)
+end logger

@@ -1,0 +1,31 @@
+﻿GetAccessTokenAPIScript
+put Global accessToken into AccessToken
+put GetListOfModels() into APIResponse
+put APIResponse.responseBody into JSONResponse
+log JSONResponse
+put JSONValue(JSONResponse) into ResponseValue
+//log ResponseValue
+log the number of items of ResponseValue
+repeat with each value of ResponseValue
+	put "Agent Details"
+	log value
+	log value.agent
+	log value.id
+	log value.modeluuid
+	log value.name
+	Put "Model Group Details"
+	put value.group into ModelGroup
+	log ModelGroup
+	log ModelGroup.name
+	log ModelGroup.id
+	Put "Model Assets"
+	log value.assets
+	put value.assets into Assets
+	log Assets.asset_id
+end repeat
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+﻿to handle APItestcases
+	params TestDataFile,SheetName
+	set MyExcelFile to Workbook(ResourcePath(TestDataFile))
+	set Sheet to worksheet(MyExcelFile,SheetName)
+	put APItest() into APIResponse
+	put APIResponse.responseBody into temp
+	put JSONValue(temp) into ResponseValue 
+	put ResponseValue.data into DataValue 
+	repeat the number of items of DataValue times
+		put item repeatIndex() of DataValue into listvalue
+		put repeatIndex() into OuterLoopCount
+		repeat the number of items of listvalue times
+			put keys of listvalue into ListValue2
+			put values of listvalue into ListValue3
+			repeat the number of keys in listvalue times
+				put item repeatIndex() of ListValue2 into Sheet's cell(1,repeatIndex())
+				put item repeatIndex() of ListValue3 into Sheet's cell(OuterLoopCount+1,repeatIndex())
+			end repeat 
+		end repeat
+	end repeat
+end APItestcases
+
+APItestcases "Data.xlsx","1"
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Today2506/DB1_script" package="R&amp;D.suite" timestamp="2024-06-25 14:15:06.469 +0530"
+ tests="1"  failures="1" errors="0" time="0.241000">
+  <properties>
+   <property name="RunDate" value="2024-06-25 14:15:06.469 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Today2506/DB1.script" assertions="1" status="failure"  time="0.222">
+    <failure type="FAILURE" message="InvalidCommandOrRange: Not a valid command, or else incorrect types given for a range (must be numbers, date/times, or single characters -- got &quot;SURATH&quot; TO &quot;ross44&quot;) -- Execution Time 0:00:00 Today2506/DB1.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

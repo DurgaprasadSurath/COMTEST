@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running docFunError.script",
+				"identifier": "START",
+				"timestamp": "2024-10-17 12:49:30.772 +0530"
+			},
+		{
+				"message": "(Duration:\"0.081\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-10-17 12:49:30 +0530\", Successes:\"0\", TestCase:\"docFunError.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-10-17 12:49:30.859 +0530"
+			},
+		{
+				"message": "STInvalidParameters: Function params was called with invalid parameters -- Execution Time 0:00:00 docFunError.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-10-17 12:49:30.952 +0530"
+			}
+	],
+	"createdTimestamp": "2024-10-17 12:49:30.778 +0530"
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		755,
+		359,
+		146,
+		41
+	],
+	"lastmodifieddate": 1717145801.5799999,
+	"createddate": 1717145801.5799999,
+	"name": "VER",
+	"lastfounddate": 1717146350.766,
+	"ocrcapturestring": "VER 6C",
+	"lastfoundlocation": [
+		755,
+		359,
+		146,
+		41
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 54269,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[73,20]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "VER.png",
+				"connectionname": "IB-81",
+				"type": 1,
+				"connectionserverid": "192.168.1.81",
+				"capturerect": [
+					755,
+					359,
+					146,
+					41
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "VER 6C"
+			}
+	]
+}

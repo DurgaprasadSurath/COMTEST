@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Today2506/DB1_script" package="R&amp;D.suite" timestamp="2024-06-25 14:31:42.634 +0530"
+ tests="1"  failures="1" errors="0" time="0.077000">
+  <properties>
+   <property name="RunDate" value="2024-06-25 14:31:42.634 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Today2506/DB1.script" assertions="1" status="failure"  time="0.067">
+    <failure type="FAILURE" message="STDatabaseConnectionError: Failed to connect to ODBC database odbc:27 Reason: [MySQL][ODBC 8.4(a) Driver]Access denied for user &apos;root&apos;@&apos;localhost&apos; (using password: NO), SQLSTATE=HY000 -- Execution Time 0:00:00 Today2506/DB1.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = None;
+    httpVerb = POST;
+    oauth1Token = "";
+    password = "";
+    requestBody = "file:C:\\Users\\DurgaPrasad-IB\\Desktop\\wallpaper.png";
+    requestBodyFormat = "Form Data";
+    requestHeaders = "<![CDATA[Content-Type:multipart/form-data
+Cookie:[[ALMCookie]]
+]]>";
+    requests = "";
+    testResults = "";
+    testScript = "//GetCookie";
+    url = "https://almrb.saas.microfocus.com/qcbin/rest/domains/RB_SANDBOX/projects/TRAINING2/run-steps/206877/attachments";
+    userName = "";
+}

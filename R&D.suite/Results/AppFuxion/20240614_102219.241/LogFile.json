@@ -1,0 +1,44 @@
+{
+	"entries": [
+		{
+				"message": "Running AppFuxion.script",
+				"identifier": "START",
+				"timestamp": "2024-06-14 10:22:19.262 +0530"
+			},
+		{
+				"handlerName": "on_appfuxion",
+				"timestamp": "2024-06-14 10:22:19.418 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "AppFuxion.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_appfuxion",
+				"timestamp": "2024-06-14 10:22:22.369 +0530",
+				"message": "file:///C:/Sample_Quotes_With_Color_Pages/index.html[return]",
+				"scriptName": "AppFuxion.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_appfuxion",
+				"timestamp": "2024-06-14 10:22:37.200 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "AppFuxion.script",
+				"handlerLine": 7,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"17.968\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-06-14 10:22:19 +0530\", Successes:\"0\", TestCase:\"AppFuxion.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-06-14 10:22:37.230 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:17 AppFuxion.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-06-14 10:22:37.270 +0530"
+			}
+	],
+	"createdTimestamp": "2024-06-14 10:22:19.262 +0530"
+}

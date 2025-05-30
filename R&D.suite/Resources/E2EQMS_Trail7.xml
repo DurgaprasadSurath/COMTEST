@@ -1,0 +1,5 @@
+<project project="E2E_QMS" offline="False" encryptedPassword="1bpY7w1SzrZE+g/aFCuZ1wxHp7rhEmHd" mode="TESTLAB" user="apikey-srshimdfpaprojdahjet" domain="RB_SQRC" url="https://almrb.saas.microfocus.com/qcbin">
+  <suite testPlan="Subject\ApproachRD" testLab="Root\zObsolete\EnablonDemo" testSet="Approach2set" name="suite name">
+    <case name="E2EQMS_Trail7" almid="2107" preserveSteps="True"></case>
+  </suite>
+</project>

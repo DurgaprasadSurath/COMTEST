@@ -1,0 +1,40 @@
+﻿
+"XMl Teamplate .xml"
+
+to handle CreateXMLFile
+	params XMLDeatilsFile
+	set XMLFileCreationDetails to ResourcePath(XMLDeatilsFile)
+	//set XMLfileDestination to "C:\Users\DurgaPrasad-IB\Desktop"
+	//set  XMLFileCreationDetails to ResourcePath("XMLFileDetails.csv")
+	set FlagValue to "Not Used"
+	set FlagValue2 to "Used"
+	put the number of lines of file XMLFileCreationDetails into LinesCount
+	repeat LinesCount times
+		if (item 1 of line repeatIndex()+1 of file XMLFileCreationDetails) is FlagValue then
+			put (item 2 of line repeatIndex()+1 of  file XMLFileCreationDetails) into Domain
+			put (item 3 of line repeatIndex()+1 of file XMLFileCreationDetails) into EncryptedPassword
+			put (item 4 of line repeatIndex()+1 of file XMLFileCreationDetails) into Project
+			put (item 5 of line repeatIndex()+1 of file XMLFileCreationDetails) into ALMURL
+			put (item 6 of line repeatIndex()+1 of file XMLFileCreationDetails) into ALMUserKey
+			put (item 7 of line repeatIndex()+1 of file XMLFileCreationDetails) into TestLabPath
+			put (item 8 of line repeatIndex()+1 of file XMLFileCreationDetails) into TestPlanPath
+			put (item 9 of line repeatIndex()+1 of file XMLFileCreationDetails) into TestSet
+			put (item 10 of line repeatIndex()+1 of file XMLFileCreationDetails) into ALMID
+			put (item 11 of line repeatIndex()+1 of file XMLFileCreationDetails) into TestCaseName
+			//The XML file will be created by the Test case name it self
+			put (item 11 of line repeatIndex()+1 of file XMLFileCreationDetails) into XMLFileName
+			Log "Taking deatails from"&&(repeatIndex()+1)&&"line to create a XML file."
+			put FlagValue2 into (item 1 of line repeatIndex()+1 of file XMLFileCreationDetails)
+			Log "Putting flag value as used in XML Details File."	
+			
+			put tree(_tag:"project",_attributes:{domain:Domain,encryptedPassword:EncryptedPassword,mode:"TESTLAB",offline:"False",project:Project,url:ALMURL,user:ALMUserKey},_children:{_tag:"suite",_attributes:{name:"suite name",testLab:TestLabPath,testPlan:TestPlanPath,testSet:TestSet},_children:{_tag:"case",_attributes:{almid:ALMID,name:TestCaseName,preserveSteps:"True"}}})  into file ResourcePath(XMLFileName&".xml")
+			Log "An XML File has been created in desired location with Test case name"
+			//exit repeat
+		else if (item 1 of line repeatIndex()+1 of file XMLFileCreationDetails) is (empty) then
+			Log "There is no date which is not used to create an XML file"
+		end if
+	end repeat
+end CreateXMLFile
+
+
+

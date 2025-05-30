@@ -1,0 +1,12 @@
+﻿log "C:\Windows\System32\cmd.exe /c C:\Users\durgaprasad.surath\Downloads\RunPostmanColletion.bat"&&quote&"C:\Users\durgaprasad.surath\Downloads\DAI Basic Endpoints.postman_collection.json"&quote
+log "C:\Windows\System32\cmd.exe /c Dir"&&"2>&1 > PostmanCLI_Output.txt"
+
+Shell "C:\Windows\System32\cmd.exe", "/c"&&"Dir"&&"2>&1 > C:\Users\durgaprasad.surath\PostmanCLI_Output.txt"
+Shell "C:\Windows\System32\cmd.exe","/c"&&"C:\Users\durgaprasad.surath\Downloads\RunPostmanColletion.bat"&&quote&"C:\Users\durgaprasad.surath\Downloads\DAI Basic Endpoints.postman_collection.json"&quote&&"2>&1 > C:\Users\durgaprasad.surath\PostmanCLI_Output.txt"
+
+
+set windowsCMD to "C:\Windows\System32\cmd.exe"
+set PostmanCLIBatFile to "C:\Users\durgaprasad.surath\Downloads\RunPostmanColletion.bat"
+set PostmanCollectionFile to "C:\Users\durgaprasad.surath\Downloads\DAI Basic Endpoints.postman_collection.json"
+set CommandLineOutputFile to "C:\Users\durgaprasad.surath\PostmanCLI_Output.txt"
+Shell "C:\Windows\System32\cmd.exe","/c"&&"C:\Users\durgaprasad.surath\Downloads\RunPostmanColletion.bat"&&quote&"C:\Users\durgaprasad.surath\Downloads\DAI Basic Endpoints.postman_collection.json"&quote&&"2>&1 > C:\Users\durgaprasad.surath\PostmanCLI_Output.txt"

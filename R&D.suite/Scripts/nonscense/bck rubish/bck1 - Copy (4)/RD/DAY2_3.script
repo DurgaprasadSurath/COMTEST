@@ -1,0 +1,24 @@
+﻿"Training_DAY2/DAY2_2".LaunchApplication
+
+"Training_DAY2/DAY2_2".Addition 2,3
+Log the result
+
+Log ("Training_DAY2/DAY2_2".Addition(2,3))
+
+
+
+put "Training_DAY2/DAY2_2".Multi(2,3)
+
+
+put 1100 into var1
+log var1
+log item 99 of var1
+
+
+
+put "A".."Z" into var1
+
+Log item random(26) of var1
+
+put 2 into weeks
+log today +  weeks

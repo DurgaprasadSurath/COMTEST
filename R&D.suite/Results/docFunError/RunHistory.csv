@@ -1,0 +1,29 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-10-09 12:36:40.793 +0530,"Failure",0:00:00,1,0,0,"20241009_123640.793/LogFile.txt","","STInvalidNumber -- Value is not a number: ''",0
+2024-10-16 10:45:43.157 +0530,"Success",0:00:00,0,0,0,"20241016_104543.157/LogFile.txt","","",1
+2024-10-16 10:47:58.049 +0530,"Success",0:00:00,0,0,0,"20241016_104758.049/LogFile.txt","","",1
+2024-10-16 10:49:06.090 +0530,"Failure",0:00:00,1,0,0,"20241016_104906.090/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 10:51:17.798 +0530,"Success",0:00:00,0,0,0,"20241016_105117.798/LogFile.txt","","",1
+2024-10-16 10:51:50.484 +0530,"Success",0:00:00,0,0,0,"20241016_105150.484/LogFile.txt","","",1
+2024-10-16 10:53:56.227 +0530,"Success",0:00:00,0,0,0,"20241016_105356.227/LogFile.txt","","",1
+2024-10-16 10:58:21.480 +0530,"Success",0:00:00,0,0,0,"20241016_105821.480/LogFile.txt","","",1
+2024-10-16 10:58:46.359 +0530,"Success",0:00:00,0,0,0,"20241016_105846.359/LogFile.txt","","",1
+2024-10-16 10:59:28.736 +0530,"Success",0:00:00,0,0,0,"20241016_105928.736/LogFile.txt","","",1
+2024-10-16 10:59:42.619 +0530,"Failure",0:00:00,1,0,0,"20241016_105942.619/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 11:04:32.228 +0530,"Failure",0:00:00,1,0,0,"20241016_110432.228/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 11:10:01.681 +0530,"Success",0:00:00,0,0,0,"20241016_111001.681/LogFile.txt","","",1
+2024-10-16 11:10:17.859 +0530,"Failure",0:00:00,1,0,0,"20241016_111017.859/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 11:11:52.249 +0530,"Failure",0:00:00,1,0,0,"20241016_111152.249/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 11:13:21.833 +0530,"Failure",0:00:00,1,0,0,"20241016_111321.833/LogFile.txt","","Error 0 in NSXMLErrorDomain -- NSXMLErrorDomain code: 0",0
+2024-10-16 11:28:22.202 +0530,"Success",0:00:00,0,0,0,"20241016_112822.202/LogFile.txt","","",1
+2024-10-16 11:28:25.778 +0530,"Success",0:00:00,0,0,0,"20241016_112825.778/LogFile.txt","","",1
+2024-10-16 11:41:51.410 +0530,"Success",0:00:00,0,0,0,"20241016_114151.410/LogFile.txt","","",1
+2024-10-17 12:44:10.835 +0530,"Success",0:00:00,0,0,0,"20241017_124410.835/LogFile.txt","","",1
+2024-10-17 12:44:43.541 +0530,"Success",0:00:00,0,0,0,"20241017_124443.541/LogFile.txt","","",1
+2024-10-17 12:44:54.587 +0530,"Failure",0:00:00,1,0,0,"20241017_124454.587/LogFile.txt","","StrictVariablesViolation -- Variable 'var' used without being set",0
+2024-10-17 12:46:07.381 +0530,"Success",0:00:00,0,0,0,"20241017_124607.381/LogFile.txt","","",1
+2024-10-17 12:47:13.680 +0530,"Failure",0:00:00,1,0,0,"20241017_124713.680/LogFile.txt","","StrictVariablesViolation -- Variable 'var11' used without being set",0
+2024-10-17 12:48:34.363 +0530,"Success",0:00:00,0,0,0,"20241017_124834.363/LogFile.txt","","",1
+2024-10-17 12:49:30.762 +0530,"Failure",0:00:00,1,0,0,"20241017_124930.762/LogFile.txt","","STInvalidParameters -- Function params was called with invalid parameters",0
+2024-10-17 12:49:44.222 +0530,"Success",0:00:00,0,0,0,"20241017_124944.222/LogFile.txt","","",1
+2024-10-17 12:50:12.271 +0530,"Success",0:00:00,0,0,0,"20241017_125012.271/LogFile.txt","","",1

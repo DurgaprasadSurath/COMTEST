@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1724999658.717,
+	"ocrcapturestring": "Looking to create a page for a business? Get help",
+	"originalcapturelocation": [
+		805,
+		805,
+		309,
+		17
+	],
+	"createddate": 1724999658.717,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Looking to create a page for a business? Get help",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_69",
+					"HotSpot": "[271,11]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					805,
+					805,
+					309,
+					17
+				],
+				"name": "Lookingtocreateapageforabusine.png"
+			}
+	],
+	"name": "Lookingtocreateapageforabusine"
+}

@@ -1,0 +1,4 @@
+﻿2024-04-01 20:30:18.531 +0530	START		Running Games/Exata.script
+2024-04-01 20:30:19.350 +0530	click	(TEXT:<1 digit, whitespace characters, punctuation character,lots of characters,"=24",not followed by characters>)	at (521, 846)	4	on_exata	Games/Exata.script
+2024-04-01 20:30:19.365 +0530	EndTestCase		(Duration:"0.834", Errors:"0", Exceptions:"0", StartTime:"2024-04-01 20:30:18 +0530", Successes:"1", TestCase:"Games/Exata.script", Warnings:"0")
+2024-04-01 20:30:19.444 +0530	SUCCESS		Execution Time 0:00:00 Games/Exata.script

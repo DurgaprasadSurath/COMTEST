@@ -1,0 +1,13 @@
+﻿set (n, temp) to (5, empty)
+set i to n
+
+repeat  until not (i is greater than or equal to 1)
+	set j to 1
+	repeat until not (j is less than or equal to i)
+		put "*" after temp
+		set j to (j + 1)
+	end repeat
+	put temp
+	set i to (i - 1)
+	set temp to empty
+End Repeat

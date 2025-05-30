@@ -1,0 +1,35 @@
+{
+	"entries": [
+		{
+				"message": "Running Today2506/rolling.script",
+				"identifier": "START",
+				"timestamp": "2024-07-02 15:06:01.896 +0530"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-02 15:06:01.991 +0530",
+				"message": "(2,86,198,103)",
+				"scriptName": "Today2506/rolling.script",
+				"handlerLine": 1,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_rolling",
+				"timestamp": "2024-07-02 15:06:01.991 +0530",
+				"scriptName": "Today2506/rolling.script",
+				"identifier": "Log",
+				"handlerLine": 1
+			},
+		{
+				"message": "(Duration:\"0.112\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-07-02 15:06:01 +0530\", Successes:\"1\", TestCase:\"Today2506/rolling.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-07-02 15:06:02.023 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Today2506/rolling.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-07-02 15:06:02.055 +0530"
+			}
+	],
+	"createdTimestamp": "2024-07-02 15:06:01.896 +0530"
+}

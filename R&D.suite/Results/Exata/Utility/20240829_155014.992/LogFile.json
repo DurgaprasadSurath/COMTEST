@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running Exata/gen_kalyan_29082024.script",
+				"identifier": "START",
+				"timestamp": "2024-08-29 15:50:14.998 +0530"
+			},
+		{
+				"message": "(Duration:\"0.316\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-29 15:50:15 +0530\", Successes:\"0\", TestCase:\"Exata/gen_kalyan_29082024.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-08-29 15:50:15.319 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Worksheet Error: Cell() requires a worksheet to read from (got: (null)) -- Execution Time 0:00:00 Exata/gen_kalyan_29082024.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-08-29 15:50:15.479 +0530"
+			}
+	],
+	"createdTimestamp": "2024-08-29 15:50:15.002 +0530"
+}

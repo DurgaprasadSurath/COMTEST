@@ -1,0 +1,16 @@
+﻿to getUsers URL
+	get url URL
+	log it
+end getUsers
+
+getUsers "https://reqres.in/api/users"
+
+
+to getSingleUser URL,ID
+	put ID after URL
+	log URL
+	get url URL
+	log it
+end getSingleUser
+
+getSingleUser "https://reqres.in/api/users/","2"

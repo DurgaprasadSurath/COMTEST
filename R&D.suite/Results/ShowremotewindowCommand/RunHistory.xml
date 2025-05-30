@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="ShowremotewindowCommand">
+ <run>
+  <RunDate>2025-03-26 19:26:49.023 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.100000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250326_192649.023/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unknown Property or Function -- Unable to access global property or function &#x27;SCREENRESOLUTION&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:28:28.474 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.734000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_192828.474/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:29:11.159 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.714000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250326_192911.159/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Command: &#x27;hidshowe&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:29:22.244 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.966000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_192922.244/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:29:27.513 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.986000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_192927.513/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:29:42.652 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.880000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_192942.652/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:29:55.865 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.952000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_192955.865/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 19:34:39.252 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>3.044000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_193439.252/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

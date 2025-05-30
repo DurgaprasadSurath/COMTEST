@@ -1,0 +1,61 @@
+{
+	"entries": [
+		{
+				"message": "Running Test4/OCR_Issue_0Errors.script",
+				"identifier": "START",
+				"timestamp": "2024-09-05 15:13:23.958 +0530"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:13:24.207 +0530",
+				"message": "SEARCHRECTANGLE = [0,0,1920,1080]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:13:45.141 +0530",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"message": "Unable to Find Image (TEXT:\"0 Error\"). Text not found.",
+				"image": "(TEXT:\"0 Error\")",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:13:45.146 +0530",
+				"message": "Unable to Find\"Field Ticket 1\"",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:13:45.169 +0530",
+				"message": "SEARCHRECTANGLE = [0,1,1920,1039]",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 2,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_find0error",
+				"timestamp": "2024-09-05 15:13:53.508 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Test4/OCR_Issue_0Errors.script",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"29.612\", Errors:\"2\", Exceptions:\"1\", StartTime:\"2024-09-05 15:13:23 +0530\", Successes:\"0\", TestCase:\"Test4/OCR_Issue_0Errors.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-09-05 15:13:53.576 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:29 Test4/OCR_Issue_0Errors.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-09-05 15:13:53.593 +0530"
+			}
+	],
+	"createdTimestamp": "2024-09-05 15:13:23.962 +0530"
+}

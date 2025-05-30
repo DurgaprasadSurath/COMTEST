@@ -1,0 +1,13 @@
+﻿set  scriptdata to {user1:"gopi",password:"pass",company:"Ideabytes"}
+
+
+Log  scriptdata 
+Log "+++++++++++++++++++++++++"
+
+
+Run "Games/scre2"  scriptdata
+
+
+
+put handlerNames of AddProductToCart
+

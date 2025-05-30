@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/Game2.script",
+				"identifier": "START",
+				"timestamp": "2024-03-01 10:50:58.115 +0530"
+			},
+		{
+				"handlerName": "on_game2",
+				"timestamp": "2024-03-01 10:50:58.174 +0530",
+				"message": "{Nsx:{daya:[0,73,1919,1035]}}",
+				"scriptName": "Games/Game2.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.072\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-03-01 10:50:58 +0530\", Successes:\"1\", TestCase:\"Games/Game2.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-01 10:50:58.193 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/Game2.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-03-01 10:50:58.333 +0530"
+			}
+	],
+	"createdTimestamp": "2024-03-01 10:50:58.119 +0530"
+}

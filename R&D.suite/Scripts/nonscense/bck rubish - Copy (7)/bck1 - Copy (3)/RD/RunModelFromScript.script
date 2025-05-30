@@ -1,0 +1,31 @@
+﻿to runModel URL,ModelID,ContentType
+	GetAccessTokenHandler.GetAccessToken "client:dai:agent:integration","33617592-b0fe-4717-b3e8-02071af48ee1","vijayalaxmi","Ideabytes@123", "http://localhost:8000/auth/realms/eggplant/protocol/openid-connect/token"
+	put Global accessToken into AccessToken 
+	//put ","&Headers after authUrl
+	(*set Headers to {{
+Content-Type:[[ContentType]],
+Authorization:[[AccessToken]]
+}}*)
+	put {"model_id":ModelID} into postData
+	put URL into authUrl
+	post postData to url authUrl 
+	post postData to url authUrl with headers {"Content-Type":ContentType,"Authorization":AccessToken}
+
+	log it
+end runModel
+
+runModel "http://localhost:8000/execution_service/api/v1/executions","76a095f1-0522-4edf-885e-f6fd0a091c4d","application/json"
+
+
+
+
+//
+GetAccessTokenHandler.GetAccessToken "client:dai:agent:integration","33617592-b0fe-4717-b3e8-02071af48ee1","vijayalaxmi","Ideabytes@123", "http://localhost:8000/auth/realms/eggplant/protocol/openid-connect/token"
+put Global accessToken into AccessToken 
+put {model_id:"76a095f1-0522-4edf-885e-f6fd0a091c4d"} into postData
+put "http://localhost:8000/execution_service/api/v1/executions" into authURL
+post postData to url authURL with headers {"Content-Type":"application/json","Authorization":AccessToken}
+log it
+
+
+

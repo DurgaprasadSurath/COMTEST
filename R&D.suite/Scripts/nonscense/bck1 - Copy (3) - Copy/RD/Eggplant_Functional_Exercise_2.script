@@ -1,0 +1,32 @@
+﻿(*
+to handle LaunchApplication
+	TypeText windowsKey,"r"
+	Typetext "Chrome http://nopcommerce.testplant.com",return
+	TypeText windowsKey, "upArrow"
+end LaunchApplication
+*)
+
+BeginTestCase "Launch"
+Eggplant_Functional_Exercise_1.LauncApplication
+EndTestCase "Launch"
+
+to handle SelectingElectronics
+	MoveTo text:"Electronics"
+end SelectingElectronics
+
+to handle SelectingCamerandPhoto
+	click text:"Camera & photo"
+end SelectingCamerandPhoto
+
+to handle FindingAppleIcam
+	repeat until imagefound(text:"Apple iCam",waitfor:30)
+		Click image:"scroll_down_button"
+	end repeat
+end FindingAppleIcam
+
+to handle LogthePrice
+	if ImageFound(text:"Apple iCam", waitfor:30)
+		put RemoteClipboard() into price
+		Log price
+	end if
+end LogthePrice

@@ -1,0 +1,7 @@
+﻿2024-10-23 15:46:52.854 +0530	START		Running Darran.script
+2024-10-23 15:46:52.904 +0530	Log		{allowedCitied:"3", arrivalCity:"LAX", departureCity:"JFK", lightNum:1888}	2	on_darran	Darran.script
+2024-10-23 15:46:52.932 +0530	Log		{allowedCitied:"3", arrivalCity:"LAX", departureCity:"JFK", lightNum:1888}	2	function_allowedcities	Darran.script
+2024-10-23 15:46:52.950 +0530	Log		{allowedCitied:"3", arrivalCity:"LAX", departureCity:"JFK", lightNum:1888}	4	function_allowedcities	Darran.script
+2024-10-23 15:46:52.960 +0530	Log		3	5	function_allowedcities	Darran.script
+2024-10-23 15:46:53.076 +0530	EndTestCase		(Duration:"0.217", Errors:"0", Exceptions:"0", StartTime:"2024-10-23 15:46:52 +0530", Successes:"1", TestCase:"Darran.script", Warnings:"0")
+2024-10-23 15:46:53.122 +0530	SUCCESS		Execution Time 0:00:00 Darran.script

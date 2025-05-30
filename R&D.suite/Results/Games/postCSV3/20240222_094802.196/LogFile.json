@@ -1,0 +1,35 @@
+{
+	"entries": [
+		{
+				"message": "Running Games/postCSV3.script",
+				"identifier": "START",
+				"timestamp": "2024-02-22 09:48:02.203 +0530"
+			},
+		{
+				"handlerName": "on_postcsv3",
+				"timestamp": "2024-02-22 09:48:02.930 +0530",
+				"message": "{\"errorMessages\":[\"Issue does not exist or you do not have permission to see it.\"],\"errors\":{}}",
+				"scriptName": "Games/postCSV3.script",
+				"handlerLine": 15,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_postcsv3",
+				"timestamp": "2024-02-22 09:48:02.935 +0530",
+				"scriptName": "Games/postCSV3.script",
+				"identifier": "Log",
+				"handlerLine": 16
+			},
+		{
+				"message": "(Duration:\"0.762\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-22 09:48:02 +0530\", Successes:\"1\", TestCase:\"Games/postCSV3.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-22 09:48:02.969 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Games/postCSV3.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-22 09:48:03.091 +0530"
+			}
+	],
+	"createdTimestamp": "2024-02-22 09:48:02.206 +0530"
+}

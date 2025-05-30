@@ -1,0 +1,25 @@
+{
+    URLparameters = (
+	{
+	    checkedNumber = <*BY>;
+	    param = "";
+	    showCheckedNumber = <*BY>;
+	    value = "";
+	}
+    );
+    authenticationType = "Basic Auth";
+    httpVerb = POST;
+    oauth1Token = "";
+    password = "((/c>;#'9Lk.Iwx\\K%IsNW#{";
+    requestBody = "fieldname:\"File\",
+filename:\"C:\\Users\\durgaprasad.surath\\Downloads\\Book.csv\"";
+    requestBodyFormat = "Form Data";
+    requestHeaders = "<![CDATA[Content-Type:multipart/form-data
+X-Atlassian-Token:no-check
+]]>";
+    requests = "";
+    testResults = "";
+    testScript = "";
+    url = "https://ideabytes.atlassian.net/rest/api/3/issue/CSI-11/attachments";
+    userName = "DurgaPrasad.Surath@ideabytes.com";
+}

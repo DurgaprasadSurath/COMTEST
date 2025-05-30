@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="PG2_apitest" package="R&amp;D.suite" timestamp="2024-05-06 10:03:13.314 +0530"
+ tests="1"  failures="2" errors="0" time="0.850000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 10:03:13.314 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="PG2.apitest" assertions="1" status="failure"  time="0.834">
+    <failure type="LogError" message="Validation Error: Empty URL." />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:00:00 PG2.apitest" />
+  </testcase>
+ </testsuite>
+</testsuites>

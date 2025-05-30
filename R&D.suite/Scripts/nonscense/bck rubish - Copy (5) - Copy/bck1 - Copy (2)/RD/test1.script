@@ -1,0 +1,2 @@
+﻿put EveryImageLocation(text:"Inbox") into docNameLocs
+click item 1 of docNameLocs

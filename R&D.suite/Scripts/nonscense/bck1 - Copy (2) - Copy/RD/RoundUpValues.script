@@ -1,0 +1,19 @@
+﻿set ItemPrice to 62.09
+Set ModPerecent to 0.05
+put round(ItemPrice * ModPerecent,4) into NewTaxAmount
+log NewTaxAmount
+put  NewTaxAmount rounded to 3 places into Tax
+log Tax
+put  Tax rounded to 2 places into NewTax
+log NewTax
+
+Log "/////////////////////////"
+
+set ItemPrice to 62.09
+Set ModPerecent to 0.05
+put round(ItemPrice * ModPerecent,3) into NewTaxAmount
+log NewTaxAmount
+put round(newtaxamount,2) into twice_rounded
+log twice_rounded
+
+

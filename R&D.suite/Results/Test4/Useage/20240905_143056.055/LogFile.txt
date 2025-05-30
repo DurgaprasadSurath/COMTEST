@@ -1,0 +1,5 @@
+﻿2024-09-05 14:30:56.067 +0530	START		Running Test4/Useage.script
+2024-09-05 14:30:56.254 +0530	set		SEARCHRECTANGLE = [0,1,1170,2532]	1	on_useage	Test4/Useage.script
+2024-09-05 14:31:23.386 +0530	Exception	(TEXT:"Field Ticket 1")	No Text Found On Screen: "(TEXT:"Field Ticket 1")". Text not found.	3	on_useage	Test4/Useage.script
+2024-09-05 14:31:23.406 +0530	EndTestCase		(Duration:"27.336", Errors:"1", Exceptions:"1", StartTime:"2024-09-05 14:30:56 +0530", Successes:"0", TestCase:"Test4/Useage.script", Warnings:"0")
+2024-09-05 14:31:23.648 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Field Ticket 1")". Text not found.  Restricted Search Rectangle ((0,1),(1170,2532))\n -- Execution Time 0:00:27 Test4/Useage.script

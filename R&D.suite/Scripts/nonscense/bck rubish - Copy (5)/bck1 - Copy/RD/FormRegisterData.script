@@ -1,0 +1,17 @@
+﻿//Set Details to CSVValue(file "C:\Users\DurgaPrasad-IB\Desktop\registerform.csv")
+to handle dataCall
+	set Details to file "C:\Users\DurgaPrasad-IB\Desktop\registerform.csv"
+	put item 1 of Details into global gender
+	put item 2 of Details into global firstname 
+	put item 3 of Details into global lastname 
+	put item 4 of Details into global day
+	put item 5 of Details into global month 
+	put item 6 of Details into global year
+	put item 7 of Details into global email
+	put item 8 of Details into global companyname
+	put item 9 of Details into global newsletter 
+	put item 10 of Details into global password
+	put item 11 of Details into global confirmpassword
+	
+	//Log gender,firstname,lastname,day,month,year,email,companyname,newsletter,password,confirmpassword
+end dataCall
